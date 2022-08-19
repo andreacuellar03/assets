@@ -1,4 +1,4 @@
- {
+{
     "welcomeInfo": {
         "welcomeMessageHeading": "Bienvenido a Focus Bear",
         "welcomeMessageIntro": "Cada mañana, evitaré que siga su impulso de revisar su correo electrónico/Facebook y le invitaré a seguir su rutina matutina en su lugar. Puede configurar su propia rutina luego, pero por ahora te sugiero una actividad: 1 minuto de respiración consciente. Mientras respira profundamente, piense en lo increíble que serás si se compromete a su rutina matutina todos los días.",
@@ -8,7 +8,7 @@
                 "name": "Respiración Consciente",
                 "duration_seconds": 60,
                 "video_urls": [
-                    "https://www.youtube.com/watch?v=36mnXAQGRzc"
+                    "https://www.youtube.com/watch?v=HhMXYsk_Pvo"
                 ]
             }
         ]
