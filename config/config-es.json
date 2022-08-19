@@ -1,79 +1,79 @@
-{
+ {
     "welcomeInfo": {
         "welcomeMessageHeading": "Bienvenido a Focus Bear",
-        "welcomeMessageIntro": "Cada mañana, evitaré que satisfagas tu impulso de revisar tu correo electrónico/Facebook y te obligaré a hacer tu rutina matutina en su lugar. Puedes configurar tu propia rutina luego, pero por ahora te sugiero una actividad: 1 minuto de respiración consciente. Mientras respiras profundamente, piensa en lo increíble que serás si te adhieres a tu rutina matutina todos los días.",
-        "welcomeEndMessage": "Espero que te sientas más tranquilo. Ahora puedes personalizar tu rutina matutina haciendo clic en el ícono <icon> en la barra superior y seleccionando Preferences -> Settings.",
+        "welcomeMessageIntro": "Cada mañana, evitaré que siga su impulso de revisar su correo electrónico/Facebook y le invitaré a seguir su rutina matutina en su lugar. Puede configurar su propia rutina luego, pero por ahora te sugiero una actividad: 1 minuto de respiración consciente. Mientras respira profundamente, piense en lo increíble que serás si se compromete a su rutina matutina todos los días.",
+        "welcomeEndMessage": "Espero que se sienta más tranquilo. Ahora puede personalizar su rutina matutina haciendo clic en el ícono <icon> en la barra superior y seleccionando Preferencias -> Configuraciones.",
         "introActivities": [
             {
                 "name": "Respiración Consciente",
                 "duration_seconds": 60,
                 "video_urls": [
-                    "https://www.youtube.com/watch?v=HhMXYsk_Pvo"
+                    "https://www.youtube.com/watch?v=36mnXAQGRzc"
                 ]
             }
         ]
     },
     "activityInfo": {
-        "startMorningHabitTitleText":"¡Buenos días! Es hora de enfocarse. Estos son los hábitos que debes lograr antes de poder usar tu computadora.",
-        "startEveningHabitTitleText":"¡Buenas noches! Es hora de enfocarse. Estos son los hábitos que debes lograr antes de poder comenzar el día.",
+        "startMorningHabitTitleText":"¡Buenos días! Es hora de enfocarse. Estos son los hábitos que debe lograr antes de poder usar su computadora.",
+        "startEveningHabitTitleText":"¡Buenas tardes! Es hora de enfocarse. Estos son los hábitos que debe lograr antes de poder comenzar el día.",
         "startActivityButtonText": "Empieza <TIME> <NAME>",
-        "activityFinishedText": "<ACTIVITY> completado!✅",
-        "lastActivityFinishedText": "<ACTIVITY> completado!✅Te has ganado tu tiempo de pantalla. 💪",
-        "startBreakActivityTitleText": "Es hora de un descanso. Haz <TIME> de <ACTIVITY> para ganar más tiempo de pantalla.",
+        "activityFinishedText": "¡<ACTIVITY> completado!✅",
+        "lastActivityFinishedText": "¡<ACTIVITY> completado!✅Se ha ganado su tiempo libre del uso de la computadora. 💪",
+        "startBreakActivityTitleText": "Es hora de un descanso. Haz <TIME> de <ACTIVITY> para ganar más tiempo libre del uso de la computadora.",
         "doSomeActivityText": "Haz algo de <ACTIVITY>.",
-        "beforeYouStartText": "Antes de comenzar, tómate unos momentos para reflexionar sobre por qué desea adoptar estos hábitos. Luego visualízate comenzando la secuencia del hábito. Repase mentalmente cualquiera de los hábitos que le resulten más difíciles. Este proceso ayudará a reducir la \"fricción límbica\", es decir, preparará tu cerebro para hacer los hábitos sin importar nada, incluso si no tienes la aplicación disponible.",
-        "beforeYouBeginText":"Antes de comenzar, tómate 30 segundos para visualizarte realizando cada uno de los hábitos. Esto suena raro, pero las investigaciones indican que hacer un ensayo mental como este aumenta la probabilidad de que completes los hábitos y hace que los hábitos sean más persistentes, de modo que incluso si no no tienes acceso a tu computadora/a esta aplicación, seguirás con todos los hábitos",
-        "habitsProgressText":"Has completado <duration> de hábitos - te faltan <totalduration>  ¡Puedes hacerlo!",
+        "beforeYouStartText": "Antes de comenzar, tómese unos momentos para reflexionar sobre por qué desea adoptar estos hábitos. Luego visualízate comenzando la secuencia del hábito. Repase mentalmente cualquiera de los hábitos que le resulten más difíciles. Este proceso ayudará a reducir la \"fricción límbica\", es decir, preparará su cerebro para hacer los hábitos sin importar nada, incluso si no tiene la aplicación disponible.",
+        "beforeYouBeginText":"Antes de comenzar, tómese 30 segundos para visualizarse realizando cada uno de los hábitos. Esto suena raro, pero las investigaciones indican que hacer un ensayo mental como este aumenta la probabilidad de que complete sud hábitos y hace que los hábitos sean más persistentes, de modo que incluso si no no tienes acceso a su computadora/a esta aplicación, seguirás adelante con todos sus hábitos",
+        "habitsProgressText":"Has completado <duration> de hábitos - le faltan <totalduration>  ¡Puedes hacerlo!",
         "habitsCompleteText":"Has completado <duration>  de hábitos.",
         "whatComesNextButtonText":"¿Qué viene después?",
-        "buttonGetKookyText":"Ponte Chiflado",
+        "buttonGetKookyText":"Ponte loco/loca",
         "buttonReviseQuantityText":"Revisa Cantidad"
     },
     "common": {
         "emailId": "team@focusbear.io",
-        "unlockMachineButtonText": "Desbloquear la máquina",
+        "unlockMachineButtonText": "Desbloquear la computadora",
         "wrapupButtonText":"Terminemos el día",
-        "stayFocusedText": "OK - Mantente concentrado/a durante todo el día!",
+        "stayFocusedText": "¡OK - Manténgase concentrado/a durante todo el día!",
         "buttonCancelText": "Cancelar",
         "buttonOkText": "OK",
         "webhookUrl": "https://hooks.zapier.com/hooks/catch/326116/b98ovxc/",
         "buttonExportText": "Exportar",
         "appName": "Focus Bear",
-        "trialExpiredText": "Tu periodo de prueba ha caducado!",
+        "trialExpiredText": "¡Su periodo de prueba ha caducado!",
         "daysRemainingText": "Versión de prueba - <DAYS> de 21 días de prueba restantes",
         "buttonStatusStateFocusText": "ENFOQUE",
         "buttonStatusStateOffText": "APAGADO",
         "buttonStatusStateCallText": "LLAMAR",
-        "uninstallConfirmText": "¿Estás seguro de que quieres abandonar todos tus hábitos y desinstalar Focus Bear?",
+        "uninstallConfirmText": "¿Está seguro de que quiere abandonar todos sus hábitos y desinstalar Focus Bear?",
         "yesText": "Sí",
         "noText": "No",
         "uninstallDoneText": "Todos los procesos relacionados con la aplicación se detendrán y la aplicación se cerrará sola. Luego puede arrastrar la aplicación a la Papelera.",
         "buttonUninstallText": "Desinstalar Focus Bear",
         "shutdownNotificationTitle":"Es hora de terminar por hoy. Su tiempo de apagado es en 5 minutos.",
         "appBlockNotificationTitle":"<APP_NAME> no está permitido en el <FOCUS_NAME> modo de enfoque.",
-        "focusBreakNotificationTitle":"Tu descanso termina en",
+        "focusBreakNotificationTitle":"Su descanso termina en",
         "tabGeneralText":"General",
         "tabFocusText":"Enfoque",
         "tabSettingsText":"Configuraciones",
         "tabPasswordText":"Contraseña",
-        "tabBlockedURLsText":"URLs bloqueados",
+        "tabBlockedURLsText":" Las URL bloqueadas",
         "tabUninstallText":"desinstalar",
-        "mondayText":"Lunes",
-        "tuesdayText":"Martes",
-        "wednesdayText":"Miercoles",
-        "thursdayText":"Jueves",
-        "fridayText":"Viernes",
-        "saturdayText":"Sábado",
-        "sundayText":"Domingo",
+        "mondayText":"lunes",
+        "tuesdayText":"martes",
+        "wednesdayText":"miercoles",
+        "thursdayText":"jueves",
+        "fridayText":"viernes",
+        "saturdayText":"sábado",
+        "sundayText":"domingo",
         "andText":"y"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
         "abortingCountDownInfo": {
-            "subTitle": "¿Estás seguro de que quieres renunciar a tus hábitos? Tómate 10 segundos para reflexionar sobre si realmente quieres cancelar.",
-            "message": "Mientras esperas, reflexiona sobre por qué estás haciendo esto. Si fue porque tu rutina matutina era demasiado ambiciosa, tal vez acortala para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si estás desactivando porque la aplicación está dañada, ¡lo siento mucho! Realmente agradeceríamos un correo electrónico con comentarios a team@focusbear.io",
+            "subTitle": "¿Está seguro de que quieres renunciar a sus hábitos? Tómese 10 segundos para reflexionar sobre si realmente quieres cancelar.",
+            "message": "Mientras espera, reflexiona sobre por qué estás haciendo esto. Si fue porque su rutina matutina era demasiado ambiciosa, piense en acortarla para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si está desactivando porque la aplicación está dañada, ¡Lo siento mucho! Realmente agradeceríamos un correo electrónico con comentarios a team@focusbear.io",
             "pleaseEmailText": "Por favor envíe un correo electrónico",
-            "buttonAbortCancelText": "No quise hacer eso. ¡Déjame continuar con mis hábitos!"
+            "buttonAbortCancelText": "No quise hacer eso. ¡Déjeme continuar con mis hábitos!"
         },
         "abortingConfirmInfo": {
             "subTitle": "¿Puedes compartir por qué estás cancelando?",
@@ -86,26 +86,26 @@
             },
             "dropDown_2": {
                 "title": "El app está dañado",
-                "description": "Oh no! Lo sentimos mucho. Desactivaremos todas las ventanas emergentes. ¿Puedes por favor decirnos qué pasó?﹡",
-                "emailTitle": "Tu correo electrónico (si quieres que te respondamos):",
+                "description": "¡Oh no! Lo sentimos mucho. Desactivaremos todas las ventanas emergentes. ¿Puedes por favor decirnos qué pasó?﹡",
+                "emailTitle": "Su correo electrónico (si quieres que le respondamos):",
                 "buttonDeactivateText": "Desactivar ventanas emergentes de hábitos"
             },
             "dropDown_3": {
                 "title": "Mis hábitos son demasiado difíciles - no puedo lo puedo manejar",
-                "description": "Ah, es comprensible. ¿Te gustaría restablecer tus hábitos para que sean de 30 segundos cada uno y un máximo de 5 minutos? Una breve rutina matutina es mejor que nada. Puedes construir desde allí.",
+                "description": "Ah, es comprensible. ¿Le gustaría restablecer sus hábitos para que sean de 30 segundos cada uno y un máximo de 5 minutos? Una breve rutina matutina es mejor que nada. Puedes construir desde allí.",
                 "buttonStartSmallText": "Sí, voy a empezar poco a poco",
-                "buttonDontWantText": "NO[1]  quiero una rutina matutina en absoluto!",
-                "emailTitle": "Tu correo electrónico (si quieres que te respondamos):",
+                "buttonDontWantText": "¡NO quiero una rutina matutina en absoluto!",
+                "emailTitle": "Su correo electrónico (si quiere que le respondamos):",
                 "startSmallInfo": {
                     "subTitle": "Empezando poco a poco..",
-                    "activityResetText": "Hemos restablecido tus hábitos y actividades de descanso para usted. Ahora tienen sólo 30 segundos de duración, lo que debería hacerlos más manejables.",
+                    "activityResetText": "Hemos restablecido sus hábitos y actividades de descanso para usted. Ahora tienen sólo 30 segundos de duración, lo que debería hacerlos más manejables.",
                     "activityRemovedText": "Eliminamos algunas actividades para que la rutina matutina total dure 5 minutos.",
-                    "changeSettingsText": "Puedes modificar tu configuración más tarde desde el icono de la barra de herramientas superior <icon>",
-                    "shareFeedbackText": "¿Puedes compartir algunos comentarios sobre por qué tus hábitos eran demasiado difíciles?﹡",
+                    "changeSettingsText": "Puede modificar su configuración más tarde desde el icono de la barra de herramientas superior <icon>",
+                    "shareFeedbackText": "¿Puedes compartir algunos comentarios sobre por qué sus hábitos eran demasiado difíciles?﹡",
                     "buttonTitle": "Iniciar rutina acortada"
                 },
                 "givingUpInfo": {
-                    "subTitle": "Renunciar a tu rutina matutina",
+                    "subTitle": "Renunciar a su rutina matutina",
                     "description": "No hay problema. Tienes el control.",
                     "changeSettingsText": "No dude en reactivar Focus Bear desde el icono de la barra de herramientas superior <icon>",
                     "shareFeedbackText": "¿Puedes compartir comentarios sobre la aplicación?﹡",
@@ -115,7 +115,7 @@
             "dropDown_4": {
                 "title": "Algo más",
                 "description": "¿Puedes decirnos por qué quieres dejar de recibir notificaciones de hábitos y descansos?﹡",
-                "emailTitle": "Tu correo electrónico (si quieres que te respondamos):",
+                "emailTitle": "Su correo electrónico (si quieres que le respondamos):",
                 "buttonDeactivateText": "Desactivar rutina + descansos"
             }
         },
@@ -127,15 +127,15 @@
     "quitInfo": {
         "quittingTitle": "Abandonando..",
         "quittingCountDownInfo": {
-            "subTitle": "¿Seguro que quieres salir? Tómate 10 segundos para reflexionar sobre si realmente quieres abandonar.",
+            "subTitle": "¿Seguro que quieres salir? Tómese 10 segundos para reflexionar sobre si realmente quieres abandonar.",
             "message": "Mientras esperas, reflexiona sobre por qué estás haciendo esto. Si fue porque su rutina matutina era demasiado ambiciosa, tal vez acortala para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si estás abandonando porque la aplicación está dañada, ¡lo siento mucho! Valoramos sus comentarios: team@focusbear.io",
             "pleaseEmailText": "Por favor envíe un correo electrónico",
-            "buttonQuitCancelText": "No quise hacer eso. ¡Déjame continuar con mis hábitos!"
+            "buttonQuitCancelText": "No quise hacer eso. ¡Déjeme continuar con mis hábitos!"
         },
         "quittingConfirmInfo": {
             "subTitle": "¿Puedes compartir por qué estás abandonando",
             "buttonQuitText": "Abandonar",
-            "emailTitle": "Tu correo electrónico (si quieres que te respondamos):",
+            "emailTitle": "Su correo electrónico (si quieres que le respondamos):",
             "dropDown_0": {
                 "title": "Selecciona una razón"
             },
@@ -146,27 +146,27 @@
             "dropDown_2": {
                 "title": "El app está dañado",
                 "description": "Oh no! Lo sentimos mucho. Desactivaremos todas las ventanas emergentes. ¿Puedes por favor decirnos qué pasó?﹡",
-                "finalDescription": "¡Esperamos que pronto retomes los hábitos! Te veo pronto."
+                "finalDescription": "¡Esperamos que pronto retome los hábitos! Lo veremos pronto."
             },
             "dropDown_3": {
                 "title": "Algo más.",
                 "description": "¿Puedes decirnos por qué quieres dejar de recibir notificaciones de hábitos y descansos?﹡",
-                "finalDescription": "¡Esperamos que pronto retomes los hábitos! Te veo pronto."
+                "finalDescription": "¡Esperamos que pronto retomes los hábitos! Lo veremos pronto."
             }
         }
     },
     "shutOffTimeInfo": {
         "title": "Hora de relajarse.",
-        "subTitle": "Me dijiste que no querías usar tu computadora desde <SHUTOFFTIME> hasta <STARTTIME>. Disfruta de tu noche y duerme bien. Espero poder ayudarte con tu rutina matutina mañana.",
+        "subTitle": "Me dijo que no quería usar su computadora desde <SHUTOFFTIME> hasta <STARTTIME>. Disfrute de su noche y duerma bien. Espero poder ayudarle con su rutina matutina mañana.",
         "buttonAbortText": "Obtenga acceso ahora",
         "shutOffAbortInfo": {
             "title": "Emergencia?",
-            "subTitle": "¿Seguro que quieres hacer esto? Usar tu computadora a altas horas de la noche podría arruinar su sueño. Tómate 30 segundos para reflexionar sobre si se trata realmente de una emergencia o si puede esperar.",
+            "subTitle": "¿Seguro que quieres hacer esto? Usar su computadora a altas horas de la noche podría arruinar su sueño. Tómate 30 segundos para reflexionar sobre si se trata realmente de una emergencia o si puede esperar.",
             "shareFeedbackText": "Siéntase libre de escribir una explicación aquí:",
             "buttonUnlockText": "Desbloquear"
         },
         "shutOffAbortDoneInfo": {
-            "subTitle": "Lamento escuchar que sucedió algo malo y que es absolutamente necesario que uses tu computadora a altas horas de la noche. Estamos desbloqueando su máquina ahora. Tu rutina matutina aún se activará a las <STARTTIME>. Espero que puedas recuperar el sueño durante el día.",
+            "subTitle": "Lamento escuchar que sucedió algo malo y que es absolutamente necesario que uses su computadora a altas horas de la noche. Estamos desbloqueando su máquina ahora. Su rutina matutina aún se activará a las <STARTTIME>. Espero que pueda recuperar el sueño durante el día.",
             "unlockingText": "Desbloqueo en"
         }
     },
@@ -177,11 +177,11 @@
         "settingUrl": "focusbear.io/settings-generator",
         "schemaError": "Su configuración no se puede validar.",
         "buttonOkText": "OK",
-        "settingIsNotValidText": "Lo siento, parece que tu configuración no es válida. Genera configuraciones en gainyourscreentime.com/settings",
+        "settingIsNotValidText": "Lo siento, parece que su configuración no es válida. Genera configuraciones en el siguente link, gainyourscreentime.com/settings",
         "buttonEditSettingsText":"Edit Settings",
         "buttonAdvancedText":"Advanced",
         "description":"Dale clic a \"Editar Configuraciones\" para modificar su configuración existente. Si eres una usuario avanzado/a haz clic en \"Avanzado\"para ver o editar la configuración JSON",
-        "settingIsValidText":"Tu configuración ha sido validada y se aplicará ahora."
+        "settingIsValidText":"Su configuración ha sido validada y se aplicará ahora."
     },
     "trialNagInfo": {
         "title": "Focus Bear",
@@ -226,24 +226,24 @@
         "menuItemQuitTitle": "Abandonar",
         "untilTimeText": "Prendido hasta <TIME>",
         "onText": "Prendido",
-        "noOfficeFriendlyActivityAlertText":"No tienes ninguna actividad de descanso para la oficina. Quieres que te agregue una para que te pares y estires por 20 segundos?",
+        "noOfficeFriendlyActivityAlertText":"No tiene ninguna actividad de descanso para la oficina. Quieres que le agregue una para que se pare y estire por 20 segundos?",
         "noOfficeFriendlyActivityButtonFirstText":"Si, suena bien",
         "noOfficeFriendlyActivityButtonSecondText":" ¡No, soy una maquina! No necesito descanso.",
-        "officeModeEnabledSuccessfullyText":"¡OK! Solo te pediré que hagas actividades que no extrañen a otras personas (hacer flexiones paradas de manos en la oficina podría haver levantar algunas cejas)."
+        "officeModeEnabledSuccessfullyText":"¡OK! Solo le pediré que hagas actividades que no extrañen a otras personas (hacer flexiones en paradas de manos en la oficina podría verse raro)."
     },
     "preferencesInfo": {
   		"titlePomodoro": "Modo de Pomodoro:",
 		"checkBoxPomodoroText": "Ingrese al modo Pomodoro después de completar la rutina matutina",
         "titleReduceMotion":"Reducir movimiento:",
-        "checkBoxReduceMotionText":"Preferir movimiento reducido (no mostrar osos animados)",
+        "checkBoxReduceMotionText":"Prefiero movimiento reducido (no mostrar osos animados)",
         "titleAskNextHabit":"Recordatorio del siguiente hábito:",
-        "checkBoxPromptToAskNextHabitText":"De vez en cuando me avisame para que recuerde el siguiente hábito",
-        "titleSelectLanguage":"Selecionar Idioma:",
+        "checkBoxPromptToAskNextHabitText":"De vez en cuando puedes avisarme para que recuerde el siguiente hábito",
+        "titleSelectLanguage":"Seleccionar Idioma:",
         "alertChangeLanguageMessageText":"¿Estás seguro de que quieres cambiar el idioma a <LANGUAGE>?",
         "buttonAdvancedText":"Avanzado...",
         "pomodoroModeDurationText":"Duración del Modo de Pomodoro:",
         "minutesText":"minutes",
-        "hardCorePomodoroEnabledText":"Modo de Pomodoro Súper habilitado para concentrarse en <FOCUSTYPE> por <COUNT> pomodoros en <DAYS>.",
+        "hardCorePomodoroEnabledText":"Modo de Pomodoro Súper habilitado para concentrarse en <FOCUSTYPE> por <COUNT> pomodoros el/los <DAYS>.",
         "hardCorePomodoroNotEnabledText":"Modo de Pomodoro sin habilitar.",
         "automaticPomodoroNotEnabledText":"Modo de Pomodoro automático esta deshabilitado.",
         "reviewFocusModeAlertText":"Por favor revisa las configuraciones del modo de enfoque para modo de pomodoro Súper.",
@@ -260,15 +260,15 @@
         "titleFocusType": "Tipo de enfoque:",
         "titleAllowedAllApps": "Permitir todas las aplicaciones",
         "titleAllowedSelectedApps": "Permitir aplicaciones seleccionadas",
-        "titleAllowedAllUrls": "Permitir todas las URLs",
-        "titleAllowedSelectedUrls": "Permitir URL seleccionadas (solo funciona con Safari y Chrome)",
+        "titleAllowedAllUrls": "Permitir todas las URL",
+        "titleAllowedSelectedUrls": "Permitir las URL seleccionadas (solo funciona con Safari y Chrome)",
         "noFocusAddedText": "Agregue un tipo de enfoque en el panel izquierdo.",
         "deleteFocusTypeMessageText": "¿Está seguro de que desea eliminar el tipo de enfoque seleccionado?",
         "yesText": "Sí",
         "noText": "No",
         "urlPlaceHolderString": "google.com",
         "invalidDomainText": "Introduzca un dominio web válido.",
-        "invalidDomainTextSecond": "Si desea permitir todas las URL, seleccione \"Permitir todas las URLs\".",
+        "invalidDomainTextSecond": "Si desea permitir todas las URL, seleccione \"Permitir todas las URL\".",
         "buttonCancelText": "Cancelar",
         "buttonAddText": "Agregar",
         "buttonSaveText": "Guardar",
@@ -301,7 +301,7 @@
         "runScriptAfterText":"Ejecute el script de Apple después de iniciar el modo de enfoque.",
         "titleCurrentAppleScript":"Script actual de Apple:",
         "buttonSelectScriptText":"Seleccionar el script de Apple",
-        "titleBlockedUrls":"URLs bloqueados",
+        "titleBlockedUrls":" Las URL bloqueadas",
         "selectScriptFileText":"Seleccione un archivo de script",
         "buttonSelectText":"Select",
         "pleaseSelectScriptText":" Por favor seleccione un script de Apple.",
@@ -312,15 +312,15 @@
         "focusAlreadyRunningText": "Ya se está ejecutando un modo de enfoque. Desactive el modo de enfoque en ejecución para iniciar uno nuevo.",
         "startingFocusModeInfo": {
             "buttonStartFocusText": "Inicia Enfoque",
-            "howMuchTimeText": "¿Cuánto tiempo para concentrarse?:",
+            "howMuchTimeText": "¿Cuánto tiempo quiere concentrarse?:",
             "hoursText": "horas",
             "minutesText": "minutos",
             "title": "Tipo de enfoque inicial - <FOCUSTYPE>",
-            "questionText": "¿Qué planea lograr durante este bloque de enfoque?"
+            "questionText": "¿Qué planea lograr durante este bloque/bloques de enfoque?"
         },
         "abortingFocusModeInfo": {
             "title": "Desactivación del tipo de enfoque - <FOCUSTYPE>",
-            "questionText": "¿Puedes compartir por qué estás desactivándolo?",
+            "questionText": "¿Puede compartir por qué estás desactivándolo?",
             "reasonsFirstText": "El modo de enfoque no funciona correctamente.",
             "reasonsSecondText": "Logre lo que quería demasiado temprano.",
             "reasonsThirdText": "Tengo una emergencia",
@@ -328,16 +328,16 @@
             "buttonAbortFocusText": "Desactivar modo de Enfoque"
         },
         "focusCompletedInfo": {
-            "title": "¡Lo hiciste!",
-            "subTitle": "Ha completado con éxito el bloque de enfoque - <FOCUSTYPE>",
-            "questionFirstText": "¿Qué lograste durante este tiempo?",
+            "title": "¡Lo logró!",
+            "subTitle": "Ha completado con éxito el bloque/bloques de enfoque - <FOCUSTYPE>",
+            "questionFirstText": "¿Qué logró durante este tiempo?",
             "questionSecondText": "Algunas distracciones?",
-            "titleIntention": "¿Tu intención fue?",
+            "titleIntention": "¿Su intención fue?",
 
-            "buttonTakeBreakText": "Tómate un descanso de 5 minutos"
+            "buttonTakeBreakText": "Tómese un descanso de 5 minutos"
         },
         "focusSummaryInfo": {
-            "title": "Completaste <COUNT> bloques de enfoque hoy.",
+            "title": "Completaste <COUNT> bloque/bloques de enfoque hoy.",
             "buttonContinueText": "Continuar",
             "focusTableColumnFirstText": "Tipo de Enfoque",
             "focusTableColumnSecondText": "Hora de inicio",
@@ -356,8 +356,8 @@
         },
         "discourageDefaultFocusInfo": {
             "title": "¿Está seguro? Es bastante fácil distraerse sin usar un modo de enfoque más restrictivo",
-            "buttonCancelText": "Ah, supongo que tienes razón: ¡CANCELAR!",
-            "buttonShutUpText": "Cállate, sé lo que estoy haciendo.",
+            "buttonCancelText": "Ah, supongo que tiene razón: ¡CANCELAR!",
+            "buttonShutUpText": "Cállese, sé lo que estoy haciendo.",
             "titleGoodLuck": "¡OK buena suerte! (La necesitarás 😅)"
         },
         "suggestFocusInfo": {
@@ -374,7 +374,7 @@
         "buttonEditFocusModeText": "Editar modos de enfoque",
         "buttonLetsDoItText": "Vamos a hacerlo",
         "buttonHardcorePomodoroText":"Use el modo pomodoro Súper (bloquee el modo de enfoque para múltiples pomodoros)",
-        "howManyPomodoroText":"¿Por cuantos pomodoros te quieres concentrar?:",
+        "howManyPomodoroText":"¿Por cuantos pomodoros se quiere concentrar?:",
         "chooseTheFocusModeText":"Elije el modo de enfoque y la duración: no podrá cambiar el modo de enfoque hasta que se acabe el tiempo (todavía puede usar cualquier aplicación / sitio web durante el descanso de 5 minutos)",
         "alertWarningPaswwordSetText":"Para que el modo pomodoro Súper sea más efectivo, recomendamos establecer una contraseña (pídele a otra persona que lo haga por usted); de lo contrario, aún podrá cancelar los modos de enfoque antes de que se acabe el tiempo.."
     },
@@ -402,11 +402,11 @@
         "titleChangePassword": "Cambiar Contraseña",
         "newPasswordPlaceholderText": "Nueva Contraseña",
         "confirmPasswordPlaceholderText": "Confirma Contraseña",
-        "infoText": "Necesitarás ingresar tu contraseña - Al abrir preferencias, al desactivar una rutina vespertina y al desactivar la rutina matutina.",
+        "infoText": "Necesitarás ingresar su contraseña - Al abrir preferencias, al desactivar una rutina vespertina y al desactivar la rutina matutina.",
         "buttonSetPasswordText": "Configurar la Contraseña",
         "buttonChangePasswordText": "Cambiar Contraseña",
         "passwordNotSetText": "No tienes una contraseña configurada.",
-        "passwordSetText": "<Tienes una contraseña activa establecida.",
+        "passwordSetText": "Tienes una contraseña activa establecida.",
         "passwordBlankAlertTitle": "La contraseña no puede estar en blanco.",
         "passwordBlankAlertSubTitle": "Por favor introduce una contraseña válida.",
         "confirmPasswordBlankAlertTitle": "Confirmar contraseña no puede estar en blanco.",
@@ -417,18 +417,18 @@
         "passwordNotMatchAlertSubTitle": "Confirmar contraseña no coincide con la contraseña principal. Por favor, vuelva a escribirla."
     },
     "blockedUrlsViewInfo": {
-        "title": "URL siempre bloqueadas",
+        "title": " Las URL siempre bloqueadas",
         "invalidDomainText": "Agregar * bloqueará todas las URL. Utilice otra combinación."
     },
     "rememberNextHabitViewInfo":{
         "randomPhraseRightChoice1":"¡Vas muy bien!",
         "randomPhraseRightChoice2":"¡Oh si!",
-        "randomPhraseRightChoice3":"¡Tú puedes!",
+        "randomPhraseRightChoice3":"¡Usted puede!",
         "randomPhraseRightChoice4":"Puedo jubilarme ahora porque sabes exactamente lo que estás haciendo.🙂",
         "randomPhraseWrongChoice1":"Uy, no del todo - es <CORRECT_HABIT_NAME>",
         "randomPhraseWrongChoice2":"Casi - es <CORRECT_HABIT_NAME>",
         "Title":"¿ Qué sigue?",
-        "description":"Quiero asegurarme de que no te vuelvas demasiado dependiente de mí. Habrá días en los que no tengas acceso a tu computadora, pero eso no significa que no cumplirás con tus hábitos. Piense en mí como ruedas de entrenamiento de una bicileta: estoy aquí para ayudarte a profundizar los hábitos hasta que se vuelvan automáticos. Hagamos un ejercicio rápido para asegurarnos de que recuerdas cómo acumular tus hábitos incluso cuando no estoy presente..",
+        "description":"Quiero asegurarme de que usted no se vuelva demasiado dependiente de mí. Habrá días en los que no tenga acceso a su computadora, pero eso no significa que no cumplirá con sus hábitos. Piense en mí como ruedas de entrenamiento de una bicileta: estoy aquí para ayudarle a consolidar sus hábitos hasta que se vuelvan automáticos. Hagamos un ejercicio rápido para asegurarnos de que recuerda cómo acumular sus hábitos incluso cuando no estoy presente.",
         "questionText":"Acabas de completar <LAST_HABIT_NAME>. ¿Qué hábito harás a continuación?",
         "selectHabitText":"Selecciona Hábito"
     },
@@ -447,8 +447,8 @@
         "checkBoxUseHardcorePomodoroText":"Usa el modo pomodoro Súper",
         "descriptionHardcorePomodoroText":"(Bloquear el modo de enfoque para múltiples pomodoros)", "chooseFocusText":"Elija el modo de enfoque",                      
         "descriptionChooseFocusFirstText":"No podrás cambiar el modo de enfoque hasta que se acabe el tiempo.",
-        "descriptionChooseFocusSecondText":"(Todavía puedes usar cualquier aplicación/sitio web durante tul descanso de 5 minutos)",
-        "HowManyPomodoroText" : "¿Por cuántos pomodoros te quieres concentrar?:",
+        "descriptionChooseFocusSecondText":"(Todavía puedes usar cualquier aplicación/sitio web durante su descanso de 5 minutos)",
+        "HowManyPomodoroText" : "¿Por cuántos pomodoros se quiere concentrar?:",
         "selectDaysForPomodoroText":"Programe días específicos en los que desea ejecutar el modo pomodoro extremo después de la rutina matutina:",
         "buttonApplyText":"Aplicar",
         "selectAtleastOneDayText":"Seleccione al menos un día."
