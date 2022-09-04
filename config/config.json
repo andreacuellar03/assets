@@ -4,11 +4,11 @@
         "welcomeEndMessage": "Hope you feel calmer. You can now personalise your morning routine by clicking on the icon <icon> on the top bar and choosing Preferences -> Settings.",
         "preloadFocusModesDoneText": "I've set up a focus mode for you that has some common apps and URLs you might want to use when you're working. Open the settings from the Focus Bear menu to change what apps and URLs are allowed.",
         "introActivities": [
-            { "name": "Mindful Breathing", "duration_seconds": 60, "video_urls": ["https://www.youtube.com/watch?v=HhMXYsk_Pvo"] }
+            { "name": "Mindful Breathing", "duration_seconds": 60, "video_urls": ["https://www.youtube.com/watch?v=z-3n5iBi4u0"] }
         ]
     },
     "activityInfo":{
-        "startMorningHabitTitleText":"Good Morning! Here are the habits to kick off an awesome day.",
+         "startMorningHabitTitleText":"Good Morning! Here are the habits to kick off an awesome day.",
         "startEveningHabitTitleText":"Good Evening! Let’s go through your wind down routine.",
         "startActivityButtonText":"Start <TIME> <NAME>",
         "activityFinishedText":"<ACTIVITY> finished!✅",
@@ -21,10 +21,7 @@
         "habitsCompleteText":"You have completed <duration> of habits.",
         "whatComesNextButtonText":"What comes next?",
         "buttonGetKookyText":"Visualize 🧘‍♂️",
-        "buttonReviseQuantityText":"Revise Quantity",
-        "buttonBeginText":"Begin",
-        "visualizeDescriptionText":"Before you begin your morning routine, take 30 seconds to engage in \"extrapersonal focus\": try your best to keep your eyes fixed on the target. Research from Balcetis and colleagues in 2020 indicates that concentrating on a visual point will sharpen your focus and increase the likelihood of completing your routine.",
-        "titleGetFocused":"Get Focused"
+        "buttonReviseQuantityText":"Revise Quantity"
     },
     "common":{
         "emailId":"team@focusbear.io",
@@ -45,14 +42,14 @@
         "uninstallConfirmText":"Are you sure you want to giveup all your habits and uninstall Focus Bear?",
         "yesText":"Yes",
         "noText":"No",
-        "uninstallDoneText":"All the app related processes will abort and the app will close itself and then you can drag the app and move to trash/bin.",
+        "uninstallDoneText":"All the app related processes will stop and the app will close itself and then you can drag the app and move to trash/bin.",
         "buttonUninstallText":"Uninstall Focus Bear",
         "shutdownNotificationTitle":"It's time to wrap up for the day. Your shutdown time is in 5 minutes.",
         "appBlockNotificationTitle":"<APP_NAME> isn't allowed in the <FOCUS_NAME> focus mode.",
         "focusBreakNotificationTitle":"Your break ends in",
         "tabGeneralText":"General",
         "tabFocusText":"Focus",
-        "tabSettingsText":"Settings",
+        "tabSettingsText":"Edit Habits",
         "tabPasswordText":"Password",
         "tabBlockedURLsText":"Blocked URLs",
         "tabUninstallText":"Uninstall",
@@ -63,26 +60,18 @@
         "fridayText":"Friday",
         "saturdayText":"Saturday",
         "sundayText":"Sunday",
-        "andText":"and",
-        "tabAccountsText":"Accounts",
-        "checkInternetText":"Unable to connect to server. Please check your internet connection.",
-        "uninstallingText":"Uninstalling..",
-        "askUninstallReasonText":"Can you share why you're uninstalling?",
-        "buttonSelectReasonText":"Select a reason",
-        "brokenAppReasonText":"The app is broken",
-        "habitsHardReasonText":"My habits are too hard - I can't handle them",
-        "emailTitle":"Your Email (if you want us to reply):"
+        "andText":"and"
     },
     "abortInfo":{
-        "abortingTitle":"Aborting..",
+        "abortingTitle":"Cancelling..",
         "abortingCountDownInfo":{
-            "subTitle":"Are you sure you want to give up on your habits? Please take 10 seconds to reflect on whether you are serious about aborting.",
-            "message":"While you wait, reflect on why you’re doing this. If it was because your morning routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re aborting because the app is broken, really sorry!!",
+            "subTitle":"Are you sure you want to give up on your habits? Please take 10 seconds to reflect on whether you are serious about cancelling.",
+            "message":"While you wait, reflect on why you’re doing this. If it was because your morning routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re cancelling because the app is broken, really sorry!!",
             "pleaseEmailText":"Please email",
             "buttonAbortCancelText":"I didn’t mean it. Let me do my habits!"
         },
         "abortingConfirmInfo":{
-            "subTitle":"Can you share why you're aborting?",
+            "subTitle":"Can you share why you're cancelling?",
             "dropDown_0":{
                 "title":"Select a reason"
             },
@@ -128,15 +117,15 @@
             },
         },
         "abortDoneInfo":{
-            "title":"Aborted",
-            "subTitle":"You’ve successfully aborted Focus Bear. The app won’t show habit prompts until you activate it again from the menu icon. If you aborted it because of a problem with the app, please email"
+            "title":"Deactivated",
+            "subTitle":"You’ve successfully deactivated Focus Bear. The app won’t show habit prompts until you activate it again from the menu icon. If you deactivated it because of a problem with the app, please email"
         }
     },
     "quitInfo":{
         "quittingTitle":"Quitting..",
         "quittingCountDownInfo":{
             "subTitle":"Are you sure you want to Quit? Please take 10 seconds to reflect on whether you are serious about quitting.",
-            "message":"While you wait, reflect on why you’re doing this. If it was because your morning routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re aborting because the app is broken, really sorry!!",
+            "message":"While you wait, reflect on why you’re doing this. If it was because your morning routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re deactivating because the app is broken, really sorry!!",
             "pleaseEmailText":"Please email",
             "buttonQuitCancelText":"I didn’t mean it. Let me do my habits!"
         },
@@ -182,11 +171,11 @@
         "title":"Enter settings JSON below:",
         "buttonSaveText":"Save",
         "visitText":"Visit <SETTINGURL> to generate settings",
-        "settingUrl":"focusbear.io/settings-generator",
+        "settingUrl":"https://settings.focusbear.io",
         "schemaError":"Your settings can not be validated.",
         "buttonOkText":"OK",
-        "settingIsNotValidText":"Sorry it seems like your settings aren’t valid. Please generate settings at focusbear.io/settings",
-        "buttonEditSettingsText":"Edit Settings",
+        "settingIsNotValidText":"Sorry it seems like your settings aren’t valid. Please generate settings at https://settings.focusbear.io",
+        "buttonEditSettingsText":"Edit Habits",
         "buttonAdvancedText":"Advanced",
         "description":"Click on \"Edit Settings\" to modify your existing settings.\nIf you are an advanced user click on \"Advanced\" to view or edit settings JSON",
         "settingIsValidText":"Your settings have been validated and will be applied now."
@@ -260,8 +249,7 @@
         "workDurationEmptyErrorText":"Work Duration can not be empty.",
         "workDurationZeroErrorText":"Work Duration can not be 0.",
         "breakDurationEmptyErrorText":"Break Duration can not be empty.",
-        "breakDurationZeroErrorText":"Break Duration can not be 0.",
-        "versionText":"version:"
+        "breakDurationZeroErrorText":"Break Duration can not be 0."
     },
     "focusPreferencesInfo":{
         "titleFocusType":"Focus Type:",
@@ -290,7 +278,7 @@
         "urlAlreadyExistsText":"<APPNAME> already exists in the list.",
         "focusCanNotDeleteTitle":"Can not delete.",
         "focusCanNotDeleteSubTitle":"The Default focus type cannot be deleted.",
-        "focusModeOnText":"Focus mode is on. Please abort the focus mode to delete it.",
+        "focusModeOnText":"Focus mode is on. Please deactivate the focus mode to delete it.",
         "duplicateText":"Duplicate",
         "toolTipAdd":"Add",
         "toolTipRemove":"Remove",
@@ -306,7 +294,7 @@
     },
     "focusPreferencesAdvancedInfo":{
         "runScriptBeforeText":"Run apple script before starting focus mode.",
-        "runScriptAfterText":"Run apple script after starting focus mode.",
+        "runScriptAfterText":"Run apple script after finishing focus mode.",
         "titleCurrentAppleScript":"Current Apple script:",
         "buttonSelectScriptText":"Select Apple script",
         "titleBlockedUrls":"Blocked URLs",
@@ -317,7 +305,7 @@
         "toolTipRemove":"Remove"
     },
     "focusInfo":{
-        "focusAlreadyRunningText":"A focus mode is already running. Please abort the running focus mode to start a new one.",
+        "focusAlreadyRunningText":"A focus mode is already running. Please deactivate the running focus mode to start a new one.",
         "startingFocusModeInfo":{
             "buttonStartFocusText":"Start Focus",
             "howMuchTimeText":"How much time to focus for:",
@@ -327,13 +315,13 @@
             "questionText":"What do you plan to achieve during this focus block?"
         },
         "abortingFocusModeInfo":{
-            "title":"Aborting Focus type - <FOCUSTYPE>",
-            "questionText":"Can you share why you're aborting?",
+            "title":"Deactivating Focus Block - <FOCUSTYPE>",
+            "questionText":"Can you share why you're deactivating?",
             "reasonsFirstText":"I achieved what I wanted to too early.",
             "reasonsSecondText":"I have an emergency",
             "reasonsThirdText":"Focus mode is not working properly.",
             "buttonCancelText":"Cancel",
-            "buttonAbortFocusText":"Abort Focus"
+            "buttonAbortFocusText":"Deactivate Focus Block"
         },
         "focusCompletedInfo":{
             "title":"You did it!",
@@ -382,8 +370,7 @@
         "buttonHardcorePomodoroText":"Use super pomodoro mode (lock in the focus mode for multiple pomodoros)",
         "howManyPomodoroText":"How many pomodoros you want to focus for:",
         "chooseTheFocusModeText":"Choose the focus mode and duration - you won't be able to change the focus mode until the time is up (you still get to use any app/website during the 5 minutes break)",
-        "alertWarningPaswwordSetText":"To make super pomodoro mode more effective, we recommend setting a password (ask someone else to do it for you) otherwise you'll still be able to cancel the focus modes before the time is up.",
-        "completedPomodoroCountText":"You have completed <COMPLETED_POMODORO> of <TOTAL_POMODORO> pomodoros. <REMAINING_POMODORO> more to go."
+        "alertWarningPaswwordSetText":"To make super pomodoro mode more effective, we recommend setting a password (ask someone else to do it for you) otherwise you'll still be able to cancel the focus modes before the time is up."
     },
     "logQuantityInfo":{
         "title":"Log Quantity of activity",
@@ -409,7 +396,7 @@
         "titleChangePassword":"Change Password",
         "newPasswordPlaceholderText":"New Password",
         "confirmPasswordPlaceholderText":"Confirm Password",
-        "infoText":"You will need to enter your password - When opening preferences, When aborting an evening routine, When aborting the morning routine.",
+        "infoText":"You will need to enter your password - When opening preferences, When cancelling an evening routine, When cancelling the morning routine.",
         "buttonSetPasswordText":"Set Password",
         "buttonChangePasswordText":"Change Password",
         "passwordNotSetText":"You do not have a password set.",
@@ -449,7 +436,6 @@
         "buttonContinueText":"Continue",
         "workText":"Work"
     },
-    
     "pomodoroPreferencesAdvancedInfo":{
         "checkBoxUseHardcorePomodoroText":"Use super pomodoro mode",
         "descriptionHardcorePomodoroText":"(Lock in the focus mode for multiple pomodoros)",
@@ -461,25 +447,23 @@
         "buttonApplyText":"Apply",
         "selectAtleastOneDayText":"Please select atleast one day."
     },
-    "accountVcInfo":{
-        "title":"Your Account Information",
-        "titleNameText":"Name:",
-        "titleEmailIdText":"Email Id:",
-        "buttonLogoutText":"Logout",
-        "registeredVersionText":"Registered version",
-        "logoutAlertText" : "Are you sure you want to logout?"
+    "accountVcInfo": {
+        "title": "Your Account Information",
+        "titleNameText": "Name:",
+        "titleEmailIdText": "Email Id:",
+        "buttonLogoutText": "Logout",
+        "registeredVersionText": "Registered version",
+        "logoutAlertText": "Are you sure you want to logout?"
     },
-    "activityPostponeInfo":{
-        "postponeHabitsText":"If you have something urgent, you can postpone Habits for few Minutes.",
-        "postponeBreakText":"If you have something urgent, you can postpone the Break Activity for 5 Minutes.",
-        "buttonTakeBreakText":"Argh ok I'll take a break!",
-        "selectMinutesText":"Select minutes to postpone:",
-        "buttonCompletelySkipText":"Completely Skip",
-        "buttonPostponeHabitText":"Postpone Habit",
-        "buttonPostponeBreakText":"Postpone Break",
-        "buttonAbortBreakText":"Abort Break Activity",
-        "postponedLastBreakText":"You postponed the last break - are you sure you can't make time for the break now?"
+    "activityPostponeInfo": {
+        "postponeHabitsText": "If you have something urgent, you can postpone Habits for few Minutes.",
+        "postponeBreakText": "If you have something urgent, you can postpone the Break Activity for 5 Minutes.",
+        "buttonTakeBreakText": "Argh ok I'll take a break!",
+        "selectMinutesText": "Select minutes to postpone:",
+        "buttonCompletelySkipText": "Completely Skip",
+        "buttonPostponeHabitText": "Postpone Habit",
+        "buttonPostponeBreakText": "Postpone Break",
+        "buttonAbortBreakText": "Abort Break Activity",
+        "postponedLastBreakText": "You postponed the last break - are you sure you can't make time for the break now?"
     }
 }
-
-
