@@ -65,7 +65,15 @@
         "fridayText":"viernes",
         "saturdayText":"sábado",
         "sundayText":"domingo",
-        "andText":"y"
+        "andText":"y",
+        "tabAccountsText": "Accounts",
+        "checkInternetText": "Unable to connect to server. Please check your internet connection.",
+        "uninstallingText": "Uninstalling..",
+        "askUninstallReasonText": "Can you share why you're uninstalling?",
+        "buttonSelectReasonText": "Select a reason",
+        "brokenAppReasonText": "The app is broken",
+        "habitsHardReasonText": "My habits are too hard - I can't handle them",
+        "emailTitle": "Your Email (if you want us to reply):"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
