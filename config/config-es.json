@@ -3,6 +3,7 @@
         "welcomeMessageHeading": "Bienvenido a Focus Bear",
         "welcomeMessageIntro": "Cada mañana, evitaré que siga su impulso de revisar su correo electrónico/Facebook y le invitaré a seguir su rutina matutina en su lugar. Puede configurar su propia rutina luego, pero por ahora te sugiero una actividad: 1 minuto de respiración consciente. Mientras respira profundamente, piense en lo increíble que serás si se compromete a su rutina matutina todos los días.",
         "welcomeEndMessage": "Espero que se sienta más tranquilo. Ahora puede personalizar su rutina matutina haciendo clic en el ícono <icon> en la barra superior y seleccionando Preferencias -> Configuraciones.",
+        "preloadFocusModesDoneText": "I've set up a focus mode for you that has some common apps and URLs you might want to use when you're working. Open the settings from the Focus Bear menu to change what apps and URLs are allowed.",
         "introActivities": [
             {
                 "name": "Respiración Consciente",
@@ -27,7 +28,10 @@
         "habitsCompleteText":"Has completado <duration>  de hábitos.",
         "whatComesNextButtonText":"¿Qué viene después?",
         "buttonGetKookyText":"Ponte loco/loca",
-        "buttonReviseQuantityText":"Revisa Cantidad"
+        "buttonReviseQuantityText":"Revisa Cantidad",
+        "buttonBeginText": "Begin",
+        "visualizeDescriptionText": "Before you begin your morning routine, take 30 seconds to engage in \"extrapersonal focus\": try your best to keep your eyes fixed on the target. Research from Balcetis and colleagues in 2020 indicates that concentrating on a visual point will sharpen your focus and increase the likelihood of completing your routine.",
+        "titleGetFocused": "Get Focused"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -262,7 +266,8 @@
         "workDurationEmptyErrorText":"Duración del trabajo no puede estar vacío.",
         "workDurationZeroErrorText":"Duración del trabajo no puede ser 0.",
         "breakDurationEmptyErrorText":"Duración del descanso no puede estar vacío.",
-        "breakDurationZeroErrorText":"Duración del descanso no puede ser 0."
+        "breakDurationZeroErrorText":"Duración del descanso no puede ser 0.",
+        "versionText": "version:"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -384,7 +389,8 @@
         "buttonHardcorePomodoroText":"Use el modo pomodoro Súper (bloquee el modo de enfoque para múltiples pomodoros)",
         "howManyPomodoroText":"¿Por cuantos pomodoros se quiere concentrar?:",
         "chooseTheFocusModeText":"Elije el modo de enfoque y la duración: no podrá cambiar el modo de enfoque hasta que se acabe el tiempo (todavía puede usar cualquier aplicación / sitio web durante el descanso de 5 minutos)",
-        "alertWarningPaswwordSetText":"Para que el modo pomodoro Súper sea más efectivo, recomendamos establecer una contraseña (pídele a otra persona que lo haga por usted); de lo contrario, aún podrá cancelar los modos de enfoque antes de que se acabe el tiempo.."
+        "alertWarningPaswwordSetText":"Para que el modo pomodoro Súper sea más efectivo, recomendamos establecer una contraseña (pídele a otra persona que lo haga por usted); de lo contrario, aún podrá cancelar los modos de enfoque antes de que se acabe el tiempo..",
+        "completedPomodoroCountText": "You have completed <COMPLETED_POMODORO> of <TOTAL_POMODORO> pomodoros. <REMAINING_POMODORO> more to go."
     },
     "logQuantityInfo": {
         "title": "Registra la Cantidad de la actividad",

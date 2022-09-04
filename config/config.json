@@ -21,7 +21,10 @@
         "habitsCompleteText":"You have completed <duration> of habits.",
         "whatComesNextButtonText":"What comes next?",
         "buttonGetKookyText":"Visualize 🧘‍♂️",
-        "buttonReviseQuantityText":"Revise Quantity"
+        "buttonReviseQuantityText":"Revise Quantity",
+        "buttonBeginText": "Begin",
+        "visualizeDescriptionText": "Before you begin your morning routine, take 30 seconds to engage in \"extrapersonal focus\": try your best to keep your eyes fixed on the target. Research from Balcetis and colleagues in 2020 indicates that concentrating on a visual point will sharpen your focus and increase the likelihood of completing your routine.",
+        "titleGetFocused": "Get Focused"
     },
     "common":{
         "emailId":"team@focusbear.io",
@@ -257,7 +260,8 @@
         "workDurationEmptyErrorText":"Work Duration can not be empty.",
         "workDurationZeroErrorText":"Work Duration can not be 0.",
         "breakDurationEmptyErrorText":"Break Duration can not be empty.",
-        "breakDurationZeroErrorText":"Break Duration can not be 0."
+        "breakDurationZeroErrorText":"Break Duration can not be 0.",
+        "versionText": "version:"
     },
     "focusPreferencesInfo":{
         "titleFocusType":"Focus Type:",
@@ -378,7 +382,8 @@
         "buttonHardcorePomodoroText":"Use super pomodoro mode (lock in the focus mode for multiple pomodoros)",
         "howManyPomodoroText":"How many pomodoros you want to focus for:",
         "chooseTheFocusModeText":"Choose the focus mode and duration - you won't be able to change the focus mode until the time is up (you still get to use any app/website during the 5 minutes break)",
-        "alertWarningPaswwordSetText":"To make super pomodoro mode more effective, we recommend setting a password (ask someone else to do it for you) otherwise you'll still be able to cancel the focus modes before the time is up."
+        "alertWarningPaswwordSetText":"To make super pomodoro mode more effective, we recommend setting a password (ask someone else to do it for you) otherwise you'll still be able to cancel the focus modes before the time is up.",
+        "completedPomodoroCountText": "You have completed <COMPLETED_POMODORO> of <TOTAL_POMODORO> pomodoros. <REMAINING_POMODORO> more to go."
     },
     "logQuantityInfo":{
         "title":"Log Quantity of activity",
