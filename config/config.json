@@ -71,7 +71,8 @@
         "buttonSelectReasonText": "Select a reason",
         "brokenAppReasonText": "The app is broken",
         "habitsHardReasonText": "My habits are too hard - I can't handle them",
-        "emailTitle": "Your Email (if you want us to reply):"
+        "emailTitle": "Your Email (if you want us to reply):",
+        "buttonPostponeText": "Postpone"
     },
     "abortInfo":{
         "abortingTitle":"Cancelling..",
@@ -261,7 +262,9 @@
         "workDurationZeroErrorText":"Work Duration can not be 0.",
         "breakDurationEmptyErrorText":"Break Duration can not be empty.",
         "breakDurationZeroErrorText":"Break Duration can not be 0.",
-        "versionText": "version:"
+        "versionText": "version:",
+        "titleSound":"Sound:",
+        "checkBoxSoundText":"Play sound effects"
     },
     "focusPreferencesInfo":{
         "titleFocusType":"Focus Type:",
@@ -358,7 +361,8 @@
             "titleActivitySummaryText":"Activity Summary:",
             "titleFocusSummaryText":"Focus Summary:",
             "totalFocusTimeText":"Total focus time: <TIME>",
-            "buttonNeedMoreTimeText":"I need one more minute"
+            "buttonNeedMoreTimeText":"I need one more minute",
+            "buttonStillNeedMoreTimeText":"I still need to work more"
         },
         "discourageDefaultFocusInfo":{
             "title":"Are you sure? It's pretty easy to get distracted without using a more restrictive focus mode",
@@ -421,7 +425,10 @@
         "passwordSetAlertTitle":"Password successfully set.",
         "passwordChagedAlertTitle":"Password successfully changed.",
         "passwordNotMatchAlertTitle":"Passwords do not match.",
-        "passwordNotMatchAlertSubTitle":"Confirm Password does not match with the main password. Please re enter."
+        "passwordNotMatchAlertSubTitle":"Confirm Password does not match with the main password. Please re enter.",
+        "buttonDisablePasswordText":"Disable Password",
+        "passwordDisableAskText":"Are you sure you want to disable your password?",
+        "passwordDisableDoneText":"Your password has been disabled."
     },
     "blockedUrlsViewInfo":{
         "title":"Always Blocked URLs",
@@ -478,5 +485,12 @@
         "buttonPostponeBreakText": "Postpone Break",
         "buttonAbortBreakText": "Abort Break Activity",
         "postponedLastBreakText": "You postponed the last break - are you sure you can't make time for the break now?"
+    },
+    "brainDumpVcInfo": {
+        "title": "Focus Bear - Brain dump",
+        "titleIntentionText": "Intention:",
+        "titleTimeRemainingText": "Time remaining:",
+        "titleWorkNoteFirst": "Things I'll do in my next break:",
+        "titleWorkNoteSecond": "Things you wanted to do in your break:"
     }
 }

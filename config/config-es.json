@@ -77,7 +77,8 @@
         "buttonSelectReasonText": "Select a reason",
         "brokenAppReasonText": "The app is broken",
         "habitsHardReasonText": "My habits are too hard - I can't handle them",
-        "emailTitle": "Your Email (if you want us to reply):"
+        "emailTitle": "Your Email (if you want us to reply):",
+        "buttonPostponeText": "Postpone"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -267,7 +268,9 @@
         "workDurationZeroErrorText":"Duración del trabajo no puede ser 0.",
         "breakDurationEmptyErrorText":"Duración del descanso no puede estar vacío.",
         "breakDurationZeroErrorText":"Duración del descanso no puede ser 0.",
-        "versionText": "version:"
+        "versionText":"version:",
+        "titleSound":"Sound:",
+        "checkBoxSoundText":"Play sound effects"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -360,12 +363,12 @@
             "activityTableColumnFirstText": "Actividad",
             "activityTableColumnSecondText": "Cantidad Total",
             "activityTableColumnThirdText": "Promedio",
-
             "activityTableColumnSixthText": "Duración Total",
             "titleActivitySummaryText": "Resumen de la Actividad:",
             "titleFocusSummaryText": "Resumen de Enfoque:",
             "totalFocusTimeText":"Tiempo total de enfoque: <TIME>",
-            "buttonNeedMoreTimeText":" Necesito un minuto más"
+            "buttonNeedMoreTimeText":" Necesito un minuto más",
+            "buttonStillNeedMoreTimeText":"I still need to work more"
         },
         "discourageDefaultFocusInfo": {
             "title": "¿Está seguro? Es bastante fácil distraerse sin usar un modo de enfoque más restrictivo",
@@ -428,7 +431,10 @@
         "passwordSetAlertTitle": "Contraseña configurada con éxito.",
         "passwordChagedAlertTitle": "Contraseña cambiada correctamente.",
         "passwordNotMatchAlertTitle": "Las contraseñas no coinciden.",
-        "passwordNotMatchAlertSubTitle": "Confirmar contraseña no coincide con la contraseña principal. Por favor, vuelva a escribirla."
+        "passwordNotMatchAlertSubTitle": "Confirmar contraseña no coincide con la contraseña principal. Por favor, vuelva a escribirla.",
+        "buttonDisablePasswordText":"Disable Password",
+        "passwordDisableAskText":"Are you sure you want to disable your password?",
+        "passwordDisableDoneText":"Your password has been disabled."
     },
     "blockedUrlsViewInfo": {
         "title": " Las URL siempre bloqueadas",
@@ -485,5 +491,12 @@
         "buttonPostponeBreakText": "Postpone Break",
         "buttonAbortBreakText": "Abort Break Activity",
         "postponedLastBreakText": "You postponed the last break - are you sure you can't make time for the break now?"
+    },
+    "brainDumpVcInfo": {
+        "title": "Focus Bear - Brain dump",
+        "titleIntentionText": "Intention:",
+        "titleTimeRemainingText": "Time remaining:",
+        "titleWorkNoteFirst": "Things I'll do in my next break:",
+        "titleWorkNoteSecond": "Things you wanted to do in your break:"
     }
 }
