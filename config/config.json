@@ -4,7 +4,7 @@
         "welcomeEndMessage": "Hope you feel calmer. You can now personalise your morning routine by clicking on the icon <icon> on the top bar and choosing Preferences -> Settings.",
         "preloadFocusModesDoneText": "I've set up a focus mode for you that has some common apps and URLs you might want to use when you're working. Open the settings from the Focus Bear menu to change what apps and URLs are allowed.",
         "introActivities": [
-            { "name": "Mindful Breathing", "duration_seconds": 60, "video_urls": ["https://www.youtube.com/watch?v=z-3n5iBi4u0"] }
+            { "name": "Mindful Breathing", "duration_seconds": 90, "video_urls": ["https://www.youtube.com/watch?v=z-3n5iBi4u0"] }
         ]
     },
     "activityInfo":{
@@ -38,7 +38,7 @@
         "buttonExportText":"Export",
         "appName":"Focus Bear",
         "trialExpiredText":"Your trial has expired!",
-        "daysRemainingText":"Trial version - <DAYS> of 21 trial days remaining",
+        "daysRemainingText":"Trial version - <DAYS> of 31 trial days remaining",
         "buttonStatusStateFocusText":"FOCUS",
         "buttonStatusStateOffText":"OFF",
         "buttonStatusStateCallText":"CALL",
@@ -194,8 +194,8 @@
     },
     "trialNagInfo":{
         "title":"Focus Bear",
-        "description":"We offer a 21-day trial period, during which you can evaluate Focus Bear at your leisure. The trial is a FULLY functional Trial and you can evaluate all the features.",
-        "buttonStartTrialText":"START 21-DAY FREE TRIAL",
+        "description":"We offer a 31-day trial period, during which you can evaluate Focus Bear at your leisure. The trial is a FULLY functional Trial and you can evaluate all the features.",
+        "buttonStartTrialText":"START 31-DAY FREE TRIAL",
         "buttonContinueTrialText":"Continue Trial",
         "buttonRegisterNowText":"Register Now",
         "trialPeriodText":"Trial period",
@@ -472,8 +472,9 @@
         "titleNameText": "Name:",
         "titleEmailIdText": "Email Id:",
         "buttonLogoutText": "Logout",
-        "registeredVersionText": "Registered version",
-        "logoutAlertText": "Are you sure you want to logout?"
+        "registeredVersionText": "Registered Version",
+        "logoutAlertText": "Are you sure you want to logout?",
+        "titleUserIdText": "User Id:"
     },
     "activityPostponeInfo": {
         "postponeHabitsText": "If you have something urgent, you can postpone Habits for few Minutes.",
@@ -492,5 +493,11 @@
         "titleTimeRemainingText": "Time remaining:",
         "titleWorkNoteFirst": "Things I'll do in my next break:",
         "titleWorkNoteSecond": "Things you wanted to do in your break:"
+    },
+    "askLogInVcInfo": {
+        "title": "Win your habits.\nAmp up your productivity.",
+        "messageText": "Sign In with a Focus Bear account to manage your time without thinking about it. Having an account helps you Set your computer use hours, create a custom morning and night routine, and customize your focus modes for different activities.",
+        "buttonSignInText": "Sign In",
+        "buttonSignUpText": "Sign Up"
     }
 }
