@@ -4,7 +4,7 @@
         "welcomeEndMessage": "Hope you feel calmer. You can now personalise your morning routine by clicking on the icon <icon> on the top bar and choosing Preferences -> Settings.",
         "preloadFocusModesDoneText": "I've set up a focus mode for you that has some common apps and URLs you might want to use when you're working. Open the settings from the Focus Bear menu to change what apps and URLs are allowed.",
         "introActivities": [
-            { "name": "Mindful Breathing", "duration_seconds": 90, "video_urls": ["https://www.youtube.com/watch?v=z-3n5iBi4u0"] }
+            { "name": "Mindful Breathing", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=z-3n5iBi4u0"] }
         ]
     },
     "activityInfo":{
