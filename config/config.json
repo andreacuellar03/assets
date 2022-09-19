@@ -14,7 +14,7 @@
         "activityFinishedText":"<ACTIVITY> finished!✅",
         "lastActivityFinishedText":"<ACTIVITY> finished!✅ You’ve earned your screen time. 💪",
         "startBreakActivityTitleText":"It’s time for a break. Do <TIME> of <ACTIVITY> to earn more screentime.",
-        "doSomeActivityText":"Do some <ACTIVITY>.",
+        "doSomeActivityText":"<ACTIVITY>",
         "beforeYouStartText":"Before you start, take a few moments to reflect on why you want to do these habits. Then visualise yourself beginning the habit sequence. Mentally walk through any of the habits that are going to be harder. This process will help reduce \"limbic friction\", i.e. prime your brain to do the habits no matter what, even if you don't have the app available.",
         "beforeYouBeginText":"Before you begin, take 30 seconds to visualise yourself performing each of the habits. This sounds kooky but research indicates that doing a mental rehearsal like this increases the likelihood of you completing the habits and makes the habits more sticky so that even if you don't have access to your computer/this app, you'll still do all the habits",
         "habitsProgressText":"You have completed <duration> of habits - <totalduration> to go. You can do it!",
