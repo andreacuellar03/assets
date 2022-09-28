@@ -12,7 +12,8 @@
                     "https://www.youtube.com/watch?v=HhMXYsk_Pvo"
                 ]
             }
-        ]
+        ],
+        "welcomeVideoUrl": "https://www.youtube.com/watch?v=TvfNJ1AaT9M"
     },
     "activityInfo": {
         "startMorningHabitTitleText": "¡Buenos días! Es hora de enfocarse. Estos son los hábitos que debe lograr antes de poder usar su computadora.",
@@ -30,8 +31,10 @@
         "buttonGetKookyText": "Ponte loco/loca",
         "buttonReviseQuantityText": "Revisa Cantidad",
         "buttonBeginText": "Comenzar",
-        "visualizeDescriptionText": "Antes de comenzar tu rutina matutina, tómate 30 segundos para realizar un \"enfoque extrapersonal\": procura mantener la mirada fija en un punto. Estudios científicos por “Balcetis and colleagues” en 2020 indican que enfocarse en un punto fijoagudizará tu capacidad de concentración y aumentará la probabilidad de completar tu rutina.",
-        "titleGetFocused": "Concéntrate"
+        "visualizeDescriptionText": "Antes de comenzar tu rutina, tómate 30 segundos para realizar un \"enfoque extrapersonal\": procura mantener la mirada fija en un punto. Estudios científicos por “Balcetis and colleagues” en 2020 indican que enfocarse en un punto fijoagudizará tu capacidad de concentración y aumentará la probabilidad de completar tu rutina.",
+        "titleGetFocused": "Concéntrate",
+        "buttonPauseText": "Pause Activity",
+        "buttonResumeText": "Resume Activity"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -78,7 +81,8 @@
         "brokenAppReasonText": "La app está dañada",
         "habitsHardReasonText": "Mis hábitos son demasiado difíciles - no los puedo realizar",
         "emailTitle": "Tu correo electrónico (si deseas que te respondamos):",
-        "buttonPostponeText": "Posponer"
+        "buttonPostponeText": "Posponer",
+        "noPurchasesFoundText": "No purchases found."
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -242,7 +246,9 @@
         "noOfficeFriendlyActivityAlertText": "No tiene ninguna actividad de descanso para la oficina. Quieres que le agregue una para que se pare y estire por 20 segundos?",
         "noOfficeFriendlyActivityButtonFirstText": "Si, suena bien",
         "noOfficeFriendlyActivityButtonSecondText": " ¡No, soy una maquina! No necesito descanso.",
-        "officeModeEnabledSuccessfullyText": "¡OK! Solo le pediré que hagas actividades que no extrañen a otras personas (hacer flexiones en paradas de manos en la oficina podría verse raro)."
+        "officeModeEnabledSuccessfullyText": "¡OK! Solo le pediré que hagas actividades que no extrañen a otras personas (hacer flexiones en paradas de manos en la oficina podría verse raro).",
+        "menuItemUpgradeNowTitle":"Upgrade Now",
+        "subscriptionExpiredText":"Your subscription has expired"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo de Pomodoro:",
@@ -268,9 +274,11 @@
         "workDurationZeroErrorText": "Duración del trabajo no puede ser 0.",
         "breakDurationEmptyErrorText": "Duración del descanso no puede estar vacío.",
         "breakDurationZeroErrorText": "Duración del descanso no puede ser 0.",
-        "versionText": "version:",
-        "titleSound": "Sound:",
-        "checkBoxSoundText": "Play sound effects"
+        "versionText":"Version:",
+        "titleSound":"Sound:",
+        "checkBoxSoundText":"Play sound effects",
+        "statisticsText":"Statistics:",
+        "updatesText":"Updates:"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -437,7 +445,8 @@
     },
     "blockedUrlsViewInfo": {
         "title": " Las URL siempre bloqueadas",
-        "invalidDomainText": "Agregar * bloqueará todas las URL. Utilice otra combinación."
+        "invalidDomainText": "Agregar * bloqueará todas las URL. Utilice otra combinación.",
+        "subTitleText":"\"Block these URLs even if you're not in a focus block. You might want to put social media or news sites that you would rather not use at any time. You can always set up an evening routine activity where you explicitly allow access to Facebook so that you can still stay connected - just not during your morning routine/work day.\""
     },
     "rememberNextHabitViewInfo": {
         "randomPhraseRightChoice1": "¡Vas muy bien!",
@@ -478,7 +487,10 @@
         "titleEmailIdText": "Correo electrónico:",
         "buttonLogoutText": "Cerrar Sesión",
         "registeredVersionText": "Versión registrada",
-        "logoutAlertText": "¿Estás seguro de que deseas cerrar la sesión?"
+        "logoutAlertText": "¿Estás seguro de que deseas cerrar la sesión?",
+        "titleUserIdText": "User Id:",
+        "restoreText":"If you've already purchased Focus Bear subscription, you can restore that purchase.",
+        "buttonRestoreText":"Sync Payment Status"
     },
     "activityPostponeInfo": {
         "posponeHabitsText": "Si tienes alguna urgencia, puedes pausar tus hábitos por algunos minutos.",
@@ -489,7 +501,9 @@
         "buttonPostponeHabitText": "Posponer Hábito",
         "buttonPostponeBreakText": "Posponer Descanso",
         "buttonAbortBreakText": "Cancelar Interrupción",
-        "posponedLastBreakText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes tomarlo esta vez?"
+        "posponedLastBreakText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes tomarlo esta vez?",
+        "buttonEnableOfficeModeText": "Switch to office mode",
+        "officeModeEnableText": "Ok I'll give you some break activities that are appropriate to do in an office environment."
     },
     "brainDumpVcInfo": {
         "title": "Focus Bear - Brain dump",
@@ -503,5 +517,30 @@
         "messageText": "Sign In with a Focus Bear account to manage your time without thinking about it. Having an account helps you Set your computer use hours, create a custom morning and night routine, and customize your focus modes for different activities.",
         "buttonSignInText": "Sign In",
         "buttonSignUpText": "Sign Up"
-    }
+    },
+    "upgradeNowVcInfo": {
+        "pointFirstText": "Personalized habit routines",
+        "pointSecondText": "Productivity-boosting breaks",
+        "pointThirdText": "Customizable focus modes",
+        "pointFourthText": "Automatic goal tracking",
+        "buttonUpgradeNowText": "Upgrade Now",
+        "moneyBackText": "30 days money back guarantee",
+        "syncInfoText": "After you pay, click the Sync Payment Status button below",
+        "buttonRestoreText": "Sync Payment Status",
+        "subscriptionExpiredText":"Your subscription has expired"
+    },
+    "onboardingPostponeVcInfo": {
+        "title": "If you have something urgent, you can postpone the Onboarding process for few Minutes.",
+        "selectMinutesText": "Select minutes to postpone:",
+        "buttonPostponeText": "Postpone Onboarding"
+    },
+    "welcomeOnboardingVcInfo": {
+        "subTitle": "Welcome aboard!",
+        "descriptionFirstText": "Looking forward to helping you form healthy habits and get more deep work done. The onboarding process takes 5 minutes and requires 100% attention from you.",
+        "descriptionSecondText": "You won't be able to use other apps during the onboarding. Do you have time now or shall we do it a bit later?",
+        "buttonLaterText":"A bit later please",
+        "buttonLetsDoItText": "Let's do it",
+        "allRightsReservedText": "© 2022 Focus Bear All Rights Reserved."
+    },
+    "upgradeNowUrl": "https://dashboard.focusbear.io/subscription"
 }
