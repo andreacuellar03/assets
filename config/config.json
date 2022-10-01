@@ -25,9 +25,7 @@
         "buttonReviseQuantityText":"Revise Quantity",
         "buttonBeginText": "Begin",
         "visualizeDescriptionText": "Before you begin your routine, take 30 seconds to engage in \"extrapersonal focus\": try your best to keep your eyes fixed on the target. Research from Balcetis and colleagues in 2020 indicates that concentrating on a visual point will sharpen your focus and increase the likelihood of completing your routine.",
-        "titleGetFocused": "Get Focused",
-        "buttonPauseText": "Pause Activity",
-        "buttonResumeText": "Resume Activity"
+        "titleGetFocused": "Get Focused"
     },
     "common":{
         "emailId":"team@focusbear.io",
@@ -234,6 +232,7 @@
         "menuItemStopHardcorePomodoroTitle":"Stop Super Pomodoro Mode",
         "menuItemCheckForUpdatesTitle":"Check for updates",
         "menuItemEnableOfficeModeTitle":"Enable office mode",
+        "menuItemDisableOfficeModeTitle": "WFH Mode Enabled",
         "menuItemQuitTitle":"Quit",
         "untilTimeText":"On Until <TIME>",
         "onText":"On",
@@ -253,7 +252,7 @@
         "checkBoxPromptToAskNextHabitText":"Occasionally prompt me to remember the next habit",
         "titleSelectLanguage":"Select Language:",
         "alertChangeLanguageMessageText":"Are you sure you want to change the language to <LANGUAGE>?",
-        "buttonAdvancedText":"Advanced...",
+        "buttonAdvancedText":"Advanced",
         "pomodoroModeDurationText":"Pomodoro Mode duration:",
         "minutesText":"minutes",
         "hardCorePomodoroEnabledText":"Super Pomodoro mode enabled to focus on <FOCUSTYPE> for <COUNT> pomodoros on <DAYS>.",
@@ -307,7 +306,7 @@
         "toolTipRemove":"Remove",
         "toolTipDuplicate":"Duplicate",
         "hardCorePomodoroIsOnMessageText":"Super Pomodoro mode is on. Please deactivate super Pomodoro mode to delete it.",
-        "buttonAdvancedText":"Advanced...",
+        "buttonAdvancedText":"Advanced",
         "defaultFocusText":"Complete anarchy! Block nothing 😬",
         "meetingsFocusText":"Meetings",
         "disablePomodoroModeAlertText":"The selected focus mode is enabled in super pomodoro mode. Please disable super pomodoro mode to delete this.",
@@ -537,5 +536,31 @@
         "buttonLetsDoItText": "Let's do it",
         "allRightsReservedText": "© 2022 Focus Bear All Rights Reserved."
     },
-    "upgradeNowUrl": "https://dashboard.focusbear.io/subscription"
+    "upgradeNowUrl": "https://dashboard.focusbear.io/subscription",
+    "customLoginVcInfo": {
+        "titleSignIn": "Sign In",
+        "titleSignUp": "Sign Up",
+        "subTitleCreateAccount": "Create an account",
+        "subTitleWelcomeback": "Welcome back",
+        "titleEmailAddress": "Email Address",
+        "titlePassword": "Password",
+        "titleConfirmPassword": "Confirm your password",
+        "buttonSignInText": "Sign In",
+        "buttonCreateAccountText": "Create an account",
+        "titleEmailIsBlank": "Email cannot be blank.",
+        "emailInvalidText": "Please enter a valid Email.",
+        "titlePasswordIsBlank": "Password cannot be blank.",
+        "passwordInvalidText": "Please enter a valid password.",
+        "titleInvalidEmail": "Invalid Email",
+        "titleConfirmPasswordBlank": "Confirm password cannot be blank.",
+        "confirmPasswordInvalidText": "Please enter a valid \"Confirm password\".",
+        "titlePasswordNotMatch": "Passwords do not match.",
+        "confirmPasswordNotMatchText": "Confirm Password does not match with the main password. Please re enter.",
+        "titleSignupFailed": "Signup failed.",
+        "titleLoginFailed": "Login failed."
+    },
+    "loginHelpVcInfo": {
+        "title": "An incognito window should open where you can Login or Register. If you don't see it, please try opening Safari manually. If you still can't see it",
+        "buttonClickHereText": "Click Here"
+    }
 }

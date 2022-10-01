@@ -32,9 +32,7 @@
         "buttonReviseQuantityText": "Revisa Cantidad",
         "buttonBeginText": "Comenzar",
         "visualizeDescriptionText": "Antes de comenzar tu rutina, tómate 30 segundos para realizar un \"enfoque extrapersonal\": procura mantener la mirada fija en un punto. Estudios científicos por “Balcetis and colleagues” en 2020 indican que enfocarse en un punto fijoagudizará tu capacidad de concentración y aumentará la probabilidad de completar tu rutina.",
-        "titleGetFocused": "Concéntrate",
-        "buttonPauseText": "Pause Activity",
-        "buttonResumeText": "Resume Activity"
+        "titleGetFocused": "Concéntrate"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -240,6 +238,7 @@
         "menuItemStopHardcorePomodoroTitle": "Parar Modo de Pomodoro Súper",
         "menuItemCheckForUpdatesTitle": "Buscar actualizaciones",
         "menuItemEnableOfficeModeTitle": "Habilitar el modo de oficina",
+        "menuItemDisableOfficeModeTitle": "WFH Mode Enabled",
         "menuItemQuitTitle": "Abandonar",
         "untilTimeText": "Prendido hasta <TIME>",
         "onText": "Prendido",
@@ -259,7 +258,7 @@
         "checkBoxPromptToAskNextHabitText": "De vez en cuando puedes avisarme para que recuerde el siguiente hábito",
         "titleSelectLanguage": "Seleccionar Idioma:",
         "alertChangeLanguageMessageText": "¿Estás seguro de que quieres cambiar el idioma a <LANGUAGE>?",
-        "buttonAdvancedText": "Avanzado...",
+        "buttonAdvancedText": "Avanzado",
         "pomodoroModeDurationText": "Duración del Modo de Pomodoro:",
         "minutesText": "minutes",
         "hardCorePomodoroEnabledText": "Modo de Pomodoro Súper habilitado para concentrarse en <FOCUSTYPE> por <COUNT> pomodoros el/los <DAYS>.",
@@ -313,7 +312,7 @@
         "toolTipRemove": "Remover",
         "toolTipDuplicate": "Duplicar",
         "hardCorePomodoroIsOnMessageText": " El modo Pomodoro Súper está activado. Por favor ancele el modo Pomodoro Súper para eliminarlo.",
-        "buttonAdvancedText": "Avanzado...",
+        "buttonAdvancedText": "Avanzado",
         "defaultFocusText": "¡Anarquía completa! No bloquees nada 😬",
         "meetingsFocusText": "Reuniones",
         "disablePomodoroModeAlertText": "El modo de enfoque seleccionado está habilitado en el modo pomodoro Súper. Por favor deshabilite el modo pomodoro Súper para eliminar esto.",
@@ -542,5 +541,31 @@
         "buttonLetsDoItText": "Let's do it",
         "allRightsReservedText": "© 2022 Focus Bear All Rights Reserved."
     },
-    "upgradeNowUrl": "https://dashboard.focusbear.io/subscription"
+    "upgradeNowUrl": "https://dashboard.focusbear.io/subscription",
+    "customLoginVcInfo": {
+        "titleSignIn": "Sign In",
+        "titleSignUp": "Sign Up",
+        "subTitleCreateAccount": "Create an account",
+        "subTitleWelcomeback": "Welcome back",
+        "titleEmailAddress": "Email Address",
+        "titlePassword": "Password",
+        "titleConfirmPassword": "Confirm your password",
+        "buttonSignInText": "Sign In",
+        "buttonCreateAccountText": "Create an account",
+        "titleEmailIsBlank": "Email cannot be blank.",
+        "emailInvalidText": "Please enter a valid Email.",
+        "titlePasswordIsBlank": "Password cannot be blank.",
+        "passwordInvalidText": "Please enter a valid password.",
+        "titleInvalidEmail": "Invalid Email",
+        "titleConfirmPasswordBlank": "Confirm password cannot be blank.",
+        "confirmPasswordInvalidText": "Please enter a valid \"Confirm password\".",
+        "titlePasswordNotMatch": "Passwords do not match.",
+        "confirmPasswordNotMatchText": "Confirm Password does not match with the main password. Please re enter.",
+        "titleSignupFailed": "Signup failed.",
+        "titleLoginFailed": "Login failed."
+    },
+    "loginHelpVcInfo": {
+        "title": "An incognito window should open where you can Login or Register. If you don't see it, please try opening Safari manually. If you still can't see it",
+        "buttonClickHereText": "Click Here"
+    }
 }
