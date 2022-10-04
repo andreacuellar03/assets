@@ -237,7 +237,7 @@
         "menuItemStartPomodoroTitle": "Inicia modo Pomodoro",
         "menuItemStopHardcorePomodoroTitle": "Parar Modo de Pomodoro Súper",
         "menuItemCheckForUpdatesTitle": "Buscar actualizaciones",
-        "menuItemEnableOfficeModeTitle": "Habilitar el modo de oficina",
+        "menuItemEnableOfficeModeTitle": "Office Mode Enabled",
         "menuItemDisableOfficeModeTitle": "WFH Mode Enabled",
         "menuItemQuitTitle": "Abandonar",
         "untilTimeText": "Prendido hasta <TIME>",
@@ -247,7 +247,8 @@
         "noOfficeFriendlyActivityButtonSecondText": " ¡No, soy una maquina! No necesito descanso.",
         "officeModeEnabledSuccessfullyText": "¡OK! Solo le pediré que hagas actividades que no extrañen a otras personas (hacer flexiones en paradas de manos en la oficina podría verse raro).",
         "menuItemUpgradeNowTitle":"Upgrade Now",
-        "subscriptionExpiredText":"Your subscription has expired"
+        "subscriptionExpiredText":"Your subscription has expired",
+        "menuItemStartBreakTitle":"Start Break"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo de Pomodoro:",
@@ -317,7 +318,12 @@
         "meetingsFocusText": "Reuniones",
         "disablePomodoroModeAlertText": "El modo de enfoque seleccionado está habilitado en el modo pomodoro Súper. Por favor deshabilite el modo pomodoro Súper para eliminar esto.",
         "buttonAddFocusTypeText": "Agrega modo de enfoque",
-        "buttonDeleteFocusTypeText": "Eliminar"
+        "buttonDeleteFocusTypeText": "Eliminar",
+        "allowUrlInstructionFirstText":"To allow a certain website: domain.com",
+        "allowUrlInstructionSecondText":"To allow all subdomains of a website: *.domain.com",
+        "allowUrlInstructionThirdText":"To allow any web pages that contain text in the URL or page title: reactnative or React Native",
+        "blockUrlInstructionFirstText":"To block a certain website: domain.com",
+        "blockUrlInstructionSecondText":"To block all subdomains of a website: *.domain.com"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecute el script de Apple antes de iniciar el modo de enfoque.",
@@ -329,7 +335,8 @@
         "buttonSelectText": "Select",
         "pleaseSelectScriptText": " Por favor seleccione un script de Apple.",
         "toolTipAdd": "Agregar",
-        "toolTipRemove": "Remover"
+        "toolTipRemove": "Remover",
+        "instructionText":"The URLs here will be blocked during this focus mode. Useful if you want to allow some websites but block others. For example, you could have *.google.com as an allowed URL but block games.google.com"
     },
     "focusInfo": {
         "focusAlreadyRunningText": "Ya se está ejecutando un modo de enfoque. Desactive el modo de enfoque en ejecución para iniciar uno nuevo.",

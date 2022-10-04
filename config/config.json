@@ -231,7 +231,7 @@
         "menuItemStartPomodoroTitle":"Start Pomodoro Mode",
         "menuItemStopHardcorePomodoroTitle":"Stop Super Pomodoro Mode",
         "menuItemCheckForUpdatesTitle":"Check for updates",
-        "menuItemEnableOfficeModeTitle":"Enable office mode",
+        "menuItemEnableOfficeModeTitle":"Office Mode Enabled",
         "menuItemDisableOfficeModeTitle": "WFH Mode Enabled",
         "menuItemQuitTitle":"Quit",
         "untilTimeText":"On Until <TIME>",
@@ -241,7 +241,8 @@
         "noOfficeFriendlyActivityButtonSecondText":"No I'm a machine! I don't need breaks",
         "officeModeEnabledSuccessfullyText":"Ok! I'll just prompt you to do activities that won't weird other people out (doing handstand pushups in the office might raise a few eyebrows).",
         "menuItemUpgradeNowTitle":"Upgrade Now",
-        "subscriptionExpiredText":"Your subscription has expired"
+        "subscriptionExpiredText":"Your subscription has expired",
+        "menuItemStartBreakTitle":"Start Break"
     },
     "preferencesInfo":{
         "titlePomodoro":"Pomodoro Mode:",
@@ -311,8 +312,12 @@
         "meetingsFocusText":"Meetings",
         "disablePomodoroModeAlertText":"The selected focus mode is enabled in super pomodoro mode. Please disable super pomodoro mode to delete this.",
         "buttonAddFocusTypeText":"Add Focus Mode",
-        "buttonDeleteFocusTypeText":"Delete"
-        
+        "buttonDeleteFocusTypeText":"Delete",
+        "allowUrlInstructionFirstText":"To allow a certain website: domain.com",
+        "allowUrlInstructionSecondText":"To allow all subdomains of a website: *.domain.com",
+        "allowUrlInstructionThirdText":"To allow any web pages that contain text in the URL or page title: reactnative or React Native",
+        "blockUrlInstructionFirstText":"To block a certain website: domain.com",
+        "blockUrlInstructionSecondText":"To block all subdomains of a website: *.domain.com"
     },
     "focusPreferencesAdvancedInfo":{
         "runScriptBeforeText":"Run apple script before starting focus mode.",
@@ -324,7 +329,8 @@
         "buttonSelectText":"Select",
         "pleaseSelectScriptText":"Please select a apple script.",
         "toolTipAdd":"Add",
-        "toolTipRemove":"Remove"
+        "toolTipRemove":"Remove",
+        "instructionText":"The URLs here will be blocked during this focus mode. Useful if you want to allow some websites but block others. For example, you could have *.google.com as an allowed URL but block games.google.com"
     },
     "focusInfo":{
         "focusAlreadyRunningText":"A focus mode is already running. Please deactivate the running focus mode to start a new one.",
