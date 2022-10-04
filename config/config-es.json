@@ -193,8 +193,8 @@
         "schemaError": "Su configuración no se puede validar.",
         "buttonOkText": "OK",
         "settingIsNotValidText": "Lo siento, parece que su configuración no es válida. Genera configuraciones en el siguente link, gainyourscreentime.com/settings",
-        "buttonEditSettingsText": "Edit Settings",
-        "buttonAdvancedText": "Advanced",
+        "buttonEditSettingsText": "Editar Configuración",
+        "buttonAdvancedText": "Avanzado",
         "description": "Dale clic a \"Editar Configuraciones\" para modificar su configuración existente. Si eres una usuario avanzado/a haz clic en \"Avanzado\"para ver o editar la configuración JSON",
         "settingIsValidText": "Su configuración ha sido validada y se aplicará ahora."
     },
@@ -275,8 +275,8 @@
         "breakDurationEmptyErrorText": "Duración del descanso no puede estar vacío.",
         "breakDurationZeroErrorText": "Duración del descanso no puede ser 0.",
         "versionText":"Version:",
-        "titleSound":"Sound:",
-        "checkBoxSoundText":"Play sound effects",
+        "titleSound":"Sonido:",
+        "checkBoxSoundText":"Reproducir efectos de sonido",
         "statisticsText":"Statistics:",
         "updatesText":"Updates:"
     },
@@ -370,7 +370,7 @@
             "buttonContinueText": "Continuar",
             "focusTableColumnFirstText": "Tipo de Enfoque",
             "focusTableColumnSecondText": "Hora de inicio",
-            "focusTableColumnThirdText": "Duration",
+            "focusTableColumnThirdText": "Duración",
             "focusTableColumnFourthText": "Trabajo logrado",
             "focusTableColumnFifthText": "Distracciones presentadas",
             "activityTableColumnFirstText": "Actividad",
@@ -381,7 +381,7 @@
             "titleFocusSummaryText": "Resumen de Enfoque:",
             "totalFocusTimeText": "Tiempo total de enfoque: <TIME>",
             "buttonNeedMoreTimeText": " Necesito un minuto más",
-            "buttonStillNeedMoreTimeText": "I still need to work more"
+            "buttonStillNeedMoreTimeText": "Todavía necesito trabajar más tiempo"
         },
         "discourageDefaultFocusInfo": {
             "title": "¿Está seguro? Es bastante fácil distraerse sin usar un modo de enfoque más restrictivo",
@@ -432,11 +432,11 @@
         "titleChangePassword": "Cambiar Contraseña",
         "newPasswordPlaceholderText": "Nueva Contraseña",
         "confirmPasswordPlaceholderText": "Confirma Contraseña",
-        "infoText": "Necesitarás ingresar su contraseña - Al abrir preferencias, al desactivar una rutina vespertina y al desactivar la rutina matutina.",
+        "infoText": "Deberás proporcionar la contraseña cuando canceles tu rutina matutina o vespertina o incluso el modo súper pomodoro. Puedes restablecer la contraseña en cualquier momento, sólo tiene que esperar 24 horas.",
         "buttonSetPasswordText": "Configurar la Contraseña",
         "buttonChangePasswordText": "Cambiar Contraseña",
-        "passwordNotSetText": "No tienes una contraseña configurada.",
-        "passwordSetText": "Tienes una contraseña activa establecida.",
+        "passwordNotSetText": "Si tienes problemas para mantener tus hábitos, pide a un compañero de piso, tu pareja o a alguien con quien convivas que establezca una contraseña. No podrás saltarte los hábitos sin la contraseña.",
+        "passwordSetText": "Responsabilidad adicional: tienes una contraseña activa configurada y no puedes saltarte tus hábitos sin que un amigo ingrese la contraseña.",
         "passwordBlankAlertTitle": "La contraseña no puede estar en blanco.",
         "passwordBlankAlertSubTitle": "Por favor introduce una contraseña válida.",
         "confirmPasswordBlankAlertTitle": "Confirmar contraseña no puede estar en blanco.",
@@ -445,9 +445,9 @@
         "passwordChagedAlertTitle": "Contraseña cambiada correctamente.",
         "passwordNotMatchAlertTitle": "Las contraseñas no coinciden.",
         "passwordNotMatchAlertSubTitle": "Confirmar contraseña no coincide con la contraseña principal. Por favor, vuelva a escribirla.",
-        "buttonDisablePasswordText": "Disable Password",
-        "passwordDisableAskText": "Are you sure you want to disable your password?",
-        "passwordDisableDoneText": "Your password has been disabled."
+        "buttonDisablePasswordText": "Deshabilitar mi contraseña",
+        "passwordDisableAskText": "¿Estás seguro de que deseas deshabilitar tu contraseña?",
+        "passwordDisableDoneText": "Su contraseña ha sido deshabilitada"
     },
     "blockedUrlsViewInfo": {
         "title": " Las URL siempre bloqueadas",
@@ -493,8 +493,8 @@
         "titleEmailIdText": "Correo electrónico:",
         "buttonLogoutText": "Cerrar Sesión",
         "registeredVersionText": "Versión registrada",
-        "logoutAlertText": "¿Estás seguro de que deseas cerrar la sesión?",
-        "titleUserIdText": "User Id:",
+        "logoutAlertText": "¿Está seguro de que deseas cerrar la sesión?",
+        "titleUserIdText": "Identificación de usuario:"
         "restoreText":"If you've already purchased Focus Bear subscription, you can restore that purchase.",
         "buttonRestoreText":"Sync Payment Status"
     },
@@ -512,17 +512,17 @@
         "officeModeEnableText": "Ok I'll give you some break activities that are appropriate to do in an office environment."
     },
     "brainDumpVcInfo": {
-        "title": "Focus Bear - Brain dump",
-        "titleIntentionText": "Intention:",
-        "titleTimeRemainingText": "Time remaining:",
-        "titleWorkNoteFirst": "Things I'll do in my next break:",
-        "titleWorkNoteSecond": "Things you wanted to do in your break:"
+        "title": "Focus Bear - Volcado de cerebros",
+        "titleIntentionText": "Intención:",
+        "titleTimeRemainingText": "Tiempo restante:",
+        "titleWorkNoteFirst": "Cosas que haré en mi próximo descanso:",
+        "titleWorkNoteSecond": "Cosas que querías hacer en tu descanso:"
     },
     "askLogInVcInfo": {
-        "title": "Win your habits.\nAmp up your productivity.",
-        "messageText": "Sign In with a Focus Bear account to manage your time without thinking about it. Having an account helps you Set your computer use hours, create a custom morning and night routine, and customize your focus modes for different activities.",
-        "buttonSignInText": "Sign In",
-        "buttonSignUpText": "Sign Up"
+        "title": "Gana con tus hábitos. Aumenta tu productividad.",
+        "messageText": "Inicia sesión con una cuenta de Focus Bear para administrar tu tiempo sin pensar en ello. Tener una cuenta te ayuda a establecer las horas de uso de tu computadora, crear una rutina personalizada para la mañana y la noche, y personalizar tus modos de enfoque para diferentes actividades.",
+        "buttonSignInText": "Iniciar sesión",
+        "buttonSignUpText": "Regístrate"
     },
     "upgradeNowVcInfo": {
         "pointFirstText": "Personalized habit routines",
