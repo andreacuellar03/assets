@@ -495,7 +495,7 @@
         "registeredVersionText": "Versión registrada",
         "logoutAlertText": "¿Está seguro de que deseas cerrar la sesión?",
         "titleUserIdText": "Identificación de usuario:"
-        "restoreText":"If you've already purchased Focus Bear subscription, you can restore that purchase.",
+        "restoreText":"If you've already purchased a Focus Bear subscription, click Sync Payment Status to activate it here.",
         "buttonRestoreText":"Sync Payment Status"
     },
     "activityPostponeInfo": {
