@@ -80,7 +80,10 @@
         "habitsHardReasonText": "Mis hábitos son demasiado difíciles - no los puedo realizar",
         "emailTitle": "Tu correo electrónico (si deseas que te respondamos):",
         "buttonPostponeText": "Posponer",
-        "noPurchasesFoundText": "No purchases found."
+        "noPurchasesFoundText": "No purchases found.",
+        "someProblemInCredentialText": "There is some problem. Please Login again.",
+        "askUninstallReasonText2": "Damn sorry, it seems like we let you down. We're in the early stages of this product and really want to get feedback to make it better. Could you tell us why you're uninstalling?",
+        "minimumCharacterText": "(Minimum 10 characters)"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
