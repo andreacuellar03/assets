@@ -3,7 +3,7 @@
         "welcomeMessageHeading": "Bienvenido a Focus Bear",
         "welcomeMessageIntro": "Cada mañana, evitaré que siga su impulso de revisar su correo electrónico/Facebook y le invitaré a seguir su rutina matutina en su lugar. Puede configurar su propia rutina luego, pero por ahora te sugiero una actividad: 1 minuto de respiración consciente. Mientras respira profundamente, piense en lo increíble que serás si se compromete a su rutina matutina todos los días.",
         "welcomeEndMessage": "Espero que se sienta más tranquilo. Ahora puede personalizar su rutina matutina haciendo clic en el ícono <icon> en la barra superior y seleccionando Preferencias -> Configuraciones.",
-        "preloadFocusModesDoneText": "Te he configurado un modo de enfoque que tiene algunas aplicaciones y URLs que quizás quieras usar cuando estés trabajando. Abre la configuración desde el menú Focus Bear para cambiar cuáles aplicaciones y URLs están permitidas.",
+        "preloadFocusModesDoneText": "Aquí podrás ver un video corto que explica cómo utilizar Focus Bear.",
         "introActivities": [
             {
                 "name": "Respiración Consciente",
@@ -83,7 +83,12 @@
         "noPurchasesFoundText": "No purchases found.",
         "someProblemInCredentialText": "There is some problem. Please Login again.",
         "askUninstallReasonText2": "Damn sorry, it seems like we let you down. We're in the early stages of this product and really want to get feedback to make it better. Could you tell us why you're uninstalling?",
-        "minimumCharacterText": "(Minimum 10 characters)"
+        "minimumCharacterText": "(Minimum 10 characters)",
+        "secondsText":"seconds",
+        "minuteText":"minute",
+        "minutesText":"minutes",
+        "hourText":"hour",
+        "hoursText":"hours"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -251,7 +256,8 @@
         "officeModeEnabledSuccessfullyText": "¡OK! Solo le pediré que hagas actividades que no extrañen a otras personas (hacer flexiones en paradas de manos en la oficina podría verse raro).",
         "menuItemUpgradeNowTitle":"Upgrade Now",
         "subscriptionExpiredText":"Your subscription has expired",
-        "menuItemStartBreakTitle":"Start Break"
+        "menuItemStartBreakTitle":"Start Break",
+        "menuItemBrainDumpTitle":"Brain Dump"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo de Pomodoro:",
@@ -495,9 +501,9 @@
         "titleNameText": "Nombre:",
         "titleEmailIdText": "Correo electrónico:",
         "buttonLogoutText": "Cerrar Sesión",
-        "registeredVersionText": "Versión registrada",
+        "registeredVersionText": "Suscripción activa",
         "logoutAlertText": "¿Está seguro de que deseas cerrar la sesión?",
-        "titleUserIdText": "Identificación de usuario:"
+        "titleUserIdText": "Identificación de usuario:",
         "restoreText":"If you've already purchased a Focus Bear subscription, click Sync Payment Status to activate it here.",
         "buttonRestoreText":"Sync Payment Status"
     },
@@ -522,7 +528,7 @@
         "titleWorkNoteSecond": "Cosas que querías hacer en tu descanso:"
     },
     "askLogInVcInfo": {
-        "title": "Gana con tus hábitos. Aumenta tu productividad.",
+        "title": "Haz que los hábitos saludables y el trabajo profundo sean el camino de menor resistencia",
         "messageText": "Inicia sesión con una cuenta de Focus Bear para administrar tu tiempo sin pensar en ello. Tener una cuenta te ayuda a establecer las horas de uso de tu computadora, crear una rutina personalizada para la mañana y la noche, y personalizar tus modos de enfoque para diferentes actividades.",
         "buttonSignInText": "Iniciar sesión",
         "buttonSignUpText": "Regístrate"
@@ -549,7 +555,9 @@
         "descriptionSecondText": "You won't be able to use other apps during the onboarding. Do you have time now or shall we do it a bit later?",
         "buttonLaterText":"A bit later please",
         "buttonLetsDoItText": "Let's do it",
-        "allRightsReservedText": "© 2022 Focus Bear All Rights Reserved."
+        "allRightsReservedText": "© 2022 Focus Bear All Rights Reserved.",
+        "confirmText": "Just want to double confirm you're ok with this - for the next minute, you're not going to be able to use other apps while you go through onboarding.",
+        "buttonConfirmLetsDoItText": "Yup let's do it - I've got 1 minute"
     },
     "upgradeNowUrl": "https://dashboard.focusbear.io/subscription",
     "customLoginVcInfo": {

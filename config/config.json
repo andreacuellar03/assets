@@ -31,7 +31,7 @@
         "emailId":"team@focusbear.io",
         "unlockMachineButtonText":"Unlock the machine",
         "wrapupButtonText":"Let's wrap up for the day",
-        "stayFocusedText":"OK - Stay focused throughout the day!",
+        "stayFocusedText":"Now let's set up an account for you",
         "buttonAbortText":"Please spare me",
         "buttonCancelText":"Cancel",
         "buttonOkText":"OK",
@@ -77,7 +77,12 @@
         "noPurchasesFoundText": "No purchases found.",
         "someProblemInCredentialText": "There is some problem. Please Login again.",
         "askUninstallReasonText2": "Damn sorry, it seems like we let you down. We're in the early stages of this product and really want to get feedback to make it better. Could you tell us why you're uninstalling?",
-        "minimumCharacterText": "(Minimum 10 characters)"
+        "minimumCharacterText": "(Minimum 10 characters)",
+        "secondsText":"seconds",
+        "minuteText":"minute",
+        "minutesText":"minutes",
+        "hourText":"hour",
+        "hoursText":"hours"
     },
     "abortInfo":{
         "abortingTitle":"Cancelling..",
@@ -245,7 +250,8 @@
         "officeModeEnabledSuccessfullyText":"Ok! I'll just prompt you to do activities that won't weird other people out (doing handstand pushups in the office might raise a few eyebrows).",
         "menuItemUpgradeNowTitle":"Upgrade Now",
         "subscriptionExpiredText":"Your subscription has expired",
-        "menuItemStartBreakTitle":"Start Break"
+        "menuItemStartBreakTitle":"Start Break",
+        "menuItemBrainDumpTitle":"Brain Dump"
     },
     "preferencesInfo":{
         "titlePomodoro":"Pomodoro Mode:",
@@ -543,7 +549,9 @@
         "descriptionSecondText": "You won't be able to use other apps during the onboarding. Do you have time now or shall we do it a bit later?",
         "buttonLaterText":"A bit later please",
         "buttonLetsDoItText": "Let's do it",
-        "allRightsReservedText": "© 2022 Focus Bear All Rights Reserved."
+        "allRightsReservedText": "© 2022 Focus Bear All Rights Reserved.",
+        "confirmText": "Just want to double confirm you're ok with this - for the next minute, you're not going to be able to use other apps while you go through onboarding.",
+        "buttonConfirmLetsDoItText": "Yup let's do it - I've got 1 minute"
     },
     "upgradeNowUrl": "https://dashboard.focusbear.io/subscription",
     "customLoginVcInfo": {
