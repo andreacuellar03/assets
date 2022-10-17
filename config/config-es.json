@@ -505,6 +505,7 @@
         "registeredVersionText": "Suscripción activa",
         "logoutAlertText": "¿Está seguro de que deseas cerrar la sesión?",
         "titleUserIdText": "Identificación de usuario:",
+        "titleUserIdText": "Identificación de usuario:"
         "restoreText":"If you've already purchased a Focus Bear subscription, click Sync Payment Status to activate it here.",
         "buttonRestoreText":"Sync Payment Status"
     },
@@ -559,6 +560,7 @@
         "allRightsReservedText": "© 2022 Focus Bear All Rights Reserved.",
         "confirmText": "Just want to double confirm you're ok with this - for the next minute, you're not going to be able to use other apps while you go through onboarding.",
         "buttonConfirmLetsDoItText": "Yup let's do it - I've got 1 minute"
+
     },
     "upgradeNowUrl": "https://dashboard.focusbear.io/subscription",
     "customLoginVcInfo": {
