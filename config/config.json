@@ -31,7 +31,8 @@
         "emailId":"team@focusbear.io",
         "unlockMachineButtonText":"Unlock the machine",
         "wrapupButtonText":"Let's wrap up for the day",
-        "stayFocusedText":"Now let's set up an account for you",
+        "stayFocusedText":"OK - Stay focused throughout the day!",
+		"letsCreatAccountText":"Now let's set up an account for you",
         "buttonAbortText":"Please spare me",
         "buttonCancelText":"Cancel",
         "buttonOkText":"OK",
@@ -75,7 +76,7 @@
         "emailTitle": "Your Email (if you want us to reply):",
         "buttonPostponeText": "Postpone",
         "noPurchasesFoundText": "No purchases found.",
-        "someProblemInCredentialText": "There is some problem. Please Login again.",
+        "someProblemInCredentialText": "There was a problem connecting to the backend server. Please login again.",
         "askUninstallReasonText2": "Damn sorry, it seems like we let you down. We're in the early stages of this product and really want to get feedback to make it better. Could you tell us why you're uninstalling?",
         "minimumCharacterText": "(Minimum 10 characters)",
         "secondsText":"seconds",
@@ -502,7 +503,7 @@
         "buttonRestoreText":"Sync Payment Status"
     },
     "activityPostponeInfo": {
-        "postponeHabitsText": "If you have something urgent, you can postpone Habits for few Minutes.",
+        "postponeHabitsText": "If you have something urgent, you can postpone Habits for a few minutes.",
         "postponeBreakText": "If you have something urgent, you can postpone the Break Activity for 5 Minutes.",
         "buttonTakeBreakText": "Argh ok I'll take a break!",
         "selectMinutesText": "Select minutes to postpone:",
@@ -523,7 +524,7 @@
     },
     "askLogInVcInfo": {
         "title": "Win your habits.\nAmp up your productivity.",
-        "messageText": "Sign In with a Focus Bear account to manage your time without thinking about it. Having an account helps you Set your computer use hours, create a custom morning and night routine, and customize your focus modes for different activities.",
+        "messageText": "Sign In with a Focus Bear account to manage your time without thinking about it. Having an account helps you set your computer use hours, create a custom morning and night routine, and customize your focus modes for different activities.",
         "buttonSignInText": "Sign In",
         "buttonSignUpText": "Sign Up"
     },
@@ -539,13 +540,13 @@
         "subscriptionExpiredText":"Your subscription has expired"
     },
     "onboardingPostponeVcInfo": {
-        "title": "If you have something urgent, you can postpone the Onboarding process for few Minutes.",
+        "title": "If you have something urgent, you can postpone the Onboarding process for a few minutes.",
         "selectMinutesText": "Select minutes to postpone:",
         "buttonPostponeText": "Postpone Onboarding"
     },
     "welcomeOnboardingVcInfo": {
         "subTitle": "Welcome aboard!",
-        "descriptionFirstText": "Looking forward to helping you form healthy habits and get more deep work done. The onboarding process takes 5 minutes and requires 100% attention from you.",
+        "descriptionFirstText": "Looking forward to helping you form healthy habits and get more deep work done. To start off, we want to show you a demo of how Focus Bear works. It takes 1 minute and requires 100% attention from you.",
         "descriptionSecondText": "You won't be able to use other apps during the onboarding. Do you have time now or shall we do it a bit later?",
         "buttonLaterText":"A bit later please",
         "buttonLetsDoItText": "Let's do it",
