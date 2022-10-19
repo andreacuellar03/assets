@@ -32,7 +32,7 @@
         "unlockMachineButtonText":"Unlock the machine",
         "wrapupButtonText":"Let's wrap up for the day",
         "stayFocusedText":"OK - Stay focused throughout the day!",
-	"letsCreatAccountText":"Now let's set up an account for you",
+		"letsCreatAccountText":"Now let's set up an account for you",
         "buttonAbortText":"Please spare me",
         "buttonCancelText":"Cancel",
         "buttonOkText":"OK",
@@ -83,7 +83,10 @@
         "minuteText":"minute",
         "minutesText":"minutes",
         "hourText":"hour",
-        "hoursText":"hours"
+        "hoursText":"hours",
+        "timeIncorrectText":"Your system time seems to be incorrect - it's saying the current time is <SYSTEM_TIME> but the actual time is <TRUE_TIME>. Focus Bear won't work properly if you don't have your system time configured correctly. Once you have adjusted the time settings, click \"I am ready to start my habits\" button below.",
+        "buttonIAmReadyText":"I am ready to start my habits",
+        "buttonInstructionsText":"Click Here to see instructions for fixing your time settings"
     },
     "abortInfo":{
         "abortingTitle":"Cancelling..",
@@ -417,7 +420,8 @@
         "buttonCancelText":"Cancel",
         "buttonOkText":"OK",
         "enterValidValueText":"Please enter a valid value.",
-        "quantityIsEmptyText":"Log quantity can not be empty."
+        "quantityIsEmptyText":"Log quantity can not be empty.",
+        "logQuantityQuestionText":"How many <activity> did you do?"
     },
     "enterPasswordViewInfo":{
         "title":"Please enter the password to continue",
@@ -551,8 +555,9 @@
         "buttonLaterText":"A bit later please",
         "buttonLetsDoItText": "Let's do it",
         "allRightsReservedText": "© 2022 Focus Bear All Rights Reserved.",
-        "confirmText": "Just want to double confirm you're ok with this - for the next minute, you're not going to be able to use other apps while you go through onboarding.",
-        "buttonConfirmLetsDoItText": "Yup let's do it - I've got 1 minute"
+        "confirmText": "Just want to double check you are ok to focus 100% on onboarding for the next 2 minutes. The next step is full screen - you won't be able to use any other apps during this time.",
+        "buttonConfirmLetsDoItText": "You have my full attention",
+        "buttonNeedMoreTimeText": "Uhh I need a few more minutes"
     },
     "upgradeNowUrl": "https://dashboard.focusbear.io/subscription",
     "customLoginVcInfo": {
@@ -580,5 +585,11 @@
     "loginHelpVcInfo": {
         "title": "An incognito window should open where you can Login or Register. If you don't see it, please try opening Safari manually. If you still can't see it",
         "buttonClickHereText": "Click Here"
+    },
+    "onboardingCardsInfo": {
+        "title": "Important Notes",
+        "controllingBrowserText": "Controlling Your Browser",
+        "controllingBrowserDescription":"When you next open a browser tab, you'll see this popup. The reason we ask for permissions to control your browser is so we can block distracting websites when you activate focus mode.",
+        "buttonGotItText":"Got it"
     }
 }
