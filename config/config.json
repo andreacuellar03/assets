@@ -32,7 +32,7 @@
         "unlockMachineButtonText":"Unlock the machine",
         "wrapupButtonText":"Let's wrap up for the day",
         "stayFocusedText":"OK - Stay focused throughout the day!",
-		"letsCreatAccountText":"Now let's set up an account for you",
+    		"letsCreatAccountText":"Now let's set up an account for you",
         "buttonAbortText":"Please spare me",
         "buttonCancelText":"Cancel",
         "buttonOkText":"OK",
@@ -349,7 +349,7 @@
         "focusAlreadyRunningText":"A focus mode is already running. Please deactivate the running focus mode to start a new one.",
         "startingFocusModeInfo":{
             "buttonStartFocusText":"Start Focus",
-            "howMuchTimeText":"How much time to focus for:",
+            "howMuchTimeText":"How much time do you want to focus for?",
             "hoursText":"hours",
             "minutesText":"minutes",
             "title":"Starting Focus type - <FOCUSTYPE>",
