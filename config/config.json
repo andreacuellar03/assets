@@ -1,6 +1,6 @@
 {"welcomeInfo":
     {"welcomeMessageHeading": "Welcome to Focus Bear",
-        "welcomeMessageIntro": "Every morning, I will help you quiet your urge to check email/Facebook and help you to do your morning routine instead. You can configure your own routine later but for now, I’ll give you a suggested activity: 30 seconds of mindful breathing. While you breathe deeply, think of how awesome you’ll be if you stick to your morning routine every day.",
+        "welcomeMessageIntro": "Every morning, I will help you silence your urge to check email/Facebook and help you to do your morning routine instead. You can configure your own routine later but for now, I’ll give you a suggested activity: 30 seconds of mindful breathing. While you breathe deeply, think of how awesome you’ll be if you stick to your morning routine every day.",
         "welcomeEndMessage": "Hope you feel calmer. You can now personalise your morning routine by clicking on the icon <icon> on the top bar and choosing Preferences -> Settings.",
         "preloadFocusModesDoneText": "Here's a short video that explains how to use Focus Bear.",
         "introActivities": [
@@ -169,12 +169,12 @@
             "dropDown_2":{
                 "title":"The app is broken",
                 "description":"Oh no! We're really sorry. Can you please let us know what happened?﹡",
-                "finalDescription":"We hope you will start the habits back soon! See you soon."
+                "finalDescription":"Thanks for letting us know. We'll fix it ASAP."
             },
             "dropDown_3":{
                 "title":"Something else",
                 "description":"Can you tell us why you want to stop getting habit + break notifications?﹡",
-                "finalDescription":"We hope you will start the habits back soon! See you soon."
+                "finalDescription":"Thanks for letting us know. All the best."
             }
         }
     },
@@ -343,7 +343,7 @@
         "pleaseSelectScriptText":"Please select a apple script.",
         "toolTipAdd":"Add",
         "toolTipRemove":"Remove",
-        "instructionText":"The URLs here will be blocked during this focus mode. Useful if you want to allow some websites but block others. For example, you could have *.google.com as an allowed URL but block games.google.com"
+        "instructionText":"The URLs here will be blocked during this focus mode. Useful if you want to allow some websites but block others. For example, you could have *.google.com as an allowed URL but block tv.google.com"
     },
     "focusInfo":{
         "focusAlreadyRunningText":"A focus mode is already running. Please deactivate the running focus mode to start a new one.",
@@ -412,7 +412,7 @@
         "buttonHardcorePomodoroText":"Use super pomodoro mode (lock in the focus mode for multiple pomodoros)",
         "howManyPomodoroText":"How many pomodoros you want to focus for:",
         "chooseTheFocusModeText":"Choose the focus mode and duration - you won't be able to change the focus mode until the time is up (you still get to use any app/website during the 5 minutes break)",
-        "alertWarningPaswwordSetText":"To make super pomodoro mode more effective, we recommend setting a password (ask someone else to do it for you) otherwise you'll still be able to cancel the focus modes before the time is up.",
+        "alertWarningPaswwordSetText":"To make super pomodoro mode more effective, we recommend setting a password in Preferences (ask someone else to do it for you) otherwise you'll still be able to cancel the focus modes before the time is up.",
         "completedPomodoroCountText": "You have completed <COMPLETED_POMODORO> of <TOTAL_POMODORO> pomodoros. <REMAINING_POMODORO> more to go."
     },
     "logQuantityInfo":{
@@ -460,7 +460,7 @@
     "blockedUrlsViewInfo":{
         "title":"Always Blocked URLs",
         "invalidDomainText":"Adding * will block all urls. Please use another combination.",
-        "subTitleText":"\"Block these URLs even if you're not in a focus block. You might want to put social media or news sites that you would rather not use at any time. You can always set up an evening routine activity where you explicitly allow access to Facebook so that you can still stay connected - just not during your morning routine/work day.\""
+        "subTitleText":"Block these URLs even if you're not in a focus block. You might want to put social media or news sites that you would rather not use at any time. You can always set up an evening routine activity where you explicitly allow access to Facebook so that you can still stay connected - just not during your morning routine/work day."
     },
     "rememberNextHabitViewInfo":{
         "randomPhraseRightChoice1":"Right on!",
@@ -527,7 +527,7 @@
         "titleWorkNoteSecond": "Things you wanted to do in your break:"
     },
     "askLogInVcInfo": {
-        "title": "Win your habits.\nAmp up your productivity.",
+        "title": "Make healthy habits and deep work the path of least resistance.",
         "messageText": "Sign In with a Focus Bear account to manage your time without thinking about it. Having an account helps you set your computer use hours, create a custom morning and night routine, and customize your focus modes for different activities.",
         "buttonSignInText": "Sign In",
         "buttonSignUpText": "Sign Up"

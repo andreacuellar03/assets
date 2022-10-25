@@ -39,7 +39,7 @@
         "unlockMachineButtonText": "Desbloquear la computadora",
         "wrapupButtonText": "Terminemos el día",
         "stayFocusedText": "¡OK - Manténgase concentrado/a durante todo el día!",
-    		"letsCreatAccountText":"Now let's set up an account for you",
+        "letsCreatAccountText": "Ahora configuremos una cuenta para ti",
         "buttonCancelText": "Cancelar",
         "buttonOkText": "OK",
         "webhookUrl": "https://hooks.zapier.com/hooks/catch/326116/b98ovxc/",
@@ -81,15 +81,15 @@
         "habitsHardReasonText": "Mis hábitos son demasiado difíciles - no los puedo realizar",
         "emailTitle": "Tu correo electrónico (si deseas que te respondamos):",
         "buttonPostponeText": "Posponer",
-        "noPurchasesFoundText": "No purchases found.",
-        "someProblemInCredentialText": "There was a problem connecting to the backend server. Please login again.",
-        "askUninstallReasonText2": "Damn sorry, it seems like we let you down. We're in the early stages of this product and really want to get feedback to make it better. Could you tell us why you're uninstalling?",
-        "minimumCharacterText": "(Minimum 10 characters)",
-        "secondsText":"seconds",
-        "minuteText":"minute",
-        "minutesText":"minutes",
-        "hourText":"hour",
-        "hoursText":"hours",
+        "noPurchasesFoundText": "No se encontraron compras.",
+        "someProblemInCredentialText": "Se presentó un problema. Inicie sesión nuevamente.",
+        "askUninstallReasonText2": "Ay no, lo siento, parece que lo decepcionamos. Estamos en las primeras etapas de este producto y realmente queremos recibir comentarios para mejorarlo. ¿Podría decirnos por qué está desinstalando?",
+        "minimumCharacterText": "(Mínimo 10 caracteres)",
+        "secondsText": "segundos",
+        "minuteText": "minuto",
+        "minutesText": "minutos",
+        "hourText": "hora",
+        "hoursText": "horas",
         "timeIncorrectText":"Your system time seems to be incorrect - it's saying the current time is <SYSTEM_TIME> but the actual time is <TRUE_TIME>. Focus Bear won't work properly if you don't have your system time configured correctly. Once you have adjusted the time settings, click \"I am ready to start my habits\" button below.",
         "buttonIAmReadyText":"I am ready to start my habits",
         "buttonInstructionsText":"Click Here to see instructions for fixing your time settings"
@@ -193,7 +193,7 @@
             "buttonUnlockText": "Desbloquear"
         },
         "shutOffAbortDoneInfo": {
-            "subTitle": "Lamento escuchar que sucedió algo malo y que es absolutamente necesario que uses su computadora a altas horas de la noche. Estamos desbloqueando su máquina ahora. Su rutina matutina aún se activará a las <STARTTIME>. Espero que pueda recuperar el sueño durante el día.",
+            "subTitle": "Lamento escuchar que sucedió algo malo y que es absolutamente necesario que uses tu computadora muy tarde en la noche. Estamos desbloqueando tu computadora ahora. Tu rutina matutina aún se activará a las <STARTTIME>. Espero que puedas recuperar el sueño durante el día.",
             "unlockingText": "Desbloqueo en"
         }
     },
@@ -207,13 +207,13 @@
         "settingIsNotValidText": "Lo siento, parece que su configuración no es válida. Genera configuraciones en el siguente link, gainyourscreentime.com/settings",
         "buttonEditSettingsText": "Editar Configuración",
         "buttonAdvancedText": "Avanzado",
-        "description": "Dale clic a \"Editar Configuraciones\" para modificar su configuración existente. Si eres una usuario avanzado/a haz clic en \"Avanzado\"para ver o editar la configuración JSON",
-        "settingIsValidText": "Su configuración ha sido validada y se aplicará ahora."
+        "description": "Dale clic a \"Editar Configuración\" para modificar tu configuración existente. Si eres un usuario avanzad@ haz clic en \"Avanzado\"para ver o editar la configuración JSON",
+        "settingIsValidText": "Tu configuración ha sido validada y se aplicará ahora."
     },
     "trialNagInfo": {
         "title": "Focus Bear",
-        "description": "Ofrecemos un período de prueba de 31 días, durante el cual puede evaluar Focus Bear en su tiempo libre. La versión de prueba es una versión de prueba TOTALMENTE funcional y puede evaluar todas las funciones.",
-        "buttonStartTrialText": "EMPIEZA LA PRUEBA GRATUITA DE 31 DÍAS",
+        "description": "Ofrecemos un período de prueba de 21 días, durante el cual puedes evaluar Focus Bear en tu tiempo libre. La versión de prueba es una versión TOTALMENTE funcional y podrás evaluar todas las funciones.",
+        "buttonStartTrialText": "EMPIEZA TU PRUEBA GRATUITA DE 31 DÍAS",
         "buttonContinueTrialText": "Continuar con la prueba",
         "buttonRegisterNowText": "Regístrate ahora",
         "trialPeriodText": "Periodo de prueba",
@@ -249,8 +249,8 @@
         "menuItemStartPomodoroTitle": "Inicia modo Pomodoro",
         "menuItemStopHardcorePomodoroTitle": "Parar Modo de Pomodoro Súper",
         "menuItemCheckForUpdatesTitle": "Buscar actualizaciones",
-        "menuItemEnableOfficeModeTitle": "Office Mode Enabled",
-        "menuItemDisableOfficeModeTitle": "WFH Mode Enabled",
+        "menuItemEnableOfficeModeTitle": "Modo de oficina habilitado",
+        "menuItemDisableOfficeModeTitle": "Modo FMH habilitado",
         "menuItemQuitTitle": "Abandonar",
         "untilTimeText": "Prendido hasta <TIME>",
         "onText": "Prendido",
@@ -258,10 +258,10 @@
         "noOfficeFriendlyActivityButtonFirstText": "Si, suena bien",
         "noOfficeFriendlyActivityButtonSecondText": " ¡No, soy una maquina! No necesito descanso.",
         "officeModeEnabledSuccessfullyText": "¡OK! Solo le pediré que hagas actividades que no extrañen a otras personas (hacer flexiones en paradas de manos en la oficina podría verse raro).",
-        "menuItemUpgradeNowTitle":"Upgrade Now",
-        "subscriptionExpiredText":"Your subscription has expired",
-        "menuItemStartBreakTitle":"Start Break",
-        "menuItemBrainDumpTitle":"Brain Dump"
+        "menuItemUpgradeNowTitle": "Actualizar ahora",
+        "subscriptionExpiredText": "Su suscripción ha expirado",
+        "menuItemStartBreakTitle": "Descanso de inicio",
+        "menuItemBrainDumpTitle": "Brain Dump"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo de Pomodoro:",
@@ -287,11 +287,11 @@
         "workDurationZeroErrorText": "Duración del trabajo no puede ser 0.",
         "breakDurationEmptyErrorText": "Duración del descanso no puede estar vacío.",
         "breakDurationZeroErrorText": "Duración del descanso no puede ser 0.",
-        "versionText":"Version:",
-        "titleSound":"Sonido:",
-        "checkBoxSoundText":"Reproducir efectos de sonido",
-        "statisticsText":"Statistics:",
-        "updatesText":"Updates:"
+        "versionText": "Version:",
+        "titleSound": "Sonido:",
+        "checkBoxSoundText": "Reproducir efectos de sonido",
+        "statisticsText": "Estadísticas:",
+        "updatesText": "Actualizaciones:"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -332,11 +332,11 @@
         "disablePomodoroModeAlertText": "El modo de enfoque seleccionado está habilitado en el modo pomodoro Súper. Por favor deshabilite el modo pomodoro Súper para eliminar esto.",
         "buttonAddFocusTypeText": "Agrega modo de enfoque",
         "buttonDeleteFocusTypeText": "Eliminar",
-        "allowUrlInstructionFirstText":"To allow a certain website: domain.com",
-        "allowUrlInstructionSecondText":"To allow all subdomains of a website: *.domain.com",
-        "allowUrlInstructionThirdText":"To allow any web pages that contain text in the URL or page title: reactnative or React Native",
-        "blockUrlInstructionFirstText":"To block a certain website: domain.com",
-        "blockUrlInstructionSecondText":"To block all subdomains of a website: *.domain.com"
+        "allowUrlInstructionFirstText": "Para permitir un determinado sitio web escribe: dominio.com",
+        "allowUrlInstructionSecondText": "Para permitir todos los subdominios de un sitio web escribe: *.domain.com",
+        "allowUrlInstructionThirdText": "Para permitir cualquier página web que contenga texto en la URL o el título de la página: reactnative o React Native",
+        "blockUrlInstructionFirstText": "Para bloquear un determinado sitio web escribe: dominio.com",
+        "blockUrlInstructionSecondText": "Para bloquear todos los subdominios de un sitio web escribe: *.domain.com"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecute el script de Apple antes de iniciar el modo de enfoque.",
@@ -349,7 +349,7 @@
         "pleaseSelectScriptText": " Por favor seleccione un script de Apple.",
         "toolTipAdd": "Agregar",
         "toolTipRemove": "Remover",
-        "instructionText":"The URLs here will be blocked during this focus mode. Useful if you want to allow some websites but block others. For example, you could have *.google.com as an allowed URL but block games.google.com"
+        "instructionText": "Las URL aquí se bloquearán durante este modo de enfoque. Útil si desea permitir algunos sitios web pero bloquear otros. Por ejemplo, podría tener *.google.com como una URL permitida pero bloquear tv.google.com"
     },
     "focusInfo": {
         "focusAlreadyRunningText": "Ya se está ejecutando un modo de enfoque. Desactive el modo de enfoque en ejecución para iniciar uno nuevo.",
@@ -466,7 +466,7 @@
     "blockedUrlsViewInfo": {
         "title": " Las URL siempre bloqueadas",
         "invalidDomainText": "Agregar * bloqueará todas las URL. Utilice otra combinación.",
-        "subTitleText":"\"Block these URLs even if you're not in a focus block. You might want to put social media or news sites that you would rather not use at any time. You can always set up an evening routine activity where you explicitly allow access to Facebook so that you can still stay connected - just not during your morning routine/work day.\""
+        "subTitleText": "Bloquea estas URL incluso si no estás en un bloque de enfoque. Es posible que desees colocar redes sociales o sitios de noticias que preferirías no usar en ningún momento. Siempre puedes configurar una actividad de rutina vespertina la que permita explícitamente el acceso a Facebook para seguir conectado, excepto durante su rutina matutina o día de trabajo."
     },
     "rememberNextHabitViewInfo": {
         "randomPhraseRightChoice1": "¡Vas muy bien!",
@@ -509,8 +509,8 @@
         "registeredVersionText": "Suscripción activa",
         "logoutAlertText": "¿Está seguro de que deseas cerrar la sesión?",
         "titleUserIdText": "Identificación de usuario:",
-        "restoreText":"If you've already purchased a Focus Bear subscription, click Sync Payment Status to activate it here.",
-        "buttonRestoreText":"Sync Payment Status"
+        "restoreText": "If you've already purchased a Focus Bear subscription, click Sync Payment Status to activate it here.",
+        "buttonRestoreText": "Sync Payment Status"
     },
     "activityPostponeInfo": {
         "posponeHabitsText": "Si tienes alguna urgencia, puedes pausar tus hábitos por algunos minutos.",
@@ -523,7 +523,7 @@
         "buttonAbortBreakText": "Cancelar Interrupción",
         "posponedLastBreakText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes tomarlo esta vez?",
         "buttonEnableOfficeModeText": "Switch to office mode",
-        "officeModeEnableText": "Ok I'll give you some break activities that are appropriate to do in an office environment."
+        "officeModeEnableText": "Ok, te daré algunas actividades de descanso que recomendamos para hacer en un entorno de oficina"
     },
     "brainDumpVcInfo": {
         "title": "Focus Bear - Volcado de cerebros",
@@ -539,58 +539,58 @@
         "buttonSignUpText": "Regístrate"
     },
     "upgradeNowVcInfo": {
-        "pointFirstText": "Personalized habit routines",
-        "pointSecondText": "Productivity-boosting breaks",
-        "pointThirdText": "Customizable focus modes",
-        "pointFourthText": "Automatic goal tracking",
-        "buttonUpgradeNowText": "Upgrade Now",
-        "moneyBackText": "30 days money back guarantee",
-        "syncInfoText": "After you pay, click the Sync Payment Status button below",
-        "buttonRestoreText": "Sync Payment Status",
-        "subscriptionExpiredText":"Your subscription has expired"
+        "pointFirstText": "Rutinas de hábitos personalizadas",
+        "pointSecondText": "Descansos que aumentan la productividad",
+        "pointThirdText": "Modos de enfoque personalizables",
+        "pointFourthText": "Seguimiento automático de objetivos",
+        "buttonUpgradeNowText": "Actualizar ahora",
+        "moneyBackText": "30 días de garantía con devolución de dinero",
+        "syncInfoText": "Después de pagar, haz clic en el botón Sincronizar estado de pago a continuación",
+        "buttonRestoreText": "Sincronizar estado de pago",
+        "subscriptionExpiredText": "Su suscripción ha expirado"
     },
     "onboardingPostponeVcInfo": {
-        "title": "If you have something urgent, you can postpone the Onboarding process for few Minutes.",
-        "selectMinutesText": "Select minutes to postpone:",
-        "buttonPostponeText": "Postpone Onboarding"
+        "title": "Si tienes algo urgente, puedes posponer el proceso de inducción por unos minutos",
+        "selectMinutesText": "Seleccionar cuantos minutos a posponer:",
+        "buttonPostponeText": "Posponer inducción"
     },
     "welcomeOnboardingVcInfo": {
-        "subTitle": "Welcome aboard!",
-        "descriptionFirstText": "Looking forward to helping you form healthy habits and get more deep work done. The onboarding process takes 5 minutes and requires 100% attention from you.",
-        "descriptionSecondText": "You won't be able to use other apps during the onboarding. Do you have time now or shall we do it a bit later?",
-        "buttonLaterText":"A bit later please",
-        "buttonLetsDoItText": "Let's do it",
-        "allRightsReservedText": "© 2022 Focus Bear All Rights Reserved.",
-        "confirmText": "Just want to double check you are ok to focus 100% on onboarding for the next 2 minutes. The next step is full screen - you won't be able to use any other apps during this time.",
-        "buttonConfirmLetsDoItText": "You have my full attention",
+        "subTitle": "¡Bienvenido a bordo!",
+        "descriptionFirstText": "Espero poder ayudarte a formar hábitos saludables y realizar un bloques de trabajo más profundos. El proceso de inducciión demora cinco minutos y requiere el 100 % de tu atención",
+        "descriptionSecondText": "No podrás usar otras aplicaciones durante la inducción. ¿Tienes tiempo ahora o lo hacemos un poco más tarde?",
+        "buttonLaterText": "Un poco más tarde, por favor",
+        "buttonLetsDoItText": "Hagámoslo ya",
+        "allRightsReservedText": "© 2022 Focus Bear Todos los derechos reservados.",
+        "confirmText": "Sólo quiero confirmar por última vez que estás de acuerdo con esto; durante el próximo minuto no podrás usar otras aplicaciones mientras realices la inducción",
+        "buttonConfirmLetsDoItText": "Sí, hagámoslo, tengo un minuto",
         "buttonNeedMoreTimeText": "Uhh I need a few more minutes"
     },
     "upgradeNowUrl": "https://dashboard.focusbear.io/subscription",
     "customLoginVcInfo": {
-        "titleSignIn": "Sign In",
-        "titleSignUp": "Sign Up",
-        "subTitleCreateAccount": "Create an account",
-        "subTitleWelcomeback": "Welcome back",
-        "titleEmailAddress": "Email Address",
-        "titlePassword": "Password",
-        "titleConfirmPassword": "Confirm your password",
-        "buttonSignInText": "Sign In",
-        "buttonCreateAccountText": "Create an account",
-        "titleEmailIsBlank": "Email cannot be blank.",
-        "emailInvalidText": "Please enter a valid Email.",
-        "titlePasswordIsBlank": "Password cannot be blank.",
-        "passwordInvalidText": "Please enter a valid password.",
-        "titleInvalidEmail": "Invalid Email",
-        "titleConfirmPasswordBlank": "Confirm password cannot be blank.",
-        "confirmPasswordInvalidText": "Please enter a valid \"Confirm password\".",
-        "titlePasswordNotMatch": "Passwords do not match.",
-        "confirmPasswordNotMatchText": "Confirm Password does not match with the main password. Please re enter.",
-        "titleSignupFailed": "Signup failed.",
-        "titleLoginFailed": "Login failed."
+        "titleSignIn": "Iniciar sesión",
+        "titleSignUp": "Registrarse",
+        "subTitleCreateAccount": "Crear una cuenta",
+        "subTitleWelcomeback": "Bienvenido de nuevo",
+        "titleEmailAddress": "Correo electrónico",
+        "titlePassword": "Contraseña",
+        "titleConfirmPassword": "Confirma tu contraseña",
+        "buttonSignInText": "Iniciar sesión",
+        "buttonCreateAccountText": "Crear una cuenta",
+        "titleEmailIsBlank": "El correo electrónico no puede estar vacío.",
+        "emailInvalidText": "Ingrese un correo electrónico válido.",
+        "titlePasswordIsBlank": "La contraseña no puede estar vacía.",
+        "passwordInvalidText": "Por favor ingrese una contraseña válida.",
+        "titleInvalidEmail": "El correo electrónico no es válido",
+        "titleConfirmPasswordBlank": "La contraseña de confirmación no puede estar vacía.",
+        "confirmPasswordInvalidText": "Ingrese una \"Confirmar contraseña\" válida.",
+        "titlePasswordNotMatch": "Las contraseñas no coinciden.",
+        "confirmPasswordNotMatchText": "La contraseña de confirmación no coincide con la contraseña principal. Vuelve a ingresarla.",
+        "titleSignupFailed": "Error al registrarse.",
+        "titleLoginFailed": "Error al iniciar sesión."
     },
     "loginHelpVcInfo": {
-        "title": "An incognito window should open where you can Login or Register. If you don't see it, please try opening Safari manually. If you still can't see it",
-        "buttonClickHereText": "Click Here"
+        "title": "Debería abrirse una ventana de incógnito donde puede iniciar sesión o registrarse. Si no la ve, intenta abrir Safari manualmente. Si aún no puedes verla",
+        "buttonClickHereText": "Haga clic aquí",
     },
     "onboardingCardsInfo": {
         "title": "Important Notes",
