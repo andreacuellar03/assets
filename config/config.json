@@ -6,7 +6,8 @@
         "introActivities": [
             { "name": "Mindful Breathing", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=HhMXYsk_Pvo"] }
         ],
-        "welcomeVideoUrl": "https://www.youtube.com/watch?v=TvfNJ1AaT9M"
+        "welcomeVideoUrl": "https://www.youtube.com/watch?v=TvfNJ1AaT9M",
+        "welcomeMessageOnlyBreakIntro": "Throughout the day, I'll remind you to take regular breaks to keep your mind sharp and your body flexible. Here's an example of a break activity: 30 seconds of deep breathing."
     },
     "activityInfo":{
          "startMorningHabitTitleText":"Good Morning! Here are the habits to kick off an awesome day.",
@@ -54,7 +55,7 @@
         "focusBreakNotificationTitle":"Your break ends in",
         "tabGeneralText":"General",
         "tabFocusText":"Focus",
-        "tabSettingsText":"Edit Habits",
+        "tabEditHabitsText":"Edit Habits",
         "tabPasswordText":"Password",
         "tabBlockedURLsText":"Blocked URLs",
         "tabUninstallText":"Uninstall",
@@ -66,7 +67,7 @@
         "saturdayText":"Saturday",
         "sundayText":"Sunday",
         "andText":"and",
-        "tabAccountsText": "Accounts",
+        "tabAccountsText": "Account",
         "checkInternetText": "Unable to connect to server. Please check your internet connection.",
         "uninstallingText": "Uninstalling..",
         "askUninstallReasonText": "Can you share why you're uninstalling?",
@@ -86,7 +87,11 @@
         "hoursText":"hours",
         "timeIncorrectText":"Your system time seems to be incorrect - it's saying the current time is <SYSTEM_TIME> but the actual time is <TRUE_TIME>. Focus Bear won't work properly if you don't have your system time configured correctly. Once you have adjusted the time settings, click \"I am ready to start my habits\" button below.",
         "buttonIAmReadyText":"I am ready to start my habits",
-        "buttonInstructionsText":"Click Here to see instructions for fixing your time settings"
+        "buttonInstructionsText":"Click Here to see instructions for fixing your time settings",
+        "notificationVideoCallText":"Looks like you're in a video call. I won't interrupt you with micro-breaks during the meeting to avoid embarrassing screensharing moments. Enjoy the meeting!",
+        "tabSettingsText":"Settings",
+        "tabPomodoroText":"Pomodoro",
+        "tabAdvancedText":"Advanced"
     },
     "abortInfo":{
         "abortingTitle":"Cancelling..",
@@ -255,7 +260,11 @@
         "menuItemUpgradeNowTitle":"Upgrade Now",
         "subscriptionExpiredText":"Your subscription has expired",
         "menuItemStartBreakTitle":"Start Break",
-        "menuItemBrainDumpTitle":"Brain Dump"
+        "menuItemBrainDumpTitle":"Brain Dump",
+        "toolTipOfficeMode":"When you're working from the office, I will only give you appropriate break activities (e.g. chair stretches rather than pushups).",
+        "toolTipWfhMode":"No-one's around! You can do break activities that are a bit more fun (e.g. Dance like no-one's watching).",
+        "menuItemToolsTitle":"Tools >",
+        "menuItemOpenToolboxTitle":"Open Toolbox"
     },
     "preferencesInfo":{
         "titlePomodoro":"Pomodoro Mode:",
@@ -330,7 +339,8 @@
         "allowUrlInstructionSecondText":"To allow all subdomains of a website: *.domain.com",
         "allowUrlInstructionThirdText":"To allow any web pages that contain text in the URL or page title: reactnative or React Native",
         "blockUrlInstructionFirstText":"To block a certain website: domain.com",
-        "blockUrlInstructionSecondText":"To block all subdomains of a website: *.domain.com"
+        "blockUrlInstructionSecondText":"To block all subdomains of a website: *.domain.com",
+        "lockedFocusText":"Locked Focus on current activity"
     },
     "focusPreferencesAdvancedInfo":{
         "runScriptBeforeText":"Run apple script before starting focus mode.",
@@ -353,7 +363,10 @@
             "hoursText":"hours",
             "minutesText":"minutes",
             "title":"Starting Focus type - <FOCUSTYPE>",
-            "questionText":"What do you plan to achieve during this focus block?"
+            "questionText":"What do you plan to achieve during this focus block?",
+            "onlyAllowSelectedAppText":"You'll only be able to use <APP>",
+            "onlyAllowSelectedAppAndUrlText":"You'll only be able to use \"<URL>\" in <APP>",
+            "explanationText":"Setting an intention for the focus block helps prime your brain to accomplish that task. To edit the intention after starting the focus mode, click Brain Dump in the menu bar."
         },
         "abortingFocusModeInfo":{
             "title":"Deactivating Focus Block - <FOCUSTYPE>",
@@ -460,7 +473,7 @@
     "blockedUrlsViewInfo":{
         "title":"Always Blocked URLs",
         "invalidDomainText":"Adding * will block all urls. Please use another combination.",
-        "subTitleText":"Block these URLs even if you're not in a focus block. You might want to put social media or news sites that you would rather not use at any time. You can always set up an evening routine activity where you explicitly allow access to Facebook so that you can still stay connected - just not during your morning routine/work day."
+        "subTitleText":"\"Block these URLs even if you're not in a focus block. You might want to put social media or news sites that you would rather not use at any time. You can always set up an evening routine activity where you explicitly allow access to Facebook so that you can still stay connected - just not during your morning routine/work day.\""
     },
     "rememberNextHabitViewInfo":{
         "randomPhraseRightChoice1":"Right on!",
@@ -580,7 +593,10 @@
         "titlePasswordNotMatch": "Passwords do not match.",
         "confirmPasswordNotMatchText": "Confirm Password does not match with the main password. Please re enter.",
         "titleSignupFailed": "Signup failed.",
-        "titleLoginFailed": "Login failed."
+        "titleLoginFailed": "Login failed.",
+        "titlePasswordRules": "Password rules:",
+        "passwordRulesText": "* At least 8 characters in length\n* Contain at least 3 of the following 4 types of characters:\n* lower case letters (a-z)\n* upper case letters (A-Z)\n* numbers (i.e. 0-9)\n* special characters (e.g. !@#$%^&*)",
+        "buttonForgotPasswordText": "Forgot Password"
     },
     "loginHelpVcInfo": {
         "title": "An incognito window should open where you can Login or Register. If you don't see it, please try opening Safari manually. If you still can't see it",
@@ -590,6 +606,28 @@
         "title": "Important Notes",
         "controllingBrowserText": "Controlling Your Browser",
         "controllingBrowserDescription":"When you next open a browser tab, you'll see this popup. The reason we ask for permissions to control your browser is so we can block distracting websites when you activate focus mode.",
-        "buttonGotItText":"Got it"
+        "buttonGotItText":"Got it",
+        "titleSignUpSuccessful":"Sign up successful",
+        "signupSuccessText":"Great you're all signed up. I'll just give you a few tips before you start using it."
+    },
+    "breakWarningVcInfo": {
+        "title": "Your Break starts in",
+        "buttonPostponeText": "Postpone for 5 minutes",
+        "postponeConfirmText": "You postponed the last break - are you sure you can't make time for The break now?",
+        "buttonTakeBreakText": "Argh ok I'll take a break!"
+    },
+    "askAppWorkVcInfo": {
+        "title": "Welcome to Focus Bear",
+        "questionText": "What are your goals?",
+        "checkBoxFirstText": "Help me develop healthy habits in the morning (e.g. meditate before starting work) and evening (e.g. have dinner with loved ones)",
+        "checkBoxSecondText": "Help me stay focused during the work day",
+        "buttonContinueText": "Continue"
+    },
+    "toolBoxVcInfo": {
+        "title": "The toolbox makes it easy to open the apps and websites that you've allowed in the <FOCUS_NAME> focus mode. You can access it from the Menu under Tools.",
+        "checkBoxText": "Don't show this anymore when I start a focus block",
+        "appsText": "Apps:",
+        "urlsText": "Urls:",
+        "windowTitleText": "Focus Bear - Toolbox"
     }
 }
