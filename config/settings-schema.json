@@ -7,6 +7,7 @@
     "default": {},
     "examples": [
         {
+            "has_edited_settings": false,
             "shutdown_time": "19:15",
             "morning_activities": [
                 {
@@ -56,6 +57,17 @@
             "pattern": "^([01][0-9]|2[0-3]):([0-5][0-9])$",
             "examples": [
                 "19:15"
+            ]
+        },
+        "has_edited_settings": {
+            "$id": "#/properties/has_edited_settings",
+            "type": "boolean",
+            "title": "Has edited settings",
+            "description": "Boolean value indicating whether settings have been edited",
+            "default": false,
+            "examples": [
+                true,
+                false
             ]
         },
         "morning_activities": {
