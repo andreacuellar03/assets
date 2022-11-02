@@ -91,7 +91,11 @@
         "notificationVideoCallText":"Looks like you're in a video call. I won't interrupt you with micro-breaks during the meeting to avoid embarrassing screensharing moments. Enjoy the meeting!",
         "tabSettingsText":"Settings",
         "tabPomodoroText":"Pomodoro",
-        "tabAdvancedText":"Advanced"
+        "tabAdvancedText":"Advanced",
+        "graphQuantityText":"Quantity",
+        "graphMinutesText":"Minutes",
+        "graphDateText":"Date",
+        "graphTimeText":"Time"
     },
     "abortInfo":{
         "abortingTitle":"Cancelling..",

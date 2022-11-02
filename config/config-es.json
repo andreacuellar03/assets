@@ -97,7 +97,11 @@
         "notificationVideoCallText":"Looks like you're in a video call. I won't interrupt you with micro-breaks during the meeting to avoid embarrassing screensharing moments. Enjoy the meeting!",
         "tabSettingsText":"Settings",
         "tabPomodoroText":"Pomodoro",
-        "tabAdvancedText":"Advanced"
+        "tabAdvancedText":"Advanced",
+        "graphQuantityText":"Quantity",
+        "graphMinutesText":"Minutes",
+        "graphDateText":"Date",
+        "graphTimeText":"Time"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -599,14 +603,14 @@
         "titlePasswordNotMatch": "Las contraseñas no coinciden.",
         "confirmPasswordNotMatchText": "La contraseña de confirmación no coincide con la contraseña principal. Vuelve a ingresarla.",
         "titleSignupFailed": "Error al registrarse.",
-        "titleLoginFailed": "Error al iniciar sesión."
+        "titleLoginFailed": "Error al iniciar sesión.",
         "titlePasswordRules": "Password rules:",
         "passwordRulesText": "* At least 8 characters in length\n* Contain at least 3 of the following 4 types of characters:\n* lower case letters (a-z)\n* upper case letters (A-Z)\n* numbers (i.e. 0-9)\n* special characters (e.g. !@#$%^&*)",
         "buttonForgotPasswordText": "Forgot Password"
     },
     "loginHelpVcInfo": {
         "title": "Debería abrirse una ventana de incógnito donde puede iniciar sesión o registrarse. Si no la ve, intenta abrir Safari manualmente. Si aún no puedes verla",
-        "buttonClickHereText": "Haga clic aquí",
+        "buttonClickHereText": "Haga clic aquí"
     },
     "onboardingCardsInfo": {
         "title": "Important Notes",
