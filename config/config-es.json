@@ -304,7 +304,12 @@
         "titleSound": "Sonido:",
         "checkBoxSoundText": "Reproducir efectos de sonido",
         "statisticsText": "Estadísticas:",
-        "updatesText": "Actualizaciones:"
+        "updatesText": "Actualizaciones:",
+        "titleAppMode":"Focus bear mode:",
+        "checkBoxCuddlyBearText":"Cuddly Bear mode",
+        "descriptionCuddlyBearText":"Cuddly Bear mode: kind and gentle - gives you the benefit of the doubt when you open a non-allowed URL. Lets you temporarily allow blocked URLs during a focus mode.",
+        "checkBoxGrizzlyBearText":"Grizzly Bear mode",
+        "descriptionGrizzlyBearText":"Grizzly Bear mode: super strict - immediately block URLs that aren't allowed and don't let yourself allow them until the focus mode is over."
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -350,7 +355,13 @@
         "allowUrlInstructionThirdText": "Para permitir cualquier página web que contenga texto en la URL o el título de la página: reactnative o React Native",
         "blockUrlInstructionFirstText": "Para bloquear un determinado sitio web escribe: dominio.com",
         "blockUrlInstructionSecondText": "Para bloquear todos los subdominios de un sitio web escribe: *.domain.com",
-        "lockedFocusText":"Locked Focus on current activity"
+        "lockedFocusText":"Locked Focus on current activity",
+        "titleBlockedAllUrls":"Block all urls",
+        "titleBlockedSelectedUrls":"Block selected urls (works with Safari and Chrome only)",
+        "titleAllowUrlListApproch":"Block everything except safe sites that I choose",
+        "titleBlockUrlListApproch":"Allow everything except certain distracting sites",
+        "allowUrlsQuestionText":"How do you want to allow URLs?",
+        "blockUrlsQuestionText":"How do you want to block URLs?"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecute el script de Apple antes de iniciar el modo de enfoque.",
@@ -420,7 +431,7 @@
             "titleGoodLuck": "¡OK buena suerte! (La necesitarás 😅)"
         },
         "suggestFocusInfo": {
-            "title": "Parece que estás en una reunión. ¿Necesitará usar otras aplicaciones durante la reunión? Si no, puedo bloquear todo lo demás para ayudarte a concentrarte.",
+            "title": "¿Necesitará usar otras aplicaciones durante la reunión? Si no, puedo bloquear todo lo demás para ayudarte a concentrarte.",
             "subTitle": "Al seleccionar \"Bloquear todo lo demás\", la aplicación iniciará el modo de enfoque \"Reuniones\".",
             "buttonBlockText": "Bloquea todo lo demás",
             "buttonCancelText": "Está bien que use otras aplicaciones durante esta reunión"
@@ -540,7 +551,9 @@
         "buttonAbortBreakText": "Cancelar Interrupción",
         "posponedLastBreakText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes tomarlo esta vez?",
         "buttonEnableOfficeModeText": "Switch to office mode",
-        "officeModeEnableText": "Ok, te daré algunas actividades de descanso que recomendamos para hacer en un entorno de oficina"
+        "officeModeEnableText": "Ok, te daré algunas actividades de descanso que recomendamos para hacer en un entorno de oficina",
+        "postponedLastHabitText": "You've postponed your habits a few times. Are you sure you want to postpone again?",
+        "buttonDoHabitText": "I changed my mind - I'll do my habits"
     },
     "brainDumpVcInfo": {
         "title": "Focus Bear - Volcado de cerebros",

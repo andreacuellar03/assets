@@ -298,7 +298,12 @@
         "titleSound":"Sound:",
         "checkBoxSoundText":"Play sound effects",
         "statisticsText":"Statistics:",
-        "updatesText":"Updates:"
+        "updatesText":"Updates:",
+        "titleAppMode":"Focus bear mode:",
+        "checkBoxCuddlyBearText":"Cuddly Bear mode",
+        "descriptionCuddlyBearText":"Cuddly Bear mode: kind and gentle - gives you the benefit of the doubt when you open a non-allowed URL. Lets you temporarily allow blocked URLs during a focus mode.",
+        "checkBoxGrizzlyBearText":"Grizzly Bear mode",
+        "descriptionGrizzlyBearText":"Grizzly Bear mode: super strict - immediately block URLs that aren't allowed and don't let yourself allow them until the focus mode is over."
     },
     "focusPreferencesInfo":{
         "titleFocusType":"Focus Type:",
@@ -344,7 +349,13 @@
         "allowUrlInstructionThirdText":"To allow any web pages that contain text in the URL or page title: reactnative or React Native",
         "blockUrlInstructionFirstText":"To block a certain website: domain.com",
         "blockUrlInstructionSecondText":"To block all subdomains of a website: *.domain.com",
-        "lockedFocusText":"Locked Focus on current activity"
+        "lockedFocusText":"Locked Focus on current activity",
+        "titleBlockedAllUrls":"Block all urls",
+        "titleBlockedSelectedUrls":"Block selected urls (works with Safari and Chrome only)",
+        "titleAllowUrlListApproch":"Block everything except safe sites that I choose",
+        "titleBlockUrlListApproch":"Allow everything except certain distracting sites",
+        "allowUrlsQuestionText":"How do you want to allow URLs?",
+        "blockUrlsQuestionText":"How do you want to block URLs?"
     },
     "focusPreferencesAdvancedInfo":{
         "runScriptBeforeText":"Run apple script before starting focus mode.",
@@ -414,7 +425,7 @@
             "titleGoodLuck":"Ok good luck! (You'll need it 😅)"
         },
         "suggestFocusInfo":{
-            "title":"It looks like you're in a meeting. Will you need to use other apps during the meeting? If not, I can block everything else to help you concentrate.",
+            "title":"Will you need to use other apps during the meeting? If not, I can block everything else to help you concentrate.",
             "subTitle":"On selecting \"Block everything else\" the app will start \"Meetings\" focus mode.",
             "buttonBlockText":"Block everything else",
             "buttonCancelText":"It's ok for me to use other apps during this meeting"
@@ -534,7 +545,9 @@
         "buttonAbortBreakText": "Abort Break Activity",
         "postponedLastBreakText": "You postponed the last break - are you sure you can't make time for the break now?",
         "buttonEnableOfficeModeText": "Switch to office mode",
-        "officeModeEnableText": "Ok I'll give you some break activities that are appropriate to do in an office environment."
+        "officeModeEnableText": "Ok I'll give you some break activities that are appropriate to do in an office environment.",
+        "postponedLastHabitText": "You've postponed your habits a few times. Are you sure you want to postpone again?",
+        "buttonDoHabitText": "I changed my mind - I'll do my habits"
     },
     "brainDumpVcInfo": {
         "title": "Focus Bear - Brain dump",
