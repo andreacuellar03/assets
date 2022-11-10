@@ -98,10 +98,10 @@
         "tabSettingsText":"Settings",
         "tabPomodoroText":"Pomodoro",
         "tabAdvancedText":"Advanced",
-        "graphQuantityText":"Quantity",
-        "graphMinutesText":"Minutes",
-        "graphDateText":"Date",
-        "graphTimeText":"Time"
+        "graphQuantityText":"Cantidad",
+        "graphMinutesText":"Minutos",
+        "graphDateText":"Fecha",
+        "graphTimeText":"Tiempo"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
