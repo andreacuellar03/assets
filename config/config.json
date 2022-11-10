@@ -625,7 +625,7 @@
         "controllingBrowserDescription":"When you next open a browser tab, you'll see this popup. The reason we ask for permissions to control your browser is so we can block distracting websites when you activate focus mode.",
         "buttonGotItText":"Got it",
         "titleSignUpSuccessful":"Sign up successful",
-        "signupSuccessText":"Great you're all signed up. I'll just give you a few tips before you start using it."
+        "signupSuccessText":"Great you're all signed up. I'll give you a few tips before you start using it. It will just take a few more minutes."
     },
     "breakWarningVcInfo": {
         "title": "Your Break starts in",
