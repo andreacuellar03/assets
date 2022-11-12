@@ -101,12 +101,13 @@
         "tabSettingsText":"Settings",
         "tabPomodoroText":"Pomodoro",
         "tabAdvancedText":"Advanced",
-        "graphQuantityText":"Quantity",
-        "graphMinutesText":"Minutes",
-        "graphDateText":"Date",
-        "graphTimeText":"Time",
+        "graphQuantityText":"Cantidad",
+        "graphMinutesText":"Minutos",
+        "graphDateText":"Fecha",
+        "graphTimeText":"Tiempo",
         "buttonBackToMyHabitsText":"Back to my habits",
         "activitiesSyncErrorText":"Focus Bear was not able to sync the activities' statistics due to bad internet."
+
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -322,6 +323,7 @@
         "descriptionGrizzlyBearText":"Grizzly Bear mode: super strict - immediately block URLs that aren't allowed and don't let yourself allow them until the focus mode is over.",
         "pomodoroDescriptionText":"Pomodoro Mode cycles between deep work blocks where a focus mode is turned on (and distractions turned off) and break periods.",
         "buttonLearnPomodoroTechniqueText":"Learn more about the pomodoro technique here."
+
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
