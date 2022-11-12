@@ -14,7 +14,7 @@
             }
         ],
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=TvfNJ1AaT9M",
-        "welcomeMessageOnlyBreakIntro": "Throughout the day, I'll remind you to take regular breaks to keep your mind sharp and your body flexible. Here's an example of a break activity: 30 seconds of deep breathing."
+        "welcomeMessageOnlyBreakIntro": "A lo largo del día, te recordaré que tomes descansos regulares para mantener tu mente alerta y tu cuerpo flexible. Este es un ejemplo de una actividad de descanso: 30 segundos de respiración profunda."
     },
     "activityInfo": {
         "startMorningHabitTitleText": "¡Buenos días! Es hora de enfocarse. Estos son los hábitos que debe lograr antes de poder usar su computadora.",
@@ -305,11 +305,12 @@
         "checkBoxSoundText": "Reproducir efectos de sonido",
         "statisticsText": "Estadísticas:",
         "updatesText": "Actualizaciones:",
-        "titleAppMode":"Focus bear mode:",
-        "checkBoxCuddlyBearText":"Cuddly Bear mode",
-        "descriptionCuddlyBearText":"Cuddly Bear mode: kind and gentle - gives you the benefit of the doubt when you open a non-allowed URL. Lets you temporarily allow blocked URLs during a focus mode.",
-        "checkBoxGrizzlyBearText":"Grizzly Bear mode",
-        "descriptionGrizzlyBearText":"Grizzly Bear mode: super strict - immediately block URLs that aren't allowed and don't let yourself allow them until the focus mode is over."
+        "titleAppMode":"Modo de oso de enfoque:",
+        "checkBoxCuddlyBearText":"Modo de osito de peluche",
+        "descriptionCuddlyBearText":"Modo de osito de peluche: amable y gentil: te da el beneficio de la duda cuando abres una URL no permitida. Te deja permitir temporalmente las URL bloqueadas durante un modo de enfoque.",
+        "checkBoxGrizzlyBearText":"Modo de oso pardo",
+        "descriptionGrizzlyBearText":"Modo Grizzly Bear: súper estricto: bloquea inmediatamente las URL que no están permitidas y no se permita permitirlas hasta que finalice el modo de enfoque."
+
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -356,12 +357,12 @@
         "blockUrlInstructionFirstText": "Para bloquear un determinado sitio web escribe: dominio.com",
         "blockUrlInstructionSecondText": "Para bloquear todos los subdominios de un sitio web escribe: *.domain.com",
         "lockedFocusText":"Locked Focus on current activity",
-        "titleBlockedAllUrls":"Block all urls",
-        "titleBlockedSelectedUrls":"Block selected urls (works with Safari and Chrome only)",
-        "titleAllowUrlListApproch":"Block everything except safe sites that I choose",
-        "titleBlockUrlListApproch":"Allow everything except certain distracting sites",
-        "allowUrlsQuestionText":"How do you want to allow URLs?",
-        "blockUrlsQuestionText":"How do you want to block URLs?"
+        "titleBlockedAllUrls":"Bloquear todas las URL",
+        "titleBlockedSelectedUrls":"Bloquear URL seleccionadas (solo funciona con Safari y Chrome)",
+        "titleAllowUrlListApproch":"Bloquear todo excepto los sitios seguros que elija",
+        "titleBlockUrlListApproch":"Permitir todo excepto ciertos sitios que me distraen",
+        "allowUrlsQuestionText":"¿Cómo deseas permitir las URL?",
+        "blockUrlsQuestionText":"¿Cómo deseas bloquear las URL?"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecute el script de Apple antes de iniciar el modo de enfoque.",
@@ -552,8 +553,9 @@
         "posponedLastBreakText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes tomarlo esta vez?",
         "buttonEnableOfficeModeText": "Switch to office mode",
         "officeModeEnableText": "Ok, te daré algunas actividades de descanso que recomendamos para hacer en un entorno de oficina",
-        "postponedLastHabitText": "You've postponed your habits a few times. Are you sure you want to postpone again?",
-        "buttonDoHabitText": "I changed my mind - I'll do my habits"
+        "postponedLastHabitText": "Has pospuesto tus hábitos varias veces. ¿Estás seguro de que quieres posponerlos otra vez?",
+        "buttonDoHabitText": "Cambié de parecer, seguiré con mis hábitos"
+
     },
     "brainDumpVcInfo": {
         "title": "Focus Bear - Volcado de cerebros",
