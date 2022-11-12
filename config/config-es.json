@@ -1,7 +1,7 @@
 {
     "welcomeInfo": {
         "welcomeMessageHeading": "Bienvenido a Focus Bear",
-        "welcomeMessageIntro": "Cada mañana, evitaré que siga su impulso de revisar su correo electrónico/Facebook y le invitaré a seguir su rutina matutina en su lugar. Puede configurar su propia rutina luego, pero por ahora te sugiero una actividad: 1 minuto de respiración consciente. Mientras respira profundamente, piense en lo increíble que serás si se compromete a su rutina matutina todos los días.",
+        "welcomeMessageIntro": "Cada mañana, evitaré que siga su impulso de revisar su correo electrónico/Facebook y le invitaré a seguir su rutina matutina en su lugar.\nPuede configurar su propia rutina luego, pero por ahora te sugiero una actividad: 1 minuto de respiración consciente.\nMientras respira profundamente, piense en lo increíble que serás si se compromete a su rutina matutina todos los días.",
         "welcomeEndMessage": "Espero que se sienta más tranquilo. Ahora puede personalizar su rutina matutina haciendo clic en el ícono <icon> en la barra superior y seleccionando Preferencias -> Configuraciones.",
         "preloadFocusModesDoneText": "Aquí podrás ver un video corto que explica cómo utilizar Focus Bear.",
         "introActivities": [
@@ -33,7 +33,10 @@
         "buttonReviseQuantityText": "Revisa Cantidad",
         "buttonBeginText": "Comenzar",
         "visualizeDescriptionText": "Antes de comenzar tu rutina, tómate 30 segundos para realizar un \"enfoque extrapersonal\": procura mantener la mirada fija en un punto. Estudios científicos por “Balcetis and colleagues” en 2020 indican que enfocarse en un punto fijoagudizará tu capacidad de concentración y aumentará la probabilidad de completar tu rutina.",
-        "titleGetFocused": "Concéntrate"
+        "titleGetFocused": "Concéntrate",
+        "activitySkippedText":"<ACTIVITY> skipped!",
+        "lastActivitySkippedText":"<ACTIVITY> skipped! You’ve earned your screen time. 💪",
+        "buttonSkipHabitText":"Skip this habit for today"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -101,7 +104,9 @@
         "graphQuantityText":"Quantity",
         "graphMinutesText":"Minutes",
         "graphDateText":"Date",
-        "graphTimeText":"Time"
+        "graphTimeText":"Time",
+        "buttonBackToMyHabitsText":"Back to my habits",
+        "activitiesSyncErrorText":"Focus Bear was not able to sync the activities' statistics due to bad internet."
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -189,6 +194,11 @@
                 "description": "¿Puedes decirnos por qué quieres dejar de recibir notificaciones de hábitos y descansos?﹡",
                 "finalDescription": "¡Esperamos que pronto retomes los hábitos! Lo veremos pronto."
             }
+        },
+        "askQuitVcInfo":{
+            "subTitle":"Do you want to quit the app completely or just take a break for a few hours?",
+            "buttonDiableAppText":"Give me a break for 4hrs",
+            "buttonQuitText":"Turn it off completely - I'll turn it back on when I'm ready"
         }
     },
     "shutOffTimeInfo": {
@@ -309,7 +319,9 @@
         "checkBoxCuddlyBearText":"Cuddly Bear mode",
         "descriptionCuddlyBearText":"Cuddly Bear mode: kind and gentle - gives you the benefit of the doubt when you open a non-allowed URL. Lets you temporarily allow blocked URLs during a focus mode.",
         "checkBoxGrizzlyBearText":"Grizzly Bear mode",
-        "descriptionGrizzlyBearText":"Grizzly Bear mode: super strict - immediately block URLs that aren't allowed and don't let yourself allow them until the focus mode is over."
+        "descriptionGrizzlyBearText":"Grizzly Bear mode: super strict - immediately block URLs that aren't allowed and don't let yourself allow them until the focus mode is over.",
+        "pomodoroDescriptionText":"Pomodoro Mode cycles between deep work blocks where a focus mode is turned on (and distractions turned off) and break periods.",
+        "buttonLearnPomodoroTechniqueText":"Learn more about the pomodoro technique here."
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -374,7 +386,9 @@
         "pleaseSelectScriptText": " Por favor seleccione un script de Apple.",
         "toolTipAdd": "Agregar",
         "toolTipRemove": "Remover",
-        "instructionText": "Las URL aquí se bloquearán durante este modo de enfoque. Útil si desea permitir algunos sitios web pero bloquear otros. Por ejemplo, podría tener *.google.com como una URL permitida pero bloquear tv.google.com"
+        "instructionText": "Las URL aquí se bloquearán durante este modo de enfoque. Útil si desea permitir algunos sitios web pero bloquear otros. Por ejemplo, podría tener *.google.com como una URL permitida pero bloquear tv.google.com",
+        "autoOnDoNotDisturbText":"Turn on Do Not Disturb automatically when starting a focus mode.",
+        "needDndPermissionText":"To turn on Do Not Disturb when starting a Focus Mode, Focus Bear needs Accessibility permissions. Would you like to give the permissions now?"
     },
     "focusInfo": {
         "focusAlreadyRunningText": "Ya se está ejecutando un modo de enfoque. Desactive el modo de enfoque en ejecución para iniciar uno nuevo.",
@@ -408,7 +422,7 @@
         },
         "focusSummaryInfo": {
             "title": "Completaste <COUNT> bloque/bloques de enfoque hoy.",
-            "buttonContinueText": "Continuar",
+            "buttonContinueText": "Start Evening Routine",
             "focusTableColumnFirstText": "Tipo de Enfoque",
             "focusTableColumnSecondText": "Hora de inicio",
             "focusTableColumnThirdText": "Duración",
@@ -421,7 +435,7 @@
             "titleActivitySummaryText": "Resumen de la Actividad:",
             "titleFocusSummaryText": "Resumen de Enfoque:",
             "totalFocusTimeText": "Tiempo total de enfoque: <TIME>",
-            "buttonNeedMoreTimeText": " Necesito un minuto más",
+            "buttonNeedMoreTimeText": "I need to work for one more minute",
             "buttonStillNeedMoreTimeText": "Todavía necesito trabajar más tiempo"
         },
         "discourageDefaultFocusInfo": {
@@ -506,7 +520,8 @@
         "Title": "¿ Qué sigue?",
         "description": "Quiero asegurarme de que usted no se vuelva demasiado dependiente de mí. Habrá días en los que no tenga acceso a su computadora, pero eso no significa que no cumplirá con sus hábitos. Piense en mí como ruedas de entrenamiento de una bicileta: estoy aquí para ayudarle a consolidar sus hábitos hasta que se vuelvan automáticos. Hagamos un ejercicio rápido para asegurarnos de que recuerda cómo acumular sus hábitos incluso cuando no estoy presente.",
         "questionText": "Acabas de completar <LAST_HABIT_NAME>. ¿Qué hábito harás a continuación?",
-        "selectHabitText": "Selecciona Hábito"
+        "selectHabitText": "Selecciona Hábito",
+        "enterToChooseText":"Press enter to choose an option"
     },
     "preloadFocusModesViewInfo": {
         "title": "¿Qué tipo de trabajo realiza principalmente?",
@@ -516,7 +531,8 @@
         "titleDataAnalysis": "Análisis de datos",
         "titleSomethingElse": "Algo diferente",
         "buttonContinueText": "Continuar",
-        "workText": "Trabajo"
+        "workText": "Trabajo",
+        "placeholderWorkText":"Rocket Surgery"
     },
     "pomodoroPreferencesAdvancedInfo": {
         "checkBoxUseHardcorePomodoroText": "Usa el modo pomodoro Súper",
@@ -631,7 +647,13 @@
         "controllingBrowserDescription":"When you next open a browser tab, you'll see this popup. The reason we ask for permissions to control your browser is so we can block distracting websites when you activate focus mode.",
         "buttonGotItText":"Got it",
         "titleSignUpSuccessful":"Sign up successful",
-        "signupSuccessText":"Great you're all signed up. I'll just give you a few tips before you start using it."
+        "signupSuccessText":"Great you're all signed up. I'll just give you a few tips before you start using it.",
+        "buildingHabitsText":"Building Better Habits",
+        "buildingHabitsDescription":"Focus Bear will help you develop stronger habits in the morning and evening by blocking distractions. But don't worry - if you need to access your computer in a hurry, just click the \"Please spare me\" button in the top right.",
+        "brainBreaksText":"Brain Breaks",
+        "brainBreaksDescription":"To avoid screen headaches and neck strain, Focus Bear will encourage you to take breaks at regular intervals. We give you a 30 second warning so you can postpone the break if it's a bad time. We also detect if you're in a meeting and don't show breaks as that might lead to awkward screensharing moments otherwise!",
+        "buttonBackText":"Back",
+        "buttonNextText":"Next"
     },
     "breakWarningVcInfo": {
         "title": "Your Break starts in",
@@ -652,5 +674,15 @@
         "appsText": "Apps:",
         "urlsText": "Urls:",
         "windowTitleText": "Focus Bear - Toolbox"
+    },
+    "skipHabitVcInfo": {
+        "title": "Skipping habit in",
+        "buttonDoHabitsText": "I changed my mind - I'll do my habits"
+    },
+    "popUpBlockConfirmVcInfo": {
+        "title": "Do you need to use <URL> when you're focusing on <FOCUSTYPE>?",
+        "buttonAllowText": "Yes - just this time",
+        "buttonBlockText": "No - I was getting distracted",
+        "buttonEditSettingsText": "Edit Settings"
     }
 }
