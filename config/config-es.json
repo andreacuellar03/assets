@@ -36,7 +36,9 @@
         "titleGetFocused": "Concéntrate",
         "activitySkippedText":"<ACTIVITY> skipped!",
         "lastActivitySkippedText":"<ACTIVITY> skipped! You’ve earned your screen time. 💪",
-        "buttonSkipHabitText":"Skip this habit for today"
+        "buttonSkipHabitText":"Skip this habit for today",
+        "buttonPostponeBreakText":"Postpone break for five minutes",
+        "breakDurationText":"Break Activites Duration: <DURATION>"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -106,7 +108,9 @@
         "graphDateText":"Date",
         "graphTimeText":"Time",
         "buttonBackToMyHabitsText":"Back to my habits",
-        "activitiesSyncErrorText":"Focus Bear was not able to sync the activities' statistics due to bad internet."
+        "activitiesSyncErrorText":"Focus Bear was not able to sync the activities' statistics due to bad internet.",
+        "alertAppRestartText":"Focus Bear automatically restarts if it gets force quit/crashes to make sure you always have help combatting distractions. If you want to quit the app/take a break, use the Quit option from the Focus Bear menu bar.",
+        "buttonDontTellAgainText":"Got it - don't tell me again"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -321,7 +325,9 @@
         "checkBoxGrizzlyBearText":"Grizzly Bear mode",
         "descriptionGrizzlyBearText":"Grizzly Bear mode: super strict - immediately block URLs that aren't allowed and don't let yourself allow them until the focus mode is over.",
         "pomodoroDescriptionText":"Pomodoro Mode cycles between deep work blocks where a focus mode is turned on (and distractions turned off) and break periods.",
-        "buttonLearnPomodoroTechniqueText":"Learn more about the pomodoro technique here."
+        "buttonLearnPomodoroTechniqueText":"Learn more about the pomodoro technique here.",
+        "titleDockIcon":"Dock icon:",
+        "checkBoxShowDockIconText":"Show Dock icon"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
