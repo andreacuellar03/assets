@@ -321,6 +321,7 @@
         "descriptionCuddlyBearText":"Modo de osito de peluche: amable y gentil: te da el beneficio de la duda cuando abres una URL no permitida. Te deja permitir temporalmente las URL bloqueadas durante un modo de enfoque.",
         "checkBoxGrizzlyBearText":"Modo de oso pardo",
         "descriptionGrizzlyBearText":"Modo Grizzly Bear: súper estricto: bloquea inmediatamente las URL que no están permitidas y no se permita permitirlas hasta que finalice el modo de enfoque.",
+        "pomodoroDescriptionText":"El modo Pomodoro alterna entre bloques de trabajo profundo donde se enciende cualquier focus mode (y las distracciones se apagan) y periodos de descanso.",
         "buttonLearnPomodoroTechniqueText":"Aprende más acerca de la técnica Pomodoro aquí."
     },
     "focusPreferencesInfo": {
