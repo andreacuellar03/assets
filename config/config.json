@@ -105,7 +105,6 @@
         "activitiesSyncErrorText":"Focus Bear was not able to sync the activities' statistics due to bad internet.",
         "alertAppRestartText":"Focus Bear automatically restarts if it gets force quit/crashes to make sure you always have help combatting distractions. If you want to quit the app/take a break, use the Quit option from the Focus Bear menu bar.",
         "buttonDontTellAgainText":"Got it - don't tell me again"
- 
     },
     "abortInfo":{
         "abortingTitle":"Cancelling..",
@@ -323,6 +322,7 @@
         "buttonLearnPomodoroTechniqueText":"Learn more about the pomodoro technique here.",
         "titleDockIcon":"Dock icon:",
         "checkBoxShowDockIconText":"Show Dock icon"
+
     },
     "focusPreferencesInfo":{
         "titleFocusType":"Focus Type:",
