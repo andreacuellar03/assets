@@ -46,6 +46,7 @@
         "wrapupButtonText": "Terminemos el día",
         "stayFocusedText": "¡OK - Manténgase concentrado/a durante todo el día!",
         "letsCreatAccountText": "Ahora configuremos una cuenta para ti",
+        "buttonAbortText":"Please spare me",
         "buttonCancelText": "Cancelar",
         "buttonOkText": "OK",
         "webhookUrl": "https://hooks.zapier.com/hooks/catch/326116/b98ovxc/",
@@ -110,7 +111,8 @@
         "buttonBackToMyHabitsText":"Regresar a mis hábitos",
         "activitiesSyncErrorText":"Focus Bear no ha podido sincronizar las estadísticas de las actividades debido a mala conexión de internet.",
         "alertAppRestartText":"Focus Bear automatically restarts if it gets force quit/crashes to make sure you always have help combatting distractions. If you want to quit the app/take a break, use the Quit option from the Focus Bear menu bar.",
-        "buttonDontTellAgainText":"Got it - don't tell me again"
+        "buttonDontTellAgainText":"Got it - don't tell me again",
+        "toolTipColorBoxText":"Choose a color to be displayed in the background of the top menu bar icon to help identify the Focus Mode you are running."
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -565,7 +567,7 @@
         "buttonRestoreText": "Sincronizar estado de pago"
     },
     "activityPostponeInfo": {
-        "posponeHabitsText": "Si tienes alguna urgencia, puedes pausar tus hábitos por algunos minutos.",
+        "postponeHabitsText": "Si tienes alguna urgencia, puedes pausar tus hábitos por algunos minutos.",
         "postponeBreakText": "Si tienes alguna urgencia, puedes posponer la actividad de descanso por 5 minutos.",
         "buttonTakeBreakText": "¡Ay, está bien, me tomaré un descanso!",
         "selectMinutesText": "Selecciona cuántos minutos deseas posponerlo:",
@@ -643,8 +645,13 @@
         "titleSignupFailed": "Error al registrarse.",
         "titleLoginFailed": "Error al iniciar sesión.",
         "titlePasswordRules": "Reglas de contraseña:",
-        "passwordRulesText": "* Al menos 8 caracteres de longitud\n* Contener al menos 3 de los siguientes 4 tipos de caracteres:\n* letras minúsculas (a-z)\n* letras mayúsculas (A-Z)\n* números ( es decir, 0-9)\n* caracteres especiales (por ejemplo, !@#$%^&*)",
-        "buttonForgotPasswordText": "Olvidé mi contraseña"
+        "buttonForgotPasswordText": "Olvidé mi contraseña",
+        "passwordRuleFirstText": "Al menos 8 caracteres de longitud",
+        "passwordRuleSecondText": "Contener al menos 3 de los siguientes 4 tipos de caracteres:",
+        "passwordRuleThirdText": "letras minúsculas (a-z)",
+        "passwordRuleFourthText": "letras mayúsculas (A-Z)",
+        "passwordRuleFifthText": "números ( es decir, 0-9)",
+        "passwordRuleSixthText": "caracteres especiales (por ejemplo, !@#$%^&*)"
     },
     "loginHelpVcInfo": {
         "title": "Debería abrirse una ventana de incógnito donde puede iniciar sesión o registrarse. Si no la ve, intenta abrir Safari manualmente. Si aún no puedes verla",
