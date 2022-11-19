@@ -1,0 +1,6 @@
+name: 'Compare Config files'
+description: 'it will compare keys and analyze a JSON structure in both config-es.json & config.json'
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'

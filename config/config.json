@@ -29,14 +29,16 @@
         "titleGetFocused": "Get Focused",
         "activitySkippedText":"<ACTIVITY> skipped!",
         "lastActivitySkippedText":"<ACTIVITY> skipped! You’ve earned your screen time. 💪",
-        "buttonSkipHabitText":"Skip this habit for today"
+        "buttonSkipHabitText":"Skip this habit for today",
+        "buttonPostponeBreakText":"Postpone break for five minutes",
+        "breakDurationText":"Break Activites Duration: <DURATION>"
     },
     "common":{
         "emailId":"team@focusbear.io",
         "unlockMachineButtonText":"Unlock the machine",
         "wrapupButtonText":"Let's wrap up for the day",
         "stayFocusedText":"OK - Stay focused throughout the day!",
-    		"letsCreatAccountText":"Now let's set up an account for you",
+        "letsCreatAccountText":"Now let's set up an account for you",
         "buttonAbortText":"Please spare me",
         "buttonCancelText":"Cancel",
         "buttonOkText":"OK",
@@ -100,8 +102,10 @@
         "graphDateText":"Date",
         "graphTimeText":"Time",
         "buttonBackToMyHabitsText":"Back to my habits",
-        "activitiesSyncErrorText":"Focus Bear was not able to sync the activities' statistics due to bad internet."
-
+        "activitiesSyncErrorText":"Focus Bear was not able to sync the activities' statistics due to bad internet.",
+        "alertAppRestartText":"Focus Bear automatically restarts if it gets force quit/crashes to make sure you always have help combatting distractions. If you want to quit the app/take a break, use the Quit option from the Focus Bear menu bar.",
+        "buttonDontTellAgainText":"Got it - don't tell me again",
+        "toolTipColorBoxText":"Choose a color to be displayed in the background of the top menu bar icon to help identify the Focus Mode you are running."
     },
     "abortInfo":{
         "abortingTitle":"Cancelling..",
@@ -155,7 +159,7 @@
                 "description":"Can you tell us why you want to stop getting habit + break notifications?﹡",
                 "emailTitle":"Your Email (if you want us to reply):",
                 "buttonDeactivateText":"Deactivate routine + breaks"
-            },
+            }
         },
         "abortDoneInfo":{
             "title":"Deactivated",
@@ -316,7 +320,9 @@
         "checkBoxGrizzlyBearText":"Grizzly Bear mode",
         "descriptionGrizzlyBearText":"Grizzly Bear mode: super strict - immediately block URLs that aren't allowed and don't let yourself allow them until the focus mode is over.",
         "pomodoroDescriptionText":"Pomodoro Mode cycles between deep work blocks where a focus mode is turned on (and distractions turned off) and break periods.",
-        "buttonLearnPomodoroTechniqueText":"Learn more about the pomodoro technique here."
+        "buttonLearnPomodoroTechniqueText":"Learn more about the pomodoro technique here.",
+        "titleDockIcon":"Dock icon:",
+        "checkBoxShowDockIconText":"Show Dock icon"
 
     },
     "focusPreferencesInfo":{
@@ -477,7 +483,7 @@
         "alertConfirmResetPasswordTitle":"Reset Password",
         "alertConfirmResetPasswordSubTitle":"Your current password will be removed after 24 hours. You can then set a new password. Proceed?",
         "alertPasswordResetDoneTitle":"Password reset in progress",
-        "alertPasswordResetDoneSubTitle":"Please set a new password after 24 hours.",
+        "alertPasswordResetDoneSubTitle":"Please set a new password after 24 hours."
     },
     "passwordPreferencesInfo":{
         "titleSetPassword":"Set Password",
@@ -630,8 +636,13 @@
         "titleSignupFailed": "Signup failed.",
         "titleLoginFailed": "Login failed.",
         "titlePasswordRules": "Password rules:",
-        "passwordRulesText": "* At least 8 characters in length\n* Contain at least 3 of the following 4 types of characters:\n* lower case letters (a-z)\n* upper case letters (A-Z)\n* numbers (i.e. 0-9)\n* special characters (e.g. !@#$%^&*)",
-        "buttonForgotPasswordText": "Forgot Password"
+        "buttonForgotPasswordText": "Forgot Password",
+        "passwordRuleFirstText": "At least 8 characters in length",
+        "passwordRuleSecondText": "Contain at least 3 of the following 4 types of characters:",
+        "passwordRuleThirdText": "lower case letters (a-z)",
+        "passwordRuleFourthText": "upper case letters (A-Z)",
+        "passwordRuleFifthText": "numbers (i.e. 0-9)",
+        "passwordRuleSixthText": "special characters (e.g. !@#$%^&*)"
     },
     "loginHelpVcInfo": {
         "title": "An incognito window should open where you can Login or Register. If you don't see it, please try opening Safari manually. If you still can't see it",

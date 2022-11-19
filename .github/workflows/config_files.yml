@@ -1,0 +1,15 @@
+name: "Compare config files"
+
+on: 
+  pull_request:
+    branches:
+      - main
+
+jobs: 
+  Compare:
+   name: Compare keys in config-es.json & config.json
+   runs-on: ubuntu-latest
+   
+   steps:
+    - name: Checking keys
+      uses: Focus-Bear/assets@main
