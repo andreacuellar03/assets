@@ -37,8 +37,8 @@
         "activitySkippedText":"<ACTIVITY> Posponer!",
         "lastActivitySkippedText":"<ACTIVITY> Postponer! Has completado tu tiempo frente a la pantalla. 💪",
         "buttonSkipHabitText":"Postponer por hoy",
-        "buttonPostponeBreakText":"Postpone break for five minutes",
-        "breakDurationText":"Break Activites Duration: <DURATION>"
+        "buttonPostponeBreakText":"Posponer Descanso cinco minutos",
+        "breakDurationText":"Duración de descanso de actividades: <DURATION>"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -46,7 +46,7 @@
         "wrapupButtonText": "Terminemos el día",
         "stayFocusedText": "¡OK - Manténgase concentrado/a durante todo el día!",
         "letsCreatAccountText": "Ahora configuremos una cuenta para ti",
-        "buttonAbortText":"Please spare me",
+        "buttonAbortText":"Por favor perdóname",
         "buttonCancelText": "Cancelar",
         "buttonOkText": "OK",
         "webhookUrl": "https://hooks.zapier.com/hooks/catch/326116/b98ovxc/",
@@ -110,9 +110,9 @@
         "graphTimeText":"Tiempo",
         "buttonBackToMyHabitsText":"Regresar a mis hábitos",
         "activitiesSyncErrorText":"Focus Bear no ha podido sincronizar las estadísticas de las actividades debido a mala conexión de internet.",
-        "alertAppRestartText":"Focus Bear automatically restarts if it gets force quit/crashes to make sure you always have help combatting distractions. If you want to quit the app/take a break, use the Quit option from the Focus Bear menu bar.",
-        "buttonDontTellAgainText":"Got it - don't tell me again",
-        "toolTipColorBoxText":"Choose a color to be displayed in the background of the top menu bar icon to help identify the Focus Mode you are running."
+        "alertAppRestartText":"Focus Bear se reinicia automáticamente si se cierra o bloquea a la fuerza para asegurarse de ayudarte a combatir las distracciones. Si quieres salir de la aplicación/tomar un descanso, use las funciones para salir en la barra de menú en Focus Bear menú.",
+        "buttonDontTellAgainText":"Entendido – No mencionar de nuevo",
+        "toolTipColorBoxText":"Elija un color para que se muestre en el fondo del icono de la barra de menú superior para ayudar a identificar el modo de enfoque que está ejecutando."
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -326,10 +326,10 @@
         "descriptionCuddlyBearText":"Modo de osito de peluche: amable y gentil: te da el beneficio de la duda cuando abres una URL no permitida. Te deja permitir temporalmente las URL bloqueadas durante un modo de enfoque.",
         "checkBoxGrizzlyBearText":"Modo de oso pardo",
         "descriptionGrizzlyBearText":"Modo Grizzly Bear: súper estricto: bloquea inmediatamente las URL que no están permitidas y no se permita permitirlas hasta que finalice el modo de enfoque.",
-        "pomodoroDescriptionText":"Pomodoro Mode cycles between deep work blocks where a focus mode is turned on (and distractions turned off) and break periods.",
+        "pomodoroDescriptionText":"Modo Pomodoro tiene ciclos entre trabajo duro cuando el modo de enfoque ha sido encendido (y las distracciones apagadas) y periodos de descanso.",
         "buttonLearnPomodoroTechniqueText":"Aprende más acerca de la técnica Pomodoro aquí.",
-        "titleDockIcon":"Dock icon:",
-        "checkBoxShowDockIconText":"Show Dock icon"
+        "titleDockIcon":"Icono de muelle:",
+        "checkBoxShowDockIconText":"Mostrar icono de muelle"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -542,7 +542,7 @@
         "titleSomethingElse": "Algo diferente",
         "buttonContinueText": "Continuar",
         "workText": "Trabajo",
-        "placeholderWorkText":"Rocket Surgery"
+        "placeholderWorkText":"Cirugía de cohetes"
     },
     "pomodoroPreferencesAdvancedInfo": {
         "checkBoxUseHardcorePomodoroText": "Usa el modo pomodoro Súper",
@@ -576,7 +576,7 @@
         "buttonPostponeBreakText": "Posponer Descanso",
         "buttonAbortBreakText": "Cancelar Interrupción",
         "posponedLastBreakText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes tomarlo esta vez?",
-        "buttonEnableOfficeModeText": "Switch to office mode",
+        "buttonEnableOfficeModeText": "Cambiar al modo de oficina",
         "officeModeEnableText": "Ok, te daré algunas actividades de descanso que recomendamos para hacer en un entorno de oficina",
         "postponedLastHabitText": "Has pospuesto tus hábitos varias veces. ¿Estás seguro de que quieres posponerlos otra vez?",
         "buttonDoHabitText": "Cambié de parecer, seguiré con mis hábitos"
