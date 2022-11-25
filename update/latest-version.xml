@@ -4,9 +4,9 @@
         <title>Focus Bear</title>
         <item>
             <title>1.0</title>
-            <pubDate>Wed, 16 Nov 2022 19:19:58 +0530</pubDate>
+            <pubDate>Wed, 23 Nov 2022 19:44:33 +0530</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://focus-bear.github.io/assets/update/Focus%20Bear.zip" sparkle:version="85" sparkle:shortVersionString="1.0" length="24844892" type="application/octet-stream" sparkle:edSignature="/eZPT38X6h4DG/ZlE+WwiTnvdwN3tn+DO7w1eoXcQLUzdmZpg9lzKvCG0299Ym+JX3o+p/2FR0T0RZtZyzrXAg=="/>
+            <enclosure url="https://focus-bear.github.io/assets/update/Focus%20Bear.zip" sparkle:version="87" sparkle:shortVersionString="1.0" length="24884350" type="application/octet-stream" sparkle:edSignature="PaT2tS5j8/Mmea1Tg5GzPSdtw5YSfYImsOQZ/7hRAKUQfo4zB0W5LGRJBE5LE4udAXjqjxsZsPOgFTGTDlknCA=="/>
         </item>
     </channel>
 </rss>

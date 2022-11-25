@@ -10,7 +10,7 @@ try {
   let not_found_keys = [];
   en_keys.forEach((key) => {
     if (!es_keys.includes(key)) {
-      not_found_keys.push(es_keys);
+      not_found_keys.push(key);
     }
   });
 
@@ -25,7 +25,7 @@ try {
     errorMessage += ` not found in config-es.json.`;
     core.setFailed(errorMessage);
   } else {
-    core.summary("All keys are the same in both config files");
+    core.info("All keys are the same in both config files");
   }
 } catch (error) {
   core.setFailed(error.message);

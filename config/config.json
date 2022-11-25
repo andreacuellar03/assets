@@ -31,7 +31,7 @@
         "lastActivitySkippedText":"<ACTIVITY> skipped! You’ve earned your screen time. 💪",
         "buttonSkipHabitText":"Skip this habit for today",
         "buttonPostponeBreakText":"Postpone break for five minutes",
-        "breakDurationText":"Break Activites Duration: <DURATION>"
+        "breakDurationText":"Total Duration of Break: <DURATION>"
     },
     "common":{
         "emailId":"team@focusbear.io",
