@@ -531,12 +531,11 @@
         "randomPhraseRightChoice4": "Puedo jubilarme ahora porque sabes exactamente lo que estás haciendo.🙂",
         "randomPhraseWrongChoice1": "Uy, no del todo - es <CORRECT_HABIT_NAME>",
         "randomPhraseWrongChoice2": "Casi - es <CORRECT_HABIT_NAME>",
-        "Title": "¿ Qué sigue?",
+        "title": "¿ Qué sigue?",
         "description": "Quiero asegurarme de que usted no se vuelva demasiado dependiente de mí. Habrá días en los que no tenga acceso a su computadora, pero eso no significa que no cumplirá con sus hábitos. Piense en mí como ruedas de entrenamiento de una bicileta: estoy aquí para ayudarle a consolidar sus hábitos hasta que se vuelvan automáticos. Hagamos un ejercicio rápido para asegurarnos de que recuerda cómo acumular sus hábitos incluso cuando no estoy presente.",
         "questionText": "Acabas de completar <LAST_HABIT_NAME>. ¿Qué hábito harás a continuación?",
         "selectHabitText": "Selecciona Hábito",
         "enterToChooseText":"Presiona INGRESAR para elegir una opción"
-
     },
     "preloadFocusModesViewInfo": {
         "title": "¿Qué tipo de trabajo realiza principalmente?",
