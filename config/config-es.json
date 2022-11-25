@@ -331,7 +331,7 @@
         "buttonLearnPomodoroTechniqueText":"Aprende más acerca de la técnica Pomodoro aquí.",
         "titleDockIcon":"Icono de muelle:",
         "checkBoxShowDockIconText":"Mostrar icono de muelle",
-        "titleSkipHabits":"Skip Habits easiness:",
+        "titleSkipHabits":"Friction level for skipping habits:",
         "questionSkipHabitText":"How easy do you want it to be to skip your habits?",
         "radioButtonEasySkipText":"Really easy - I want to be able to skip habits/breaks in a hurry",
         "radioButtonHardSkipText":"Make it hard to skip - otherwise I'll end up skipping habits + breaks most of the time"
