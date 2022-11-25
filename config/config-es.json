@@ -112,7 +112,8 @@
         "activitiesSyncErrorText":"Focus Bear no ha podido sincronizar las estadísticas de las actividades debido a mala conexión de internet.",
         "alertAppRestartText":"Focus Bear automatically restarts if it gets force quit/crashes to make sure you always have help combatting distractions. If you want to quit the app/take a break, use the Quit option from the Focus Bear menu bar.",
         "buttonDontTellAgainText":"Got it - don't tell me again",
-        "toolTipColorBoxText":"Choose a color to be displayed in the background of the top menu bar icon to help identify the Focus Mode you are running."
+        "toolTipColorBoxText":"Choose a color to be displayed in the background of the top menu bar icon to help identify the Focus Mode you are running.",
+        "notificationFirefoxText":"FYI we can't block distractions in Firefox yet but if you use Chrome or Safari, we'll be here to support you to stay on track"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -587,7 +588,8 @@
         "titleIntentionText": "Intención:",
         "titleTimeRemainingText": "Tiempo restante:",
         "titleWorkNoteFirst": "Cosas que haré en mi próximo descanso:",
-        "titleWorkNoteSecond": "Cosas que querías hacer en tu descanso:"
+        "titleWorkNoteSecond": "Cosas que querías hacer en tu descanso:",
+        "titleNotFocusSession": "You're currently not in a focus session"
     },
     "askLogInVcInfo": {
         "title": "Haz que los hábitos saludables y el trabajo profundo sean el camino de menor resistencia",
