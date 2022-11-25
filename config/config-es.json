@@ -330,7 +330,11 @@
         "pomodoroDescriptionText":"Pomodoro Mode cycles between deep work blocks where a focus mode is turned on (and distractions turned off) and break periods.",
         "buttonLearnPomodoroTechniqueText":"Aprende más acerca de la técnica Pomodoro aquí.",
         "titleDockIcon":"Dock icon:",
-        "checkBoxShowDockIconText":"Show Dock icon"
+        "checkBoxShowDockIconText":"Show Dock icon",
+        "titleSkipHabits":"Skip Habits easiness:",
+        "questionSkipHabitText":"How easy do you want it to be to skip your habits?",
+        "radioButtonEasySkipText":"Really easy - I want to be able to skip habits/breaks in a hurry",
+        "radioButtonHardSkipText":"Make it hard to skip - otherwise I'll end up skipping habits + breaks most of the time"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -704,5 +708,11 @@
         "buttonAllowText": "Si – solo esta vez",
         "buttonBlockText": "No – Me estaba distrayendo",
         "buttonEditSettingsText": "Editar Ajustes"
+    },
+    "easyPostponeVcInfo": {
+        "title": "Ok I get it - now's not a good time. I'll try again in 5 minutes. You can postpone for longer if you need to.",
+        "titleSelectMinutes": "Select minutes to postpone:",
+        "buttonPostponeText": "Postpone",
+        "buttonDeactivateText": "Deactivate Focus Bear for 4 hours"
     }
 }

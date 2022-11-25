@@ -160,7 +160,7 @@
                 "description":"Can you tell us why you want to stop getting habit + break notifications?﹡",
                 "emailTitle":"Your Email (if you want us to reply):",
                 "buttonDeactivateText":"Deactivate routine + breaks"
-            }
+            },
         },
         "abortDoneInfo":{
             "title":"Deactivated",
@@ -323,8 +323,11 @@
         "pomodoroDescriptionText":"Pomodoro Mode cycles between deep work blocks where a focus mode is turned on (and distractions turned off) and break periods.",
         "buttonLearnPomodoroTechniqueText":"Learn more about the pomodoro technique here.",
         "titleDockIcon":"Dock icon:",
-        "checkBoxShowDockIconText":"Show Dock icon"
-
+        "checkBoxShowDockIconText":"Show Dock icon",
+        "titleSkipHabits":"Skip Habits easiness:",
+        "questionSkipHabitText":"How easy do you want it to be to skip your habits?",
+        "radioButtonEasySkipText":"Really easy - I want to be able to skip habits/breaks in a hurry",
+        "radioButtonHardSkipText":"Make it hard to skip - otherwise I'll end up skipping habits + breaks most of the time"
     },
     "focusPreferencesInfo":{
         "titleFocusType":"Focus Type:",
@@ -484,7 +487,7 @@
         "alertConfirmResetPasswordTitle":"Reset Password",
         "alertConfirmResetPasswordSubTitle":"Your current password will be removed after 24 hours. You can then set a new password. Proceed?",
         "alertPasswordResetDoneTitle":"Password reset in progress",
-        "alertPasswordResetDoneSubTitle":"Please set a new password after 24 hours."
+        "alertPasswordResetDoneSubTitle":"Please set a new password after 24 hours.",
     },
     "passwordPreferencesInfo":{
         "titleSetPassword":"Set Password",
@@ -693,5 +696,12 @@
         "buttonAllowText": "Yes - just this time",
         "buttonBlockText": "No - I was getting distracted",
         "buttonEditSettingsText": "Edit Settings"
+    },
+    "easyPostponeVcInfo": {
+        "title": "Ok I get it - now's not a good time. I'll try again in 5 minutes. You can postpone for longer if you need to.",
+        "titleSelectMinutes": "Select minutes to postpone:",
+        "buttonPostponeText": "Postpone",
+        "buttonDeactivateText": "Deactivate Focus Bear for 4 hours"
     }
+    
 }
