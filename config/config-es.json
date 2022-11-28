@@ -113,7 +113,7 @@
         "alertAppRestartText":"Focus Bear se reinicia automáticamente si se cierra o bloquea a la fuerza para asegurarse de ayudarte a combatir las distracciones. Si quieres salir de la aplicación/tomar un descanso, use las funciones para salir en la barra de menú en Focus Bear menú.",
         "buttonDontTellAgainText":"Entendido – No mencionar de nuevo",
         "toolTipColorBoxText":"Elija un color para que se muestre en el fondo del icono de la barra de menú superior para ayudar a identificar el modo de enfoque que está ejecutando.",
-        "notificationFirefoxText":"FYI we can't block distractions in Firefox yet but if you use Chrome or Safari, we'll be here to support you to stay on track"
+        "notificationFirefoxText":"Nota: No podemos bloquear las distracciones en Firefox aun pero si usas Chrome o Safari, estaremos aquí para ayudarte a mantenerte concentrado."
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -331,10 +331,10 @@
         "buttonLearnPomodoroTechniqueText":"Aprende más acerca de la técnica Pomodoro aquí.",
         "titleDockIcon":"Icono de muelle:",
         "checkBoxShowDockIconText":"Mostrar icono de muelle",
-        "titleSkipHabits":"Friction level for skipping habits:",
-        "questionSkipHabitText":"How easy do you want it to be to skip your habits?",
-        "radioButtonEasySkipText":"Really easy - I want to be able to skip habits/breaks in a hurry",
-        "radioButtonHardSkipText":"Make it hard to skip - otherwise I'll end up skipping habits + breaks most of the time"
+        "titleSkipHabits":"Nivel de fricción por saltar hábitos:",
+        "questionSkipHabitText":"Que tan fácil deseas saltar tus hábitos?",
+        "radioButtonEasySkipText":"Muy fácil – Deseo poder saltar hábitos/descansos un momento",
+        "radioButtonHardSkipText":"Has difícil saltar hábitos- de otro modo terminare saltando hábitos + descansos la mayoría del tiempo"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -592,7 +592,7 @@
         "titleTimeRemainingText": "Tiempo restante:",
         "titleWorkNoteFirst": "Cosas que haré en mi próximo descanso:",
         "titleWorkNoteSecond": "Cosas que querías hacer en tu descanso:",
-        "titleNotFocusSession": "You're currently not in a focus session"
+        "titleNotFocusSession": "Actualmente no te encuentras en una sesión de enfoque"
     },
     "askLogInVcInfo": {
         "title": "Haz que los hábitos saludables y el trabajo profundo sean el camino de menor resistencia",
@@ -709,9 +709,9 @@
         "buttonEditSettingsText": "Editar Ajustes"
     },
     "easyPostponeVcInfo": {
-        "title": "Ok I get it - now's not a good time. I'll try again in 5 minutes. You can postpone for longer if you need to.",
-        "titleSelectMinutes": "Select minutes to postpone:",
-        "buttonPostponeText": "Postpone",
-        "buttonDeactivateText": "Deactivate Focus Bear for 4 hours"
+        "title": "Entendido – ahora no es un buen momento. Voy a tartar en 5 minutos. Puedes posponer por mas tiempo si asi lo necesitas.",
+        "titleSelectMinutes": "Selecciona minutos a posponer:",
+        "buttonPostponeText": "Posponer",
+        "buttonDeactivateText": "Desactivar Focus Bear por 4 horas"
     }
 }
