@@ -544,7 +544,6 @@
         "questionText": "Acabas de completar <LAST_HABIT_NAME>. ¿Qué hábito harás a continuación?",
         "selectHabitText": "Selecciona Hábito",
         "enterToChooseText":"Presiona INGRESAR para elegir una opción"
-
     },
     "preloadFocusModesViewInfo": {
         "title": "¿Qué tipo de trabajo realiza principalmente?",
@@ -717,6 +716,7 @@
         "buttonBlockText": "No – Me estaba distrayendo",
         "buttonEditSettingsText": "Editar Ajustes",
         "intentionText": "Your intention was \"<INTENTION>\""
+
     },
     "easyPostponeVcInfo": {
         "title": "Ok I get it - now's not a good time. I'll try again in 5 minutes. You can postpone for longer if you need to.",
@@ -730,5 +730,6 @@
         "titleStillOffline": "Sorry we still can't reach our backend server. Please check your internet and try again. If you are definitely online and are getting this error, please contact team@focusbear.io",
         "buttonOnlineText": "I'm online now",
         "buttonDefinitelyOnlineText": "I'm definitely online"
+
     }
 }
