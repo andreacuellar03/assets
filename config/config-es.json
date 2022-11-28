@@ -522,7 +522,7 @@
         "questionPassword":"When do you want to require a password?",
         "buttonQuitAppText":"Quitting app",
         "buttonStopPomodoroText":"Stopping Super pomodoro mode",
-        "buttonAbortingShutoffText":"Aborting shutoff",
+        "buttonAbortingShutoffText":"Using your computer late at night",
         "buttonSkipEveningHabitText":"Postponing/skipping evening routine",
         "buttonSkipMorningHabitText":"Postponing/skipping morning routine",
         "buttonChangeSettingsText":"Changing settings"
