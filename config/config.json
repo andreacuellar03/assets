@@ -509,7 +509,15 @@
         "passwordNotMatchAlertSubTitle":"Confirm Password does not match with the main password. Please re enter.",
         "buttonDisablePasswordText":"Disable Password",
         "passwordDisableAskText":"Are you sure you want to disable your password?",
-        "passwordDisableDoneText":"Your password has been disabled."
+        "passwordDisableDoneText":"Your password has been disabled.",
+        "titleAskPassword":"Ask for password:",
+        "questionPassword":"When do you want to require a password?",
+        "buttonQuitAppText":"Quitting app",
+        "buttonStopPomodoroText":"Stopping Super pomodoro mode",
+        "buttonAbortingShutoffText":"Aborting shutoff",
+        "buttonSkipEveningHabitText":"Postponing/skipping evening routine",
+        "buttonSkipMorningHabitText":"Postponing/skipping morning routine",
+        "buttonChangeSettingsText":"Changing settings"
     },
     "blockedUrlsViewInfo":{
         "title":"Always Blocked URLs",
@@ -695,13 +703,21 @@
         "title": "Do you need to use <URL> when you're focusing on <FOCUSTYPE>?",
         "buttonAllowText": "Yes - just this time",
         "buttonBlockText": "No - I was getting distracted",
-        "buttonEditSettingsText": "Edit Settings"
+        "buttonEditSettingsText": "Edit Settings",
+        "intentionText": "Your intention was \"<INTENTION>\""
     },
     "easyPostponeVcInfo": {
         "title": "Ok I get it - now's not a good time. I'll try again in 5 minutes. You can postpone for longer if you need to.",
         "titleSelectMinutes": "Select minutes to postpone:",
         "buttonPostponeText": "Postpone",
-        "buttonDeactivateText": "Deactivate Focus Bear for 4 hours"
+        "buttonDeactivateText": "Deactivate Focus Bear for 4 hours",
+        "infoText": "If you want more of a nudge to stick to your habits, open preferences and change the friction level from the general settings tab."
+    },
+    "popUpOfflineVcInfo": {
+        "titleOffline": "It seems like you're offline. Please go online to continue with your habits.",
+        "titleStillOffline": "Sorry we still can't reach our backend server. Please check your internet and try again. If you are definitely online and are getting this error, please contact team@focusbear.io",
+        "buttonOnlineText": "I'm online now",
+        "buttonDefinitelyOnlineText": "I'm definitely online"
     }
     
 }
