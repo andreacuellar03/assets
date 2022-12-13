@@ -327,7 +327,11 @@
         "titleSkipHabits":"Friction for skipping habits:",
         "questionSkipHabitText":"How easy do you want it to be to skip your habits?",
         "radioButtonEasySkipText":"Really easy - I want to be able to skip habits/breaks in a hurry",
-        "radioButtonHardSkipText":"Make it hard to skip - otherwise I'll end up skipping habits + breaks most of the time"
+        "radioButtonHardSkipText":"Make it hard to skip - otherwise I'll end up skipping habits + breaks most of the time",
+        "buttonExportLogsText":"Click here to export logs to share with Support Team.",
+        "buttonPanelExportLogsText":"Export Logs",
+        "panelExportLogsText":"Export logs to share with Focus Bear Support Team",
+        "exportSuccessText":"Your logs are available to share in the FocusBearLogs.zip file in the <URL> directory",
     },
     "focusPreferencesInfo":{
         "titleFocusType":"Focus Type:",
@@ -467,7 +471,8 @@
         "howManyPomodoroText":"How many pomodoros you want to focus for:",
         "chooseTheFocusModeText":"Choose the focus mode and duration - you won't be able to change the focus mode until the time is up (you still get to use any app/website during the 5 minute break)",
         "alertWarningPaswwordSetText":"To make super pomodoro mode more effective, we recommend setting a password in Preferences (ask someone else to do it for you) otherwise you'll still be able to cancel the focus modes before the time is up.",
-        "completedPomodoroCountText": "You have completed <COMPLETED_POMODORO> of <TOTAL_POMODORO> pomodoros. <REMAINING_POMODORO> more to go."
+        "completedPomodoroCountText": "You have completed <COMPLETED_POMODORO> of <TOTAL_POMODORO> pomodoros. <REMAINING_POMODORO> more to go.",
+        "buttonSkipMicrobreaksText": "Skip microbreaks during work blocks?"
     },
     "logQuantityInfo":{
         "title":"Log Quantity of activity",
@@ -546,7 +551,8 @@
         "titleSomethingElse":"Something else",
         "buttonContinueText":"Continue",
         "workText":"Work",
-        "placeholderWorkText":"Rocket Surgery"
+        "placeholderWorkText":"Rocket Surgery",
+        "gotItText":"Got it. Let's set up a Focus Mode to help you be super productive while you're doing <WORK_TYPE> work."
     },
     "pomodoroPreferencesAdvancedInfo":{
         "checkBoxUseHardcorePomodoroText":"Use super pomodoro mode",
@@ -557,7 +563,8 @@
         "HowManyPomodoroText" : "How many pomodoros you want to focus for:",
         "selectDaysForPomodoroText":"Schedule specific days you want to run the super pomodoro mode after Morning Routine:",
         "buttonApplyText":"Apply",
-        "selectAtleastOneDayText":"Please select atleast one day."
+        "selectAtleastOneDayText":"Please select atleast one day.",
+        "buttonSkipMicrobreaksText": "Skip microbreaks during work blocks?"
     },
     "accountVcInfo": {
         "title": "Your Account Information",
@@ -673,7 +680,8 @@
         "brainBreaksText":"Brain Breaks",
         "brainBreaksDescription":"To avoid screen headaches and neck strain, Focus Bear will encourage you to take breaks at regular intervals. We give you a 30 second warning so you can postpone the break if it's a bad time. We also detect if you're in a meeting and don't show breaks as that might lead to awkward screensharing moments otherwise!",
         "buttonBackText":"Back",
-        "buttonNextText":"Next"
+        "buttonNextText":"Next",
+        "exploreTipsText":"Click next to explore the tips to use Focus Bear."
     },
     "breakWarningVcInfo": {
         "title": "Your Break starts in",
@@ -705,7 +713,6 @@
         "buttonBlockText": "No - I was getting distracted",
         "buttonEditSettingsText": "Edit Settings",
         "intentionText": "Your intention was \"<INTENTION>\""
-
     },
     "easyPostponeVcInfo": {
         "title": "Ok I get it - now's not a good time. I'll try again in 5 minutes. You can postpone for longer if you need to.",
@@ -719,7 +726,48 @@
         "titleStillOffline": "Sorry we still can't reach our backend server. Please check your internet and try again. If you are definitely online and are getting this error, please contact team@focusbear.io",
         "buttonOnlineText": "I'm online now",
         "buttonDefinitelyOnlineText": "I'm definitely online"
-
+    },
+    "whySkipHabitVcInfo": {
+        "title": "Why do you want to skip?",
+        "buttonAlreadyDidItText": "I already did it",
+        "buttonCanNotDoItText": "Can't do it today"
+    },
+    "habitSkipEasinessVcInfo": {
+        "title": "Welcome to Focus Bear",
+        "questionText": "How easy do you want it to be to skip your habits?",
+        "radioButtonFirstText": "Really easy - I want to be able to skip habits/breaks in a hurry",
+        "radioButtonSecondText": "Make it hard to skip - otherwise I'll end up skipping habits + breaks most of the time",
+        "buttonContinueText": "Continue"
+    },
+    "onboardingBlockedUrlsInfo": {
+        "title": "Welcome to Focus Bear",
+        "questionText": "Which sites do you find distracting?",
+        "description": "You can block certain sites by default to avoid going down rabbit holes.",
+        "bottomText": "If you want to block other sites by default, you can change your Always Blocked settings in Preferences.",
+        "buttonContinueText": "Continue"
+    },
+    "preloadFocusModeAppsVcInfo": {
+        "buttonDoneText": "Done",
+        "titleForApps": "What apps do you normally use while you're doing <WORK_TYPE> work?",
+        "descriptionApps": "Don't worry you can still use other apps if you need to but these are the apps that are most likely to be productive for you while you're working on <WORK_TYPE>. You can change these settings later on.",
+        "subTitleForApps": "Add the apps you plan to use:",
+        "titleForUrls": "How about websites?",
+        "descriptionUrls": "Don't worry you can still use other websites if you need to but these are the sites that are most likely to be productive for you while you're working on <WORK_TYPE>. You can change these settings later on.",
+        "subTitleForUrls": "Add the websites you plan to use:",
+    },
+    "focusTipsVcInfo": {
+        "title": "All set up!",
+        "tip1title": "Tip 1:",
+        "tip1Text":"You can try it out now by clicking the Play icon next to your new focus mode in the list that appears on clicking the top menu icon.",
+        "tip2title": "Tip 2:",
+        "tip2Text":"To modify this Focus Mode, first click on Preferences in the Focus Bear popup menu.",
+        "tip3title":"Tip 3:",
+        "tip3Text":"Then click on the Focus tab in the Preferences window that opens up.",
+        "tip4title":"Tip 4:",
+        "tip4Text":"Then choose your focus mode from the left list of Focus Types. Edit the settings in the right side.",
+        "buttonBackText":"Back",
+        "buttonNextText":"Next",
+        "buttonGotItText":"Onwards"
     }
     
 }

@@ -334,7 +334,11 @@
         "titleSkipHabits":"Nivel de fricción por saltar hábitos:",
         "questionSkipHabitText":"Que tan fácil deseas saltar tus hábitos?",
         "radioButtonEasySkipText":"Muy fácil – Deseo poder saltar hábitos/descansos un momento",
-        "radioButtonHardSkipText":"Has difícil saltar hábitos- de otro modo terminare saltando hábitos + descansos la mayoría del tiempo"
+        "radioButtonHardSkipText":"Has difícil saltar hábitos- de otro modo terminare saltando hábitos + descansos la mayoría del tiempo",
+        "buttonExportLogsText":"Click here to export logs to share with Support Team.",
+        "buttonPanelExportLogsText":"Export Logs",
+        "panelExportLogsText":"Export logs to share with Focus Bear Support Team",
+        "exportSuccessText":"Your logs are available to share in the FocusBearLogs.zip file in the <URL> directory",
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -475,7 +479,8 @@
         "howManyPomodoroText": "¿Por cuantos pomodoros se quiere concentrar?:",
         "chooseTheFocusModeText": "Elije el modo de enfoque y la duración: no podrá cambiar el modo de enfoque hasta que se acabe el tiempo (todavía puede usar cualquier aplicación / sitio web durante el descanso de 5 minutos)",
         "alertWarningPaswwordSetText": "Para que el modo pomodoro Súper sea más efectivo, recomendamos establecer una contraseña (pídele a otra persona que lo haga por usted); de lo contrario, aún podrá cancelar los modos de enfoque antes de que se acabe el tiempo..",
-        "completedPomodoroCountText": "Has completado <COMPLETED_POMODORO> de <TOTAL_POMODORO> pomodoros. Faltan <REMAINING_POMODORO> más."
+        "completedPomodoroCountText": "Has completado <COMPLETED_POMODORO> de <TOTAL_POMODORO> pomodoros. Faltan <REMAINING_POMODORO> más.",
+        "buttonSkipMicrobreaksText": "Skip microbreaks during work blocks?"
     },
     "logQuantityInfo": {
         "title": "Registra la Cantidad de la actividad",
@@ -544,6 +549,7 @@
         "questionText": "Acabas de completar <LAST_HABIT_NAME>. ¿Qué hábito harás a continuación?",
         "selectHabitText": "Selecciona Hábito",
         "enterToChooseText":"Presiona INGRESAR para elegir una opción"
+
     },
     "preloadFocusModesViewInfo": {
         "title": "¿Qué tipo de trabajo realiza principalmente?",
@@ -554,7 +560,8 @@
         "titleSomethingElse": "Algo diferente",
         "buttonContinueText": "Continuar",
         "workText": "Trabajo",
-        "placeholderWorkText":"Cirugía de cohetes"
+        "placeholderWorkText":"Cirugía de cohetes",
+        "gotItText":"Got it. Let's set up a Focus Mode to help you be super productive while you're doing <WORK_TYPE> work."
     },
     "pomodoroPreferencesAdvancedInfo": {
         "checkBoxUseHardcorePomodoroText": "Usa el modo pomodoro Súper",
@@ -565,7 +572,8 @@
         "HowManyPomodoroText": "¿Por cuántos pomodoros se quiere concentrar?:",
         "selectDaysForPomodoroText": "Programe días específicos en los que desea ejecutar el modo pomodoro extremo después de la rutina matutina:",
         "buttonApplyText": "Aplicar",
-        "selectAtleastOneDayText": "Seleccione al menos un día."
+        "selectAtleastOneDayText": "Seleccione al menos un día.",
+        "buttonSkipMicrobreaksText": "Skip microbreaks during work blocks?"
     },
     "accountVcInfo": {
         "title": "Información de tu cuenta",
@@ -671,7 +679,6 @@
         "buttonClickHereText": "Haga clic aquí"
     },
     "onboardingCardsInfo": {
-
         "title": "Notas importantes",
         "controllingBrowserText": "Controlando tu navegador",
         "controllingBrowserDescription":"La próxima vez que abras una pestaña del navegador, verás esta ventana emergente. La razón por la que solicitamos permisos para controlar tu navegador es para que podamos bloquear sitios web que te distraen cuando activas el modo de enfoque.",
@@ -683,8 +690,8 @@
         "brainBreaksText":"Descansos Mentales",
         "brainBreaksDescription":"Para evitar dolores de cabeza y cuello, Focus Bear te alienta a tomar descansos durante intervalos regulares. Te damos un anuncio de 30 segundos, así tu puedes posponer tu descanso si estas muy ocupado. ¡También detectamos si estas en reunión y no mostramos descansos ya que eso podría causar un momento incomodo si estas compartiendo pantalla!",
         "buttonBackText":"Atras",
-        "buttonNextText":"Siguiente"
-
+        "buttonNextText":"Siguiente",
+        "exploreTipsText":"Click next to explore the tips to use Focus Bear."
     },
     "breakWarningVcInfo": {
         "title": "Tu descanso comienza en",
@@ -716,7 +723,6 @@
         "buttonBlockText": "No – Me estaba distrayendo",
         "buttonEditSettingsText": "Editar Ajustes",
         "intentionText": "Your intention was \"<INTENTION>\""
-
     },
     "easyPostponeVcInfo": {
         "title": "Entendido – ahora no es un buen momento. Voy a tartar en 5 minutos. Puedes posponer por mas tiempo si asi lo necesitas.",
@@ -730,5 +736,47 @@
         "titleStillOffline": "Sorry we still can't reach our backend server. Please check your internet and try again. If you are definitely online and are getting this error, please contact team@focusbear.io",
         "buttonOnlineText": "I'm online now",
         "buttonDefinitelyOnlineText": "I'm definitely online"
+    },
+    "whySkipHabitVcInfo": {
+        "title": "Why do you want to skip?",
+        "buttonAlreadyDidItText": "I already did it",
+        "buttonCanNotDoItText": "Can't do it today"
+    },
+    "habitSkipEasinessVcInfo": {
+        "title": "Welcome to Focus Bear",
+        "questionText": "How easy do you want it to be to skip your habits?",
+        "radioButtonFirstText": "Really easy - I want to be able to skip habits/breaks in a hurry",
+        "radioButtonSecondText": "Make it hard to skip - otherwise I'll end up skipping habits + breaks most of the time",
+        "buttonContinueText": "Continue"
+    },
+    "onboardingBlockedUrlsInfo": {
+        "title": "Welcome to Focus Bear",
+        "questionText": "Which sites do you find distracting?",
+        "description": "You can block certain sites by default to avoid going down rabbit holes.",
+        "bottomText": "If you want to block other sites by default, you can change your Always Blocked settings in Preferences.",
+        "buttonContinueText": "Continue"
+    },
+    "preloadFocusModeAppsVcInfo": {
+        "buttonDoneText": "Done",
+        "titleForApps": "What apps do you normally use while you're doing <WORK_TYPE> work?",
+        "descriptionApps": "Don't worry you can still use other apps if you need to but these are the apps that are most likely to be productive for you while you're working on <WORK_TYPE>. You can change these settings later on.",
+        "subTitleForApps": "Add the apps you plan to use:",
+        "titleForUrls": "How about websites?",
+        "descriptionUrls": "Don't worry you can still use other websites if you need to but these are the sites that are most likely to be productive for you while you're working on <WORK_TYPE>. You can change these settings later on.",
+        "subTitleForUrls": "Add the websites you plan to use:"
+    },
+    "focusTipsVcInfo": {
+        "title": "All set up!",
+        "tip1title": "Tip 1:",
+        "tip1Text":"You can try it out now by clicking the Play icon next to your new focus mode in the list that appears on clicking the top menu icon.",
+        "tip2title": "Tip 2:",
+        "tip2Text":"To modify this Focus Mode, first click on Preferences in the Focus Bear popup menu.",
+        "tip3title":"Tip 3:",
+        "tip3Text":"Then click on the Focus tab in the Preferences window that opens up.",
+        "tip4title":"Tip 4:",
+        "tip4Text":"Then choose your focus mode from the left list of Focus Types. Edit the settings in the right side.",
+        "buttonBackText":"Back",
+        "buttonNextText":"Next",
+        "buttonGotItText":"Onwards"
     }
 }
