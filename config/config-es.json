@@ -523,14 +523,14 @@
         "buttonDisablePasswordText": "Deshabilitar mi contraseña",
         "passwordDisableAskText": "¿Estás seguro de que deseas deshabilitar tu contraseña?",
         "passwordDisableDoneText": "Su contraseña ha sido deshabilitada",
-        "titleAskPassword":"Ask for password:",
-        "questionPassword":"When do you want to require a password?",
-        "buttonQuitAppText":"Quitting app",
-        "buttonStopPomodoroText":"Stopping Super pomodoro mode",
-        "buttonAbortingShutoffText":"Using your computer late at night",
-        "buttonSkipEveningHabitText":"Postponing/skipping evening routine",
-        "buttonSkipMorningHabitText":"Postponing/skipping morning routine",
-        "buttonChangeSettingsText":"Changing settings"
+        "titleAskPassword":"Preguntar por contraseña:",
+        "questionPassword":"Cuando requiere que se solicite contraseña?",
+        "buttonQuitAppText":"Saliendo de la aplicación",
+        "buttonStopPomodoroText":"Detener el super modo pomodoro",
+        "buttonAbortingShutoffText":"Usando su computadora hasta tarde en la noche",
+        "buttonSkipEveningHabitText":"Posponiendo/omitir rutina de tarde",
+        "buttonSkipMorningHabitText":"Posponiendo/omitir rutina de mañana",
+        "buttonChangeSettingsText":"Editar Ajustes"
     },
     "blockedUrlsViewInfo": {
         "title": " Las URL siempre bloqueadas",
@@ -722,20 +722,21 @@
         "buttonAllowText": "Si – solo esta vez",
         "buttonBlockText": "No – Me estaba distrayendo",
         "buttonEditSettingsText": "Editar Ajustes",
-        "intentionText": "Your intention was \"<INTENTION>\""
+        "intentionText": "Su intención era \"<INTENTION>\""
+
     },
     "easyPostponeVcInfo": {
         "title": "Entendido – ahora no es un buen momento. Voy a tartar en 5 minutos. Puedes posponer por mas tiempo si asi lo necesitas.",
         "titleSelectMinutes": "Selecciona minutos a posponer:",
         "buttonPostponeText": "Posponer",
         "buttonDeactivateText": "Desactivar Focus Bear por 4 horas",
-        "infoText": "If you want more of a nudge to stick to your habits, open preferences and change the friction level from the general settings tab."
+        "infoText": "Si desea más de un empujón para mantener sus hábitos, abra las preferencias y cambie el nivel de fricción desde la configuración general."
     },
     "popUpOfflineVcInfo": {
-        "titleOffline": "It seems like you're offline. Please go online to continue with your habits.",
-        "titleStillOffline": "Sorry we still can't reach our backend server. Please check your internet and try again. If you are definitely online and are getting this error, please contact team@focusbear.io",
-        "buttonOnlineText": "I'm online now",
-        "buttonDefinitelyOnlineText": "I'm definitely online"
+        "titleOffline": "Parece que esta desconectado. Por favor conéctate para continuar con tus hábitos.",
+        "titleStillOffline": "Lo siento, no Podemos llegar a nuestro servidor. Por favor verifique su conexión a internet e intente de nuevo. Si usted está en línea y recibe este error, por favor contáctese con team@focusbear.io",
+        "buttonOnlineText": "Estoy en línea",
+        "buttonDefinitelyOnlineText": "Definitivamente estoy en línea"
     },
     "whySkipHabitVcInfo": {
         "title": "Why do you want to skip?",
@@ -778,5 +779,6 @@
         "buttonBackText":"Back",
         "buttonNextText":"Next",
         "buttonGotItText":"Onwards"
+
     }
 }
