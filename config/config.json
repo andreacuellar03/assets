@@ -18,7 +18,7 @@
         "startBreakActivityTitleText":"It’s time for a break. Do <TIME> of <ACTIVITY> to earn more screentime.",
         "doSomeActivityText":"<ACTIVITY>",
         "beforeYouStartText":"Before you start, take a few moments to reflect on why you want to do these habits. Then visualise yourself beginning the habit sequence. Mentally walk through any of the habits that are going to be harder. This process will help reduce \"limbic friction\", i.e. prime your brain to do the habits no matter what, even if you don't have the app available.",
-        "beforeYouBeginText":"Before you begin, take 30 seconds to visualise yourself performing each of the habits. This sounds kooky but research indicates that doing a mental rehearsal like this increases the likelihood of you completing the habits and makes the habits more sticky so that even if you don't have access to your computer/this app, you'll still do all the habits",
+        "beforeYouBeginText":"Before you begin, take 30 seconds to visualise yourself performing each of the habits. This sounds kooky but research indicates that doing a mental rehearsal like this increases the likelihood of you completing the habits and makes the habits more sticky so that even if you don't have access to your computer/this app, you'll still do all the habits.",
         "habitsProgressText":"You have completed <duration> of habits - <totalduration> to go. You can do it!",
         "habitsCompleteText":"You have completed <duration> of habits.",
         "whatComesNextButtonText":"What comes next?",
@@ -112,7 +112,7 @@
         "abortingTitle":"Cancelling..",
         "abortingCountDownInfo":{
             "subTitle":"Are you sure you want to give up on your habits? Please take 10 seconds to reflect on whether you are serious about cancelling.",
-            "message":"While you wait, reflect on why you’re doing this. If it was because your morning routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re cancelling because the app is broken, really sorry!!",
+            "message":"While you wait, reflect on why you’re doing this. If it was because your morning routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re cancelling because the app is broken, we're really sorry and would appreciate your feedback.",
             "pleaseEmailText":"Please email",
             "buttonAbortCancelText":"I didn’t mean it. Let me do my habits!"
         },
@@ -140,11 +140,10 @@
                 "startSmallInfo":{
                     "subTitle":"Starting small..",
                     "activityResetText":"We’ve reset your habits and break activities for you. They’re now each only 30 seconds long which should make it more manageable.",
-                    "activityRemovedText":"We removed a few activities so that the total morning routine is 5 minutes long",
+                    "activityRemovedText":"We removed a few activities so that the total morning routine is 5 minutes long.",
                     "changeSettingsText":"You can alter your settings later from the top toolbar icon <icon>",
                     "shareFeedbackText":"Can you share some feedback about why your habits were too hard?﹡",
-                    "buttonTitle":"Start shortened routine"
-                    
+                    "buttonTitle":"Start shortened routine"    
                 },
                 "givingUpInfo":{
                     "subTitle":"Giving up on your morning routine",
@@ -152,7 +151,6 @@
                     "changeSettingsText":"Feel free to reactivate Focus Bear from top toolbar icon <icon>",
                     "shareFeedbackText":"Can you share feedback about the app?﹡",
                     "buttonTitle":"Deactivate routine + breaks"
-                    
                 }
             },
             "dropDown_4":{
@@ -160,11 +158,11 @@
                 "description":"Can you tell us why you want to stop getting habit + break notifications?﹡",
                 "emailTitle":"Your Email (if you want us to reply):",
                 "buttonDeactivateText":"Deactivate routine + breaks"
-            },
+            }
         },
         "abortDoneInfo":{
             "title":"Deactivated",
-            "subTitle":"You’ve successfully deactivated Focus Bear. The app won’t show habit prompts until you activate it again from the menu icon. If you deactivated it because of a problem with the app, please email"
+            "subTitle":"You’ve successfully deactivated Focus Bear. The app won’t show habit prompts until you activate it again from the menu icon. If you deactivated it because of a problem with the app, please email us your feedback."
         }
     },
     "quitInfo":{
@@ -331,7 +329,7 @@
         "buttonExportLogsText":"Click here to export logs to share with Support Team.",
         "buttonPanelExportLogsText":"Export Logs",
         "panelExportLogsText":"Export logs to share with Focus Bear Support Team",
-        "exportSuccessText":"Your logs are available to share in the FocusBearLogs.zip file in the <URL> directory",
+        "exportSuccessText":"Your logs are available to share in the FocusBearLogs.zip file in the <URL> directory"
     },
     "focusPreferencesInfo":{
         "titleFocusType":"Focus Type:",
@@ -492,7 +490,7 @@
         "alertConfirmResetPasswordTitle":"Reset Password",
         "alertConfirmResetPasswordSubTitle":"Your current password will be removed after 24 hours. You can then set a new password. Proceed?",
         "alertPasswordResetDoneTitle":"Password reset in progress",
-        "alertPasswordResetDoneSubTitle":"Please set a new password after 24 hours.",
+        "alertPasswordResetDoneSubTitle":"Please set a new password after 24 hours."
     },
     "passwordPreferencesInfo":{
         "titleSetPassword":"Set Password",
@@ -552,7 +550,7 @@
         "buttonContinueText":"Continue",
         "workText":"Work",
         "placeholderWorkText":"Rocket Surgery",
-        "gotItText":"Got it. Let's set up a Focus Mode to help you be super productive while you're doing <WORK_TYPE> work."
+        "gotItText":"Got it. Let's set up a Focus Mode to help you be super productive while you're doing <WORK_TYPE>."
     },
     "pomodoroPreferencesAdvancedInfo":{
         "checkBoxUseHardcorePomodoroText":"Use super pomodoro mode",
@@ -748,12 +746,12 @@
     },
     "preloadFocusModeAppsVcInfo": {
         "buttonDoneText": "Done",
-        "titleForApps": "What apps do you normally use while you're doing <WORK_TYPE> work?",
-        "descriptionApps": "Don't worry you can still use other apps if you need to but these are the apps that are most likely to be productive for you while you're working on <WORK_TYPE>. You can change these settings later on.",
+        "titleForApps": "What apps do you normally use while you're doing <WORK_TYPE>?",
+        "descriptionApps": "Don't worry you can still use other apps if you need to but these are the apps that are most likely to be productive for you while you're doing <WORK_TYPE>. You can change these settings later on.",
         "subTitleForApps": "Add the apps you plan to use:",
         "titleForUrls": "How about websites?",
-        "descriptionUrls": "Don't worry you can still use other websites if you need to but these are the sites that are most likely to be productive for you while you're working on <WORK_TYPE>. You can change these settings later on.",
-        "subTitleForUrls": "Add the websites you plan to use:",
+        "descriptionUrls": "Don't worry you can still use other websites if you need to but these are the sites that are most likely to be productive for you while you're doing <WORK_TYPE>. You can change these settings later on.",
+        "subTitleForUrls": "Add the websites you plan to use:"
     },
     "focusTipsVcInfo": {
         "title": "All set up!",
@@ -769,5 +767,4 @@
         "buttonNextText":"Next",
         "buttonGotItText":"Onwards"
     }
-    
 }
