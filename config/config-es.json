@@ -1,7 +1,7 @@
 {
     "welcomeInfo": {
         "welcomeMessageHeading": "Bienvenido a Focus Bear",
-        "welcomeMessageIntro": "Cada mañana, evitaré que siga su impulso de revisar su correo electrónico/Facebook y le invitaré a seguir su rutina matutina en su lugar.\nPuede configurar su propia rutina luego, pero por ahora te sugiero una actividad: 1 minuto de respiración consciente.\nMientras respira profundamente, piense en lo increíble que serás si se compromete a su rutina matutina todos los días.",
+        "welcomeMessageIntro": "Cada mañana, evitaré que siga su impulso de revisar su correo electrónico/Facebook y le invitaré a seguir su rutina matutina en su lugar.\n\nPuede configurar su propia rutina luego, pero por ahora te sugiero una actividad: 1 minuto de respiración consciente.\n\nMientras respira profundamente, piense en lo increíble que serás si se compromete a su rutina matutina todos los días.",
         "welcomeEndMessage": "Espero que se sienta más tranquilo. Ahora puede personalizar su rutina matutina haciendo clic en el ícono <icon> en la barra superior y seleccionando Preferencias -> Configuraciones.",
         "preloadFocusModesDoneText": "Aquí podrás ver un video corto que explica cómo utilizar Focus Bear.",
         "introActivities": [
@@ -339,6 +339,9 @@
         "buttonPanelExportLogsText":"Export Logs",
         "panelExportLogsText":"Export logs to share with Focus Bear Support Team",
         "exportSuccessText":"Your logs are available to share in the FocusBearLogs.zip file in the <URL> directory",
+        "titleMeetingDetection":"Meeting detection",
+        "descriptionMeetingDetectionText":"Enable meeting detection to automatically suggest starting \"Meetings\" focus mode when Focus Bear detects you are in a call.",
+        "checkBoxMeetingDetectionText":"Enable meeting detection"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -466,7 +469,10 @@
             "title": "¿Necesitará usar otras aplicaciones durante la reunión? Si no, puedo bloquear todo lo demás para ayudarte a concentrarte.",
             "subTitle": "Al seleccionar \"Bloquear todo lo demás\", la aplicación iniciará el modo de enfoque \"Reuniones\".",
             "buttonBlockText": "Bloquea todo lo demás",
-            "buttonCancelText": "Está bien que use otras aplicaciones durante esta reunión"
+            "buttonCancelText": "Está bien que use otras aplicaciones durante esta reunión",
+            "buttonFalseDetectionText":"False positive: I'm not in a meeting",
+            "titleFalseDetection":"Sorry about that. Are you sure you're not using an app that is using your microphone? If we keep getting it wrong, click button below to disable meeting detection.",
+            "buttonDisableText":"Disable meeting detection"
         }
     },
     "pomodoroInfo": {
@@ -625,7 +631,10 @@
         "moneyBackText": "30 días de garantía con devolución de dinero",
         "syncInfoText": "Después de pagar, haz clic en el botón Sincronizar estado de pago a continuación",
         "buttonRestoreText": "Sincronizar estado de pago",
-        "subscriptionExpiredText": "Su suscripción ha expirado"
+        "subscriptionExpiredText": "Su suscripción ha expirado",
+        "toolTipCopyId":"Copy user id",
+        "titleUserId":"Your user id:",
+        "toolTipCopied":"Copied"
     },
     "onboardingPostponeVcInfo": {
         "title": "Si tienes algo urgente, puedes posponer el proceso de inducción por unos minutos",
@@ -691,7 +700,9 @@
         "brainBreaksDescription":"Para evitar dolores de cabeza y cuello, Focus Bear te alienta a tomar descansos durante intervalos regulares. Te damos un anuncio de 30 segundos, así tu puedes posponer tu descanso si estas muy ocupado. ¡También detectamos si estas en reunión y no mostramos descansos ya que eso podría causar un momento incomodo si estas compartiendo pantalla!",
         "buttonBackText":"Atras",
         "buttonNextText":"Siguiente",
-        "exploreTipsText":"Click next to explore the tips to use Focus Bear."
+        "exploreTipsText":"Click next to explore the tips to use Focus Bear.",
+        "titleSignInSuccessful":"Sign in successful",
+        "signinSuccessText":"Great you're all signed in. I'll just give you a few tips before you start using it."
     },
     "breakWarningVcInfo": {
         "title": "Tu descanso comienza en",
@@ -755,11 +766,13 @@
         "questionText": "Which sites do you find distracting?",
         "description": "You can block certain sites by default to avoid going down rabbit holes.",
         "bottomText": "If you want to block other sites by default, you can change your Always Blocked settings in Preferences.",
-        "buttonContinueText": "Continue"
+        "buttonContinueText": "Continue",
+        "enterUrlText": "Enter url to block:",
+        "buttonAddUrlText": "Add url"
     },
     "preloadFocusModeAppsVcInfo": {
         "buttonDoneText": "Done",
-        "titleForApps": "What apps do you normally use while you're doing <WORK_TYPE> work?",
+        "titleForApps": "What apps do you normally use while you're doing <WORK_TYPE>?",
         "descriptionApps": "Don't worry you can still use other apps if you need to but these are the apps that are most likely to be productive for you while you're working on <WORK_TYPE>. You can change these settings later on.",
         "subTitleForApps": "Add the apps you plan to use:",
         "titleForUrls": "How about websites?",
@@ -779,6 +792,5 @@
         "buttonBackText":"Back",
         "buttonNextText":"Next",
         "buttonGotItText":"Onwards"
-
     }
 }
