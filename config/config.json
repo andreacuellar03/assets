@@ -1,5 +1,6 @@
-{"welcomeInfo":
-    {"welcomeMessageHeading": "Welcome to Focus Bear",
+{
+    "welcomeInfo":{
+        "welcomeMessageHeading": "Welcome to Focus Bear",
         "welcomeMessageIntro": "Every morning, I will help you silence your urge to check email/Facebook and help you to do your morning routine instead.\n\nYou can configure your own routine later but for now, I’ll give you a suggested activity: 30 seconds of mindful breathing.\n\nWhile you breathe deeply, think of how awesome you’ll be if you stick to your morning routine every day.",
         "welcomeEndMessage": "Hope you feel calmer. You can now personalise your morning routine by clicking on the icon <icon> on the top bar and choosing Preferences -> Settings.",
         "preloadFocusModesDoneText": "Here's a short video that explains how to use Focus Bear.",
@@ -10,7 +11,7 @@
         "welcomeMessageOnlyBreakIntro": "Throughout the day, I'll remind you to take regular breaks to keep your mind sharp and your body flexible. Here's an example of a break activity: 30 seconds of deep breathing."
     },
     "activityInfo":{
-         "startMorningHabitTitleText":"Good Morning! Here are the habits to kick off an awesome day.",
+        "startMorningHabitTitleText":"Good Morning! Here are the habits to kick off an awesome day.",
         "startEveningHabitTitleText":"Good Evening! Let’s go through your wind down routine.",
         "startActivityButtonText":"Start <TIME> <NAME>",
         "activityFinishedText":"<ACTIVITY> finished!✅",
@@ -333,7 +334,6 @@
         "titleMeetingDetection":"Meeting detection",
         "descriptionMeetingDetectionText":"Enable meeting detection to automatically suggest starting \"Meetings\" focus mode when Focus Bear detects you are in a call.",
         "checkBoxMeetingDetectionText":"Enable meeting detection"
-
     },
     "focusPreferencesInfo":{
         "titleFocusType":"Focus Type:",

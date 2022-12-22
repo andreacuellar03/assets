@@ -1,7 +1,7 @@
 {
     "welcomeInfo": {
         "welcomeMessageHeading": "Bienvenido a Focus Bear",
-        "welcomeMessageIntro": "Cada mañana, evitaré que siga su impulso de revisar su correo electrónico/Facebook y le invitaré a seguir su rutina matutina en su lugar.\n\nPuede configurar su propia rutina luego, pero por ahora te sugiero una actividad: 1 minuto de respiración consciente.\n\nMientras respira profundamente, piense en lo increíble que serás si se compromete a su rutina matutina todos los días.",
+        "welcomeMessageIntro": "Todas las mañanas, te ayudaré a silenciar tu impulso de revisar el correo electrónico/Facebook y te ayudaré a hacer tu rutina matutina en su lugar.\n\nPuedes configurar tu propia rutina más tarde, pero por ahora, te daré una actividad sugerida: 30 segundos de la respiración consciente.\n\nMientras respiras profundamente, piensa en lo increíble que serás si sigues tu rutina matutina todos los días.",
         "welcomeEndMessage": "Espero que se sienta más tranquilo. Ahora puede personalizar su rutina matutina haciendo clic en el ícono <icon> en la barra superior y seleccionando Preferencias -> Configuraciones.",
         "preloadFocusModesDoneText": "Aquí podrás ver un video corto que explica cómo utilizar Focus Bear.",
         "introActivities": [
@@ -91,8 +91,8 @@
         "minutesText": "minutos",
         "hourText": "hora",
         "hoursText": "horas",
-        "timeIncorrectText":"La hora de tu sistema parece ser incorrecta; dice que la hora actual es <SYSTEM_TIME> pero la hora real es <TRUE_TIME>. Focus Bear no funcionará correctamente si no tienes la hora de tu sistema configurada correctamente. Una vez que hayas ajustado la configuración de tiempo, haz clic en el botón \"Estoy list@ para comenzar mis hábitos\" a continuación.",
-        "buttonIAmReadyText":"Estoy list@ para comenzar mis hábitos",
+        "timeIncorrectText":"La hora de tu sistema parece ser incorrecta; dice que la hora actual es <SYSTEM_TIME> pero la hora real es <TRUE_TIME>. Focus Bear no funcionará correctamente si no tienes la hora de tu sistema configurada correctamente. Una vez que hayas ajustado la configuración de tiempo, haz clic en el botón \"Estoy listo para comenzar mis hábitos\" a continuación.",
+        "buttonIAmReadyText":"Estoy listo para comenzar mis hábitos",
         "buttonInstructionsText":"Haz clic aquí para ver las instrucciones para corregir la configuración de la hora",
         "notificationVideoCallText":"Parece que estás en una videollamada. No te interrumpiré con micro-descansos durante la reunión para evitar momentos embarazosos de compartir pantalla. ¡Disfruta la reunión!",
         "tabSettingsText":"Configuración",
@@ -136,7 +136,7 @@
                 "title": "Mis hábitos son demasiado difíciles - no puedo lo puedo manejar",
                 "description": "Ah, es comprensible. ¿Le gustaría restablecer sus hábitos para que sean de 30 segundos cada uno y un máximo de 5 minutos? Una breve rutina matutina es mejor que nada. Puedes construir desde allí.",
                 "buttonStartSmallText": "Sí, voy a empezar poco a poco",
-                "buttonDontWantText": "¡NO quiero una rutina matutina en absoluto!",
+                "buttonDontWantText": "¡NO quiero una \nrutina matutina en absoluto!",
                 "emailTitle": "Su correo electrónico (si quiere que le respondamos):",
                 "startSmallInfo": {
                     "subTitle": "Empezando poco a poco..",
@@ -221,13 +221,13 @@
         "title": "Ingrese la configuración JSON a continuación:",
         "buttonSaveText": "Guardar",
         "visitText": "Visite <SETTINGURL> para generar configuraciones",
-        "settingUrl": "focusbear.io/settings-generator",
+        "settingUrl": "https://settings.focusbear.io",
         "schemaError": "Su configuración no se puede validar.",
         "buttonOkText": "OK",
         "settingIsNotValidText": "Lo siento, parece que su configuración no es válida. Genera configuraciones en el siguente link, https://settings.focusbear.io",
         "buttonEditSettingsText": "Editar Configuración",
         "buttonAdvancedText": "Avanzado",
-        "description": "Dale clic a \"Editar Configuración\" para modificar tu configuración existente. Si eres un usuario avanzad@ haz clic en \"Avanzado\"para ver o editar la configuración JSON",
+        "description": "Dale clic a \"Editar Configuración\" para modificar tu configuración existente.\nSi eres un usuario avanzado haz clic en \"Avanzado\"para ver o editar la configuración JSON",
         "settingIsValidText": "Tu configuración ha sido validada y se aplicará ahora."
     },
     "trialNagInfo": {
@@ -331,9 +331,9 @@
         "buttonPanelExportLogsText":"Exportar Registros",
         "panelExportLogsText":"Exporte registros para compartir con el Equipo de Soporte de Focus Bear",
         "exportSuccessText":"Sus registros están disponibles para compartir en el archivo FocusBearLogs.zip en el directorio <URL>",
-        "titleMeetingDetection":"Meeting detection",
-        "descriptionMeetingDetectionText":"Enable meeting detection to automatically suggest starting \"Meetings\" focus mode when Focus Bear detects you are in a call.",
-        "checkBoxMeetingDetectionText":"Enable meeting detection"
+        "titleMeetingDetection":"Deteccion de reunion",
+        "descriptionMeetingDetectionText":"Habilite la detección de reuniones para sugerir automáticamente iniciar el modo de enfoque \"Reuniones\" cuando Focus Bear detecta que está en una llamada.",
+        "checkBoxMeetingDetectionText":"Activar detección de reunion"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -461,9 +461,9 @@
             "subTitle": "Al seleccionar \"Bloquear todo lo demás\", la aplicación iniciará el modo de enfoque \"Reuniones\".",
             "buttonBlockText": "Bloquea todo lo demás",
             "buttonCancelText": "Está bien que use otras aplicaciones durante esta reunión",
-            "buttonFalseDetectionText":"False positive: I'm not in a meeting",
-            "titleFalseDetection":"Sorry about that. Are you sure you're not using an app that is using your microphone? If we keep getting it wrong, click button below to disable meeting detection.",
-            "buttonDisableText":"Disable meeting detection"
+            "buttonFalseDetectionText":"Falso positivo: No estoy en reunion",
+            "titleFalseDetection":"Lo siento por eso. ¿Estás seguro de que no estás usando una aplicación que está usando tu micrófono? Si nos seguimos equivocando, haga clic en el botón de abajo para desactivar la detección de reuniones.",
+            "buttonDisableText":"Desactivar deteccion de reunion"
         }
     },
     "pomodoroInfo": {
@@ -546,7 +546,6 @@
         "questionText": "Acabas de completar <LAST_HABIT_NAME>. ¿Qué hábito harás a continuación?",
         "selectHabitText": "Selecciona Hábito",
         "enterToChooseText":"Presiona INGRESAR para elegir una opción"
-
     },
     "preloadFocusModesViewInfo": {
         "title": "¿Qué tipo de trabajo realiza principalmente?",
@@ -622,9 +621,9 @@
         "syncInfoText": "Después de pagar, haz clic en el botón Sincronizar estado de pago a continuación",
         "buttonRestoreText": "Sincronizar estado de pago",
         "subscriptionExpiredText": "Su suscripción ha expirado",
-        "toolTipCopyId":"Copy user id",
-        "titleUserId":"Your user id:",
-        "toolTipCopied":"Copied"
+        "toolTipCopyId":"Copiar identificacion de usuario",
+        "titleUserId":"Su identificacion de usuario:",
+        "toolTipCopied":"Copiado"
     },
     "onboardingPostponeVcInfo": {
         "title": "Si tienes algo urgente, puedes posponer el proceso de inducción por unos minutos",
@@ -691,9 +690,8 @@
         "buttonBackText":"Atras",
         "buttonNextText":"Siguiente",
        "exploreTipsText":"Haga click en siguiente para explorer los tips para usar Focus Bear.",
-        "titleSignInSuccessful":"Sign in successful",
-        "signinSuccessText":"Great you're all signed in. I'll just give you a few tips before you start using it."
-
+        "titleSignInSuccessful":"Inicio de session exitosa",
+        "signinSuccessText":"Genial, todos han iniciado sesión. Solo les daré algunos consejos antes de que comiencen a usarlo."
     },
     "breakWarningVcInfo": {
         "title": "Tu descanso comienza en",
@@ -756,7 +754,9 @@
         "questionText": "¿Que sitios encuentras como distractores?",
         "description": "Puede bloquear ciertos sitios de forma predeterminada para evitar caer en agujeros de conejo.",
         "bottomText": "Si desea bloquear otros sitios de forma predeterminada, puede cambiar la configuración de Siempre bloqueado en Preferencias.",
-        "buttonContinueText": "Continuar"
+        "buttonContinueText": "Continuar",
+        "enterUrlText": "Ingrese la URL para bloquear:",
+        "buttonAddUrlText": "Agregue url"
     },
     "preloadFocusModeAppsVcInfo": {
         "buttonDoneText": "Finalizar",
@@ -780,6 +780,5 @@
         "buttonBackText":"Atras",
         "buttonNextText":"Siguiente",
         "buttonGotItText":"Adelante"
-
     }
 }
