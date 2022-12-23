@@ -227,7 +227,7 @@
         "settingIsNotValidText": "Lo siento, parece que su configuración no es válida. Genera configuraciones en el siguente link, https://dashboard.focusbear.io",
         "buttonEditSettingsText": "Editar Configuración",
         "buttonAdvancedText": "Avanzado",
-        "description": "Dale clic a \"Editar Configuración\" para modificar tu configuración existente.\nSi eres un usuario avanzad@ haz clic en \"Avanzado\"para ver o editar la configuración JSON",
+        "description": "Dale clic a \"Editar Configuración\" para modificar tu configuración existente. Si eres un usuario avanzad@ haz clic en \"Avanzado\"para ver o editar la configuración JSON",
         "settingIsValidText": "Tu configuración ha sido validada y se aplicará ahora."
     },
     "trialNagInfo": {
