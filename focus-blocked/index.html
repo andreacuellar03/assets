@@ -116,6 +116,15 @@
           ? "Blocked because you're doing your evening routine"
           : "";
 
+      const focus_tip_old_url = `<div class='notice-wrapper'>
+                          ${
+                            block_type
+                              ? ""
+                              : `<a href=${current_url}>Click here to re-open the original URL ${
+                                  old_url ?? ""
+                                }</a>`
+                          }
+                          </div>`;
       const focus_tip = `<div class='notice-wrapper'>
                           ${
                             block_type
@@ -127,8 +136,8 @@
                           <h6>Want to reprogram your brain so you stay on task during focus blocks?
                             <a href="https://journals.sagepub.com/doi/abs/10.1177/1539449219876877?journalCode=otjb&">Research into breaking bad habits</a> indicates that if you take a positive action immediately after doing a bad habit, you'll start to disrupt the neural triggers for the bad habit. For example, you just opened ${old_url} when you were intending to focus${
         focus_mode ? ` on ${focus_mode}` : ``
-      }. Try doing some deep breathing for 5 seconds, get up and stretch or go grab a glass of water. <a href="https://journals.sagepub.com/doi/full/10.1177/1539449219876877">Fritz et al's study</a> indicates this approach works much better than punishing yourself (no need to give yourself a mild electric shock for being so naughty). If you want a primer on the science of habit formation, <a href="https://hubermanlab.com/the-science-of-making-and-breaking-habits/">episode 53 of the Huberman Lab podcast</a> is worth a listen.</div>
-                          </h6>`;
+      }. Try doing some deep breathing for 5 seconds, get up and stretch or go grab a glass of water. <a href="https://journals.sagepub.com/doi/full/10.1177/1539449219876877">Fritz et al's study</a> indicates this approach works much better than punishing yourself (no need to give yourself a mild electric shock for being so naughty). If you want a primer on the science of habit formation, <a href="https://hubermanlab.com/the-science-of-making-and-breaking-habits/">episode 53 of the Huberman Lab podcast</a> is worth a listen.</h6>
+                          </div>`;
 
       if (block_type) {
         document.getElementById("focusTitle").innerText = blocked_message;
@@ -168,7 +177,8 @@
               clearInterval(refreshIntervalId);
               document.getElementById("focusTitle").innerText =
                 "Focus block is over!";
-              document.getElementById("progressWrapper").innerHTML = focus_tip;
+              document.getElementById("progressWrapper").innerHTML =
+                focus_tip_old_url;
             }
           },
           1000,

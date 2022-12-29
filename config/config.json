@@ -1,5 +1,6 @@
-{"welcomeInfo":
-    {"welcomeMessageHeading": "Welcome to Focus Bear",
+{
+    "welcomeInfo":{
+        "welcomeMessageHeading": "Welcome to Focus Bear",
         "welcomeMessageIntro": "Every morning, I will help you silence your urge to check email/Facebook and help you to do your morning routine instead.\n\nYou can configure your own routine later but for now, I’ll give you a suggested activity: 30 seconds of mindful breathing.\n\nWhile you breathe deeply, think of how awesome you’ll be if you stick to your morning routine every day.",
         "welcomeEndMessage": "Hope you feel calmer. You can now personalise your morning routine by clicking on the icon <icon> on the top bar and choosing Preferences -> Settings.",
         "preloadFocusModesDoneText": "Here's a short video that explains how to use Focus Bear.",
@@ -10,7 +11,7 @@
         "welcomeMessageOnlyBreakIntro": "Throughout the day, I'll remind you to take regular breaks to keep your mind sharp and your body flexible. Here's an example of a break activity: 30 seconds of deep breathing."
     },
     "activityInfo":{
-         "startMorningHabitTitleText":"Good Morning! Here are the habits to kick off an awesome day.",
+        "startMorningHabitTitleText":"Good Morning! Here are the habits to kick off an awesome day.",
         "startEveningHabitTitleText":"Good Evening! Let’s go through your wind down routine.",
         "startActivityButtonText":"Start <TIME> <NAME>",
         "activityFinishedText":"<ACTIVITY> finished!✅",
@@ -223,10 +224,10 @@
         "title":"Enter settings JSON below:",
         "buttonSaveText":"Save",
         "visitText":"Visit <SETTINGURL> to generate settings",
-        "settingUrl":"https://settings.focusbear.io",
+        "settingUrl":"https://dashboard.focusbear.io",
         "schemaError":"Your settings can not be validated.",
         "buttonOkText":"OK",
-        "settingIsNotValidText":"Sorry it seems like your settings aren’t valid. Please generate settings at https://settings.focusbear.io",
+        "settingIsNotValidText":"Sorry it seems like your settings aren’t valid. Please generate settings at https://dashboard.focusbear.io",
         "buttonEditSettingsText":"Edit Habits",
         "buttonAdvancedText":"Advanced",
         "description":"Click on \"Edit Settings\" to modify your existing settings.\nIf you are an advanced user click on \"Advanced\" to view or edit settings JSON",
@@ -339,6 +340,7 @@
         "titleHideDock":"Hide dock:",
         "descriptionHideDockText":"Enable this to hide dock during allowed apps activities to minimize distractions. \"System Events\" permission will be required for this.",
         "checkBoxHideDockText":"Hide dock during activities having allowed apps."
+
     },
     "focusPreferencesInfo":{
         "titleFocusType":"Focus Type:",
@@ -470,6 +472,7 @@
             "titleFalseDetection":"Sorry about that. Are you sure you're not using an app that is using your microphone? If we keep getting it wrong, click button below to disable meeting detection.",
             "buttonDisableText":"Disable meeting detection",
             "buttonGotItText":"Got it"
+
         }
     },
     "pomodoroInfo":{

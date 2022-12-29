@@ -389,6 +389,16 @@
                                 "description": "Allowed Focus Mode ID",
                                 "default": "",
                                 "examples": ["9b99f802-23b0-47e2-a188-b07001db8e9f"]
+                            },
+                            "run_micro_breaks": {
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/run_micro_breaks",
+                                "type": "boolean",
+                                "title": "run_micro_breaks",
+                                "description": "Run microbreaks during this activity?",
+                                "default": false,
+                                "examples": [
+                                    true
+                                ]
                             }
                         },
                         "additionalProperties": false
@@ -715,6 +725,16 @@
                                 "description": "Allowed Focus Mode ID",
                                 "default": "",
                                 "examples": ["9b99f802-23b0-47e2-a188-b07001db8e9f"]
+                            },
+                            "run_micro_breaks": {
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/run_micro_breaks",
+                                "type": "boolean",
+                                "title": "run_micro_breaks",
+                                "description": "Run microbreaks during this activity?",
+                                "default": false,
+                                "examples": [
+                                    true
+                                ]
                             }
                         },
                         "additionalProperties": false

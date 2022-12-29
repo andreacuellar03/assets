@@ -25,8 +25,8 @@ try {
     errorMessage += ` not found in config-es.json.`;
     core.setFailed(errorMessage);
   } else {
-    core.info("All keys are the same in both config files");
+    core.setOutput("All keys are the same in both config files");
   }
 } catch (error) {
-  core.setFailed(error.message);
+  core.setFailed(JSON.stringify(error.message));
 }

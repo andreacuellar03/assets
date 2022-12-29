@@ -1,7 +1,7 @@
 {
     "welcomeInfo": {
         "welcomeMessageHeading": "Bienvenido a Focus Bear",
-        "welcomeMessageIntro": "Cada mañana, evitaré que siga su impulso de revisar su correo electrónico/Facebook y le invitaré a seguir su rutina matutina en su lugar.\n\nPuede configurar su propia rutina luego, pero por ahora te sugiero una actividad: 1 minuto de respiración consciente.\n\nMientras respira profundamente, piense en lo increíble que serás si se compromete a su rutina matutina todos los días.",
+        "welcomeMessageIntro": "Todas las mañanas, te ayudaré a silenciar tu impulso de revisar el correo electrónico/Facebook y te ayudaré a hacer tu rutina matutina en su lugar.\n\nPuedes configurar tu propia rutina más tarde, pero por ahora, te daré una actividad sugerida: 30 segundos de la respiración consciente.\n\nMientras respiras profundamente, piensa en lo increíble que serás si sigues tu rutina matutina todos los días.",
         "welcomeEndMessage": "Espero que se sienta más tranquilo. Ahora puede personalizar su rutina matutina haciendo clic en el ícono <icon> en la barra superior y seleccionando Preferencias -> Configuraciones.",
         "preloadFocusModesDoneText": "Aquí podrás ver un video corto que explica cómo utilizar Focus Bear.",
         "introActivities": [
@@ -222,10 +222,10 @@
         "title": "Ingrese la configuración JSON a continuación:",
         "buttonSaveText": "Guardar",
         "visitText": "Visite <SETTINGURL> para generar configuraciones",
-        "settingUrl": "focusbear.io/settings-generator",
+        "settingUrl": "https://dashboard.focusbear.io",
         "schemaError": "Su configuración no se puede validar.",
         "buttonOkText": "OK",
-        "settingIsNotValidText": "Lo siento, parece que su configuración no es válida. Genera configuraciones en el siguente link, https://settings.focusbear.io",
+        "settingIsNotValidText": "Lo siento, parece que su configuración no es válida. Genera configuraciones en el siguente link, https://dashboard.focusbear.io",
         "buttonEditSettingsText": "Editar Configuración",
         "buttonAdvancedText": "Avanzado",
         "description": "Dale clic a \"Editar Configuración\" para modificar tu configuración existente. Si eres un usuario avanzad@ haz clic en \"Avanzado\"para ver o editar la configuración JSON",
@@ -332,9 +332,9 @@
         "buttonPanelExportLogsText":"Exportar Registros",
         "panelExportLogsText":"Exporte registros para compartir con el Equipo de Soporte de Focus Bear",
         "exportSuccessText":"Sus registros están disponibles para compartir en el archivo FocusBearLogs.zip en el directorio <URL>",
-        "titleMeetingDetection":"Meeting detection",
-        "descriptionMeetingDetectionText":"Enable meeting detection to automatically suggest starting \"Meetings\" focus mode when Focus Bear detects you are in a call.",
-        "checkBoxMeetingDetectionText":"Enable meeting detection",
+        "titleMeetingDetection":"Deteccion de reunion",
+        "descriptionMeetingDetectionText":"Habilite la detección de reuniones para sugerir automáticamente iniciar el modo de enfoque \"Reuniones\" cuando Focus Bear detecta que está en una llamada.",
+        "checkBoxMeetingDetectionText":"Activar detección de reunion",
         "titleHideDock":"Hide dock:",
         "descriptionHideDockText":"Enable this to hide dock during allowed apps activities to minimize distractions. \"System Events\" permission will be required for this.",
         "checkBoxHideDockText":"Hide dock during activities having allowed apps."
@@ -466,10 +466,11 @@
             "subTitle": "Al seleccionar \"Bloquear todo lo demás\", la aplicación iniciará el modo de enfoque \"Reuniones\".",
             "buttonBlockText": "Bloquea todo lo demás",
             "buttonCancelText": "Está bien que use otras aplicaciones durante esta reunión",
-            "buttonFalseDetectionText":"False positive: I'm not in a meeting",
-            "titleFalseDetection":"Sorry about that. Are you sure you're not using an app that is using your microphone? If we keep getting it wrong, click button below to disable meeting detection.",
-            "buttonDisableText":"Disable meeting detection",
+            "buttonFalseDetectionText":"Falso positivo: No estoy en reunion",
+            "titleFalseDetection":"Lo siento por eso. ¿Estás seguro de que no estás usando una aplicación que está usando tu micrófono? Si nos seguimos equivocando, haga clic en el botón de abajo para desactivar la detección de reuniones.",
+            "buttonDisableText":"Desactivar deteccion de reunion",
             "buttonGotItText":"Entendido"
+ 
         }
     },
     "pomodoroInfo": {
@@ -633,9 +634,10 @@
         "syncInfoText": "Después de pagar, haz clic en el botón Sincronizar estado de pago a continuación",
         "buttonRestoreText": "Sincronizar estado de pago",
         "subscriptionExpiredText": "Su suscripción ha expirado",
-        "toolTipCopyId":"Copy user id",
-        "titleUserId":"Your user id:",
-        "toolTipCopied":"Copied"
+        "toolTipCopyId":"Copiar identificacion de usuario",
+        "titleUserId":"Su identificacion de usuario:",
+        "toolTipCopied":"Copiado"
+
     },
     "onboardingPostponeVcInfo": {
         "title": "Si tienes algo urgente, puedes posponer el proceso de inducción por unos minutos",
@@ -702,8 +704,9 @@
         "buttonBackText":"Atras",
         "buttonNextText":"Siguiente",
        "exploreTipsText":"Haga click en siguiente para explorer los tips para usar Focus Bear.",
-        "titleSignInSuccessful":"Sign in successful",
-        "signinSuccessText":"Great you're all signed in. I'll just give you a few tips before you start using it."
+        "titleSignInSuccessful":"Inicio de session exitosa",
+        "signinSuccessText":"Genial, todos han iniciado sesión. Solo les daré algunos consejos antes de que comiencen a usarlo."
+
     },
     "breakWarningVcInfo": {
         "title": "Tu descanso comienza en",
@@ -767,8 +770,9 @@
         "description": "Puede bloquear ciertos sitios de forma predeterminada para evitar caer en agujeros de conejo.",
         "bottomText": "Si desea bloquear otros sitios de forma predeterminada, puede cambiar la configuración de Siempre bloqueado en Preferencias.",
         "buttonContinueText": "Continuar",
-        "enterUrlText": "Enter url to block:",
-        "buttonAddUrlText": "Add url"
+        "enterUrlText": "Ingrese la URL para bloquear:",
+        "buttonAddUrlText": "Agregue url"
+
     },
     "preloadFocusModeAppsVcInfo": {
         "buttonDoneText": "Finalizar",
