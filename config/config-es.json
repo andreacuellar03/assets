@@ -113,7 +113,7 @@
         "abortingTitle": "Cancelando..",
         "abortingCountDownInfo": {
             "subTitle": "¿Está seguro de que quieres renunciar a sus hábitos? Tómese 10 segundos para reflexionar sobre si realmente quieres cancelar.",
-            "message": "Mientras espera, reflexiona sobre por qué estás haciendo esto. Si fue porque su rutina matutina era demasiado ambiciosa, piense en acortarla para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si está desactivando porque la aplicación está dañada, ¡Lo siento mucho!",
+            "message": "Mientras espera, reflexiona sobre por qué estás haciendo esto. Si fue porque su rutina era demasiado ambiciosa, piense en acortarla para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si está desactivando porque la aplicación está dañada, ¡Lo siento mucho!",
             "pleaseEmailText": "Por favor envíe un correo electrónico",
             "buttonAbortCancelText": "No quise hacer eso. ¡Déjeme continuar con mis hábitos!"
         },
@@ -134,20 +134,20 @@
             },
             "dropDown_3": {
                 "title": "Mis hábitos son demasiado difíciles - no puedo lo puedo manejar",
-                "description": "Ah, es comprensible. ¿Le gustaría restablecer sus hábitos para que sean de 30 segundos cada uno y un máximo de 5 minutos? Una breve rutina matutina es mejor que nada. Puedes construir desde allí.",
+                "description": "Ah, es comprensible. ¿Le gustaría restablecer sus hábitos para que sean de 30 segundos cada uno y un máximo de 5 minutos? Una breve rutina es mejor que nada. Puedes construir desde allí.",
                 "buttonStartSmallText": "Sí, voy a empezar poco a poco",
-                "buttonDontWantText": "¡NO quiero una rutina matutina en absoluto!",
+                "buttonDontWantText": "¡NO quiero una rutina en absoluto!",
                 "emailTitle": "Su correo electrónico (si quiere que le respondamos):",
                 "startSmallInfo": {
                     "subTitle": "Empezando poco a poco..",
                     "activityResetText": "Hemos restablecido sus hábitos y actividades de descanso para usted. Ahora tienen sólo 30 segundos de duración, lo que debería hacerlos más manejables.",
-                    "activityRemovedText": "Eliminamos algunas actividades para que la rutina matutina total dure 5 minutos.",
+                    "activityRemovedText": "Eliminamos algunas actividades para que la rutina total dure 5 minutos.",
                     "changeSettingsText": "Puede modificar su configuración más tarde desde el icono de la barra de herramientas superior <icon>",
                     "shareFeedbackText": "¿Puedes compartir algunos comentarios sobre por qué sus hábitos eran demasiado difíciles?﹡",
                     "buttonTitle": "Iniciar rutina acortada"
                 },
                 "givingUpInfo": {
-                    "subTitle": "Renunciar a su rutina matutina",
+                    "subTitle": "Renunciar a su rutina",
                     "description": "No hay problema. Tienes el control.",
                     "changeSettingsText": "No dude en reactivar Focus Bear desde el icono de la barra de herramientas superior <icon>",
                     "shareFeedbackText": "¿Puedes compartir comentarios sobre la aplicación?﹡",
@@ -170,7 +170,7 @@
         "quittingTitle": "Abandonando..",
         "quittingCountDownInfo": {
             "subTitle": "¿Seguro que quieres salir? Tómese 10 segundos para reflexionar sobre si realmente quieres abandonar.",
-            "message": "Mientras esperas, reflexiona sobre por qué estás haciendo esto. Si fue porque su rutina matutina era demasiado ambiciosa, tal vez acortala para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si estás abandonando porque la aplicación está dañada, ¡lo siento mucho!",
+            "message": "Mientras esperas, reflexiona sobre por qué estás haciendo esto. Si fue porque su rutina era demasiado ambiciosa, tal vez acortala para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si estás abandonando porque la aplicación está dañada, ¡lo siento mucho!",
             "pleaseEmailText": "Por favor envíe un correo electrónico",
             "buttonQuitCancelText": "No quise hacer eso. ¡Déjeme continuar con mis hábitos!"
         },

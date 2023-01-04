@@ -113,7 +113,7 @@
         "abortingTitle":"Cancelling..",
         "abortingCountDownInfo":{
             "subTitle":"Are you sure you want to give up on your habits? Please take 10 seconds to reflect on whether you are serious about cancelling.",
-            "message":"While you wait, reflect on why you’re doing this. If it was because your morning routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re cancelling because the app is broken, we're really sorry and would appreciate your feedback.",
+            "message":"While you wait, reflect on why you’re doing this. If it was because your routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re cancelling because the app is broken, we're really sorry and would appreciate your feedback.",
             "pleaseEmailText":"Please email",
             "buttonAbortCancelText":"I didn’t mean it. Let me do my habits!"
         },
@@ -134,20 +134,20 @@
             },
             "dropDown_3":{
                 "title":"My habits are too hard - I can't handle them",
-                "description":"Ah understandable. Would you like to reset your habits to be 30 seconds each and max 5 minutes? A short morning routine is better than nothing. You can build from there.",
+                "description":"Ah understandable. Would you like to reset your habits to be 30 seconds each and max 5 minutes? A short routine is better than nothing. You can build from there.",
                 "buttonStartSmallText":"Yeah - I'll start small",
-                "buttonDontWantText":"NO I don't want a \nmorning routine at all!",
+                "buttonDontWantText":"NO I don't want a \nroutine at all!",
                 "emailTitle":"Your Email (if you want us to reply):",
                 "startSmallInfo":{
                     "subTitle":"Starting small..",
                     "activityResetText":"We’ve reset your habits and break activities for you. They’re now each only 30 seconds long which should make it more manageable.",
-                    "activityRemovedText":"We removed a few activities so that the total morning routine is 5 minutes long.",
+                    "activityRemovedText":"We removed a few activities so that the total routine is 5 minutes long.",
                     "changeSettingsText":"You can alter your settings later from the top toolbar icon <icon>",
                     "shareFeedbackText":"Can you share some feedback about why your habits were too hard?﹡",
                     "buttonTitle":"Start shortened routine"    
                 },
                 "givingUpInfo":{
-                    "subTitle":"Giving up on your morning routine",
+                    "subTitle":"Giving up on your routine",
                     "description":"No problems. You’re in control.",
                     "changeSettingsText":"Feel free to reactivate Focus Bear from top toolbar icon <icon>",
                     "shareFeedbackText":"Can you share feedback about the app?﹡",
@@ -170,7 +170,7 @@
         "quittingTitle":"Quitting..",
         "quittingCountDownInfo":{
             "subTitle":"Are you sure you want to Quit? Please take 10 seconds to reflect on whether you are serious about quitting.",
-            "message":"While you wait, reflect on why you’re doing this. If it was because your morning routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re deactivating because the app is broken, really sorry!!",
+            "message":"While you wait, reflect on why you’re doing this. If it was because your routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re deactivating because the app is broken, really sorry!!",
             "pleaseEmailText":"Please email",
             "buttonQuitCancelText":"I didn’t mean it. Let me do my habits!"
         },
