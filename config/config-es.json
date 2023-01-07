@@ -108,13 +108,13 @@
         "buttonDontTellAgainText":"Entendido – No mencionar de nuevo",
         "toolTipColorBoxText":"Elija un color para que se muestre en el fondo del icono de la barra de menú superior para ayudar a identificar el modo de enfoque que está ejecutando.",
         "notificationFirefoxText":"Nota: No podemos bloquear las distracciones en Firefox aun pero si usas Chrome o Safari, estaremos aquí para ayudarte a mantenerte concentrado.",
-        "expiredBarText":"Expired"
-    },
+         "expiredBarText":"Caducado"
+     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
         "abortingCountDownInfo": {
             "subTitle": "¿Está seguro de que quieres renunciar a sus hábitos? Tómese 10 segundos para reflexionar sobre si realmente quieres cancelar.",
-            "message": "Mientras espera, reflexiona sobre por qué estás haciendo esto. Si fue porque su rutina matutina era demasiado ambiciosa, piense en acortarla para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si está desactivando porque la aplicación está dañada, ¡Lo siento mucho!",
+            "message": "Mientras espera, reflexiona sobre por qué estás haciendo esto. Si fue porque su rutina era demasiado ambiciosa, piense en acortarla para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si está desactivando porque la aplicación está dañada, ¡Lo siento mucho!",
             "pleaseEmailText": "Por favor envíe un correo electrónico",
             "buttonAbortCancelText": "No quise hacer eso. ¡Déjeme continuar con mis hábitos!"
         },
@@ -135,20 +135,20 @@
             },
             "dropDown_3": {
                 "title": "Mis hábitos son demasiado difíciles - no puedo lo puedo manejar",
-                "description": "Ah, es comprensible. ¿Le gustaría restablecer sus hábitos para que sean de 30 segundos cada uno y un máximo de 5 minutos? Una breve rutina matutina es mejor que nada. Puedes construir desde allí.",
+                "description": "Ah, es comprensible. ¿Le gustaría restablecer sus hábitos para que sean de 30 segundos cada uno y un máximo de 5 minutos? Una breve rutina es mejor que nada. Puedes construir desde allí.",
                 "buttonStartSmallText": "Sí, voy a empezar poco a poco",
-                "buttonDontWantText": "¡NO quiero una rutina matutina en absoluto!",
+                "buttonDontWantText": "¡NO quiero una rutina en absoluto!",
                 "emailTitle": "Su correo electrónico (si quiere que le respondamos):",
                 "startSmallInfo": {
                     "subTitle": "Empezando poco a poco..",
                     "activityResetText": "Hemos restablecido sus hábitos y actividades de descanso para usted. Ahora tienen sólo 30 segundos de duración, lo que debería hacerlos más manejables.",
-                    "activityRemovedText": "Eliminamos algunas actividades para que la rutina matutina total dure 5 minutos.",
+                    "activityRemovedText": "Eliminamos algunas actividades para que la rutina total dure 5 minutos.",
                     "changeSettingsText": "Puede modificar su configuración más tarde desde el icono de la barra de herramientas superior <icon>",
                     "shareFeedbackText": "¿Puedes compartir algunos comentarios sobre por qué sus hábitos eran demasiado difíciles?﹡",
                     "buttonTitle": "Iniciar rutina acortada"
                 },
                 "givingUpInfo": {
-                    "subTitle": "Renunciar a su rutina matutina",
+                    "subTitle": "Renunciar a su rutina",
                     "description": "No hay problema. Tienes el control.",
                     "changeSettingsText": "No dude en reactivar Focus Bear desde el icono de la barra de herramientas superior <icon>",
                     "shareFeedbackText": "¿Puedes compartir comentarios sobre la aplicación?﹡",
@@ -171,7 +171,7 @@
         "quittingTitle": "Abandonando..",
         "quittingCountDownInfo": {
             "subTitle": "¿Seguro que quieres salir? Tómese 10 segundos para reflexionar sobre si realmente quieres abandonar.",
-            "message": "Mientras esperas, reflexiona sobre por qué estás haciendo esto. Si fue porque su rutina matutina era demasiado ambiciosa, tal vez acortala para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si estás abandonando porque la aplicación está dañada, ¡lo siento mucho!",
+            "message": "Mientras esperas, reflexiona sobre por qué estás haciendo esto. Si fue porque su rutina era demasiado ambiciosa, tal vez acortala para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si estás abandonando porque la aplicación está dañada, ¡lo siento mucho!",
             "pleaseEmailText": "Por favor envíe un correo electrónico",
             "buttonQuitCancelText": "No quise hacer eso. ¡Déjeme continuar con mis hábitos!"
         },
@@ -338,9 +338,10 @@
         "titleMeetingDetection":"Deteccion de reunion",
         "descriptionMeetingDetectionText":"Habilite la detección de reuniones para sugerir automáticamente iniciar el modo de enfoque \"Reuniones\" cuando Focus Bear detecta que está en una llamada.",
         "checkBoxMeetingDetectionText":"Activar detección de reunion",
-        "titleHideDock":"Hide dock:",
-        "descriptionHideDockText":"Enable this to hide dock during allowed apps activities to minimize distractions. \"System Events\" permission will be required for this.",
-        "checkBoxHideDockText":"Hide dock during activities having allowed apps."
+        "titleHideDock":"Ocultar muelle:",
+        "descriptionHideDockText":"Habilite esto para ocultar las actividades de las aplicaciones permitidas para minimizar las distracciones\"Eventos del sistema\" Se requerirán permisos para esto.",
+        "checkBoxHideDockText":"Ocultar el muelle durante las actividades que tienen aplicaciones permitidas."
+ 
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -607,11 +608,12 @@
         "officeModeEnableText": "Ok, te daré algunas actividades de descanso que recomendamos para hacer en un entorno de oficina",
         "postponedLastHabitText": "Has pospuesto tus hábitos varias veces. ¿Estás seguro de que quieres posponerlos otra vez?",
         "buttonDoHabitText": "Cambié de parecer, seguiré con mis hábitos",
-        "titlePostponeOrSkip": "Want to postpone the break or skip it completely?",
-        "buttonSkipCompletelyText": "Skip Completely",
-        "titleAskOfficeMode": "Do you not have time for a break right now or are you in the office and it's not appropriate to do <ACTIVITY>?",
-        "buttonDontHaveTimeText": "I don't have time",
-        "buttonInTheOffIceText": "I'm in the offIce"
+        "titlePostponeOrSkip": "Quieres posponer el descanso o saltártelo por completo?",
+        "buttonSkipCompletelyText": "Saltar completamente",
+        "titleAskOfficeMode": "No tienes tiempo para un descanso en este momento o estas en la oficina y no es apropiado hacerlo <ACTIVITY>?",
+        "buttonDontHaveTimeText": "No tengo tiempo",
+        "buttonInTheOffIceText": "Estoy en la oficina"
+ 
     },
     "brainDumpVcInfo": {
         "title": "Focus Bear - Volcado de cerebros",
