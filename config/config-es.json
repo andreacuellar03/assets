@@ -222,7 +222,7 @@
         "title": "Ingrese la configuración JSON a continuación:",
         "buttonSaveText": "Guardar",
         "visitText": "Visite <SETTINGURL> para generar configuraciones",
-        "settingUrl": "https://dashboard.focusbear.io",
+        "settingUrl": "https://settings.focusbear.io",
         "schemaError": "Su configuración no se puede validar.",
         "buttonOkText": "OK",
         "settingIsNotValidText": "Lo siento, parece que su configuración no es válida. Genera configuraciones en el siguente link, https://dashboard.focusbear.io",
@@ -261,10 +261,12 @@
     "menuInfo": {
         "menuItemReactivateTitle": "Reactivar",
         "menuItemEnterLicenseKeyTitle": "Introduzca la clave de la licencia",
+        "menuItemSettingsTitle": "Configuraciones",
         "menuItemPreferencesTitle": "Preferencias",
         "menuItemExportStatisticsTitle": "Exportar estadísticas",
         "menuItemFocusTitle": "Enfoque",
         "menuItemHardcorePomodoroModeTitle": " Modo de Pomodoro Súper",
+        "menuItemFocusPreferencesTitle": "Preferencias de enfoque",
         "menuItemStartPomodoroTitle": "Inicia modo Pomodoro",
         "menuItemStopHardcorePomodoroTitle": "Parar Modo de Pomodoro Súper",
         "menuItemCheckForUpdatesTitle": "Buscar actualizaciones",
@@ -284,7 +286,8 @@
         "toolTipOfficeMode":"Cuando estés trabajando desde la oficina, solo te daré actividades de descanso apropiadas (por ejemplo, estiramientos de silla en lugar de flexiones).",
         "toolTipWfhMode":"¡No hay nadie cerca! Puedes hacer actividades de descanso que sean un poco más divertidas (por ejemplo, bailar como si nadie estuviera mirando).",
         "menuItemToolsTitle":"Herramientas >",
-        "menuItemOpenToolboxTitle":"Abrir caja de herramientas"
+        "menuItemOpenToolboxTitle":"Abrir caja de herramientas",
+        "menuItemMeetingDetectionTitle":"Meeting active - breaks off"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo de Pomodoro:",
@@ -388,8 +391,8 @@
         "titleBlockedSelectedUrls":"Bloquear URL seleccionadas (solo funciona con Safari y Chrome)",
         "titleAllowUrlListApproch":"Bloquear todo excepto los sitios seguros que elija",
         "titleBlockUrlListApproch":"Permitir todo excepto ciertos sitios que me distraen",
-        "allowUrlsQuestionText":"¿Cómo deseas permitir las URL?",
-        "blockUrlsQuestionText":"¿Cómo deseas bloquear las URL?"
+        "allowUrlsQuestionText":"Which URLs do you want to allow?",
+        "blockUrlsQuestionText":"Which URLs do you want to block?"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecute el script de Apple antes de iniciar el modo de enfoque.",
@@ -469,8 +472,8 @@
             "buttonFalseDetectionText":"Falso positivo: No estoy en reunion",
             "titleFalseDetection":"Lo siento por eso. ¿Estás seguro de que no estás usando una aplicación que está usando tu micrófono? Si nos seguimos equivocando, haga clic en el botón de abajo para desactivar la detección de reuniones.",
             "buttonDisableText":"Desactivar deteccion de reunion",
-            "buttonGotItText":"Entendido"
- 
+            "buttonGotItText":"Entendido",
+            "buttonCheckBoxText":"Don't show this again when I join meetings"
         }
     },
     "pomodoroInfo": {
