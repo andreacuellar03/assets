@@ -108,7 +108,7 @@
         "buttonDontTellAgainText":"Entendido – No mencionar de nuevo",
         "toolTipColorBoxText":"Elija un color para que se muestre en el fondo del icono de la barra de menú superior para ayudar a identificar el modo de enfoque que está ejecutando.",
         "notificationFirefoxText":"Nota: No podemos bloquear las distracciones en Firefox aun pero si usas Chrome o Safari, estaremos aquí para ayudarte a mantenerte concentrado.",
-        "expiredBarText":"Expired"
+        "expiredBarText":"Caducado"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -335,9 +335,9 @@
         "titleMeetingDetection":"Deteccion de reunion",
         "descriptionMeetingDetectionText":"Habilite la detección de reuniones para sugerir automáticamente iniciar el modo de enfoque \"Reuniones\" cuando Focus Bear detecta que está en una llamada.",
         "checkBoxMeetingDetectionText":"Activar detección de reunion",
-        "titleHideDock":"Hide dock:",
-        "descriptionHideDockText":"Enable this to hide dock during allowed apps activities to minimize distractions. \"System Events\" permission will be required for this.",
-        "checkBoxHideDockText":"Hide dock during activities having allowed apps."
+        "titleHideDock":"Ocultar muelle:",
+        "descriptionHideDockText":"Habilite esto para ocultar las actividades de las aplicaciones permitidas para minimizar las distracciones\"Eventos del sistema\" Se requerirán permisos para esto.",
+        "checkBoxHideDockText":"Ocultar el muelle durante las actividades que tienen aplicaciones permitidas."
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -604,11 +604,11 @@
         "officeModeEnableText": "Ok, te daré algunas actividades de descanso que recomendamos para hacer en un entorno de oficina",
         "postponedLastHabitText": "Has pospuesto tus hábitos varias veces. ¿Estás seguro de que quieres posponerlos otra vez?",
         "buttonDoHabitText": "Cambié de parecer, seguiré con mis hábitos",
-        "titlePostponeOrSkip": "Want to postpone the break or skip it completely?",
-        "buttonSkipCompletelyText": "Skip Completely",
-        "titleAskOfficeMode": "Do you not have time for a break right now or are you in the office and it's not appropriate to do <ACTIVITY>?",
-        "buttonDontHaveTimeText": "I don't have time",
-        "buttonInTheOffIceText": "I'm in the offIce"
+        "titlePostponeOrSkip": "Quieres posponer el descanso o saltártelo por completo?",
+        "buttonSkipCompletelyText": "Saltar completamente",
+        "titleAskOfficeMode": "No tienes tiempo para un descanso en este momento o estas en la oficina y no es apropiado hacerlo <ACTIVITY>?",
+        "buttonDontHaveTimeText": "No tengo tiempo",
+        "buttonInTheOffIceText": "Estoy en la oficina"
     },
     "brainDumpVcInfo": {
         "title": "Focus Bear - Volcado de cerebros",
