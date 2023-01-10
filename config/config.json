@@ -1,6 +1,5 @@
-{
-    "welcomeInfo":{
-        "welcomeMessageHeading": "Welcome to Focus Bear",
+{"welcomeInfo":
+    {"welcomeMessageHeading": "Welcome to Focus Bear",
         "welcomeMessageIntro": "Every morning, I will help you silence your urge to check email/Facebook and help you to do your morning routine instead.\n\nYou can configure your own routine later but for now, I’ll give you a suggested activity: 30 seconds of mindful breathing.\n\nWhile you breathe deeply, think of how awesome you’ll be if you stick to your morning routine every day.",
         "welcomeEndMessage": "Hope you feel calmer. You can now personalise your morning routine by clicking on the icon <icon> on the top bar and choosing Preferences -> Settings.",
         "preloadFocusModesDoneText": "Here's a short video that explains how to use Focus Bear.",
@@ -11,7 +10,7 @@
         "welcomeMessageOnlyBreakIntro": "Throughout the day, I'll remind you to take regular breaks to keep your mind sharp and your body flexible. Here's an example of a break activity: 30 seconds of deep breathing."
     },
     "activityInfo":{
-        "startMorningHabitTitleText":"Good Morning! Here are the habits to kick off an awesome day.",
+         "startMorningHabitTitleText":"Good Morning! Here are the habits to kick off an awesome day.",
         "startEveningHabitTitleText":"Good Evening! Let’s go through your wind down routine.",
         "startActivityButtonText":"Start <TIME> <NAME>",
         "activityFinishedText":"<ACTIVITY> finished!✅",
@@ -227,7 +226,7 @@
         "settingUrl":"https://settings.focusbear.io",
         "schemaError":"Your settings can not be validated.",
         "buttonOkText":"OK",
-        "settingIsNotValidText":"Sorry it seems like your settings aren’t valid. Please generate settings at https://dashboard.focusbear.io",
+        "settingIsNotValidText":"Sorry it seems like your settings aren’t valid. Please generate settings at https://settings.focusbear.io",
         "buttonEditSettingsText":"Edit Habits",
         "buttonAdvancedText":"Advanced",
         "description":"Click on \"Edit Settings\" to modify your existing settings.\nIf you are an advanced user click on \"Advanced\" to view or edit settings JSON",
@@ -286,7 +285,8 @@
         "toolTipOfficeMode":"When you're working from the office, I will only give you appropriate break activities (e.g. chair stretches rather than pushups).",
         "toolTipWfhMode":"No-one's around! You can do break activities that are a bit more fun (e.g. Dance like no-one's watching).",
         "menuItemToolsTitle":"Tools >",
-        "menuItemOpenToolboxTitle":"Open Toolbox"
+        "menuItemOpenToolboxTitle":"Open Toolbox",
+        "menuItemMeetingDetectionTitle":"Meeting active - breaks off"
     },
     "preferencesInfo":{
         "titlePomodoro":"Pomodoro Mode:",
@@ -340,7 +340,6 @@
         "titleHideDock":"Hide dock:",
         "descriptionHideDockText":"Enable this to hide dock during allowed apps activities to minimize distractions. \"System Events\" permission will be required for this.",
         "checkBoxHideDockText":"Hide dock during activities having allowed apps."
-
     },
     "focusPreferencesInfo":{
         "titleFocusType":"Focus Type:",
@@ -391,8 +390,8 @@
         "titleBlockedSelectedUrls":"Block selected urls (works with Safari and Chrome only)",
         "titleAllowUrlListApproch":"Block everything except safe sites that I choose",
         "titleBlockUrlListApproch":"Allow everything except certain distracting sites",
-        "allowUrlsQuestionText":"How do you want to allow URLs?",
-        "blockUrlsQuestionText":"How do you want to block URLs?"
+        "allowUrlsQuestionText":"Which URLs do you want to allow?",
+        "blockUrlsQuestionText":"Which URLs do you want to block?"
     },
     "focusPreferencesAdvancedInfo":{
         "runScriptBeforeText":"Run apple script before starting focus mode.",
@@ -471,8 +470,8 @@
             "buttonFalseDetectionText":"False positive: I'm not in a meeting",
             "titleFalseDetection":"Sorry about that. Are you sure you're not using an app that is using your microphone? If we keep getting it wrong, click button below to disable meeting detection.",
             "buttonDisableText":"Disable meeting detection",
-            "buttonGotItText":"Got it"
-
+            "buttonGotItText":"Got it",
+            "buttonCheckBoxText":"Don't show this again when I join meetings"
         }
     },
     "pomodoroInfo":{
@@ -506,7 +505,7 @@
         "alertConfirmResetPasswordTitle":"Reset Password",
         "alertConfirmResetPasswordSubTitle":"Your current password will be removed after 24 hours. You can then set a new password. Proceed?",
         "alertPasswordResetDoneTitle":"Password reset in progress",
-        "alertPasswordResetDoneSubTitle":"Please set a new password after 24 hours."
+        "alertPasswordResetDoneSubTitle":"Please set a new password after 24 hours.",
     },
     "passwordPreferencesInfo":{
         "titleSetPassword":"Set Password",

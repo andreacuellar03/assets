@@ -108,8 +108,8 @@
         "buttonDontTellAgainText":"Entendido – No mencionar de nuevo",
         "toolTipColorBoxText":"Elija un color para que se muestre en el fondo del icono de la barra de menú superior para ayudar a identificar el modo de enfoque que está ejecutando.",
         "notificationFirefoxText":"Nota: No podemos bloquear las distracciones en Firefox aun pero si usas Chrome o Safari, estaremos aquí para ayudarte a mantenerte concentrado.",
-        "expiredBarText":"Caducado"
-    },
+         "expiredBarText":"Caducado"
+     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
         "abortingCountDownInfo": {
@@ -261,10 +261,12 @@
     "menuInfo": {
         "menuItemReactivateTitle": "Reactivar",
         "menuItemEnterLicenseKeyTitle": "Introduzca la clave de la licencia",
+        "menuItemSettingsTitle": "Configuraciones",
         "menuItemPreferencesTitle": "Preferencias",
         "menuItemExportStatisticsTitle": "Exportar estadísticas",
         "menuItemFocusTitle": "Enfoque",
         "menuItemHardcorePomodoroModeTitle": " Modo de Pomodoro Súper",
+        "menuItemFocusPreferencesTitle": "Preferencias de enfoque",
         "menuItemStartPomodoroTitle": "Inicia modo Pomodoro",
         "menuItemStopHardcorePomodoroTitle": "Parar Modo de Pomodoro Súper",
         "menuItemCheckForUpdatesTitle": "Buscar actualizaciones",
@@ -284,7 +286,8 @@
         "toolTipOfficeMode":"Cuando estés trabajando desde la oficina, solo te daré actividades de descanso apropiadas (por ejemplo, estiramientos de silla en lugar de flexiones).",
         "toolTipWfhMode":"¡No hay nadie cerca! Puedes hacer actividades de descanso que sean un poco más divertidas (por ejemplo, bailar como si nadie estuviera mirando).",
         "menuItemToolsTitle":"Herramientas >",
-        "menuItemOpenToolboxTitle":"Abrir caja de herramientas"
+        "menuItemOpenToolboxTitle":"Abrir caja de herramientas",
+        "menuItemMeetingDetectionTitle":"Meeting active - breaks off"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo de Pomodoro:",
@@ -338,6 +341,7 @@
         "titleHideDock":"Ocultar muelle:",
         "descriptionHideDockText":"Habilite esto para ocultar las actividades de las aplicaciones permitidas para minimizar las distracciones\"Eventos del sistema\" Se requerirán permisos para esto.",
         "checkBoxHideDockText":"Ocultar el muelle durante las actividades que tienen aplicaciones permitidas."
+ 
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -388,8 +392,8 @@
         "titleBlockedSelectedUrls":"Bloquear URL seleccionadas (solo funciona con Safari y Chrome)",
         "titleAllowUrlListApproch":"Bloquear todo excepto los sitios seguros que elija",
         "titleBlockUrlListApproch":"Permitir todo excepto ciertos sitios que me distraen",
-        "allowUrlsQuestionText":"¿Cómo deseas permitir las URL?",
-        "blockUrlsQuestionText":"¿Cómo deseas bloquear las URL?"
+        "allowUrlsQuestionText":"Which URLs do you want to allow?",
+        "blockUrlsQuestionText":"Which URLs do you want to block?"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecute el script de Apple antes de iniciar el modo de enfoque.",
@@ -469,8 +473,8 @@
             "buttonFalseDetectionText":"Falso positivo: No estoy en reunion",
             "titleFalseDetection":"Lo siento por eso. ¿Estás seguro de que no estás usando una aplicación que está usando tu micrófono? Si nos seguimos equivocando, haga clic en el botón de abajo para desactivar la detección de reuniones.",
             "buttonDisableText":"Desactivar deteccion de reunion",
-            "buttonGotItText":"Entendido"
- 
+            "buttonGotItText":"Entendido",
+            "buttonCheckBoxText":"Don't show this again when I join meetings"
         }
     },
     "pomodoroInfo": {
@@ -609,6 +613,7 @@
         "titleAskOfficeMode": "No tienes tiempo para un descanso en este momento o estas en la oficina y no es apropiado hacerlo <ACTIVITY>?",
         "buttonDontHaveTimeText": "No tengo tiempo",
         "buttonInTheOffIceText": "Estoy en la oficina"
+ 
     },
     "brainDumpVcInfo": {
         "title": "Focus Bear - Volcado de cerebros",
