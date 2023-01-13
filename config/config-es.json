@@ -287,7 +287,9 @@
         "toolTipWfhMode":"¡No hay nadie cerca! Puedes hacer actividades de descanso que sean un poco más divertidas (por ejemplo, bailar como si nadie estuviera mirando).",
         "menuItemToolsTitle":"Herramientas >",
         "menuItemOpenToolboxTitle":"Abrir caja de herramientas",
-        "menuItemMeetingDetectionTitle":"Meeting active - breaks off"
+        "menuItemMeetingDetectionTitle":"Meeting active - breaks off",
+        "menuItemResumeHabitsTitle":"Resume Habits",
+        "menuItemFocusMusicTitle":"Focus Music"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo de Pomodoro:",
@@ -393,7 +395,8 @@
         "titleAllowUrlListApproch":"Bloquear todo excepto los sitios seguros que elija",
         "titleBlockUrlListApproch":"Permitir todo excepto ciertos sitios que me distraen",
         "allowUrlsQuestionText":"Which URLs do you want to allow?",
-        "blockUrlsQuestionText":"Which URLs do you want to block?"
+        "blockUrlsQuestionText":"Which URLs do you want to block?",
+        "enterMultiUrlText":"Enter single or multiple urls(one in each line)"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecute el script de Apple antes de iniciar el modo de enfoque.",
@@ -422,7 +425,9 @@
             "questionText": "¿Qué planea lograr durante este bloque/bloques de enfoque?",
             "onlyAllowSelectedAppText":"Solo podrás usar <APP>",
             "onlyAllowSelectedAppAndUrlText":"Solo podrás usar \"<URL>\" en <APP>",
-            "explanationText":"Establece una intención para el bloque de enfoque que ayude a preparar tu cerebro para realizar esa tarea. Para editar la intención después de iniciar el modo de enfoque, haz clic en Notas Rápidas en la barra de menú."
+            "explanationText":"Establece una intención para el bloque de enfoque que ayude a preparar tu cerebro para realizar esa tarea. Para editar la intención después de iniciar el modo de enfoque, haz clic en Notas Rápidas en la barra de menú.",
+            "buttonStopFocusText":"Stop current focus mode and start this one",
+            "activityRunningCantStartFocusText":"You can not start a focus mode while an activity is running."
         },
         "abortingFocusModeInfo": {
             "title": "Desactivación del tipo de enfoque - <FOCUSTYPE>",
@@ -482,13 +487,14 @@
         "questionFirstText": "¿Qué quieres lograr en esta sesión de pomodoro?",
         "questionSecondText": "¿Qué modo de enfoque quieres usar?",
         "buttonEditFocusModeText": "Editar modos de enfoque",
-        "buttonLetsDoItText": "Vamos a hacerlo",
+        "buttonLetsDoItText": "Start Session",
         "buttonHardcorePomodoroText": "Use el modo pomodoro Súper (bloquee el modo de enfoque para múltiples pomodoros)",
         "howManyPomodoroText": "¿Por cuantos pomodoros se quiere concentrar?:",
         "chooseTheFocusModeText": "Elije el modo de enfoque y la duración: no podrá cambiar el modo de enfoque hasta que se acabe el tiempo (todavía puede usar cualquier aplicación / sitio web durante el descanso de 5 minutos)",
         "alertWarningPaswwordSetText": "Para que el modo pomodoro Súper sea más efectivo, recomendamos establecer una contraseña (pídele a otra persona que lo haga por usted); de lo contrario, aún podrá cancelar los modos de enfoque antes de que se acabe el tiempo..",
         "completedPomodoroCountText": "Has completado <COMPLETED_POMODORO> de <TOTAL_POMODORO> pomodoros. Faltan <REMAINING_POMODORO> más.",
-        "buttonSkipMicrobreaksText": "¿Omitir micro-descansos durante bloqueos de trabajo?"
+        "buttonSkipMicrobreaksText": "¿Omitir micro-descansos durante bloqueos de trabajo?",
+        "timerText":"Time spend unfocused: <TIME>"
     },
     "logQuantityInfo": {
         "title": "Registra la Cantidad de la actividad",
@@ -655,7 +661,7 @@
         "descriptionSecondText": "No podrás usar otras aplicaciones durante la inducción. ¿Tienes tiempo ahora o lo hacemos un poco más tarde?",
         "buttonLaterText": "Un poco más tarde, por favor",
         "buttonLetsDoItText": "Hagámoslo ya",
-        "allRightsReservedText": "© 2022 Focus Bear Todos los derechos reservados.",
+        "allRightsReservedText": "© 2022-2023 Focus Bear Todos los derechos reservados.",
         "confirmText": "Sólo quiero confirmar por última vez que estás de acuerdo con esto; durante el próximo minuto no podrás usar otras aplicaciones mientras realices la inducción.",
         "buttonConfirmLetsDoItText": "Sí, hagámoslo, tengo un minuto",
         "buttonNeedMoreTimeText": "Uhh, necesito unos minutos más"
@@ -802,5 +808,16 @@
         "buttonNextText":"Siguiente",
         "buttonGotItText":"Adelante"
 
-    }
+    },
+    "howHeardVcInfo": {
+        "title": "How did you hear about Focus Bear?",
+        "buttonContinueText":"Continue",
+        "optionFirstText":"Friend recommended it",
+        "optionSecondText":"Google",
+        "optionThirdText":"Ad on Reddit or Twitter",
+        "optionFourthText":"Somewhere else"
+    },
+  "WindowsSpecific": {
+    "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
+  }
 }

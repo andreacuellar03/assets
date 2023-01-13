@@ -286,7 +286,9 @@
         "toolTipWfhMode":"No-one's around! You can do break activities that are a bit more fun (e.g. Dance like no-one's watching).",
         "menuItemToolsTitle":"Tools >",
         "menuItemOpenToolboxTitle":"Open Toolbox",
-        "menuItemMeetingDetectionTitle":"Meeting active - breaks off"
+        "menuItemMeetingDetectionTitle":"Meeting active - breaks off",
+        "menuItemResumeHabitsTitle":"Resume Habits",
+        "menuItemFocusMusicTitle":"Focus Music"
     },
     "preferencesInfo":{
         "titlePomodoro":"Pomodoro Mode:",
@@ -391,7 +393,8 @@
         "titleAllowUrlListApproch":"Block everything except safe sites that I choose",
         "titleBlockUrlListApproch":"Allow everything except certain distracting sites",
         "allowUrlsQuestionText":"Which URLs do you want to allow?",
-        "blockUrlsQuestionText":"Which URLs do you want to block?"
+        "blockUrlsQuestionText":"Which URLs do you want to block?",
+        "enterMultiUrlText":"Enter single or multiple urls(one in each line)"
     },
     "focusPreferencesAdvancedInfo":{
         "runScriptBeforeText":"Run apple script before starting focus mode.",
@@ -419,7 +422,9 @@
             "questionText":"What do you plan to achieve during this focus block?",
             "onlyAllowSelectedAppText":"You'll only be able to use <APP>",
             "onlyAllowSelectedAppAndUrlText":"You'll only be able to use \"<URL>\" in <APP>",
-            "explanationText":"Setting an intention for the focus block helps prime your brain to accomplish that task. To edit the intention after starting the focus mode, click Brain Dump in the menu bar."
+            "explanationText":"Setting an intention for the focus block helps prime your brain to accomplish that task. To edit the intention after starting the focus mode, click Brain Dump in the menu bar.",
+            "buttonStopFocusText":"Stop current focus mode and start this one",
+            "activityRunningCantStartFocusText":"You can not start a focus mode while an activity is running."
         },
         "abortingFocusModeInfo":{
             "title":"Deactivating Focus Block - <FOCUSTYPE>",
@@ -479,13 +484,14 @@
         "questionFirstText":"What do you want to achieve in this pomodoro session?",
         "questionSecondText":"Which focus mode do you want to use?",
         "buttonEditFocusModeText":"Edit focus modes",
-        "buttonLetsDoItText":"Let's do it",
+        "buttonLetsDoItText":"Start Session",
         "buttonHardcorePomodoroText":"Use super pomodoro mode (lock in the focus mode for multiple pomodoros)",
         "howManyPomodoroText":"How many pomodoros you want to focus for:",
         "chooseTheFocusModeText":"Choose the focus mode and duration - you won't be able to change the focus mode until the time is up (you still get to use any app/website during the 5 minute break)",
         "alertWarningPaswwordSetText":"To make super pomodoro mode more effective, we recommend setting a password in Preferences (ask someone else to do it for you) otherwise you'll still be able to cancel the focus modes before the time is up.",
         "completedPomodoroCountText": "You have completed <COMPLETED_POMODORO> of <TOTAL_POMODORO> pomodoros. <REMAINING_POMODORO> more to go.",
-        "buttonSkipMicrobreaksText": "Skip microbreaks during work blocks?"
+        "buttonSkipMicrobreaksText": "Skip microbreaks during work blocks?",
+        "timerText":"Time spend unfocused: <TIME>"
     },
     "logQuantityInfo":{
         "title":"Log Quantity of activity",
@@ -649,7 +655,7 @@
         "descriptionSecondText": "You won't be able to use other apps during the onboarding. Do you have time now or shall we do it a bit later?",
         "buttonLaterText":"A bit later please",
         "buttonLetsDoItText": "Let's do it",
-        "allRightsReservedText": "© 2022 Focus Bear All Rights Reserved.",
+        "allRightsReservedText": "© 2022-2023 Focus Bear All Rights Reserved.",
         "confirmText": "Just want to double check you are ok to focus 100% on onboarding for the next 2 minutes. The next step is full screen - you won't be able to use any other apps during this time.",
         "buttonConfirmLetsDoItText": "You have my full attention",
         "buttonNeedMoreTimeText": "Uhh I need a few more minutes"
@@ -793,6 +799,16 @@
         "buttonBackText":"Back",
         "buttonNextText":"Next",
         "buttonGotItText":"Onwards"
-    }
-    
+    },
+    "howHeardVcInfo": {
+        "title": "How did you hear about Focus Bear?",
+        "buttonContinueText":"Continue",
+        "optionFirstText":"Friend recommended it",
+        "optionSecondText":"Google",
+        "optionThirdText":"Ad on Reddit or Twitter",
+        "optionFourthText":"Somewhere else"
+    },
+  "WindowsSpecific": {
+    "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
+  }
 }
