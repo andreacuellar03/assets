@@ -108,8 +108,13 @@
         "buttonDontTellAgainText":"Entendido – No mencionar de nuevo",
         "toolTipColorBoxText":"Elija un color para que se muestre en el fondo del icono de la barra de menú superior para ayudar a identificar el modo de enfoque que está ejecutando.",
         "notificationFirefoxText":"Nota: No podemos bloquear las distracciones en Firefox aun pero si usas Chrome o Safari, estaremos aquí para ayudarte a mantenerte concentrado.",
-         "expiredBarText":"Caducado"
-     },
+        "expiredBarText":"Caducado",
+        "officeFriendlyActivityName":"Stand up and stretch",
+        "hoursHText":"h",
+        "minutesMText":"m",
+        "secondsSText":"s",
+        "otherReasonText":"Other"
+    },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
         "abortingCountDownInfo": {
@@ -343,7 +348,7 @@
         "titleHideDock":"Ocultar muelle:",
         "descriptionHideDockText":"Habilite esto para ocultar las actividades de las aplicaciones permitidas para minimizar las distracciones\"Eventos del sistema\" Se requerirán permisos para esto.",
         "checkBoxHideDockText":"Ocultar el muelle durante las actividades que tienen aplicaciones permitidas."
- 
+        
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -397,7 +402,6 @@
         "allowUrlsQuestionText":"Which URLs do you want to allow?",
         "blockUrlsQuestionText":"Which URLs do you want to block?",
         "enterMultiUrlText":"Enter single or multiple urls(one in each line)"
-
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecute el script de Apple antes de iniciar el modo de enfoque.",
@@ -413,7 +417,7 @@
         "instructionText": "Las URL aquí se bloquearán durante este modo de enfoque. Útil si desea permitir algunos sitios web pero bloquear otros. Por ejemplo, podría tener *.google.com como una URL permitida pero bloquear tv.google.com",
         "autoOnDoNotDisturbText":"Enciende NO MOLESTAR automáticamente cada vez que des inicio a Focus Mode.",
         "needDndPermissionText":"Para encender NO MOLESTAR cuando inicies el modo de enfoque, Focus Bear necesita permisos de accesibilidad, ¿Te gustaría dar permiso ahora?"
-
+        
     },
     "focusInfo": {
         "focusAlreadyRunningText": "Ya se está ejecutando un modo de enfoque. Desactive el modo de enfoque en ejecución para iniciar uno nuevo.",
@@ -564,7 +568,7 @@
         "questionText": "Acabas de completar <LAST_HABIT_NAME>. ¿Qué hábito harás a continuación?",
         "selectHabitText": "Selecciona Hábito",
         "enterToChooseText":"Presiona INGRESAR para elegir una opción"
-
+        
     },
     "preloadFocusModesViewInfo": {
         "title": "¿Qué tipo de trabajo realiza principalmente?",
@@ -620,7 +624,7 @@
         "titleAskOfficeMode": "No tienes tiempo para un descanso en este momento o estas en la oficina y no es apropiado hacerlo <ACTIVITY>?",
         "buttonDontHaveTimeText": "No tengo tiempo",
         "buttonInTheOffIceText": "Estoy en la oficina"
- 
+        
     },
     "brainDumpVcInfo": {
         "title": "Focus Bear - Volcado de cerebros",
@@ -649,7 +653,7 @@
         "toolTipCopyId":"Copiar identificacion de usuario",
         "titleUserId":"Su identificacion de usuario:",
         "toolTipCopied":"Copiado"
-
+        
     },
     "onboardingPostponeVcInfo": {
         "title": "Si tienes algo urgente, puedes posponer el proceso de inducción por unos minutos",
@@ -715,10 +719,10 @@
         "brainBreaksDescription":"Para evitar dolores de cabeza y cuello, Focus Bear te alienta a tomar descansos durante intervalos regulares. Te damos un anuncio de 30 segundos, así tu puedes posponer tu descanso si estas muy ocupado. ¡También detectamos si estas en reunión y no mostramos descansos ya que eso podría causar un momento incomodo si estas compartiendo pantalla!",
         "buttonBackText":"Atras",
         "buttonNextText":"Siguiente",
-       "exploreTipsText":"Haga click en siguiente para explorer los tips para usar Focus Bear.",
+        "exploreTipsText":"Haga click en siguiente para explorer los tips para usar Focus Bear.",
         "titleSignInSuccessful":"Inicio de session exitosa",
         "signinSuccessText":"Genial, todos han iniciado sesión. Solo les daré algunos consejos antes de que comiencen a usarlo."
-
+        
     },
     "breakWarningVcInfo": {
         "title": "Tu descanso comienza en",
@@ -784,7 +788,7 @@
         "buttonContinueText": "Continuar",
         "enterUrlText": "Ingrese la URL para bloquear:",
         "buttonAddUrlText": "Agregue url"
-
+        
     },
     "preloadFocusModeAppsVcInfo": {
         "buttonDoneText": "Finalizar",
@@ -808,7 +812,7 @@
         "buttonBackText":"Atras",
         "buttonNextText":"Siguiente",
         "buttonGotItText":"Adelante"
-
+        
     },
     "howHeardVcInfo": {
         "title": "How did you hear about Focus Bear?",
@@ -818,7 +822,22 @@
         "optionThirdText":"Ad on Reddit or Twitter",
         "optionFourthText":"Somewhere else"
     },
-  "WindowsSpecific": {
-    "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
-  }
+    "trialExpiredNagInfo": {
+        "buttonUpgradeNowText":"Reactivate",
+        "descriptionText":"Normally I'd guide you through your morning routine at this time. Click Reactivate to set up your Focus Bear subscription and enjoy the productivity and health benefits from the app again.",
+        "subscriptionExpiredText":"Focus Bear subscription expired"
+    },
+    "inactivityNagInfo": {
+        "title":"Still interested in improving your habits and productivity?",
+        "buttonDoItText":"Yeah - let's do it",
+        "buttonCancelText":"No thanks"
+    },
+    "shareFeedbackVcInfo": {
+        "title":"Can you give us any feedback on the app?",
+        "buttonShareFeedbackText":"Share feedback",
+        "buttonAskAgainText":"Ask me in 1hr"
+    },
+    "WindowsSpecific": {
+        "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
+    }
 }

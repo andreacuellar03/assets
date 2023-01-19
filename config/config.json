@@ -10,7 +10,7 @@
         "welcomeMessageOnlyBreakIntro": "Throughout the day, I'll remind you to take regular breaks to keep your mind sharp and your body flexible. Here's an example of a break activity: 30 seconds of deep breathing."
     },
     "activityInfo":{
-         "startMorningHabitTitleText":"Good Morning! Here are the habits to kick off an awesome day.",
+        "startMorningHabitTitleText":"Good Morning! Here are the habits to kick off an awesome day.",
         "startEveningHabitTitleText":"Good Evening! Let’s go through your wind down routine.",
         "startActivityButtonText":"Start <TIME> <NAME>",
         "activityFinishedText":"<ACTIVITY> finished!✅",
@@ -107,7 +107,12 @@
         "buttonDontTellAgainText":"Got it - don't tell me again",
         "toolTipColorBoxText":"Choose a color to be displayed in the background of the top menu bar icon to help identify the Focus Mode you are running.",
         "notificationFirefoxText":"FYI we can't block distractions in Firefox yet but if you use Chrome or Safari, we'll be here to support you to stay on track",
-        "expiredBarText":"Expired"
+        "expiredBarText":"Expired",
+        "officeFriendlyActivityName":"Stand up and stretch",
+        "hoursHText":"h",
+        "minutesMText":"m",
+        "secondsSText":"s",
+        "otherReasonText":"Other"
     },
     "abortInfo":{
         "abortingTitle":"Cancelling..",
@@ -289,7 +294,6 @@
         "menuItemMeetingDetectionTitle":"Meeting active - breaks off",
         "menuItemResumeHabitsTitle":"Resume Habits",
         "menuItemFocusMusicTitle":"Focus Music"
-
     },
     "preferencesInfo":{
         "titlePomodoro":"Pomodoro Mode:",
@@ -396,7 +400,6 @@
         "allowUrlsQuestionText":"Which URLs do you want to allow?",
         "blockUrlsQuestionText":"Which URLs do you want to block?",
         "enterMultiUrlText":"Enter single or multiple urls(one in each line)"
-
     },
     "focusPreferencesAdvancedInfo":{
         "runScriptBeforeText":"Run apple script before starting focus mode.",
@@ -810,7 +813,22 @@
         "optionThirdText":"Ad on Reddit or Twitter",
         "optionFourthText":"Somewhere else"
     },
-  "WindowsSpecific": {
-    "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
-  }
+    "trialExpiredNagInfo": {
+        "buttonUpgradeNowText":"Reactivate",
+        "descriptionText":"Normally I'd guide you through your morning routine at this time. Click Reactivate to set up your Focus Bear subscription and enjoy the productivity and health benefits from the app again.",
+        "subscriptionExpiredText":"Focus Bear subscription expired"
+    },
+    "inactivityNagInfo": {
+        "title":"Still interested in improving your habits and productivity?",
+        "buttonDoItText":"Yeah - let's do it",
+        "buttonCancelText":"No thanks"
+    },
+    "shareFeedbackVcInfo": {
+        "title":"Can you give us any feedback on the app?",
+        "buttonShareFeedbackText":"Share feedback",
+        "buttonAskAgainText":"Ask me in 1hr"
+    },
+    "WindowsSpecific": {
+        "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
+    }
 }
