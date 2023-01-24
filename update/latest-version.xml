@@ -3,13 +3,13 @@
     <channel>
         <title>Focus Bear</title>
         <item>
-            <title>1.0.90 (Flow Optimized)</title>
+            <title>1.0.121</title>
             <sparkle:releaseNotesLink>
-                https://focusbear.io
+                https://focus-bear.github.io/assets/release-notes/mac/release-notes
             </sparkle:releaseNotesLink>
-            <pubDate>Sat, 26 Nov 2022 19:59:31 +0530</pubDate>
+            <pubDate>Mon, 23 Jan 2023 12:25:27 +0530</pubDate>
             <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
-            <enclosure url="https://focus-bear.github.io/assets/update/Focus%20Bear.zip" sparkle:version="90" sparkle:shortVersionString="1.0" length="24937199" type="application/octet-stream" sparkle:edSignature="FU3whdjaphkIbob7ofL8nuRfEmxcuf7qM6+PSb9goha2NT1B5tTKathIolbs0Hpy0J3dzugsrxVVu3Tbg2hWDQ=="/>
+            <enclosure url="https://focus-bear.github.io/assets/update/Focus%20Bear.zip" sparkle:version="121" sparkle:shortVersionString="1.0" length="26758344" type="application/octet-stream" sparkle:edSignature="7qkhUmimRN/fGVgNyRfltbv2Jee2zx9aBP+ikSYgPTJh7hqyJMw0UfIUROUJyXMSatiN6DeRzg00qmfAfJmmAA=="/>
         </item>
     </channel>
 </rss>
