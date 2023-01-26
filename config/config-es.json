@@ -112,12 +112,13 @@
         "toolTipColorBoxText":"Elija un color para que se muestre en el fondo del icono de la barra de menú superior para ayudar a identificar el modo de enfoque que está ejecutando.",
         "notificationFirefoxText":"Nota: No podemos bloquear las distracciones en Firefox aun pero si usas Chrome o Safari, estaremos aquí para ayudarte a mantenerte concentrado.",
         "expiredBarText":"Caducado",
-        "officeFriendlyActivityName":"Stand up and stretch",
+         "officeFriendlyActivityName":"Levantate y Estirate",
         "hoursHText":"h",
         "minutesMText":"m",
         "secondsSText":"s",
-        "otherReasonText":"Other",
+        "otherReasonText":"Otro",
         "loadingText":"Loading..."
+ 
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -296,9 +297,10 @@
         "toolTipWfhMode":"¡No hay nadie cerca! Puedes hacer actividades de descanso que sean un poco más divertidas (por ejemplo, bailar como si nadie estuviera mirando).",
         "menuItemToolsTitle":"Herramientas >",
         "menuItemOpenToolboxTitle":"Abrir caja de herramientas",
-        "menuItemMeetingDetectionTitle":"Meeting active - breaks off",
-        "menuItemResumeHabitsTitle":"Resume Habits",
-        "menuItemFocusMusicTitle":"Focus Music"
+        "menuItemMeetingDetectionTitle":"Reunion Activa – Descanso desactivados",
+        "menuItemResumeHabitsTitle":"Resumir Habitos",
+        "menuItemFocusMusicTitle":"Musica de enfoque"
+ 
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo de Pomodoro:",
@@ -353,6 +355,7 @@
         "descriptionHideDockText":"Habilite esto para ocultar las actividades de las aplicaciones permitidas para minimizar las distracciones\"Eventos del sistema\" Se requerirán permisos para esto.",
         "checkBoxHideDockText":"Ocultar el muelle durante las actividades que tienen aplicaciones permitidas.",
         "checkBoxShowMeetingDetectionPopupText":"Automatically suggest starting \"Meetings\" focus mode"
+ 
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -404,9 +407,9 @@
         "titleAllowUrlListApproch":"Bloquear todo excepto los sitios seguros que elija",
         "titleBlockUrlListApproch":"Permitir todo excepto ciertos sitios que me distraen",
         "allowUrlsQuestionText":"Which URLs do you want to allow?",
-        "blockUrlsQuestionText":"Which URLs do you want to block?",
-        "enterMultiUrlText":"Enter single or multiple urls(one in each line)"
-    },
+        "blockUrlsQuestionText":"¿Qué URL quieres bloquear?",
+        "enterMultiUrlText":"Introduzca una o varias direcciones URL (una en cada línea)"
+     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecute el script de Apple antes de iniciar el modo de enfoque.",
         "runScriptAfterText": "Ejecute el script de Apple después de iniciar el modo de enfoque.",
@@ -435,8 +438,9 @@
             "onlyAllowSelectedAppText":"Solo podrás usar <APP>",
             "onlyAllowSelectedAppAndUrlText":"Solo podrás usar \"<URL>\" en <APP>",
             "explanationText":"Establece una intención para el bloque de enfoque que ayude a preparar tu cerebro para realizar esa tarea. Para editar la intención después de iniciar el modo de enfoque, haz clic en Notas Rápidas en la barra de menú.",
-            "buttonStopFocusText":"Stop current focus mode and start this one",
-            "activityRunningCantStartFocusText":"You can not start a focus mode while an activity is running."
+            "buttonStopFocusText":"Detener el modo de enfoque actual e iniciar este",
+            "activityRunningCantStartFocusText":"No puede iniciar un modo de enfoque mientras se está ejecutando una actividad."
+ 
         },
         "abortingFocusModeInfo": {
             "title": "Desactivación del tipo de enfoque - <FOCUSTYPE>",
@@ -488,7 +492,7 @@
             "titleFalseDetection":"Lo siento por eso. ¿Estás seguro de que no estás usando una aplicación que está usando tu micrófono? Si nos seguimos equivocando, haga clic en el botón de abajo para desactivar la detección de reuniones.",
             "buttonDisableText":"Desactivar deteccion de reunion",
             "buttonGotItText":"Entendido",
-            "buttonCheckBoxText":"Don't show this again when I join meetings"
+            "buttonCheckBoxText":"No volver a mostrar esto cuando me una a las reuniones"
         }
     },
     "pomodoroInfo": {
@@ -496,14 +500,14 @@
         "questionFirstText": "¿Qué quieres lograr en esta sesión de pomodoro?",
         "questionSecondText": "¿Qué modo de enfoque quieres usar?",
         "buttonEditFocusModeText": "Editar modos de enfoque",
-        "buttonLetsDoItText": "Start Session",
+        "buttonLetsDoItText": "Iniciar Sesion",
         "buttonHardcorePomodoroText": "Use el modo pomodoro Súper (bloquee el modo de enfoque para múltiples pomodoros)",
         "howManyPomodoroText": "¿Por cuantos pomodoros se quiere concentrar?:",
         "chooseTheFocusModeText": "Elije el modo de enfoque y la duración: no podrá cambiar el modo de enfoque hasta que se acabe el tiempo (todavía puede usar cualquier aplicación / sitio web durante el descanso de 5 minutos)",
         "alertWarningPaswwordSetText": "Para que el modo pomodoro Súper sea más efectivo, recomendamos establecer una contraseña (pídele a otra persona que lo haga por usted); de lo contrario, aún podrá cancelar los modos de enfoque antes de que se acabe el tiempo..",
         "completedPomodoroCountText": "Has completado <COMPLETED_POMODORO> de <TOTAL_POMODORO> pomodoros. Faltan <REMAINING_POMODORO> más.",
         "buttonSkipMicrobreaksText": "¿Omitir micro-descansos durante bloqueos de trabajo?",
-        "timerText":"Time spend unfocused: <TIME>"
+        "timerText":"Tiempo gastado desenfocado: <TIME>"
     },
     "logQuantityInfo": {
         "title": "Registra la Cantidad de la actividad",
@@ -819,27 +823,27 @@
         
     },
     "howHeardVcInfo": {
-        "title": "How did you hear about Focus Bear?",
-        "buttonContinueText":"Continue",
-        "optionFirstText":"Friend recommended it",
+        "title": "¿Cómo se enteró de Focus Bear?",
+        "buttonContinueText":"Continuar",
+        "optionFirstText":"Amig@ lo recomendo",
         "optionSecondText":"Google",
-        "optionThirdText":"Ad on Reddit or Twitter",
-        "optionFourthText":"Somewhere else"
+        "optionThirdText":"Anuncio en Reddit o Twitter",
+        "optionFourthText":"En otro lugar"
     },
     "trialExpiredNagInfo": {
-        "buttonUpgradeNowText":"Reactivate",
-        "descriptionText":"Normally I'd guide you through your morning routine at this time. Click Reactivate to set up your Focus Bear subscription and enjoy the productivity and health benefits from the app again.",
-        "subscriptionExpiredText":"Focus Bear subscription expired"
+        "buttonUpgradeNowText":"Actualizate ahora",
+        "descriptionText":"Normalmente te guiaría a través de tu rutina matutina a esta hora. Haga clic en Reactivar para configurar su suscripción a Focus Bear y disfrutar nuevamente de los beneficios de productividad y salud de la aplicación.",
+        "subscriptionExpiredText":"Fla suscripcion de Focus Bear ha expirado"
     },
     "inactivityNagInfo": {
-        "title":"Still interested in improving your habits and productivity?",
-        "buttonDoItText":"Yeah - let's do it",
-        "buttonCancelText":"No thanks"
+        "title":"¿Sigues interesado en mejorar tus hábitos y productividad?",
+        "buttonDoItText":"Si, vamos a hacerlo",
+        "buttonCancelText":"No gracias"
     },
     "shareFeedbackVcInfo": {
-        "title":"Can you give us any feedback on the app?",
-        "buttonShareFeedbackText":"Share feedback",
-        "buttonAskAgainText":"Ask me in 1hr"
+        "title":"¿Puede darnos algún comentario sobre la aplicación?",
+        "buttonShareFeedbackText":"Compartir comentarios",
+        "buttonAskAgainText":"Preguntar en 1 hora"
     },
     "addFocusTempUrlsOrAppsVcInfo": {
         "title":"Do you want to permanently allow these Apps or URLs that you used during this session?",
