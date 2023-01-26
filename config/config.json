@@ -31,7 +31,10 @@
         "lastActivitySkippedText":"<ACTIVITY> skipped! You’ve earned your screen time. 💪",
         "buttonSkipHabitText":"Skip this habit for today",
         "buttonPostponeBreakText":"Postpone break for five minutes",
-        "breakDurationText":"Total Duration of Break: <DURATION>"
+        "breakDurationText":"Total Duration of Break: <DURATION>",
+        "buttonVideoText":"Video",
+        "buttonNotesText":"Notes",
+        "titleTakeNotes":"Take Notes"
     },
     "common":{
         "emailId":"team@focusbear.io",
@@ -112,7 +115,8 @@
         "hoursHText":"h",
         "minutesMText":"m",
         "secondsSText":"s",
-        "otherReasonText":"Other"
+        "otherReasonText":"Other",
+        "loadingText":"Loading..."
     },
     "abortInfo":{
         "abortingTitle":"Cancelling..",
@@ -176,7 +180,7 @@
     "quitInfo":{
         "quittingTitle":"Quitting..",
         "quittingCountDownInfo":{
-            "subTitle":"Are you sure you want to Quit? Please take 10 seconds to reflect on whether you are serious about quitting.",
+            "subTitle":"Are you sure you want to Quit? Please take 5 seconds to reflect on whether you are serious about quitting.",
             "message":"While you wait, reflect on why you’re doing this. If it was because your routine was too ambitious, perhaps scale it back to only be a few minutes long so that it’s easier to do it than not do it. If you’re deactivating because the app is broken, really sorry!!",
             "pleaseEmailText":"Please email",
             "buttonQuitCancelText":"I didn’t mean it. Let me do my habits!"
@@ -346,7 +350,8 @@
         "checkBoxMeetingDetectionText":"Enable meeting detection",
         "titleHideDock":"Hide dock:",
         "descriptionHideDockText":"Enable this to hide dock during allowed apps activities to minimize distractions. \"System Events\" permission will be required for this.",
-        "checkBoxHideDockText":"Hide dock during activities having allowed apps."
+        "checkBoxHideDockText":"Hide dock during activities having allowed apps.",
+        "checkBoxShowMeetingDetectionPopupText":"Automatically suggest starting \"Meetings\" focus mode"
     },
     "focusPreferencesInfo":{
         "titleFocusType":"Focus Type:",
@@ -715,7 +720,10 @@
         "buttonNextText":"Next",
         "exploreTipsText":"Click next to explore the tips to use Focus Bear.",
         "titleSignInSuccessful":"Sign in successful",
-        "signinSuccessText":"Great you're all signed in. I'll just give you a few tips before you start using it."
+        "signinSuccessText":"Great you're all signed in. I'll just give you a few tips before you start using it.",
+        "privacyText": "Privacy and Security",
+        "privacyDescription":"We take your privacy and security very seriously. We do not log which websites or apps you use. We do sync your habit data to our server but this is only to support cross device distraction blocking. Your data is encrypted and we don't let anyone else see it. for more details or feel free to email team@focusbear.io. Refer to our privacy policy:",
+        "buttonPrivacyText":"Click here to view Privacy Policy"
     },
     "breakWarningVcInfo": {
         "title": "Your Break starts in",
@@ -827,6 +835,13 @@
         "title":"Can you give us any feedback on the app?",
         "buttonShareFeedbackText":"Share feedback",
         "buttonAskAgainText":"Ask me in 1hr"
+    },
+    "addFocusTempUrlsOrAppsVcInfo": {
+        "title":"Do you want to permanently allow these Apps or URLs that you used during this session?",
+        "buttonAllowText":"Allow"
+    },
+    "allTracksVcInfo": {
+        "title":"Here are some focus music tracks (some are binaural beats) you can use to help you focus. FYI the research is ambivalent about binaural beats - you'll likely get similar benefits from using your own music. Just make sure the music doesn't have lyrics otherwise you'll get distracted."
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"

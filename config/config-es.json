@@ -32,7 +32,10 @@
         "lastActivitySkippedText":"<ACTIVITY> Postponer! Has completado tu tiempo frente a la pantalla. 💪",
         "buttonSkipHabitText":"Postponer por hoy",
         "buttonPostponeBreakText":"Posponer Descanso cinco minutos",
-        "breakDurationText":"Duración de descanso de actividades: <DURATION>"
+        "breakDurationText":"Duración de descanso de actividades: <DURATION>",
+        "buttonVideoText":"Video",
+        "buttonNotesText":"Notes",
+        "titleTakeNotes":"Take Notes"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -113,7 +116,8 @@
         "hoursHText":"h",
         "minutesMText":"m",
         "secondsSText":"s",
-        "otherReasonText":"Other"
+        "otherReasonText":"Other",
+        "loadingText":"Loading..."
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -175,7 +179,7 @@
     "quitInfo": {
         "quittingTitle": "Abandonando..",
         "quittingCountDownInfo": {
-            "subTitle": "¿Seguro que quieres salir? Tómese 10 segundos para reflexionar sobre si realmente quieres abandonar.",
+            "subTitle": "¿Seguro que quieres salir? Tómese 5 segundos para reflexionar sobre si realmente quieres abandonar.",
             "message": "Mientras esperas, reflexiona sobre por qué estás haciendo esto. Si fue porque su rutina era demasiado ambiciosa, tal vez acortala para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si estás abandonando porque la aplicación está dañada, ¡lo siento mucho!",
             "pleaseEmailText": "Por favor envíe un correo electrónico",
             "buttonQuitCancelText": "No quise hacer eso. ¡Déjeme continuar con mis hábitos!"
@@ -347,8 +351,8 @@
         "checkBoxMeetingDetectionText":"Activar detección de reunion",
         "titleHideDock":"Ocultar muelle:",
         "descriptionHideDockText":"Habilite esto para ocultar las actividades de las aplicaciones permitidas para minimizar las distracciones\"Eventos del sistema\" Se requerirán permisos para esto.",
-        "checkBoxHideDockText":"Ocultar el muelle durante las actividades que tienen aplicaciones permitidas."
-        
+        "checkBoxHideDockText":"Ocultar el muelle durante las actividades que tienen aplicaciones permitidas.",
+        "checkBoxShowMeetingDetectionPopupText":"Automatically suggest starting \"Meetings\" focus mode"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Tipo de enfoque:",
@@ -836,6 +840,13 @@
         "title":"Can you give us any feedback on the app?",
         "buttonShareFeedbackText":"Share feedback",
         "buttonAskAgainText":"Ask me in 1hr"
+    },
+    "addFocusTempUrlsOrAppsVcInfo": {
+        "title":"Do you want to permanently allow these Apps or URLs that you used during this session?",
+        "buttonAllowText":"Allow"
+    },
+    "allTracksVcInfo": {
+        "title":"Here are some focus music tracks (some are binaural beats) you can use to help you focus. FYI the research is ambivalent about binaural beats - you'll likely get similar benefits from using your own music. Just make sure the music doesn't have lyrics otherwise you'll get distracted."
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
