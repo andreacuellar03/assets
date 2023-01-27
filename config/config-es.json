@@ -614,6 +614,7 @@
         "buttonPostponeHabitText": "Posponer Hábito",
         "buttonPostponeBreakText": "Posponer Descanso",
         "buttonAbortBreakText": "Cancelar Interrupción",
+        "postponedLastBreakText":"needstranslation",
         "posponedLastBreakText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes tomarlo esta vez?",
         "buttonEnableOfficeModeText": "Cambiar al modo de oficina",
         "officeModeEnableText": "Ok, te daré algunas actividades de descanso que recomendamos para hacer en un entorno de oficina",

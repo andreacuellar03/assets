@@ -7,10 +7,6 @@
     "compare": "node index.js",
     "build": "ncc build index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Focus-Bear/assets.git"
-  },
   "bugs": {
     "url": "https://github.com/Focus-Bear/assets/issues"
   },

@@ -43,6 +43,7 @@
     "required": [
         "shutdown_time",
         "morning_activities",
+        "cutoff_time_for_non_high_priority_activities",
         "break_after_minutes",
         "startup_time",
         "break_activities"
@@ -399,6 +400,37 @@
                                 "examples": [
                                     true
                                 ]
+                            },
+                            "take_notes": {
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/take_notes",
+                                "type": "string",
+                                "title": "take_notes",
+                                "description": "type of note taking options",
+                                "default": "NO_NOTE",
+                                "examples": [
+                                    "NO_NOTE"
+                                ]
+                            },
+                            "priority": {
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/priority",
+                                "type": "string",
+                                "enum": ["STANDARD", "HIGH"],
+                                "title": "priority",
+                                "description": "type of activity priority options",
+                                "default": "STANDARD",
+                                "examples": [
+                                    "STANDARD"
+                                ]
+                            },
+                            "category": {
+                                "$id": "#/properties/morning_activities/items/anyOf/0/properties/category",
+                                "type": "string",
+                                "title": "Category",
+                                "description": "custom accumulator for the user activities",
+                                "default": "General",
+                                "examples": [
+                                    "General"
+                                ]
                             }
                         },
                         "additionalProperties": false
@@ -734,6 +766,37 @@
                                 "default": false,
                                 "examples": [
                                     true
+                                ]
+                            },
+                            "take_notes": {
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/take_notes",
+                                "type": "string",
+                                "title": "take_notes",
+                                "description": "types of note taking options",
+                                "default": "NO_NOTE",
+                                "examples": [
+                                    "NO_NOTE"
+                                ]
+                            },
+                            "priority": {
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/priority",
+                                "type": "string",
+                                "enum": ["STANDARD", "HIGH"],
+                                "title": "priority",
+                                "description": "type of activity priority options",
+                                "default": "STANDARD",
+                                "examples": [
+                                    "STANDARD"
+                                ]
+                            },
+                            "category": {
+                                "$id": "#/properties/evening_activities/items/anyOf/0/properties/category",
+                                "type": "string",
+                                "title": "Category",
+                                "description": "custom accumulator for the user activities",
+                                "default": "General",
+                                "examples": [
+                                    "General"
                                 ]
                             }
                         },
@@ -1115,12 +1178,54 @@
                                 "description": "Allowed Focus Mode ID",
                                 "default": "",
                                 "examples": ["9b99f802-23b0-47e2-a188-b07001db8e9f"]
+                            },
+                            "take_notes": {
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/take_notes",
+                                "type": "string",
+                                "title": "take_notes",
+                                "description": "types of note taking options",
+                                "default": "NO_NOTE",
+                                "examples": [
+                                    "NO_NOTE"
+                                ]
+                            },
+                            "priority": {
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/priority",
+                                "type": "string",
+                                "enum": ["STANDARD", "HIGH"],
+                                "title": "priority",
+                                "description": "type of activity priority options",
+                                "default": "STANDARD",
+                                "examples": [
+                                    "STANDARD"
+                                ]
+                            },
+                            "category": {
+                                "$id": "#/properties/break_activities/items/anyOf/0/properties/category",
+                                "type": "string",
+                                "title": "Category",
+                                "description": "custom accumulator for the user activities",
+                                "default": "General",
+                                "examples": [
+                                    "General"
+                                ]
                             }
                         },
                         "additionalProperties": false
                     }
                 ]
             }
+        },
+        "cutoff_time_for_non_high_priority_activities": {
+            "$id": "#/properties/cutoff_time_for_non_high_priority_activities",
+            "type": "string",
+            "title": "cutoff_time_for_non_high_priority_activities",
+            "description": "When you will start your highest priority activities (24hr format)",
+            "default": "",
+            "pattern": "^([01][0-9]|2[0-3]):([0-5][0-9])$",
+            "examples": [
+                "20:30"
+            ]
         }
     },
     "additionalProperties": false
