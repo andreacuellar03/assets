@@ -354,7 +354,7 @@
         "checkBoxShowMeetingDetectionPopupText":"Automatically suggest starting \"Meetings\" focus mode"
     },
     "focusPreferencesInfo":{
-        "titleFocusType":"Focus Type:",
+        "titleFocusType":"Use Focus Modes to stay focused on a certain type of work. Start a focus mode from the Focus Bear menu.",
         "titleAllowedAllApps":"Allow all apps",
         "titleAllowedSelectedApps":"Allow selected apps",
         "titleAllowedAllUrls":"Allow all urls",
@@ -387,7 +387,7 @@
         "toolTipDuplicate":"Duplicate",
         "hardCorePomodoroIsOnMessageText":"Super Pomodoro mode is on. Please deactivate super Pomodoro mode to delete it.",
         "buttonAdvancedText":"Advanced",
-        "defaultFocusText":"Complete anarchy! Block nothing 😬",
+        "defaultFocusText":"Block super distracting sites/apps",
         "meetingsFocusText":"Meetings",
         "disablePomodoroModeAlertText":"The selected focus mode is enabled in super pomodoro mode. Please disable super pomodoro mode to delete this.",
         "buttonAddFocusTypeText":"Add Focus Mode",

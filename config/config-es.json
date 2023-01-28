@@ -118,7 +118,6 @@
         "secondsSText":"s",
         "otherReasonText":"Otro",
         "loadingText":"Loading..."
- 
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -355,10 +354,9 @@
         "descriptionHideDockText":"Habilite esto para ocultar las actividades de las aplicaciones permitidas para minimizar las distracciones\"Eventos del sistema\" Se requerirán permisos para esto.",
         "checkBoxHideDockText":"Ocultar el muelle durante las actividades que tienen aplicaciones permitidas.",
         "checkBoxShowMeetingDetectionPopupText":"Automatically suggest starting \"Meetings\" focus mode"
- 
     },
     "focusPreferencesInfo": {
-        "titleFocusType": "Tipo de enfoque:",
+        "titleFocusType": "Use Focus Modes to stay focused on a certain type of work. Start a focus mode from the Focus Bear menu.[NEEDTRANSLATION]",
         "titleAllowedAllApps": "Permitir todas las aplicaciones",
         "titleAllowedSelectedApps": "Permitir aplicaciones seleccionadas",
         "titleAllowedAllUrls": "Permitir todas las URL",
@@ -391,7 +389,7 @@
         "toolTipDuplicate": "Duplicar",
         "hardCorePomodoroIsOnMessageText": " El modo Pomodoro Súper está activado. Por favor ancele el modo Pomodoro Súper para eliminarlo.",
         "buttonAdvancedText": "Avanzado",
-        "defaultFocusText": "¡Anarquía completa! No bloquees nada 😬",
+        "defaultFocusText": "Block super distracting sites/apps[NEEDTRANSLATION]",
         "meetingsFocusText": "Reuniones",
         "disablePomodoroModeAlertText": "El modo de enfoque seleccionado está habilitado en el modo pomodoro Súper. Por favor deshabilite el modo pomodoro Súper para eliminar esto.",
         "buttonAddFocusTypeText": "Agrega modo de enfoque",
@@ -622,7 +620,7 @@
         "buttonPostponeHabitText": "Posponer Hábito",
         "buttonPostponeBreakText": "Posponer Descanso",
         "buttonAbortBreakText": "Cancelar Interrupción",
-        "posponedLastBreakText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes tomarlo esta vez?",
+        "postponedLastBreakText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes tomarlo esta vez?",
         "buttonEnableOfficeModeText": "Cambiar al modo de oficina",
         "officeModeEnableText": "Ok, te daré algunas actividades de descanso que recomendamos para hacer en un entorno de oficina",
         "postponedLastHabitText": "Has pospuesto tus hábitos varias veces. ¿Estás seguro de que quieres posponerlos otra vez?",
@@ -846,11 +844,11 @@
         "buttonAskAgainText":"Preguntar en 1 hora"
     },
     "addFocusTempUrlsOrAppsVcInfo": {
-        "title":"Do you want to permanently allow these Apps or URLs that you used during this session?",
-        "buttonAllowText":"Allow"
+        "title":"Do you want to permanently allow these Apps or URLs that you used during this session?[NEEDTRANSLATION]",
+        "buttonAllowText":"Allow[NEEDTRANSLATION]"
     },
     "allTracksVcInfo": {
-        "title":"Here are some focus music tracks (some are binaural beats) you can use to help you focus. FYI the research is ambivalent about binaural beats - you'll likely get similar benefits from using your own music. Just make sure the music doesn't have lyrics otherwise you'll get distracted."
+        "title":"Here are some focus music tracks (some are binaural beats) you can use to help you focus. FYI the research is ambivalent about binaural beats - you'll likely get similar benefits from using your own music. Just make sure the music doesn't have lyrics otherwise you'll get distracted.[NEEDTRANSLATION]"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
