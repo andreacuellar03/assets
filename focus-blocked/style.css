@@ -15,15 +15,12 @@
   font-family: monospace;
   position: relative;
 }
-h1,
-p {
-  margin: 0;
-}
 
-p {
+.container > p {
   font-size: 20px;
   font-weight: 600;
 }
+
 .notice-wrapper {
   display: flex;
   flex-direction: column;
@@ -38,15 +35,16 @@ p {
   text-align: justify;
 }
 
+.notice-wrapper > a {
+  font-weight: bold;
+}
+
 #progressWrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 10px;
-}
-a {
-  font-weight: bold;
 }
 
 #focusTipWrapper {
@@ -78,7 +76,7 @@ a {
 #privacyContainer {
   width: 100%;
   position: absolute;
-  bottom: 3%;
+  bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -89,9 +87,8 @@ a {
 
 .privacyNotice {
   width: 75%;
-  font-size: 13px;
+  font-size: 16px;
   text-align: justify;
-  margin: 0;
 }
 
 .hidePrivacyNotice {
@@ -180,8 +177,7 @@ a {
   overflow: auto;
 }
 
-.popup .content button,
-a {
+.popup .content > button + a {
   width: fit-content;
   padding: 6px 10px;
   border-radius: 5px;
@@ -217,5 +213,23 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 8px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .privacyNotice {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .privacyNotice {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .privacyNotice {
+    font-size: 20px;
   }
 }
