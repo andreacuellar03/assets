@@ -521,7 +521,7 @@
         "alertConfirmResetPasswordTitle":"Reset Password",
         "alertConfirmResetPasswordSubTitle":"Your current password will be removed after 24 hours. You can then set a new password. Proceed?",
         "alertPasswordResetDoneTitle":"Password reset in progress",
-        "alertPasswordResetDoneSubTitle":"Please set a new password after 24 hours.",
+        "alertPasswordResetDoneSubTitle":"Please set a new password after 24 hours."
     },
     "passwordPreferencesInfo":{
         "titleSetPassword":"Set Password",
