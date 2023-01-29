@@ -33,9 +33,9 @@
         "buttonSkipHabitText":"Postponer por hoy",
         "buttonPostponeBreakText":"Posponer Descanso cinco minutos",
         "breakDurationText":"Duración de descanso de actividades: <DURATION>",
-        "buttonVideoText":"Video",
-        "buttonNotesText":"Notes",
-        "titleTakeNotes":"Take Notes"
+        "buttonVideoText":"Video[NEEDTRANSLATION]",
+        "buttonNotesText":"Notes[NEEDTRANSLATION]",
+        "titleTakeNotes":"Take Notes[NEEDTRANSLATION]"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -117,7 +117,7 @@
         "minutesMText":"m",
         "secondsSText":"s",
         "otherReasonText":"Otro",
-        "loadingText":"Loading..."
+        "loadingText":"Loading...[NEEDTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -353,7 +353,7 @@
         "titleHideDock":"Ocultar muelle:",
         "descriptionHideDockText":"Habilite esto para ocultar las actividades de las aplicaciones permitidas para minimizar las distracciones\"Eventos del sistema\" Se requerirán permisos para esto.",
         "checkBoxHideDockText":"Ocultar el muelle durante las actividades que tienen aplicaciones permitidas.",
-        "checkBoxShowMeetingDetectionPopupText":"Automatically suggest starting \"Meetings\" focus mode"
+        "checkBoxShowMeetingDetectionPopupText":"Automatically suggest starting \"Meetings\" focus mode[NEEDTRANSLATION]"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Use Focus Modes to stay focused on a certain type of work. Start a focus mode from the Focus Bear menu.[NEEDTRANSLATION]",
