@@ -32,7 +32,10 @@
         "lastActivitySkippedText":"<ACTIVITY> Postponer! Has completado tu tiempo frente a la pantalla. 💪",
         "buttonSkipHabitText":"Postponer por hoy",
         "buttonPostponeBreakText":"Posponer Descanso cinco minutos",
-        "breakDurationText":"Duración de descanso de actividades: <DURATION>"
+        "breakDurationText":"Duración de descanso de actividades: <DURATION>",
+        "buttonVideoText":"Video[NEEDTRANSLATION]",
+        "buttonNotesText":"Notes[NEEDTRANSLATION]",
+        "titleTakeNotes":"Take Notes[NEEDTRANSLATION]"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -109,11 +112,12 @@
         "toolTipColorBoxText":"Elija un color para que se muestre en el fondo del icono de la barra de menú superior para ayudar a identificar el modo de enfoque que está ejecutando.",
         "notificationFirefoxText":"Nota: No podemos bloquear las distracciones en Firefox aun pero si usas Chrome o Safari, estaremos aquí para ayudarte a mantenerte concentrado.",
         "expiredBarText":"Caducado",
-        "officeFriendlyActivityName":"Levantate y Estirate",
+         "officeFriendlyActivityName":"Levantate y Estirate",
         "hoursHText":"h",
         "minutesMText":"m",
         "secondsSText":"s",
-        "otherReasonText":"Otro"
+        "otherReasonText":"Otro",
+        "loadingText":"Loading...[NEEDTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -175,7 +179,7 @@
     "quitInfo": {
         "quittingTitle": "Abandonando..",
         "quittingCountDownInfo": {
-            "subTitle": "¿Seguro que quieres salir? Tómese 10 segundos para reflexionar sobre si realmente quieres abandonar.",
+            "subTitle": "¿Seguro que quieres salir? Tómese 5 segundos para reflexionar sobre si realmente quieres abandonar.",
             "message": "Mientras esperas, reflexiona sobre por qué estás haciendo esto. Si fue porque su rutina era demasiado ambiciosa, tal vez acortala para que solo dure unos minutos, de modo que sea más fácil hacerlo que no hacerlo. Si estás abandonando porque la aplicación está dañada, ¡lo siento mucho!",
             "pleaseEmailText": "Por favor envíe un correo electrónico",
             "buttonQuitCancelText": "No quise hacer eso. ¡Déjeme continuar con mis hábitos!"
@@ -295,6 +299,7 @@
         "menuItemMeetingDetectionTitle":"Reunion Activa – Descanso desactivados",
         "menuItemResumeHabitsTitle":"Resumir Habitos",
         "menuItemFocusMusicTitle":"Musica de enfoque"
+ 
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo de Pomodoro:",
@@ -347,11 +352,11 @@
         "checkBoxMeetingDetectionText":"Activar detección de reunion",
         "titleHideDock":"Ocultar muelle:",
         "descriptionHideDockText":"Habilite esto para ocultar las actividades de las aplicaciones permitidas para minimizar las distracciones\"Eventos del sistema\" Se requerirán permisos para esto.",
-        "checkBoxHideDockText":"Ocultar el muelle durante las actividades que tienen aplicaciones permitidas."
-        
+        "checkBoxHideDockText":"Ocultar el muelle durante las actividades que tienen aplicaciones permitidas.",
+        "checkBoxShowMeetingDetectionPopupText":"Automatically suggest starting \"Meetings\" focus mode[NEEDTRANSLATION]"
     },
     "focusPreferencesInfo": {
-        "titleFocusType": "Tipo de enfoque:",
+        "titleFocusType": "Use Focus Modes to stay focused on a certain type of work. Start a focus mode from the Focus Bear menu.[NEEDTRANSLATION]",
         "titleAllowedAllApps": "Permitir todas las aplicaciones",
         "titleAllowedSelectedApps": "Permitir aplicaciones seleccionadas",
         "titleAllowedAllUrls": "Permitir todas las URL",
@@ -384,7 +389,7 @@
         "toolTipDuplicate": "Duplicar",
         "hardCorePomodoroIsOnMessageText": " El modo Pomodoro Súper está activado. Por favor ancele el modo Pomodoro Súper para eliminarlo.",
         "buttonAdvancedText": "Avanzado",
-        "defaultFocusText": "¡Anarquía completa! No bloquees nada 😬",
+        "defaultFocusText": "Block super distracting sites/apps[NEEDTRANSLATION]",
         "meetingsFocusText": "Reuniones",
         "disablePomodoroModeAlertText": "El modo de enfoque seleccionado está habilitado en el modo pomodoro Súper. Por favor deshabilite el modo pomodoro Súper para eliminar esto.",
         "buttonAddFocusTypeText": "Agrega modo de enfoque",
@@ -402,7 +407,7 @@
         "allowUrlsQuestionText":"Which URLs do you want to allow?",
         "blockUrlsQuestionText":"¿Qué URL quieres bloquear?",
         "enterMultiUrlText":"Introduzca una o varias direcciones URL (una en cada línea)"
-    },
+     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecute el script de Apple antes de iniciar el modo de enfoque.",
         "runScriptAfterText": "Ejecute el script de Apple después de iniciar el modo de enfoque.",
@@ -433,6 +438,7 @@
             "explanationText":"Establece una intención para el bloque de enfoque que ayude a preparar tu cerebro para realizar esa tarea. Para editar la intención después de iniciar el modo de enfoque, haz clic en Notas Rápidas en la barra de menú.",
             "buttonStopFocusText":"Detener el modo de enfoque actual e iniciar este",
             "activityRunningCantStartFocusText":"No puede iniciar un modo de enfoque mientras se está ejecutando una actividad."
+ 
         },
         "abortingFocusModeInfo": {
             "title": "Desactivación del tipo de enfoque - <FOCUSTYPE>",
@@ -614,8 +620,7 @@
         "buttonPostponeHabitText": "Posponer Hábito",
         "buttonPostponeBreakText": "Posponer Descanso",
         "buttonAbortBreakText": "Cancelar Interrupción",
-        "postponedLastBreakText":"needstranslation",
-        "posponedLastBreakText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes tomarlo esta vez?",
+        "postponedLastBreakText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes tomarlo esta vez?",
         "buttonEnableOfficeModeText": "Cambiar al modo de oficina",
         "officeModeEnableText": "Ok, te daré algunas actividades de descanso que recomendamos para hacer en un entorno de oficina",
         "postponedLastHabitText": "Has pospuesto tus hábitos varias veces. ¿Estás seguro de que quieres posponerlos otra vez?",
@@ -837,6 +842,13 @@
         "title":"¿Puede darnos algún comentario sobre la aplicación?",
         "buttonShareFeedbackText":"Compartir comentarios",
         "buttonAskAgainText":"Preguntar en 1 hora"
+    },
+    "addFocusTempUrlsOrAppsVcInfo": {
+        "title":"Do you want to permanently allow these Apps or URLs that you used during this session?[NEEDTRANSLATION]",
+        "buttonAllowText":"Allow[NEEDTRANSLATION]"
+    },
+    "allTracksVcInfo": {
+        "title":"Here are some focus music tracks (some are binaural beats) you can use to help you focus. FYI the research is ambivalent about binaural beats - you'll likely get similar benefits from using your own music. Just make sure the music doesn't have lyrics otherwise you'll get distracted.[NEEDTRANSLATION]"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
