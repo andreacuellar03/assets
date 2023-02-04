@@ -116,7 +116,9 @@
         "minutesMText":"m",
         "secondsSText":"s",
         "otherReasonText":"Other",
-        "loadingText":"Loading..."
+        "loadingText":"Loading...",
+        "cutOffTimePassedText":"Running low on time - let's just focus on the high priority habits for the rest of the evening.",
+        "noHighPriorityActivityText":"No activities with high Priority found."
     },
     "abortInfo":{
         "abortingTitle":"Cancelling..",
@@ -404,7 +406,8 @@
         "titleBlockUrlListApproch":"Allow everything except certain distracting sites",
         "allowUrlsQuestionText":"Which URLs do you want to allow?",
         "blockUrlsQuestionText":"Which URLs do you want to block?",
-        "enterMultiUrlText":"Enter single or multiple urls(one in each line)"
+        "enterMultiUrlText":"Enter single or multiple urls(one in each line)",
+        "meetingsFocusInfoText":"Meetings focus mode helps restricit use of certain apps when you are attending a meeting. It can block everything else to help you concentrate."
     },
     "focusPreferencesAdvancedInfo":{
         "runScriptBeforeText":"Run apple script before starting focus mode.",
@@ -842,6 +845,15 @@
     },
     "allTracksVcInfo": {
         "title":"Here are some focus music tracks (some are binaural beats) you can use to help you focus. FYI the research is ambivalent about binaural beats - you'll likely get similar benefits from using your own music. Just make sure the music doesn't have lyrics otherwise you'll get distracted."
+    },
+    "setUpVcInfo": {
+        "title":"Setup",
+        "customiseFocusModeText":"Customise a focus mode",
+        "customiseHabitText":"Customise your habits",
+        "setBlockedUrlsText":"Set always blocked URLs",
+        "completeMorningRoutineText":"Complete your morning routine 10 times",
+        "completeEveningRoutineText":"Complete your evening routine 10 times",
+        "focusSessionText":"Do 10 focus sessions"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"

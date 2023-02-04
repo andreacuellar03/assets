@@ -117,7 +117,9 @@
         "minutesMText":"m",
         "secondsSText":"s",
         "otherReasonText":"Otro",
-        "loadingText":"Loading...[NEEDTRANSLATION]"
+        "loadingText":"Loading...[NEEDTRANSLATION]",
+        "cutOffTimePassedText":"Running low on time - let's just focus on the high priority habits for the rest of the evening.[NEEDTRANSLATION]",
+        "noHighPriorityActivityText":"No activities with high Priority found.[NEEDTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -406,7 +408,8 @@
         "titleBlockUrlListApproch":"Permitir todo excepto ciertos sitios que me distraen",
         "allowUrlsQuestionText":"Which URLs do you want to allow?",
         "blockUrlsQuestionText":"¿Qué URL quieres bloquear?",
-        "enterMultiUrlText":"Introduzca una o varias direcciones URL (una en cada línea)"
+        "enterMultiUrlText":"Introduzca una o varias direcciones URL (una en cada línea)",
+        "meetingsFocusInfoText":"Meetings focus mode helps restricit use of certain apps when you are attending a meeting. It can block everything else to help you concentrate.[NEEDTRANSLATION]"
      },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecute el script de Apple antes de iniciar el modo de enfoque.",
@@ -849,6 +852,15 @@
     },
     "allTracksVcInfo": {
         "title":"Here are some focus music tracks (some are binaural beats) you can use to help you focus. FYI the research is ambivalent about binaural beats - you'll likely get similar benefits from using your own music. Just make sure the music doesn't have lyrics otherwise you'll get distracted.[NEEDTRANSLATION]"
+    },
+    "setUpVcInfo": {
+        "title":"Setup[NEEDTRANSLATION]",
+        "customiseFocusModeText":"Customise a focus mode[NEEDTRANSLATION]",
+        "customiseHabitText":"Customise your habits[NEEDTRANSLATION]",
+        "setBlockedUrlsText":"Set always blocked URLs[NEEDTRANSLATION]",
+        "completeMorningRoutineText":"Complete your morning routine 10 times[NEEDTRANSLATION]",
+        "completeEveningRoutineText":"Complete your evening routine 10 times[NEEDTRANSLATION]",
+        "focusSessionText":"Do 10 focus sessions[NEEDTRANSLATION]"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
