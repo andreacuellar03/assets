@@ -119,6 +119,7 @@
         "loadingText":"Loading...",
         "cutOffTimePassedText":"Running low on time - let's just focus on the high priority habits for the rest of the evening.",
         "noHighPriorityActivityText":"No activities with high Priority found."
+
     },
     "abortInfo":{
         "abortingTitle":"Cancelling..",
@@ -855,6 +856,7 @@
         "completeEveningRoutineText":"Complete your evening routine 10 times",
         "focusSessionText":"Do 10 focus sessions"
     },
+
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
     }
