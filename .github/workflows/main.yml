@@ -1,0 +1,22 @@
+name: 'Compare config files'
+
+on:
+  pull_request:
+    branches:
+      - main
+    types: [opened]
+
+jobs:
+  Compare:
+    name: Compare keys in config-es.json & config.json
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v3
+        with:
+          repository: amanueltsfy/assets
+          ref: main
+
+      - name: Checking config keys
+        uses: amanueltsfy/assets@main

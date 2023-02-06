@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  font-family: monospace;
+  position: relative;
+}
+
+.container > p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.notice-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.notice-wrapper > h6 {
+  font-size: 14px;
+  width: 70%;
+  margin: 0;
+  text-align: justify;
+}
+
+.notice-wrapper > a {
+  font-weight: bold;
+}
+
+#progressWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#focusTipWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 62vh;
+}
+
+.tipText {
+  font-size: 14px;
+  width: 100%;
+  margin: 0;
+  text-align: justify;
+}
+
+#showFocusTip {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.centeredText {
+  text-align: center;
+  width: 100% !important;
+}
+
+#privacyContainer {
+  width: 100%;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.privacyNotice {
+  width: 75%;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.hidePrivacyNotice {
+  display: none;
+}
+
+#privacyContainer button {
+  width: fit-content;
+  padding: 6px 20px;
+  font-family: monospace;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+#privacyContainer button:hover {
+  background-color: gray;
+  color: white;
+}
+
+.hideCuddlyBearBtn {
+  display: none;
+}
+
+.showCuddlyBearBtn {
+  width: fit-content;
+  padding: 6px 20px;
+  font-family: monospace;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  background-color: lightblue;
+  position: absolute;
+  top: 1.5%;
+  right: 1%;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.showCuddlyBearBtn:hover {
+  background-color: blue;
+  color: white;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.3);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: lavender;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  font-family: monospace;
+}
+
+.popup h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.popup .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0;
+  max-height: 30%;
+  overflow: auto;
+}
+
+.popup .content > button + a {
+  width: fit-content;
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+  color: black;
+  font-family: monospace;
+  font-size: 12px;
+}
+
+.popup .content a {
+  text-decoration: none;
+  background-color: palevioletred;
+}
+
+.popup .content button {
+  background-color: deepskyblue;
+}
+
+.popup .content button:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+.popup .content a:hover {
+  background-color: red;
+  color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  .popup .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .privacyNotice {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .privacyNotice {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .privacyNotice {
+    font-size: 20px;
+  }
+}
