@@ -116,7 +116,10 @@
         "minutesMText":"m",
         "secondsSText":"s",
         "otherReasonText":"Other",
-        "loadingText":"Loading..."
+        "loadingText":"Loading...",
+        "cutOffTimePassedText":"Running low on time - let's just focus on the high priority habits for the rest of the evening.",
+        "noHighPriorityActivityText":"No activities with high Priority found."
+
     },
     "abortInfo":{
         "abortingTitle":"Cancelling..",
@@ -281,7 +284,7 @@
         "menuItemEnableOfficeModeTitle":"Office Mode Enabled",
         "menuItemDisableOfficeModeTitle": "WFH Mode Enabled",
         "menuItemQuitTitle":"Quit",
-        "untilTimeText":"On Until <TIME>",
+        "untilTimeText":"ends at <TIME>",
         "onText":"On",
         "noOfficeFriendlyActivityAlertText":"You don't have any office friendly break activities. Do you want me to add one for you to stand up and stretch for 20 seconds?",
         "noOfficeFriendlyActivityButtonFirstText":"Yeah sounds good",
@@ -351,7 +354,8 @@
         "titleHideDock":"Hide dock:",
         "descriptionHideDockText":"Enable this to hide dock during allowed apps activities to minimize distractions. \"System Events\" permission will be required for this.",
         "checkBoxHideDockText":"Hide dock during activities having allowed apps.",
-        "checkBoxShowMeetingDetectionPopupText":"Automatically suggest starting \"Meetings\" focus mode"
+        "checkBoxShowMeetingDetectionPopupText":"Automatically suggest starting \"Meetings\" focus mode",
+        "alertChangeLanguageInfoText":"Focus Bear will restart for the changes to take effect."
     },
     "focusPreferencesInfo":{
         "titleFocusType":"Use Focus Modes to stay focused on a certain type of work. Start a focus mode from the Focus Bear menu.",
@@ -404,7 +408,8 @@
         "titleBlockUrlListApproch":"Allow everything except certain distracting sites",
         "allowUrlsQuestionText":"Which URLs do you want to allow?",
         "blockUrlsQuestionText":"Which URLs do you want to block?",
-        "enterMultiUrlText":"Enter single or multiple urls(one in each line)"
+        "enterMultiUrlText":"Enter single or multiple urls(one in each line)",
+        "meetingsFocusInfoText":"The meetings focus mode is used to detect when you are in a meeting so you don't get asked to take a break when you're in an important meeting. Add the apps and websites you use for video conferencing."
     },
     "focusPreferencesAdvancedInfo":{
         "runScriptBeforeText":"Run apple script before starting focus mode.",
@@ -434,7 +439,8 @@
             "onlyAllowSelectedAppAndUrlText":"You'll only be able to use \"<URL>\" in <APP>",
             "explanationText":"Setting an intention for the focus block helps prime your brain to accomplish that task. To edit the intention after starting the focus mode, click Brain Dump in the menu bar.",
             "buttonStopFocusText":"Stop current focus mode and start this one",
-            "activityRunningCantStartFocusText":"You can not start a focus mode while an activity is running."
+            "activityRunningCantStartFocusText":"You can not start a focus mode while an activity is running.",
+            "tipMaximumMinutesText":"Tip: research indicates that 90 minutes is the maximum limit for focused work (ultradian rhythms). After that, your attention will naturally decline and you'll need to take a break."
         },
         "abortingFocusModeInfo":{
             "title":"Deactivating Focus Block - <FOCUSTYPE>",
@@ -469,7 +475,8 @@
             "titleFocusSummaryText":"Focus Summary:",
             "totalFocusTimeText":"Total focus time: <TIME>",
             "buttonNeedMoreTimeText":"I need to work for one more minute",
-            "buttonStillNeedMoreTimeText":"I still need to work more"
+            "buttonStillNeedMoreTimeText":"I still need to work more",
+            "oneMinuteTimerText":"One minute timer ends in"
         },
         "discourageDefaultFocusInfo":{
             "title":"Are you sure? It's pretty easy to get distracted without using a more restrictive focus mode",
@@ -551,7 +558,8 @@
         "buttonAbortingShutoffText":"Using your computer late at night",
         "buttonSkipEveningHabitText":"Postponing/skipping evening routine",
         "buttonSkipMorningHabitText":"Postponing/skipping morning routine",
-        "buttonChangeSettingsText":"Changing settings"
+        "buttonChangeSettingsText":"Changing settings",
+        "buttonSkipEveningHabitAfterCutOffText":"Postponing/skipping evening routine after cutoff time"
     },
     "blockedUrlsViewInfo":{
         "title":"Always Blocked URLs",
@@ -842,6 +850,19 @@
     },
     "allTracksVcInfo": {
         "title":"Here are some focus music tracks (some are binaural beats) you can use to help you focus. FYI the research is ambivalent about binaural beats - you'll likely get similar benefits from using your own music. Just make sure the music doesn't have lyrics otherwise you'll get distracted."
+    },
+    "setUpVcInfo": {
+        "title":"Setup",
+        "customiseFocusModeText":"Customise a focus mode",
+        "customiseHabitText":"Customise your habits",
+        "setBlockedUrlsText":"Set always blocked URLs",
+        "completeMorningRoutineText":"Complete your morning routine 10 times",
+        "completeEveningRoutineText":"Complete your evening routine 10 times",
+        "focusSessionText":"Do 10 focus sessions"
+    },
+    "languageInfo": {
+        "languageEnglish":"English",
+        "languageSpanish":"Spanish"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
