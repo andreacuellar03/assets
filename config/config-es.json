@@ -411,7 +411,7 @@
         "allowUrlsQuestionText":"¿Qué URL quieres permitir?",
         "blockUrlsQuestionText":"¿Qué URL quieres bloquear?",
         "enterMultiUrlText":"Introduce una o varias direcciones URL (una en cada línea)",
-        "meetingsFocusInfoText":"Meetings focus mode helps restricit use of certain apps when you are attending a meeting. It can block everything else to help you concentrate.[NEEDTRANSLATION]"
+        "meetingsFocusInfoText":"The meetings focus mode is used to detect when you are in a meeting so you don't get asked to take a break when you're in an important meeting. Add the apps and websites you use for video conferencing.[NEEDTRANSLATION]"
 
      },
     "focusPreferencesAdvancedInfo": {
