@@ -117,7 +117,10 @@
         "minutesMText":"m",
         "secondsSText":"s",
         "otherReasonText":"Otro",
-        "loadingText":"Cargando"
+        "loadingText":"Cargando",
+        "cutOffTimePassedText":"Running low on time - let's just focus on the high priority habits for the rest of the evening.[NEEDTRANSLATION]",
+        "noHighPriorityActivityText":"No activities with high Priority found.[NEEDTRANSLATION]"
+
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -282,7 +285,7 @@
         "menuItemEnableOfficeModeTitle": "Modo de Oficina habilitado",
         "menuItemDisableOfficeModeTitle": "Modo Trabajo Desde Casa habilitado",
         "menuItemQuitTitle": "Abandonar",
-        "untilTimeText": "Encendido hasta <TIME>",
+        "untilTimeText": "ends at <TIME>[NEEDTRANSLATION]",
         "onText": "Encendido",
         "noOfficeFriendlyActivityAlertText": "No tienes ninguna actividad de descanso para la oficina ¿Quieres que agregue una para pararte y estirarte por 20 segundos?",
         "noOfficeFriendlyActivityButtonFirstText": "Si, suena bien",
@@ -353,7 +356,8 @@
         "titleHideDock":"Ocultar muelle:",
         "descriptionHideDockText":"Habilita esto para ocultar las actividades de las aplicaciones permitidas para minimizar las distracciones\"Eventos del sistema\" Se requerirán permisos para esto.",
         "checkBoxHideDockText":"Ocultar el muelle durante las actividades que tienen aplicaciones permitidas.",
-        "checkBoxShowMeetingDetectionPopupText":"Sugerir automáticamente iniciar el modo de enfoque \"Reuniones\" "
+        "checkBoxShowMeetingDetectionPopupText":"Sugerir automáticamente iniciar el modo de enfoque \"Reuniones\" ",
+        "alertChangeLanguageInfoText":"Focus Bear will restart for the changes to take effect.[NEEDTRANSLATION]"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Utiliza los Modos de Enfoque para concentrarte en un determinado tipo de trabajo. Inicia un modo de enfoque desde el menú de Focus Bear.",
@@ -406,7 +410,9 @@
         "titleBlockUrlListApproch":"Permitir todo excepto ciertos sitios que me distraen",
         "allowUrlsQuestionText":"¿Qué URL quieres permitir?",
         "blockUrlsQuestionText":"¿Qué URL quieres bloquear?",
-        "enterMultiUrlText":"Introduce una o varias direcciones URL (una en cada línea)"
+        "enterMultiUrlText":"Introduce una o varias direcciones URL (una en cada línea)",
+        "meetingsFocusInfoText":"The meetings focus mode is used to detect when you are in a meeting so you don't get asked to take a break when you're in an important meeting. Add the apps and websites you use for video conferencing.[NEEDTRANSLATION]"
+
      },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecuta el script de Apple antes de iniciar el modo de enfoque.",
@@ -437,8 +443,8 @@
             "onlyAllowSelectedAppAndUrlText":"Solo podrás usar \"<URL>\" en <APP>",
             "explanationText":"Establece una intención para el bloque de enfoque que te ayude a preparar tu cerebro para realizar esa tarea. Para editar la intención después de iniciar el modo de enfoque, haz clic en Notas Rápidas en la barra de menú.",
             "buttonStopFocusText":"Detener el modo de enfoque actual e iniciar este",
-            "activityRunningCantStartFocusText":"No puedes iniciar un modo de enfoque mientras se está ejecutando una actividad."
- 
+            "activityRunningCantStartFocusText":"No puedes iniciar un modo de enfoque mientras se está ejecutando una actividad.",
+            "tipMaximumMinutesText":"Tip: research indicates that 90 minutes is the maximum limit for focused work (ultradian rhythms). After that, your attention will naturally decline and you'll need to take a break.[NEEDTRANSLATION]"
         },
         "abortingFocusModeInfo": {
             "title": "Desactivación del tipo de enfoque - <FOCUSTYPE>",
@@ -473,7 +479,8 @@
             "titleFocusSummaryText": "Resumen de Enfoque:",
             "totalFocusTimeText": "Tiempo total de enfoque: <TIME>",
             "buttonNeedMoreTimeText": "Necesito trabajar más tiempo",
-            "buttonStillNeedMoreTimeText": "Todavía necesito trabajar más tiempo"
+            "buttonStillNeedMoreTimeText": "Todavía necesito trabajar más tiempo",
+            "oneMinuteTimerText":"One minute timer ends in[NEEDTRANSLATION]"
         },
         "discourageDefaultFocusInfo": {
             "title": "¿Estás seguro/a? Es bastante fácil distraerte sin usar un modo de enfoque más restrictivo",
@@ -555,7 +562,8 @@
         "buttonAbortingShutoffText":"Usando tu computadora hasta tarde en la noche",
         "buttonSkipEveningHabitText":"Posponer/omitir rutina de tarde",
         "buttonSkipMorningHabitText":"Posponer/omitir rutina de mañana",
-        "buttonChangeSettingsText":"Editar Ajustes"
+        "buttonChangeSettingsText":"Editar Ajustes",
+        "buttonSkipEveningHabitAfterCutOffText":"Postponing/skipping evening routine after cutoff time[NEEDTRANSLATION]"
     },
     "blockedUrlsViewInfo": {
         "title": "URL siempre bloqueadas",
@@ -849,6 +857,20 @@
     },
     "allTracksVcInfo": {
         "title":"Aquí hay algunas pistas de música de enfoque (algunas son ritmos binaurales) que puedes usar para ayudarte a concentrarte. Para tu información, la investigación es ambivalente sobre los ritmos binaurales - es probable que obtengas beneficios similares al usar tu propia música. Solo asegúrate que la música no tenga letra, de lo contrario te distraerás."
+    },
+    "setUpVcInfo": {
+        "title":"Setup[NEEDTRANSLATION]",
+        "customiseFocusModeText":"Customise a focus mode[NEEDTRANSLATION]",
+        "customiseHabitText":"Customise your habits[NEEDTRANSLATION]",
+        "setBlockedUrlsText":"Set always blocked URLs[NEEDTRANSLATION]",
+        "completeMorningRoutineText":"Complete your morning routine 10 times[NEEDTRANSLATION]",
+        "completeEveningRoutineText":"Complete your evening routine 10 times[NEEDTRANSLATION]",
+        "focusSessionText":"Do 10 focus sessions[NEEDTRANSLATION]"
+
+    },
+    "languageInfo": {
+        "languageEnglish":"English",
+        "languageSpanish":"Spanish[NEEDTRANSLATION]"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
