@@ -6,7 +6,7 @@
         "introActivities": [
             { "name": "Mindful Breathing", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=CUre1WgjIyU"] }
         ],
-        "welcomeVideoUrl": "https://www.youtube.com/watch?v=BSdz7Tdesbs",
+        "welcomeVideoUrl": "https://www.youtube.com/watch?v=CB3bd1Csx1E",
         "welcomeMessageOnlyBreakIntro": "Throughout the day, I'll remind you to take regular breaks to keep your mind sharp and your body flexible. Here's an example of a break activity: 30 seconds of deep breathing."
     },
     "activityInfo":{
@@ -730,7 +730,7 @@
         "titleSignInSuccessful":"Sign in successful",
         "signinSuccessText":"Great you're all signed in. I'll just give you a few tips before you start using it.",
         "privacyText": "Privacy and Security",
-        "privacyDescription":"We take your privacy and security very seriously. We do not log which websites or apps you use. We do sync your habit data to our server but this is only to support cross device distraction blocking. Your data is encrypted and we don't let anyone else see it. for more details or feel free to email team@focusbear.io. Refer to our privacy policy:",
+        "privacyDescription":"We take your privacy and security very seriously. We do not log which websites or apps you use. We do sync your habit data to our server but this is only to support cross device distraction blocking. Your data is encrypted and we don't let anyone else see it. For more details, feel free to email team@focusbear.io or refer to our privacy policy:",
         "buttonPrivacyText":"Click here to view Privacy Policy"
     },
     "breakWarningVcInfo": {

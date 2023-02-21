@@ -7,7 +7,7 @@
         "introActivities": [
             { "name": "Respiración Consciente","duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=CUre1WgjIyU"]}
         ],
-        "welcomeVideoUrl": "https://www.youtube.com/watch?v=BSdz7Tdesbs",
+        "welcomeVideoUrl": "https://www.youtube.com/watch?v=CB3bd1Csx1E",
         "welcomeMessageOnlyBreakIntro": "A lo largo del día, te recordaré que tomes descansos regulares para mantener tu mente alerta y tu cuerpo flexible. Este es un ejemplo de una actividad de descanso: 30 segundos de respiración profunda."
     },
     "activityInfo": {
@@ -735,8 +735,10 @@
         "buttonNextText":"Siguiente",
         "exploreTipsText":"Haz click en siguiente para explorar los tips para usar Focus Bear.",
         "titleSignInSuccessful":"Inicio de sesión exitosa",
-        "signinSuccessText":"Genial, todos han iniciado sesión. Solo les daré algunos consejos antes de que comiencen a usarlo."
-        
+        "signinSuccessText":"Genial, todos han iniciado sesión. Solo les daré algunos consejos antes de que comiencen a usarlo.",
+        "privacyText": "Privacy and Security",
+        "privacyDescription":"We take your privacy and security very seriously. We do not log which websites or apps you use. We do sync your habit data to our server but this is only to support cross device distraction blocking. Your data is encrypted and we don't let anyone else see it. For more details, feel free to email team@focusbear.io or refer to our privacy policy:",
+        "buttonPrivacyText":"Click here to view Privacy Policy"
     },
     "breakWarningVcInfo": {
         "title": "Tu descanso comienza en",
