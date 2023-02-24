@@ -118,7 +118,9 @@
         "otherReasonText":"Other",
         "loadingText":"Loading...",
         "cutOffTimePassedText":"Running low on time - let's just focus on the high priority habits for the rest of the evening.",
-        "noHighPriorityActivityText":"No activities with high Priority found."
+        "noHighPriorityActivityText":"No activities with high Priority found.",
+        "focusEndsText":"Focus mode ends in",
+        "postponeEndsText":"Habit resumes in"
 
     },
     "abortInfo":{
@@ -640,7 +642,8 @@
         "titleTimeRemainingText": "Time remaining:",
         "titleWorkNoteFirst": "Things I'll do in my next break:",
         "titleWorkNoteSecond": "Things you wanted to do in your break:",
-        "titleNotFocusSession": "You're currently not in a focus session"
+        "titleNotFocusSession": "You're currently not in a focus session",
+        "writeThingsHereText":"Dump down ideas you have so you don't forget - anything you write here will remain forever unless you delete it"
     },
     "askLogInVcInfo": {
         "title": "Make healthy habits and deep work the path of least resistance.",
@@ -864,6 +867,19 @@
         "languageEnglish":"English",
         "languageSpanish":"Spanish"
     },
+    "breaksBrainDumpVcInfo": {
+        "title":"Capture your thoughts before starting your break",
+        "description":"Taking regular breaks (every 20 minutes is recommended) is crucial for avoiding eye strain and postural issues. You might be worried that it will take you out of your flow and disrupt your productivity. Let's capture what you were just working on so that you won't lose your train of thought after the break. BTW you'll often find that when you take a break and give your brain some time in the \"default mode network\", you'll come up with novel solutions to a problem you'd been struggling with. Not necessarily a productivity killer at all 😉",
+        "buttonStartBreakText":"Start Break"
+    },
+    "askWorkTimeVcInfo": {
+        "titleStartupTime":"Startup Time:",
+        "titleShutDownTime":"Shutdown Time:",
+        "descriptionStartupTime":"Choose the absolute earliest time you ever plan to start your morning routine. You can start your morning routine at any time after <SHUTOFFTIME>. Before <STARTTIME> your computer will be locked because you should be sleeping 😴 (you can still unlock it if you have an emergency).",
+        "descriptionShutDownTime":"At <SHUTOFFTIME>, Focus Bear will take over your computer and other devices and guide you through your evening routine to help you wind down for the evening.",
+        "questionText":"Set Startup and Shutdown time"
+    },
+
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
     }
