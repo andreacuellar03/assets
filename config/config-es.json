@@ -122,6 +122,7 @@
         "noHighPriorityActivityText":"No activities with high Priority found.[NEEDTRANSLATION]",
         "focusEndsText":"Focus mode ends in[NEEDTRANSLATION]",
         "postponeEndsText":"Habit resumes in[NEEDTRANSLATION]"
+
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -874,6 +875,7 @@
         "languageEnglish":"English",
         "languageSpanish":"Spanish[NEEDTRANSLATION]"
     },
+
     "breaksBrainDumpVcInfo": {
         "title":"Capture your thoughts before starting your break[NEEDTRANSLATION]",
         "description":"Taking regular breaks (every 20 minutes is recommended) is crucial for avoiding eye strain and postural issues. You might be worried that it will take you out of your flow and disrupt your productivity. Let's capture what you were just working on so that you won't lose your train of thought after the break. BTW you'll often find that when you take a break and give your brain some time in the \"default mode network\", you'll come up with novel solutions to a problem you'd been struggling with. Not necessarily a productivity killer at all 😉[NEEDTRANSLATION]",
@@ -886,6 +888,7 @@
         "descriptionShutDownTime":"At <SHUTOFFTIME>, Focus Bear will take over your computer and other devices and guide you through your evening routine to help you wind down for the evening.[NEEDTRANSLATION]",
         "questionText":"Set Startup and Shutdown time[NEEDTRANSLATION]"
     },
+
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
     }

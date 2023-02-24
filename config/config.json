@@ -121,6 +121,7 @@
         "noHighPriorityActivityText":"No activities with high Priority found.",
         "focusEndsText":"Focus mode ends in",
         "postponeEndsText":"Habit resumes in"
+
     },
     "abortInfo":{
         "abortingTitle":"Cancelling..",
@@ -878,6 +879,7 @@
         "descriptionShutDownTime":"At <SHUTOFFTIME>, Focus Bear will take over your computer and other devices and guide you through your evening routine to help you wind down for the evening.",
         "questionText":"Set Startup and Shutdown time"
     },
+
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
     }
