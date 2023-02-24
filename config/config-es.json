@@ -119,8 +119,9 @@
         "otherReasonText":"Otro",
         "loadingText":"Cargando",
         "cutOffTimePassedText":"Running low on time - let's just focus on the high priority habits for the rest of the evening.[NEEDTRANSLATION]",
-        "noHighPriorityActivityText":"No activities with high Priority found.[NEEDTRANSLATION]"
-
+        "noHighPriorityActivityText":"No activities with high Priority found.[NEEDTRANSLATION]",
+        "focusEndsText":"Focus mode ends in[NEEDTRANSLATION]",
+        "postponeEndsText":"Habit resumes in[NEEDTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -646,7 +647,8 @@
         "titleTimeRemainingText": "Tiempo restante:",
         "titleWorkNoteFirst": "Cosas que haré en mi próximo descanso:",
         "titleWorkNoteSecond": "Cosas que querías hacer en tu descanso:",
-        "titleNotFocusSession": "Actualmente no te encuentras en una sesión de enfoque"
+        "titleNotFocusSession": "Actualmente no te encuentras en una sesión de enfoque",
+        "writeThingsHereText":"Dump down ideas you have so you don't forget - anything you write here will remain forever unless you delete it[NEEDTRANSLATION]"
     },
     "askLogInVcInfo": {
         "title": "Haz que los hábitos saludables y el trabajo profundo sean el camino de menor resistencia",
@@ -871,6 +873,18 @@
     "languageInfo": {
         "languageEnglish":"English",
         "languageSpanish":"Spanish[NEEDTRANSLATION]"
+    },
+    "breaksBrainDumpVcInfo": {
+        "title":"Capture your thoughts before starting your break[NEEDTRANSLATION]",
+        "description":"Taking regular breaks (every 20 minutes is recommended) is crucial for avoiding eye strain and postural issues. You might be worried that it will take you out of your flow and disrupt your productivity. Let's capture what you were just working on so that you won't lose your train of thought after the break. BTW you'll often find that when you take a break and give your brain some time in the \"default mode network\", you'll come up with novel solutions to a problem you'd been struggling with. Not necessarily a productivity killer at all 😉[NEEDTRANSLATION]",
+        "buttonStartBreakText":"Start Break[NEEDTRANSLATION]"
+    },
+    "askWorkTimeVcInfo": {
+        "titleStartupTime":"Startup Time:[NEEDTRANSLATION]",
+        "titleShutDownTime":"Shutdown Time:[NEEDTRANSLATION]",
+        "descriptionStartupTime":"Choose the absolute earliest time you ever plan to start your morning routine. You can start your morning routine at any time after <SHUTOFFTIME>. Before <STARTTIME> your computer will be locked because you should be sleeping 😴 (you can still unlock it if you have an emergency).[NEEDTRANSLATION]",
+        "descriptionShutDownTime":"At <SHUTOFFTIME>, Focus Bear will take over your computer and other devices and guide you through your evening routine to help you wind down for the evening.[NEEDTRANSLATION]",
+        "questionText":"Set Startup and Shutdown time[NEEDTRANSLATION]"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
