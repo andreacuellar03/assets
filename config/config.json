@@ -15,7 +15,7 @@
         "startActivityButtonText":"Start <TIME> <NAME>",
         "activityFinishedText":"<ACTIVITY> finished!✅",
         "lastActivityFinishedText":"<ACTIVITY> finished!✅ You’ve earned your screen time. 💪",
-        "startBreakActivityTitleText":"It’s time for a break. Do <TIME> of <ACTIVITY> to earn more screentime.",
+        "startBreakActivityTitleText":"It’s time for a micro break. Let’s do <TIME> of <ACTIVITY> to keep your mind and body sharp.",
         "doSomeActivityText":"<ACTIVITY>",
         "beforeYouStartText":"Before you start, take a few moments to reflect on why you want to do these habits. Then visualise yourself beginning the habit sequence. Mentally walk through any of the habits that are going to be harder. This process will help reduce \"limbic friction\", i.e. prime your brain to do the habits no matter what, even if you don't have the app available.",
         "beforeYouBeginText":"Before you begin, take 30 seconds to visualise yourself performing each of the habits. This sounds kooky but research indicates that doing a mental rehearsal like this increases the likelihood of you completing the habits and makes the habits more sticky so that even if you don't have access to your computer/this app, you'll still do all the habits.",
@@ -737,9 +737,9 @@
         "buttonPrivacyText":"Click here to view Privacy Policy"
     },
     "breakWarningVcInfo": {
-        "title": "Your Break starts in",
+        "title": "Your micro break starts in",
         "buttonPostponeText": "Postpone for 5 minutes",
-        "postponeConfirmText": "You postponed the last break - are you sure you can't make time for the break now?",
+        "postponeConfirmText": "You postponed the last micro break - are you sure you can't make time for the break now?",
         "buttonTakeBreakText": "Argh ok I'll take a break!"
     },
     "askAppWorkVcInfo": {
@@ -868,9 +868,9 @@
         "languageSpanish":"Spanish"
     },
     "breaksBrainDumpVcInfo": {
-        "title":"Capture your thoughts before starting your break",
-        "description":"Taking regular breaks (every 20 minutes is recommended) is crucial for avoiding eye strain and postural issues. You might be worried that it will take you out of your flow and disrupt your productivity. Let's capture what you were just working on so that you won't lose your train of thought after the break. BTW you'll often find that when you take a break and give your brain some time in the \"default mode network\", you'll come up with novel solutions to a problem you'd been struggling with. Not necessarily a productivity killer at all 😉",
-        "buttonStartBreakText":"Start Break"
+        "title":"Capture your thoughts before starting your micro break",
+        "description":"Taking regular micro breaks (every 20 minutes is recommended) is crucial for avoiding eye strain and postural issues. You might be worried that it will take you out of your flow and disrupt your productivity. Let's capture what you were just working on so that you won't lose your train of thought after the break. BTW you'll often find that when you take a break and give your brain some time in the \"default mode network\", you'll come up with novel solutions to a problem you'd been struggling with. Not necessarily a productivity killer at all 😉",
+        "buttonStartBreakText":"Start Micro Break"
     },
     "askWorkTimeVcInfo": {
         "titleStartupTime":"Startup Time:",
