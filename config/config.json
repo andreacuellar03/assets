@@ -175,7 +175,12 @@
                 "description":"Can you tell us why you want to stop getting habit + break notifications?﹡",
                 "emailTitle":"Your Email (if you want us to reply):",
                 "buttonDeactivateText":"Deactivate routine + breaks"
-            }
+            },
+            "dropDownMeeting":"I have a meeting",
+            "dropDownSomeOneElse":"Someone else is using my computer",
+            "dropDownAnnoying":"I'm finding Focus Bear annoying",
+            "dropDownRelax":"I want to relax for a while without restrictions",
+            "descriptionNewOptions":"Restoring access immediately and cancelling habits for next 4 hours.. Your normal routine will resume after that."
         },
         "abortDoneInfo":{
             "title":"Deactivated",
@@ -210,12 +215,32 @@
                 "title":"Something else",
                 "description":"Can you tell us why you want to stop getting habit + break notifications?﹡",
                 "finalDescription":"Thanks for letting us know. All the best."
+            },
+            "dropDownMeeting":{
+                "title":"I have a meeting",
+                "description":"We hope you will start the habits back soon! See you soon."
+            },
+            "dropDownSomeOneElse":{
+                "title":"Someone else is using my computer",
+                "description":"We hope you will start the habits back soon! See you soon."
+            },
+            "dropDownAnnoying":{
+                "title":"I'm finding Focus Bear annoying",
+                "description":"Oh no! We're really sorry. Can you please let us know what happened?﹡",
+                "finalDescription":"We hope you will start the habits back soon! See you soon."
+            },
+            "dropDownRelax":{
+                "title":"I want to relax for a while without restrictions",
+                "description":"We hope you will start the habits back soon! See you soon."
             }
         },
         "askQuitVcInfo":{
             "subTitle":"Do you want to quit the app completely or just take a break for a few hours?",
             "buttonDiableAppText":"Give me a break for 4hrs",
-            "buttonQuitText":"Turn it off completely - I'll turn it back on when I'm ready"
+            "buttonQuitText":"Turn it off completely - I'll turn it back on when I'm ready",
+            "selectHoursText":"Select hours to turn it off",
+            "buttonBreakOneHourText":"Turn it off for 1 hour",
+            "buttonBreakFewHourText":"Turn it off for <HOUR> hours"
         }
     },
     "shutOffTimeInfo":{
@@ -849,7 +874,9 @@
     },
     "addFocusTempUrlsOrAppsVcInfo": {
         "title":"Do you want to permanently allow these Apps or URLs that you used during this session?",
-        "buttonAllowText":"Allow"
+        "buttonAllowText":"Allow",
+        "titleKeywords":"Keywords:",
+        "keywordsInfoText":"To avoid you having to add websites individually, we can scan the titles of the web pages you allowed in this session and identify the most common key phrases. For example, if you opened ten pages relating to Figma 'How to link between pages in Figma'. 'How to share Figma files' etc. We can detect that Figma is the most common phrase and add it to your allow list. After that, any web page with 'Figma' in the title will be automatically allowed. We don't store the details of the pages you visit - we immediately discard the information after analysing it."
     },
     "allTracksVcInfo": {
         "title":"Here are some focus music tracks (some are binaural beats) you can use to help you focus. FYI the research is ambivalent about binaural beats - you'll likely get similar benefits from using your own music. Just make sure the music doesn't have lyrics otherwise you'll get distracted."

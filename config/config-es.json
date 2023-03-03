@@ -174,7 +174,12 @@
                 "description": "¿Puedes decirnos por qué quieres dejar de recibir notificaciones de hábitos y descansos?",
                 "emailTitle": "Tu correo electrónico (si quieres que te respondamos):",
                 "buttonDeactivateText": "Desactivar rutina + descansos"
-            }
+            },
+            "dropDownMeeting":"I have a meeting[NEEDTRANSLATION]",
+            "dropDownSomeOneElse":"Someone else is using my computer[NEEDTRANSLATION]",
+            "dropDownAnnoying":"I'm finding Focus Bear annoying[NEEDTRANSLATION]",
+            "dropDownRelax":"I want to relax for a while without restrictions[NEEDTRANSLATION]",
+            "descriptionNewOptions":"Restoring access immediately and cancelling habits for next 4 hours.. Your normal routine will resume after that.[NEEDTRANSLATION]"
         },
         "abortDoneInfo": {
             "title": "Desactivado",
@@ -209,12 +214,32 @@
                 "title": "Algo más.",
                 "description": "¿Puedes decirnos por qué quieres dejar de recibir notificaciones de hábitos y descansos?﹡",
                 "finalDescription": "¡Esperamos que pronto retomes los hábitos! Te veremos pronto."
+            },
+            "dropDownMeeting":{
+                "title":"I have a meeting[NEEDTRANSLATION]",
+                "description":"We hope you will start the habits back soon! See you soon.[NEEDTRANSLATION]"
+            },
+            "dropDownSomeOneElse":{
+                "title":"Someone else is using my computer[NEEDTRANSLATION]",
+                "description":"We hope you will start the habits back soon! See you soon.[NEEDTRANSLATION]"
+            },
+            "dropDownAnnoying":{
+                "title":"I'm finding Focus Bear annoying[NEEDTRANSLATION]",
+                "description":"Oh no! We're really sorry. Can you please let us know what happened?﹡[NEEDTRANSLATION]",
+                "finalDescription":"We hope you will start the habits back soon! See you soon.[NEEDTRANSLATION]"
+            },
+            "dropDownRelax":{
+                "title":"I want to relax for a while without restrictions[NEEDTRANSLATION]",
+                "description":"We hope you will start the habits back soon! See you soon.[NEEDTRANSLATION]"
             }
         },
         "askQuitVcInfo":{
             "subTitle":"¿Quieres abandonar completamente o solo quieres tomar un descanso por un par de horas?",
             "buttonDiableAppText":"Quisiera un descanso de 4 horas",
-            "buttonQuitText":"Apagar completamente – Regresaré cuando esté listo"
+            "buttonQuitText":"Apagar completamente – Regresaré cuando esté listo",
+            "selectHoursText":"Select hours to turn it off[NEEDTRANSLATION]",
+            "buttonBreakOneHourText":"Turn it off for 1 hour[NEEDTRANSLATION]",
+            "buttonBreakFewHourText":"Turn it off for <HOUR> hours[NEEDTRANSLATION]"
         }
     },
     "shutOffTimeInfo": {
@@ -858,7 +883,9 @@
     },
     "addFocusTempUrlsOrAppsVcInfo": {
         "title":"¿Deseas permitir de forma permanente las aplicaciones o URL que utilizaste durante esta sesión?",
-        "buttonAllowText":"Permitir"
+        "buttonAllowText":"Permitir",
+        "titleKeywords":"Keywords:[NEEDTRANSLATION]",
+        "keywordsInfoText":"To avoid you having to add websites individually, we can scan the titles of the web pages you allowed in this session and identify the most common key phrases. For example, if you opened ten pages relating to Figma 'How to link between pages in Figma'. 'How to share Figma files' etc. We can detect that Figma is the most common phrase and add it to your allow list. After that, any web page with 'Figma' in the title will be automatically allowed. We don't store the details of the pages you visit - we immediately discard the information after analysing it.[NEEDTRANSLATION]"
     },
     "allTracksVcInfo": {
         "title":"Aquí hay algunas pistas de música de enfoque (algunas son ritmos binaurales) que puedes usar para ayudarte a concentrarte. Para tu información, la investigación es ambivalente sobre los ritmos binaurales - es probable que obtengas beneficios similares al usar tu propia música. Solo asegúrate que la música no tenga letra, de lo contrario te distraerás."
