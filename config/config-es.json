@@ -16,7 +16,7 @@
         "startActivityButtonText": "Empieza <TIME> <NAME>",
         "activityFinishedText": "¡<ACTIVITY> ¡Completado!✅",
         "lastActivityFinishedText": "¡<ACTIVITY> ¡Completado!✅ Te has ganado tiempo libre de uso de la computadora. 💪",
-        "startBreakActivityTitleText": "Es hora de un descanso. Has <TIME> de <ACTIVITY> para ganar más tiempo libre de uso de la computadora.",
+        "startBreakActivityTitleText": "Es hora de un micro descanso. Hagamos <TIME> de <ACTIVITY> para mantener tu mente y cuerpo en forma.",
         "doSomeActivityText": "<ACTIVITY>",
         "beforeYouStartText": "Antes de comenzar, tómate un momento para reflexionar sobre por qué deseas adoptar estos hábitos. Luego visualízate comenzando la secuencia del hábito. Repasa mentalmente cualquiera de los hábitos que te resulten más difíciles. Este proceso te ayudará a reducir la \"fricción límbica\", es decir, preparará tu cerebro para hacer los hábitos sin importar nada, incluso si no tienes la aplicación disponible.",
         "beforeYouBeginText": "Antes de comenzar, tómate 30 segundos para visualizarte realizando cada uno de los hábitos. Esto suena raro, pero las investigaciones indican que hacer un ensayo mental como este aumenta la probabilidad de que completes tus hábitos y hace que seas más persistente con ellos, de modo que incluso si no no tienes acceso a tu computadora o a esta aplicación, seguirás adelante con todos tus hábitos.",
@@ -43,7 +43,7 @@
         "wrapupButtonText": "Terminemos el día",
         "stayFocusedText": "¡OK! - Mantente concentrado/a durante todo el día!",
         "letsCreatAccountText": "Ahora configuremos una cuenta para ti",
-        "buttonAbortText":"Por favor perdóname",
+        "buttonAbortText":"Salir de pantalla completa",
         "buttonCancelText": "Cancelar",
         "buttonOkText": "OK",
         "webhookUrl": "https://hooks.zapier.com/hooks/catch/326116/b98ovxc/",
@@ -97,7 +97,7 @@
         "timeIncorrectText":"La hora de tu sistema parece ser incorrecta; dice que la hora actual es <SYSTEM_TIME> pero la hora real es <TRUE_TIME>. Focus Bear no funcionará correctamente si no tienes la hora de tu sistema configurada correctamente. Una vez que hayas ajustado la configuración de tiempo, haz clic en el botón \"Estoy listo/a para comenzar mis hábitos\" a continuación.",
         "buttonIAmReadyText":"Estoy listo/a para comenzar mis hábitos",
         "buttonInstructionsText":"Haz clic aquí para ver las instrucciones para corregir la configuración de la hora",
-        "notificationVideoCallText":"Parece que estás en una videollamada. No te interrumpiré con micro-descansos durante la reunión para evitar momentos embarazosos de compartir pantalla. ¡Disfruta la reunión!",
+        "notificationVideoCallText":"Parece que estás en una videollamada. No te interrumpiré con micro descansos durante la reunión para evitar momentos embarazosos de compartir pantalla. ¡Disfruta la reunión!",
         "tabSettingsText":"Configuración",
         "tabPomodoroText":"Pomodoro",
         "tabAdvancedText":"Avanzado",
@@ -513,7 +513,7 @@
         "chooseTheFocusModeText": "Elige el modo de enfoque y la duración: no podrás cambiar el modo de enfoque hasta que se acabe el tiempo (todavía puedes usar cualquier aplicación / sitio web durante el descanso de 5 minutos)",
         "alertWarningPaswwordSetText": "Para que el modo Pomodoro Estricto sea más efectivo, recomendamos establecer una contraseña (pídele a otra persona que lo haga por ti); de lo contrario, aún podrás cancelar los modos de enfoque antes de que se acabe el tiempo...",
         "completedPomodoroCountText": "Has completado <COMPLETED_POMODORO> de <TOTAL_POMODORO> pomodoros. Faltan <REMAINING_POMODORO> más.",
-        "buttonSkipMicrobreaksText": "¿Omitir micro-descansos durante bloqueos de trabajo?",
+        "buttonSkipMicrobreaksText": "¿Omitir micro descansos durante bloqueos de trabajo?",
         "timerText":"Tiempo gastado desenfocado: <TIME>"
     },
     "logQuantityInfo": {
@@ -608,7 +608,7 @@
         "selectDaysForPomodoroText": "Programa días específicos en los que deseas ejecutar el modo Pomodoro Estricto después de la rutina matutina:",
         "buttonApplyText": "Aplicar",
         "selectAtleastOneDayText": "Selecciona al menos un día.",
-        "buttonSkipMicrobreaksText": "¿Omitir micro-descansos durante bloqueos de trabajo?"
+        "buttonSkipMicrobreaksText": "¿Omitir micro descansos durante bloqueos de trabajo?"
     },
     "accountVcInfo": {
         "title": "Información de tu cuenta",
@@ -730,7 +730,7 @@
         "buttonGotItText":"Entendido",
         "titleSignUpSuccessful":"Registro exitoso",
         "signupSuccessText":"Genial, todos están registrados. Solo les daré algunos consejos antes de que comiencen a usarlo.",
-        "buildingHabitsText":"Construir mejores habitos",
+        "buildingHabitsText":"Construir mejores hábitos",
         "buildingHabitsDescription":"Focus Bear te ayudará a construir hábitos fuertes durante la mañana y la noche bloqueando distracciones. Pero no te preocupes - si necesitas ingresar a tu computadora por alguna urgencia, solo da click al botón \"permíteme por favor\" arriba a la derecha.",
         "brainBreaksText":"Descansos Mentales",
         "brainBreaksDescription":"Para evitar dolores de cabeza y cuello, Focus Bear te alienta a tomar descansos durante intervalos regulares. Te damos un aviso 30 segundos antes, así puedes posponer tu descanso si estás muy ocupado ¡También detectamos si estás en reunión y no mostramos descansos ya que eso podría causar un momento incómodo si estás compartiendo pantalla!",
@@ -742,9 +742,9 @@
         
     },
     "breakWarningVcInfo": {
-        "title": "Tu descanso comienza en",
+        "title": "Tu micro descanso comienza en",
         "buttonPostponeText": "Posponer por 5 minutos",
-        "postponeConfirmText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes hacer tiempo para el descanso ahora?",
+        "postponeConfirmText": "Pospusiste el último micro descanso. ¿Estás seguro de que no puedes hacer tiempo para el descanso ahora?",
         "buttonTakeBreakText": "¡Argh, está bien, me tomaré un descanso!"
     },
     "askAppWorkVcInfo": {
@@ -873,13 +873,13 @@
     },
     "languageInfo": {
         "languageEnglish":"English",
-        "languageSpanish":"Spanish[NEEDTRANSLATION]"
+        "languageSpanish":"Español"
     },
 
     "breaksBrainDumpVcInfo": {
-        "title":"Capture your thoughts before starting your break[NEEDTRANSLATION]",
-        "description":"Taking regular breaks (every 20 minutes is recommended) is crucial for avoiding eye strain and postural issues. You might be worried that it will take you out of your flow and disrupt your productivity. Let's capture what you were just working on so that you won't lose your train of thought after the break. BTW you'll often find that when you take a break and give your brain some time in the \"default mode network\", you'll come up with novel solutions to a problem you'd been struggling with. Not necessarily a productivity killer at all 😉[NEEDTRANSLATION]",
-        "buttonStartBreakText":"Start Break[NEEDTRANSLATION]"
+        "title":"Capture your thoughts before starting your micro break[NEEDTRANSLATION]",
+        "description":"Taking regular micro breaks (every 20 minutes is recommended) is crucial for avoiding eye strain and postural issues. You might be worried that it will take you out of your flow and disrupt your productivity. Let's capture what you were just working on so that you won't lose your train of thought after the break. BTW you'll often find that when you take a break and give your brain some time in the \"default mode network\", you'll come up with novel solutions to a problem you'd been struggling with. Not necessarily a productivity killer at all 😉[NEEDTRANSLATION]",
+        "buttonStartBreakText":"Start Micro Break[NEEDTRANSLATION]"
     },
     "askWorkTimeVcInfo": {
         "titleStartupTime":"Startup Time:[NEEDTRANSLATION]",
