@@ -175,11 +175,11 @@
                 "emailTitle": "Tu correo electrónico (si quieres que te respondamos):",
                 "buttonDeactivateText": "Desactivar rutina + descansos"
             },
-            "dropDownMeeting":"I have a meeting[NEEDTRANSLATION]",
-            "dropDownSomeOneElse":"Someone else is using my computer[NEEDTRANSLATION]",
-            "dropDownAnnoying":"I'm finding Focus Bear annoying[NEEDTRANSLATION]",
-            "dropDownRelax":"I want to relax for a while without restrictions[NEEDTRANSLATION]",
-            "descriptionNewOptions":"Restoring access immediately and cancelling habits for next 4 hours.. Your normal routine will resume after that.[NEEDTRANSLATION]"
+            "dropDownMeeting":"Tengo una reunión.",
+            "dropDownSomeOneElse":"Alguien más está usando mi computadora.",
+            "dropDownAnnoying":"Estoy encontrando a Focus Bear molesto.",
+            "dropDownRelax":"Quiero relajarme un rato sin restricciones.",
+            "descriptionNewOptions":"Restaurando el acceso inmediatamente y cancelando los hábitos durante las próximas 4 horas. Después de eso, tu rutina normal se reanudará."
         },
         "abortDoneInfo": {
             "title": "Desactivado",
@@ -216,30 +216,30 @@
                 "finalDescription": "¡Esperamos que pronto retomes los hábitos! Te veremos pronto."
             },
             "dropDownMeeting":{
-                "title":"I have a meeting[NEEDTRANSLATION]",
-                "description":"We hope you will start the habits back soon! See you soon.[NEEDTRANSLATION]"
+                "title":"Tengo una reunión.",
+                "description":"¡Esperamos que retomes tus hábitos pronto! Nos vemos pronto."
             },
             "dropDownSomeOneElse":{
-                "title":"Someone else is using my computer[NEEDTRANSLATION]",
-                "description":"We hope you will start the habits back soon! See you soon.[NEEDTRANSLATION]"
+                "title":"Alguien más está usando mi computadora.",
+                "description":"¡Esperamos que retomes tus hábitos pronto! Nos vemos pronto."
             },
             "dropDownAnnoying":{
-                "title":"I'm finding Focus Bear annoying[NEEDTRANSLATION]",
-                "description":"Oh no! We're really sorry. Can you please let us know what happened?﹡[NEEDTRANSLATION]",
-                "finalDescription":"We hope you will start the habits back soon! See you soon.[NEEDTRANSLATION]"
+                "title":"Estoy encontrando a Focus Bear molesto.",
+                "description":"¡Oh, no! Lo sentimos mucho. ¿Puedes por favor decirnos qué pasó?﹡",
+                "finalDescription":"¡Esperamos que retomes tus hábitos pronto! Nos vemos pronto."
             },
             "dropDownRelax":{
-                "title":"I want to relax for a while without restrictions[NEEDTRANSLATION]",
-                "description":"We hope you will start the habits back soon! See you soon.[NEEDTRANSLATION]"
+                "title":"Quiero relajarme un rato sin restricciones.",
+                "description":"¡Esperamos que retomes tus hábitos pronto! Nos vemos pronto."
             }
         },
         "askQuitVcInfo":{
             "subTitle":"¿Quieres abandonar completamente o solo quieres tomar un descanso por un par de horas?",
             "buttonDiableAppText":"Quisiera un descanso de 4 horas",
             "buttonQuitText":"Apagar completamente – Regresaré cuando esté listo",
-            "selectHoursText":"Select hours to turn it off[NEEDTRANSLATION]",
-            "buttonBreakOneHourText":"Turn it off for 1 hour[NEEDTRANSLATION]",
-            "buttonBreakFewHourText":"Turn it off for <HOUR> hours[NEEDTRANSLATION]"
+            "selectHoursText":"Seleccionar horas para apagarlo",
+            "buttonBreakOneHourText":"Apagar durante 1 hora",
+            "buttonBreakFewHourText":"Apagar durante <HOUR> horas"
         }
     },
     "shutOffTimeInfo": {
@@ -384,7 +384,7 @@
         "descriptionHideDockText":"Habilita esto para ocultar las actividades de las aplicaciones permitidas para minimizar las distracciones\"Eventos del sistema\" Se requerirán permisos para esto.",
         "checkBoxHideDockText":"Ocultar el muelle durante las actividades que tienen aplicaciones permitidas.",
         "checkBoxShowMeetingDetectionPopupText":"Sugerir automáticamente iniciar el modo de enfoque \"Reuniones\" ",
-        "alertChangeLanguageInfoText":"Focus Bear will restart for the changes to take effect.[NEEDTRANSLATION]"
+        "alertChangeLanguageInfoText":"Focus Bear se reiniciará para que los cambios surtan efecto."
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Utiliza los Modos de Enfoque para concentrarte en un determinado tipo de trabajo. Inicia un modo de enfoque desde el menú de Focus Bear.",
@@ -438,7 +438,7 @@
         "allowUrlsQuestionText":"¿Qué URL quieres permitir?",
         "blockUrlsQuestionText":"¿Qué URL quieres bloquear?",
         "enterMultiUrlText":"Introduce una o varias direcciones URL (una en cada línea)",
-        "meetingsFocusInfoText":"The meetings focus mode is used to detect when you are in a meeting so you don't get asked to take a break when you're in an important meeting. Add the apps and websites you use for video conferencing.[NEEDTRANSLATION]"
+        "meetingsFocusInfoText":"El modo de enfoque de reuniones se usa para detectar cuándo estás en una reunión para no pedirte que tomes un descanso cuando estés en una reunión importante. Agrega las aplicaciones y los sitios web que usas para videoconferencias."
 
      },
     "focusPreferencesAdvancedInfo": {
@@ -764,9 +764,9 @@
         "exploreTipsText":"Haz click en siguiente para explorar los tips para usar Focus Bear.",
         "titleSignInSuccessful":"Inicio de sesión exitosa",
         "signinSuccessText":"Genial, todos han iniciado sesión. Solo les daré algunos consejos antes de que comiencen a usarlo.",
-        "privacyText": "[NEEDSTRANSLATION]Privacy and Security",
-        "privacyDescription":"[NEEDSTRANSLATION]We take your privacy and security very seriously. We do not log which websites or apps you use. We do sync your habit data to our server but this is only to support cross device distraction blocking. Your data is encrypted and we don't let anyone else see it. For more details, feel free to email team@focusbear.io or refer to our privacy policy:",
-        "buttonPrivacyText":"Click here to view Privacy Policy"
+        "privacyText": "Privacidad y seguridad",
+        "privacyDescription":"Nos tomamos tu privacidad y seguridad muy seriamente. No registramos qué sitios web o aplicaciones utilizas. Sincronizamos tus datos de hábitos con nuestro servidor, pero esto es solo para admitir el bloqueo de distracción entre dispositivos. Tus datos están encriptados y no permitimos que nadie más los vea. Para obtener más detalles, no dudes en enviar un correo electrónico a team@focusbear.io o consulta nuestra política de privacidad:",
+        "buttonPrivacyText":"Haz clic aquí para ver la política de privacidad"
     },
     "breakWarningVcInfo": {
         "title": "Tu micro descanso comienza en",
@@ -884,8 +884,8 @@
     "addFocusTempUrlsOrAppsVcInfo": {
         "title":"¿Deseas permitir de forma permanente las aplicaciones o URL que utilizaste durante esta sesión?",
         "buttonAllowText":"Permitir",
-        "titleKeywords":"Keywords:[NEEDTRANSLATION]",
-        "keywordsInfoText":"To avoid you having to add websites individually, we can scan the titles of the web pages you allowed in this session and identify the most common key phrases. For example, if you opened ten pages relating to Figma 'How to link between pages in Figma'. 'How to share Figma files' etc. We can detect that Figma is the most common phrase and add it to your allow list. After that, any web page with 'Figma' in the title will be automatically allowed. We don't store the details of the pages you visit - we immediately discard the information after analysing it.[NEEDTRANSLATION]"
+        "titleKeywords":"Palabras clave:",
+        "keywordsInfoText":"Para evitar tener que agregar sitios web individualmente, podemos escanear los títulos de las páginas web que permitiste en esta sesión e identificar las frases clave más comunes. Por ejemplo, si abriste diez páginas relacionadas con Figma 'Cómo vincular entre páginas en Figma', 'Cómo compartir archivos Figma', etc. Podemos detectar que Figma es la frase más común y agregarla a tu lista de permitidos. Después de eso, se permitirá automáticamente cualquier página web con 'Figma' en el título. No almacenamos los detalles de las páginas que visitas - descartamos inmediatamente la información después de analizarla."
     },
     "allTracksVcInfo": {
         "title":"Aquí hay algunas pistas de música de enfoque (algunas son ritmos binaurales) que puedes usar para ayudarte a concentrarte. Para tu información, la investigación es ambivalente sobre los ritmos binaurales - es probable que obtengas beneficios similares al usar tu propia música. Solo asegúrate que la música no tenga letra, de lo contrario te distraerás."
@@ -906,9 +906,9 @@
     },
 
     "breaksBrainDumpVcInfo": {
-        "title":"Captura tus pensamientos antes de comenzar tu descanso",
-        "description":"Tomar descansos regulares (se recomienda cada 20 minutos)es crucial para evitar la fatiga visual y los problemas de postura. Es posible que te preocupe que te saque de tu flujo e interrumpa tu productividad. Capturemos en qué estabas trabajando para que no pierdas el hilo de tus pensamientos después del descanso. Por cierto, a menudo encontrarás que cuando te tomas un descanso y le das a tu cerebro algo de tiempo en \"default mode network\", encontrarás soluciones novedosas para un problema con el que has estado luchando. No es necesariamente un asesino de la productividad en absoluto 😉",
-        "buttonStartBreakText":"Iniciar Descanso"
+        "title":"Captura tus pensamientos antes de comenzar tu micro descanso",
+        "description":"Tomar micro descansos regularmente (se recomienda cada 20 minutos) es crucial para evitar la fatiga visual y los problemas de postura. Es posible que te preocupe que te saque de tu flujo e interrumpa tu productividad. Capturemos en qué estabas trabajando para que no pierdas el hilo de tus pensamientos después del descanso. Por cierto, a menudo encontrarás que cuando te tomas un descanso y le das a tu cerebro algo de tiempo en \"default mode network\", encontrarás soluciones novedosas para un problema con el que has estado luchando. No es necesariamente un asesino de la productividad en absoluto 😉",
+        "buttonStartBreakText":"Iniciar Micro Descanso"
     },
     "askWorkTimeVcInfo": {
         "titleStartupTime":"Hora de Inicio:",
