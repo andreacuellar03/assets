@@ -1,3 +1,19 @@
+# v132 (Mar 8 - 2023)
+
+## New Features
+
+- Added minimise icon and renamed "Please Spare Me" to "Exit Full Screen"
+- Support habits that only apply on certain days of the week
+- Streamlined the settings interface
+- Suggest keywords to allow at the end of focus modes
+- Show 2 minute warning prior to focus mode ending
+- Prompt for what you were working on prior to starting the break so breaks don't disrupt workflow
+
+## Bug Fixes
+
+- Random videos sometimes weren't random enough
+- Stability improvements
+
 # v121 (Jan 23 - 2023)
 
 ## New Features
