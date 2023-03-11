@@ -120,8 +120,11 @@
         "cutOffTimePassedText":"Running low on time - let's just focus on the high priority habits for the rest of the evening.",
         "noHighPriorityActivityText":"No activities with high Priority found.",
         "focusEndsText":"Focus mode ends in",
-        "postponeEndsText":"Habit resumes in"
-
+        "postponeEndsText":"Habit resumes in",
+        "tabStatsText":"Stats",
+        "askExtendFocusText":"Still in the flow? Extend the session",
+        "extendFocusMinutesText":"Select minutes to extend:",
+        "buttonExtendText":"Extend"
     },
     "abortInfo":{
         "abortingTitle":"Cancelling..",
@@ -436,7 +439,10 @@
         "allowUrlsQuestionText":"Which URLs do you want to allow?",
         "blockUrlsQuestionText":"Which URLs do you want to block?",
         "enterMultiUrlText":"Enter single or multiple urls(one in each line)",
-        "meetingsFocusInfoText":"The meetings focus mode is used to detect when you are in a meeting so you don't get asked to take a break when you're in an important meeting. Add the apps and websites you use for video conferencing."
+        "meetingsFocusInfoText":"The meetings focus mode is used to detect when you are in a meeting so you don't get asked to take a break when you're in an important meeting. Add the apps and websites you use for video conferencing.",
+        "descriptionAlwaysBlockedUrls":"When you use this focus mode, all websites will be allowed except for your Always Blocked URLs",
+        "titleBlockedApps":"Which apps do you want to block?",
+        "titleBlockedUrls":"Below is the list of Always Blocked URLs:"
     },
     "focusPreferencesAdvancedInfo":{
         "runScriptBeforeText":"Run apple script before starting focus mode.",
@@ -790,7 +796,8 @@
         "buttonAllowText": "Yes - just this time",
         "buttonBlockText": "No - I was getting distracted",
         "buttonEditSettingsText": "Edit Settings",
-        "intentionText": "Your intention was \"<INTENTION>\""
+        "intentionText": "Your intention was \"<INTENTION>\"",
+        "firstTempItemAllowText":"Allowed! Heads up: it might be a little annoying at first to have to keep allowing sites/apps but within a few days, you'll have taught Focus Bear what apps and websites are productive."
     },
     "easyPostponeVcInfo": {
         "title": "Ok I get it - now's not a good time. I'll try again in 5 minutes. You can postpone for longer if you need to.",
@@ -875,8 +882,10 @@
     "addFocusTempUrlsOrAppsVcInfo": {
         "title":"Do you want to permanently allow these Apps or URLs that you used during this session?",
         "buttonAllowText":"Allow",
-        "titleKeywords":"Keywords:",
-        "keywordsInfoText":"To avoid you having to add websites individually, we can scan the titles of the web pages you allowed in this session and identify the most common key phrases. For example, if you opened ten pages relating to Figma 'How to link between pages in Figma'. 'How to share Figma files' etc. We can detect that Figma is the most common phrase and add it to your allow list. After that, any web page with 'Figma' in the title will be automatically allowed. We don't store the details of the pages you visit - we immediately discard the information after analysing it."
+        "titleKeywords":"Allowed keywords:",
+        "keywordsInfoText":"To avoid you having to add websites individually, we can scan the titles of the web pages you allowed in this session and identify the most common key phrases. For example, if you opened ten pages relating to Figma 'How to link between pages in Figma'. 'How to share Figma files' etc. We can detect that Figma is the most common phrase and add it to your allow list. After that, any web page with 'Figma' in the title will be automatically allowed. We don't store the details of the pages you visit - we immediately discard the information after analysing it.\n\nYou can type keywords below that should be allowed. E.g. you can use React Native as a keyword and then any page with that phrase in the URL/title will be allowed.",
+        "tooltipAddkeyword":"Add keyword"
+
     },
     "allTracksVcInfo": {
         "title":"Here are some focus music tracks (some are binaural beats) you can use to help you focus. FYI the research is ambivalent about binaural beats - you'll likely get similar benefits from using your own music. Just make sure the music doesn't have lyrics otherwise you'll get distracted."
