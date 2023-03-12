@@ -82,13 +82,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  margin: auto;
 }
 
 .privacyNotice {
   width: 75%;
   font-size: 16px;
   text-align: justify;
+  background-color: lightgray;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.privacyNoticeContentArrow{
+  width: 0;
+  height: 0;
+  border-top: 10px solid lightgray;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
 }
 
 .hidePrivacyNotice {
@@ -177,7 +188,7 @@
   overflow: auto;
 }
 
-.popup .content > button + a {
+.popup .content > a,button{
   width: fit-content;
   padding: 6px 10px;
   border-radius: 5px;

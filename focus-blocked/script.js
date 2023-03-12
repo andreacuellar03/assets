@@ -1,5 +1,6 @@
 const urlParams = new URLSearchParams(window.location.search);
-const current_url = urlParams.get('old_url');
+let current_url = urlParams.get('old_url');
+current_url = current_url.startsWith('http') ? current_url : `https://${current_url}`
 const old_url = current_url.substring(
   0,
   current_url.indexOf('?') === -1
@@ -45,7 +46,7 @@ const focus_tip = `<div class='notice-wrapper'>
 
 if (block_type) {
   document.getElementById('focusTitle').innerText = blocked_message;
-  if (block_type === 'always-block') {
+  if (block_type === 'always-block' || block_type === 'always-blocked') {
     document.getElementById(
       'progressWrapper'
     ).innerHTML = `<div class='notice-wrapper'><h6 class='centeredText'>${old_url} is configured to be always blocked. If you want to allow ${old_url}, go to Preferences > Always Blocked URLs</h6></div>`;
@@ -96,10 +97,13 @@ if (block_type) {
 
 document.getElementById('privacyBtn').addEventListener('click', () => {
   let noticeElement = document.getElementById('privacyNoticeContent');
+  let noticeElementArrow = document.getElementById('arrow');
   if (noticeElement.className === 'hidePrivacyNotice') {
     noticeElement.className = 'privacyNotice';
+    noticeElementArrow.className = 'privacyNoticeContentArrow'
   } else {
     noticeElement.className = 'hidePrivacyNotice';
+    noticeElementArrow.className = 'hidePrivacyNotice'
   }
 });
 
