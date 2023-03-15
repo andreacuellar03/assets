@@ -5,10 +5,16 @@
         "welcomeEndMessage": "Espero que te sientas más tranquilo. Ahora puedes personalizar tu rutina matutina haciendo clic en el ícono <icon> en la barra superior y seleccionando Preferencias -> Configuraciones.",
         "preloadFocusModesDoneText": "Aquí podrás ver un video corto que explica cómo utilizar Focus Bear.",
         "introActivities": [
-            { "name": "Respiración Consciente","duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=CUre1WgjIyU"]}
+            { "name": "Deep Breathing[NEEDTRANSLATION]", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=CUre1WgjIyU"] },
+            { "name": "Pushups[NEEDTRANSLATION]", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=dOY-VkXbJCY"] },
+            { "name": "Stretching[NEEDTRANSLATION]", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=s5V_sVvagrM"] },
+            { "name": "Funny cat videos[NEEDTRANSLATION]", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=hY7m5jjJ9mM"] },
+            { "name": "Your own adventure[NEEDTRANSLATION]", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=CUre1WgjIyU"] }
         ],
-        "welcomeVideoUrl": "https://www.youtube.com/watch?v=CB3bd1Csx1E",
-        "welcomeMessageOnlyBreakIntro": "A lo largo del día, te recordaré que tomes descansos regulares para mantener tu mente alerta y tu cuerpo flexible. Este es un ejemplo de una actividad de descanso: 30 segundos de respiración profunda."
+        "welcomeVideoUrl": "https://www.youtube.com/watch?v=BSdz7Tdesbs",
+        "welcomeMessageOnlyBreakIntro": "A lo largo del día, te recordaré que tomes descansos regulares para mantener tu mente alerta y tu cuerpo flexible. Este es un ejemplo de una actividad de descanso: 30 segundos de respiración profunda.",
+        "titleSelectActivity":"What 30 seconds of activity do you want to do?[NEEDTRANSLATION]",
+        "titleEnterActivityName":"Enter name of activity[NEEDTRANSLATION]"
     },
     "activityInfo": {
         "startMorningHabitTitleText": "¡Buenos días! Es hora de enfocarse. Estos son los hábitos que debes lograr antes de poder usar tu computadora.",
@@ -16,7 +22,7 @@
         "startActivityButtonText": "Empieza <TIME> <NAME>",
         "activityFinishedText": "¡<ACTIVITY> ¡Completado!✅",
         "lastActivityFinishedText": "¡<ACTIVITY> ¡Completado!✅ Te has ganado tiempo libre de uso de la computadora. 💪",
-        "startBreakActivityTitleText": "Es hora de un micro descanso. Hagamos <TIME> de <ACTIVITY> para mantener tu mente y cuerpo en forma.",
+        "startBreakActivityTitleText": "Es hora de un descanso. Has <TIME> de <ACTIVITY> para ganar más tiempo libre de uso de la computadora.",
         "doSomeActivityText": "<ACTIVITY>",
         "beforeYouStartText": "Antes de comenzar, tómate un momento para reflexionar sobre por qué deseas adoptar estos hábitos. Luego visualízate comenzando la secuencia del hábito. Repasa mentalmente cualquiera de los hábitos que te resulten más difíciles. Este proceso te ayudará a reducir la \"fricción límbica\", es decir, preparará tu cerebro para hacer los hábitos sin importar nada, incluso si no tienes la aplicación disponible.",
         "beforeYouBeginText": "Antes de comenzar, tómate 30 segundos para visualizarte realizando cada uno de los hábitos. Esto suena raro, pero las investigaciones indican que hacer un ensayo mental como este aumenta la probabilidad de que completes tus hábitos y hace que seas más persistente con ellos, de modo que incluso si no no tienes acceso a tu computadora o a esta aplicación, seguirás adelante con todos tus hábitos.",
@@ -43,7 +49,7 @@
         "wrapupButtonText": "Terminemos el día",
         "stayFocusedText": "¡OK! - Mantente concentrado/a durante todo el día!",
         "letsCreatAccountText": "Ahora configuremos una cuenta para ti",
-        "buttonAbortText":"Salir de pantalla completa",
+        "buttonAbortText":"Por favor perdóname",
         "buttonCancelText": "Cancelar",
         "buttonOkText": "OK",
         "webhookUrl": "https://hooks.zapier.com/hooks/catch/326116/b98ovxc/",
@@ -97,7 +103,7 @@
         "timeIncorrectText":"La hora de tu sistema parece ser incorrecta; dice que la hora actual es <SYSTEM_TIME> pero la hora real es <TRUE_TIME>. Focus Bear no funcionará correctamente si no tienes la hora de tu sistema configurada correctamente. Una vez que hayas ajustado la configuración de tiempo, haz clic en el botón \"Estoy listo/a para comenzar mis hábitos\" a continuación.",
         "buttonIAmReadyText":"Estoy listo/a para comenzar mis hábitos",
         "buttonInstructionsText":"Haz clic aquí para ver las instrucciones para corregir la configuración de la hora",
-        "notificationVideoCallText":"Parece que estás en una videollamada. No te interrumpiré con micro descansos durante la reunión para evitar momentos embarazosos de compartir pantalla. ¡Disfruta la reunión!",
+        "notificationVideoCallText":"Parece que estás en una videollamada. No te interrumpiré con micro-descansos durante la reunión para evitar momentos embarazosos de compartir pantalla. ¡Disfruta la reunión!",
         "tabSettingsText":"Configuración",
         "tabPomodoroText":"Pomodoro",
         "tabAdvancedText":"Avanzado",
@@ -118,7 +124,7 @@
         "secondsSText":"s",
         "otherReasonText":"Otro",
         "loadingText":"Cargando",
-         "cutOffTimePassedText":"Se está acabando el tiempo - concentrémonos en los hábitos de alta prioridad para el resto de la noche.",
+        "cutOffTimePassedText":"Se está acabando el tiempo - concentrémonos en los hábitos de alta prioridad para el resto de la noche.",
         "noHighPriorityActivityText":"No se encontraron actividades con alta prioridad.",
         "focusEndsText":"El modo de enfoque termina en",
         "postponeEndsText":"El hábito se reanuda en",
@@ -126,7 +132,6 @@
         "askExtendFocusText":"Still in the flow? Extend the session[NEEDTRANSLATION]",
         "extendFocusMinutesText":"Select minutes to extend:[NEEDTRANSLATION]",
         "buttonExtendText":"Extend[NEEDTRANSLATION]"
-
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -179,13 +184,11 @@
                 "emailTitle": "Tu correo electrónico (si quieres que te respondamos):",
                 "buttonDeactivateText": "Desactivar rutina + descansos"
             },
-
             "dropDownMeeting":"Tengo una reunión.",
             "dropDownSomeOneElse":"Alguien más está usando mi computadora.",
             "dropDownAnnoying":"Estoy encontrando a Focus Bear molesto.",
             "dropDownRelax":"Quiero relajarme un rato sin restricciones.",
             "descriptionNewOptions":"Restaurando el acceso inmediatamente y cancelando los hábitos durante las próximas 4 horas. Después de eso, tu rutina normal se reanudará."
-
         },
         "abortDoneInfo": {
             "title": "Desactivado",
@@ -222,21 +225,21 @@
                 "finalDescription": "¡Esperamos que pronto retomes los hábitos! Te veremos pronto."
             },
             "dropDownMeeting":{
-                "title":"Tengo una reunión.",
-                "description":"¡Esperamos que retomes tus hábitos pronto! Nos vemos pronto."
+                "title":"I have a meeting[NEEDTRANSLATION]",
+                "description":"We hope you will start the habits back soon! See you soon.[NEEDTRANSLATION]"
             },
             "dropDownSomeOneElse":{
-                "title":"Alguien más está usando mi computadora.",
-                "description":"¡Esperamos que retomes tus hábitos pronto! Nos vemos pronto."
+                "title":"Someone else is using my computer[NEEDTRANSLATION]",
+                "description":"We hope you will start the habits back soon! See you soon.[NEEDTRANSLATION]"
             },
             "dropDownAnnoying":{
-                "title":"Estoy encontrando a Focus Bear molesto.",
-                "description":"¡Oh, no! Lo sentimos mucho. ¿Puedes por favor decirnos qué pasó?﹡",
-                "finalDescription":"¡Esperamos que retomes tus hábitos pronto! Nos vemos pronto."
+                "title":"I'm finding Focus Bear annoying[NEEDTRANSLATION]",
+                "description":"Oh no! We're really sorry. Can you please let us know what happened?﹡[NEEDTRANSLATION]",
+                "finalDescription":"We hope you will start the habits back soon! See you soon.[NEEDTRANSLATION]"
             },
             "dropDownRelax":{
-                "title":"Quiero relajarme un rato sin restricciones.",
-                "description":"¡Esperamos que retomes tus hábitos pronto! Nos vemos pronto."
+                "title":"I want to relax for a while without restrictions[NEEDTRANSLATION]",
+                "description":"We hope you will start the habits back soon! See you soon.[NEEDTRANSLATION]"
             }
         },
         "askQuitVcInfo":{
@@ -309,7 +312,7 @@
         "menuItemEnterLicenseKeyTitle": "Introduce la clave de la licencia",
         "menuItemSettingsTitle": "Configuraciones",
         "menuItemPreferencesTitle": "Preferencias",
-        "menuItemExportStatisticsTitle": "Exportar estadísticas",
+        "menuItemExportStatisticsTitle": "Export Data[NEEDTRANSLATION]",
         "menuItemFocusTitle": "Enfoque",
         "menuItemHardcorePomodoroModeTitle": " Modo Pomodoro Estricto",
         "menuItemFocusPreferencesTitle": "Preferencias de enfoque",
@@ -319,7 +322,7 @@
         "menuItemEnableOfficeModeTitle": "Modo de Oficina habilitado",
         "menuItemDisableOfficeModeTitle": "Modo Trabajo Desde Casa habilitado",
         "menuItemQuitTitle": "Abandonar",
-        "untilTimeText": "Termina a las <TIME>",
+        "untilTimeText": "ends at <TIME>[NEEDTRANSLATION]",
         "onText": "Encendido",
         "noOfficeFriendlyActivityAlertText": "No tienes ninguna actividad de descanso para la oficina ¿Quieres que agregue una para pararte y estirarte por 20 segundos?",
         "noOfficeFriendlyActivityButtonFirstText": "Si, suena bien",
@@ -335,8 +338,10 @@
         "menuItemOpenToolboxTitle":"Abrir caja de herramientas",
         "menuItemMeetingDetectionTitle":"Reunion Activa – Descanso desactivados",
         "menuItemResumeHabitsTitle":"Resumir Habitos",
-        "menuItemFocusMusicTitle":"Música de enfoque"
- 
+        "menuItemFocusMusicTitle":"Música de enfoque",
+        "titleWorkMode":"Work Mode:[NEEDTRANSLATION]",
+        "segmentOfficeModeText":"Office Mode[NEEDTRANSLATION]",
+        "segmentWfhModeText":"WFH Mode[NEEDTRANSLATION]"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -391,7 +396,7 @@
         "descriptionHideDockText":"Habilita esto para ocultar las actividades de las aplicaciones permitidas para minimizar las distracciones\"Eventos del sistema\" Se requerirán permisos para esto.",
         "checkBoxHideDockText":"Ocultar el muelle durante las actividades que tienen aplicaciones permitidas.",
         "checkBoxShowMeetingDetectionPopupText":"Sugerir automáticamente iniciar el modo de enfoque \"Reuniones\" ",
-        "alertChangeLanguageInfoText":"Focus Bear se reiniciará para que los cambios surtan efecto."
+        "alertChangeLanguageInfoText":"Focus Bear will restart for the changes to take effect.[NEEDTRANSLATION]"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Utiliza los Modos de Enfoque para concentrarte en un determinado tipo de trabajo. Inicia un modo de enfoque desde el menú de Focus Bear.",
@@ -478,10 +483,10 @@
             "questionText": "¿Qué planeas lograr durante este bloque/bloques de enfoque?",
             "onlyAllowSelectedAppText":"Solo podrás usar <APP>",
             "onlyAllowSelectedAppAndUrlText":"Solo podrás usar \"<URL>\" en <APP>",
-            "explanationText":"Establece una intención para el bloque de enfoque que te ayude a preparar tu cerebro para realizar esa tarea. Para editar la intención después de iniciar el modo de enfoque, haz clic en Notas Rápidas en la barra de menú.",
+            "explanationText":"Establece una intención para el bloque de enfoque que te ayude a preparar tu cerebro para realizar esa tarea.",
             "buttonStopFocusText":"Detener el modo de enfoque actual e iniciar este",
             "activityRunningCantStartFocusText":"No puedes iniciar un modo de enfoque mientras se está ejecutando una actividad.",
-            "tipMaximumMinutesText":"Consejo: Investigaciones indican que 90 minutos es el límite máximo para trabajos de concentración (ritmos ultradianos). Después de eso, tu atención disminuirá naturalmente y necesitarás tomar un descanso."
+            "tipMaximumMinutesText":"Tip: research indicates that 90 minutes is the maximum limit for focused work (ultradian rhythms). After that, your attention will naturally decline and you'll need to take a break.[NEEDTRANSLATION]"
         },
         "abortingFocusModeInfo": {
             "title": "Desactivación del tipo de enfoque - <FOCUSTYPE>",
@@ -498,7 +503,8 @@
             "questionFirstText": "¿Qué lograste durante este tiempo?",
             "questionSecondText": "¿Algunas distracciones?",
             "titleIntention": "¿Cuál fue tu intención?",
-            "buttonTakeBreakText": "Tómate un descanso de 5 minutos"
+            "buttonTakeBreakText": "Tómate un descanso de 5 minutos",
+            "buttonStartFocusText":"Start another focus block[NEEDTRANSLATION]"
         },
         "focusSummaryInfo": {
             "title": "Completaste <COUNT> bloque/bloques de enfoque hoy.",
@@ -517,7 +523,7 @@
             "totalFocusTimeText": "Tiempo total de enfoque: <TIME>",
             "buttonNeedMoreTimeText": "Necesito trabajar más tiempo",
             "buttonStillNeedMoreTimeText": "Todavía necesito trabajar más tiempo",
-            "oneMinuteTimerText":"El temporizador de un minuto termina en"
+            "oneMinuteTimerText":"One minute timer ends in[NEEDTRANSLATION]"
         },
         "discourageDefaultFocusInfo": {
             "title": "¿Estás seguro/a? Es bastante fácil distraerte sin usar un modo de enfoque más restrictivo",
@@ -548,7 +554,7 @@
         "chooseTheFocusModeText": "Elige el modo de enfoque y la duración: no podrás cambiar el modo de enfoque hasta que se acabe el tiempo (todavía puedes usar cualquier aplicación / sitio web durante el descanso de 5 minutos)",
         "alertWarningPaswwordSetText": "Para que el modo Pomodoro Estricto sea más efectivo, recomendamos establecer una contraseña (pídele a otra persona que lo haga por ti); de lo contrario, aún podrás cancelar los modos de enfoque antes de que se acabe el tiempo...",
         "completedPomodoroCountText": "Has completado <COMPLETED_POMODORO> de <TOTAL_POMODORO> pomodoros. Faltan <REMAINING_POMODORO> más.",
-        "buttonSkipMicrobreaksText": "¿Omitir micro descansos durante bloqueos de trabajo?",
+        "buttonSkipMicrobreaksText": "¿Omitir micro-descansos durante bloqueos de trabajo?",
         "timerText":"Tiempo gastado desenfocado: <TIME>"
     },
     "logQuantityInfo": {
@@ -600,7 +606,7 @@
         "buttonSkipEveningHabitText":"Posponer/omitir rutina de tarde",
         "buttonSkipMorningHabitText":"Posponer/omitir rutina de mañana",
         "buttonChangeSettingsText":"Editar Ajustes",
-        "buttonSkipEveningHabitAfterCutOffText":"Posponer/omitir rutina de tarde después de la hora límite"
+        "buttonSkipEveningHabitAfterCutOffText":"Postponing/skipping evening routine after cutoff time[NEEDTRANSLATION]"
     },
     "blockedUrlsViewInfo": {
         "title": "URL siempre bloqueadas",
@@ -609,7 +615,7 @@
     },
     "rememberNextHabitViewInfo": {
         "randomPhraseRightChoice1": "¡Vas muy bien!",
-        "randomPhraseRightChoice2": "¡Oh sí!",
+        "randomPhraseRightChoice2": "¡Oh si!",
         "randomPhraseRightChoice3": "¡Tú puedes!",
         "randomPhraseRightChoice4": "Puedo jubilarme ahora porque sabes exactamente lo que estás haciendo.🙂",
         "randomPhraseWrongChoice1": "Uy, no del todo - es <CORRECT_HABIT_NAME>",
@@ -643,7 +649,7 @@
         "selectDaysForPomodoroText": "Programa días específicos en los que deseas ejecutar el modo Pomodoro Estricto después de la rutina matutina:",
         "buttonApplyText": "Aplicar",
         "selectAtleastOneDayText": "Selecciona al menos un día.",
-        "buttonSkipMicrobreaksText": "¿Omitir micro descansos durante bloqueos de trabajo?"
+        "buttonSkipMicrobreaksText": "¿Omitir micro-descansos durante bloqueos de trabajo?"
     },
     "accountVcInfo": {
         "title": "Información de tu cuenta",
@@ -679,12 +685,12 @@
     },
     "brainDumpVcInfo": {
         "title": "Focus Bear - Volcado de cerebros",
-        "titleIntentionText": "Intención:",
+        "titleIntentionText": "Focus Block intention:[NEEDTRANSLATION]",
         "titleTimeRemainingText": "Tiempo restante:",
         "titleWorkNoteFirst": "Cosas que haré en mi próximo descanso:",
         "titleWorkNoteSecond": "Cosas que querías hacer en tu descanso:",
         "titleNotFocusSession": "Actualmente no te encuentras en una sesión de enfoque",
-        "writeThingsHereText":"Deja aquí las ideas que tengas para que no las olvides - todo lo que escribas aquí permanecerá para siempre a menos que lo elimines."
+        "writeThingsHereText":"Dump down ideas you have so you don't forget - anything you write here will remain forever unless you delete it[NEEDTRANSLATION]"
     },
     "askLogInVcInfo": {
         "title": "Haz que los hábitos saludables y el trabajo profundo sean el camino de menor resistencia",
@@ -765,7 +771,7 @@
         "buttonGotItText":"Entendido",
         "titleSignUpSuccessful":"Registro exitoso",
         "signupSuccessText":"Genial, todos están registrados. Solo les daré algunos consejos antes de que comiencen a usarlo.",
-        "buildingHabitsText":"Construir mejores hábitos",
+        "buildingHabitsText":"Construir mejores habitos",
         "buildingHabitsDescription":"Focus Bear te ayudará a construir hábitos fuertes durante la mañana y la noche bloqueando distracciones. Pero no te preocupes - si necesitas ingresar a tu computadora por alguna urgencia, solo da click al botón \"permíteme por favor\" arriba a la derecha.",
         "brainBreaksText":"Descansos Mentales",
         "brainBreaksDescription":"Para evitar dolores de cabeza y cuello, Focus Bear te alienta a tomar descansos durante intervalos regulares. Te damos un aviso 30 segundos antes, así puedes posponer tu descanso si estás muy ocupado ¡También detectamos si estás en reunión y no mostramos descansos ya que eso podría causar un momento incómodo si estás compartiendo pantalla!",
@@ -773,16 +779,15 @@
         "buttonNextText":"Siguiente",
         "exploreTipsText":"Haz click en siguiente para explorar los tips para usar Focus Bear.",
         "titleSignInSuccessful":"Inicio de sesión exitosa",
-        "signinSuccessText":"Genial, todos han iniciado sesión. Solo les daré algunos consejos antes de que comiencen a usarlo.",
-        "privacyText": "Privacidad y seguridad",
-        "privacyDescription":"Nos tomamos tu privacidad y seguridad muy seriamente. No registramos qué sitios web o aplicaciones utilizas. Sincronizamos tus datos de hábitos con nuestro servidor, pero esto es solo para admitir el bloqueo de distracción entre dispositivos. Tus datos están encriptados y no permitimos que nadie más los vea. Para obtener más detalles, no dudes en enviar un correo electrónico a team@focusbear.io o consulta nuestra política de privacidad:",
-        "buttonPrivacyText":"Haz clic aquí para ver la política de privacidad"
+        "signinSuccessText":"Genial, todos han iniciado sesión. Solo les daré algunos consejos antes de que comiencen a usarlo."
+        
     },
     "breakWarningVcInfo": {
-        "title": "Tu micro descanso comienza en",
+        "title": "Your <DURATION> seconds micro break starts in[NEEDTRANSLATION]",
         "buttonPostponeText": "Posponer por 5 minutos",
-        "postponeConfirmText": "Pospusiste el último micro descanso. ¿Estás seguro de que no puedes hacer tiempo para el descanso ahora?",
-        "buttonTakeBreakText": "¡Argh, está bien, me tomaré un descanso!"
+        "postponeConfirmText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes hacer tiempo para el descanso ahora?",
+        "buttonTakeBreakText": "¡Argh, está bien, me tomaré un descanso!",
+        "descriptionText":"Micro breaks help keep your energy + alertness levels consistent throughout the day and have positive impacts on your posture (no more screen headaches).[NEEDTRANSLATION]"
     },
     "askAppWorkVcInfo": {
         "title": "Bienvenido a Focus Bear",
@@ -856,7 +861,7 @@
     },
     "focusTipsVcInfo": {
         "title": "Todo está listo!",
-        "tip1title": "Tip 1:",
+        "tip1title": "Tip 1: Try focus block[NEEDTRANSLATION]",
         "tip1Text":"Puedes probarlo ahora haciendo clic en el icono Reproducir junto a tu nuevo modo de enfoque en la lista que aparece al hacer clic en el ícono del menú superior.",
         "tip2title": "Tip 2:",
         "tip2Text":"Para modificar este modo de enfoque, primero haz clic en Preferencias en el menú emergente Focus Bear.",
@@ -864,10 +869,15 @@
         "tip3Text":"Luego haz clic en la pestaña Enfoque en la ventana de Preferencias que se abre.",
         "tip4title":"Tip 4:",
         "tip4Text":"Luego elige tu modo de enfoque de la lista izquierda de Tipos de enfoque. Edita la configuración en el lado derecho.",
+        "tip2Newtitle": "Tip 2: Teach Focus Bear what is productive[NEEDTRANSLATION]",
+        "tip2NewText":"As you use this Focus Mode, Focus Bear will ask you whether each website/app is productive.[NEEDTRANSLATION]",
+        "tip3Newtitle":"Tip 3: Permanently allow apps/websites[NEEDTRANSLATION]",
+        "tip3NewText":"At the end of the focus block, you can permanently allow those apps/websites (or choose not to).[NEEDTRANSLATION]",
+        "tip4Newtitle":"Tip 4: Use keywords[NEEDTRANSLATION]",
+        "tip4NewText":"You can even add keywords, e.g. \"React Native\" and any website with that keyword will be allowed.[NEEDTRANSLATION]",
         "buttonBackText":"Atrás",
         "buttonNextText":"Siguiente",
         "buttonGotItText":"Adelante"
-        
     },
     "howHeardVcInfo": {
         "title": "¿Cómo te enteraste de Focus Bear?",
@@ -893,41 +903,43 @@
         "buttonAskAgainText":"Preguntar en 1 hora"
     },
     "addFocusTempUrlsOrAppsVcInfo": {
-        "title":"¿Deseas permitir de forma permanente las aplicaciones o URL que utilizaste durante esta sesión?",
+        "title":"Do you want to permanently allow these Apps or URLs that you used during this focus block?[NEEDTRANSLATION]",
         "buttonAllowText":"Permitir",
         "titleKeywords":"Palabras clave:",
         "keywordsInfoText":"Para evitar tener que agregar sitios web individualmente, podemos escanear los títulos de las páginas web que permitiste en esta sesión e identificar las frases clave más comunes. Por ejemplo, si abriste diez páginas relacionadas con Figma 'Cómo vincular entre páginas en Figma', 'Cómo compartir archivos Figma', etc. Podemos detectar que Figma es la frase más común y agregarla a tu lista de permitidos. Después de eso, se permitirá automáticamente cualquier página web con 'Figma' en el título. No almacenamos los detalles de las páginas que visitas - descartamos inmediatamente la información después de analizarla.",
-        "tooltipAddkeyword":"Add keyword[NEEDTRANSLATION]"
+        "tooltipAddkeyword":"Add keyword[NEEDTRANSLATION]",
+        "titleWindowText":"Teach Focus Bear how you focus[NEEDTRANSLATION]"
+ 
     },
     "allTracksVcInfo": {
         "title":"Aquí hay algunas pistas de música de enfoque (algunas son ritmos binaurales) que puedes usar para ayudarte a concentrarte. Para tu información, la investigación es ambivalente sobre los ritmos binaurales - es probable que obtengas beneficios similares al usar tu propia música. Solo asegúrate que la música no tenga letra, de lo contrario te distraerás."
     },
     "setUpVcInfo": {
-        "title":"Configuración",
-        "customiseFocusModeText":"Personalizar un modo de enfoque",
-        "customiseHabitText":"Personalizar tus hábitos",
-        "setBlockedUrlsText":"Establecer URLs siempre bloqueadas",
-        "completeMorningRoutineText":"Completar tu rutina matutina 10 veces",
-        "completeEveningRoutineText":"Completar tu rutina nocturna 10 veces",
-        "focusSessionText":"Hacer 10 sesiones de enfoque"
+        "title":"Setup[NEEDTRANSLATION]",
+        "customiseFocusModeText":"Customise a focus mode[NEEDTRANSLATION]",
+        "customiseHabitText":"Customise your habits[NEEDTRANSLATION]",
+        "setBlockedUrlsText":"Set always blocked URLs[NEEDTRANSLATION]",
+        "completeMorningRoutineText":"Complete your morning routine 10 times[NEEDTRANSLATION]",
+        "completeEveningRoutineText":"Complete your evening routine 10 times[NEEDTRANSLATION]",
+        "focusSessionText":"Do 10 focus sessions[NEEDTRANSLATION]"
 
     },
     "languageInfo": {
         "languageEnglish":"English",
-        "languageSpanish":"Español"
+        "languageSpanish":"Spanish[NEEDTRANSLATION]"
     },
 
     "breaksBrainDumpVcInfo": {
-        "title":"Captura tus pensamientos antes de comenzar tu micro descanso",
-        "description":"Tomar micro descansos regularmente (se recomienda cada 20 minutos) es crucial para evitar la fatiga visual y los problemas de postura. Es posible que te preocupe que te saque de tu flujo e interrumpa tu productividad. Capturemos en qué estabas trabajando para que no pierdas el hilo de tus pensamientos después del descanso. Por cierto, a menudo encontrarás que cuando te tomas un descanso y le das a tu cerebro algo de tiempo en \"default mode network\", encontrarás soluciones novedosas para un problema con el que has estado luchando. No es necesariamente un asesino de la productividad en absoluto 😉",
-        "buttonStartBreakText":"Iniciar Micro Descanso"
+        "title":"Capture your thoughts before starting your break[NEEDTRANSLATION]",
+        "description":"Taking regular breaks (every 20 minutes is recommended) is crucial for avoiding eye strain and postural issues. You might be worried that it will take you out of your flow and disrupt your productivity. Let's capture what you were just working on so that you won't lose your train of thought after the break. BTW you'll often find that when you take a break and give your brain some time in the \"default mode network\", you'll come up with novel solutions to a problem you'd been struggling with. Not necessarily a productivity killer at all 😉[NEEDTRANSLATION]",
+        "buttonStartBreakText":"Start Break[NEEDTRANSLATION]"
     },
     "askWorkTimeVcInfo": {
-        "titleStartupTime":"Hora de Inicio:",
-        "titleShutDownTime":"Hora de Apagado:",
-        "descriptionStartupTime":"Elije la hora más temprana en la que planeas comenzar tu rutina matutina. Puedes comenzar tu rutina matutina en cualquier momento después de <SHUTOFFTIME>. Antes de <STARTTIME> tu computadora estará bloqueada porque deberías estar durmiendo 😴 (puedes desbloquearla si tienes una emergencia).",
-        "descriptionShutDownTime":"A las <SHUTOFFTIME>, Focus Bear se hará cargo de tu computadora y otros dispositivos y te guiará a través de tu rutina nocturna para ayudarte a relajarte por la noche.",
-        "questionText":"Establecer la hora de inicio y de apagado"
+        "titleStartupTime":"Startup Time:[NEEDTRANSLATION]",
+        "titleShutDownTime":"Shutdown Time:[NEEDTRANSLATION]",
+        "descriptionStartupTime":"Choose the absolute earliest time you ever plan to start your morning routine. You can start your morning routine at any time after <SHUTOFFTIME>. Before <STARTTIME> your computer will be locked because you should be sleeping 😴 (you can still unlock it if you have an emergency).[NEEDTRANSLATION]",
+        "descriptionShutDownTime":"At <SHUTOFFTIME>, Focus Bear will take over your computer and other devices and guide you through your evening routine to help you wind down for the evening.[NEEDTRANSLATION]",
+        "questionText":"Set Startup and Shutdown time[NEEDTRANSLATION]"
     },
 
     "WindowsSpecific": {
