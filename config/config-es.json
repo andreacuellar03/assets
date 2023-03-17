@@ -772,7 +772,7 @@
         "titleSignUpSuccessful":"Registro exitoso",
         "signupSuccessText":"Genial, todos están registrados. Solo les daré algunos consejos antes de que comiencen a usarlo.",
         "buildingHabitsText":"Construir mejores habitos",
-        "buildingHabitsDescription":"Focus Bear te ayudará a construir hábitos fuertes durante la mañana y la noche bloqueando distracciones. Pero no te preocupes - si necesitas ingresar a tu computadora por alguna urgencia, solo da click al botón \"permíteme por favor\" arriba a la derecha.",
+        "buildingHabitsDescription":"Focus Bear te ayudará a construir hábitos fuertes durante la mañana y la noche bloqueando distracciones. Pero no te preocupes - si necesitas ingresar a tu computadora por alguna urgencia, solo da click al botón \"Salir de pantalla completa\" arriba a la derecha.",
         "brainBreaksText":"Descansos Mentales",
         "brainBreaksDescription":"Para evitar dolores de cabeza y cuello, Focus Bear te alienta a tomar descansos durante intervalos regulares. Te damos un aviso 30 segundos antes, así puedes posponer tu descanso si estás muy ocupado ¡También detectamos si estás en reunión y no mostramos descansos ya que eso podría causar un momento incómodo si estás compartiendo pantalla!",
         "buttonBackText":"Atrás",
@@ -931,7 +931,7 @@
 
     "breaksBrainDumpVcInfo": {
         "title":"Capta tus pensamientos antes de empezar el descanso",
-        "description":"Tomar descansos regulares (se recomienda cada 20 minutos) es crucial para evitar fatiga visual y problemas de postura. Puede que te preocupe que te saque de tu flujo e interrumpa tu productividad. Capturemos en qué estabas trabajando para que no pierdas el hilo después de la pausa. Por cierto, a menudo te darás cuenta de que cuando te tomas un descanso y le das a tu cerebro algo de tiempo en \"default mode network\", encontrarás soluciones novedosas para un problema con el que habías estado luchando. No tiene por qué ser un asesino de la productividad 😉",
+        "description":"Tomar descansos regulares (se recomienda cada 20 minutos) es crucial para evitar fatiga visual y problemas de postura. Puede que te preocupe que te saque de tu flujo e interrumpa tu productividad. Capturemos en qué estabas trabajando para que no pierdas el hilo después de la pausa. Por cierto, a menudo te darás cuenta de que cuando te tomas un descanso y le das a tu cerebro algo de tiempo en \"modo red por defecto\", encontrarás soluciones novedosas para un problema con el que habías estado luchando. No tiene por qué ser un asesino de la productividad 😉",
         "buttonStartBreakText":"Iniciar Descanso"
     },
     "askWorkTimeVcInfo": {
