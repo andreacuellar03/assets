@@ -683,7 +683,7 @@
         "titleTimeRemainingText": "Time remaining:",
         "titleWorkNoteFirst": "Things I'll do in my next break:",
         "titleWorkNoteSecond": "Things you wanted to do in your break:",
-        "titleNotFocusSession": "You're currently not in a focus session",
+        "titleNotFocusSession": "You're currently not in a focus block",
         "writeThingsHereText":"Dump down ideas you have so you don't forget - anything you write here will remain forever unless you delete it"
     },
     "askLogInVcInfo": {
