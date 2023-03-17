@@ -1,6 +1,6 @@
 {"welcomeInfo":
     {"welcomeMessageHeading": "Welcome to Focus Bear",
-        "welcomeMessageIntro": "Every morning, I will help you silence your urge to check email/Facebook and help you to do your morning routine instead.\n\nYou can configure your own routine later but for now, I’ll give you a suggested activity: 30 seconds of mindful breathing.\n\nWhile you breathe deeply, think of how awesome you’ll be if you stick to your morning routine every day.",
+        "welcomeMessageIntro": "Every morning, I will help you silence your urge to check email/Facebook and help you to do your morning routine instead.\n\nYou can configure your own routine later but for now, let’s try out some sample activities (deep breathing/pushups etc.).\n\nWhile you breathe deeply/do pushups, think of how awesome you’ll be if you stick to your morning routine every day.",
         "welcomeEndMessage": "Hope you feel calmer. You can now personalise your morning routine by clicking on the icon <icon> on the top bar and choosing Preferences -> Settings.",
         "preloadFocusModesDoneText": "Here's a short video that explains how to use Focus Bear.",
         "introActivities": [
@@ -487,7 +487,7 @@
         "abortingFocusModeInfo":{
             "title":"Deactivating Focus Block - <FOCUSTYPE>",
             "questionText":"Can you share why you're deactivating?",
-            "reasonsFirstText":"I achieved what I wanted to too early.",
+            "reasonsFirstText":"I achieved what I wanted to.",
             "reasonsSecondText":"I have an emergency",
             "reasonsThirdText":"Focus mode is not working properly.",
             "buttonCancelText":"Cancel",
@@ -778,7 +778,7 @@
         "buttonPrivacyText":"Click here to view Privacy Policy"
     },
     "breakWarningVcInfo": {
-        "title": "Your <DURATION> seconds micro break starts in",
+        "title": "Your <DURATION> second micro break starts in",
         "buttonPostponeText": "Postpone for 5 minutes",
         "postponeConfirmText": "You postponed the last micro break - are you sure you can't make time for the break now?",
         "buttonTakeBreakText": "Argh ok I'll take a break!",
