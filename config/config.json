@@ -789,7 +789,10 @@
         "questionText": "What are your goals?",
         "checkBoxFirstText": "Help me develop healthy habits in the morning (e.g. meditate before starting work) and evening (e.g. have dinner with loved ones)",
         "checkBoxSecondText": "Help me stay focused during the work day",
-        "buttonContinueText": "Continue"
+        "buttonContinueText": "Continue",
+        "titleSelectHabitPack": "Select habits from Featured Habit Packs to get you started using Focus Bear",
+        "morningRoutineText": "Morning routine duration:",
+        "eveningRoutineText": "Evening routine duration:"
     },
     "toolBoxVcInfo": {
         "title": "The toolbox makes it easy to open the apps and websites that you've allowed in the <FOCUS_NAME> focus mode. You can access it from the Menu under Tools.",
@@ -932,8 +935,25 @@
         "descriptionShutDownTime":"At <SHUTOFFTIME>, Focus Bear will take over your computer and other devices and guide you through your evening routine to help you wind down for the evening.",
         "questionText":"Set Startup and Shutdown time"
     },
-
     "WindowsSpecific": {
-        "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
+        "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
+        "runningbg": "Focus Bear is running in Background",
+        "newVersionAvailable": "A new version of Focus Bear is available. Do you wish to update to the latest version of Focus Bear?",
+        "newUpdateAvailable": "New Update Available",
+        "alreadyRunningLatestVersion": "You are already running the latest version of Focus Bear.",
+        "noNewUpdateAvailable": "No New Update Available",
+        "selectApps": "Select Apps to use while focusing:",
+        "clickToEnterManually": "Can't find your app in the above list? Click here to enter manually.",
+        "noItemsSelected": "No items selected to Add.",
+        "enterAppsManually": "Enter apps manually:",
+        "idYouKnowTheNames": "If you know the name of the EXEs that you want to allow, you can add them here. You can enter multiple exe names seperated with comma. (Example: chrome.exe, firefox.exe, notepad.exe)",
+        "allProcessesWillStop": "All the app related processes will stop and the app will close itself and run the Focus Bear Uninstaller.",
+        "withPomodoroMode": "With Pomodoro mode, you automatically cycle between focus sessions and breaks (e.g. 25 minutes on, 5 minutes off)",
+        "weHaventBuiltPomodoro": "We haven't built Pomodoro mode yet on Windows. How badly do you want this feature?",
+        "iNeedThis": "I need this!",
+        "iWontUseIT": "I probably wouldn't use it",
+        "iMightUseIt": "I might use it",
+        "downloadingUpdate": "Downloading Update",
+        "downloadProgress": "Downloading Update: {0} of {1}"
     }
 }

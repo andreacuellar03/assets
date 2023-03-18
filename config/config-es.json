@@ -794,7 +794,10 @@
         "questionText": "¿Cuáles son tus metas?",
         "checkBoxFirstText": "Ayúdame a desarrollar hábitos saludables por la mañana (p. ej., meditar antes de empezar a trabajar) y por la noche (p. ej., cenar con mis seres queridos)",
         "checkBoxSecondText": "Ayúdame a mantener la concentración durante la jornada laboral",
-        "buttonContinueText": "Continuar"
+        "buttonContinueText": "Continuar",
+        "titleSelectHabitPack": "[NEEDSTRANSLATION]Select habits from Featured Habit Packs to get you started using Focus Bear",
+        "morningRoutineText": "[NEEDSTRANSLATION]Morning routine duration:",
+        "eveningRoutineText": "[NEEDSTRANSLATION]Evening routine duration:"
     },
     "toolBoxVcInfo": {
         "title": "La caja de herramientas facilita la apertura de las aplicaciones y sitios web que has permitido en el modo de enfoque <FOCUS_NAME>. Puedes acceder desde el Menú en Herramientas.",
@@ -941,8 +944,25 @@
         "descriptionShutDownTime":"A las <SHUTOFFTIME>, Focus Bear se hará cargo de tu computadora y otros dispositivos y te guiará a través de tu rutina nocturna para ayudarte a relajarte por la noche.",
         "questionText":"Establecer la hora de Inicio y Apagado"
     },
-
     "WindowsSpecific": {
-        "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg"
+        "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
+        "runningbg": "[NEEDSTRANSLATION]Focus Bear is running in Background",
+        "newVersionAvailable": "[NEEDSTRANSLATION]A new version of Focus Bear is available. Do you wish to update to the latest version of Focus Bear?",
+        "newUpdateAvailable": "[NEEDSTRANSLATION]New Update Available",
+        "alreadyRunningLatestVersion": "[NEEDSTRANSLATION]You are already running the latest version of Focus Bear.",
+        "noNewUpdateAvailable": "[NEEDSTRANSLATION]No New Update Available",
+        "selectApps": "[NEEDSTRANSLATION]Select Apps to use while focusing:",
+        "clickToEnterManually": "[NEEDSTRANSLATION]Can't find your app in the above list? Click here to enter manually.",
+        "noItemsSelected": "[NEEDSTRANSLATION]No items selected to Add.",
+        "enterAppsManually": "[NEEDSTRANSLATION]Enter apps manually:",
+        "idYouKnowTheNames": "[NEEDSTRANSLATION]If you know the name of the EXEs that you want to allow, you can add them here. You can enter multiple exe names seperated with comma. (Example: chrome.exe, firefox.exe, notepad.exe)",
+        "allProcessesWillStop": "[NEEDSTRANSLATION]All the app related processes will stop and the app will close itself and run the Focus Bear Uninstaller.",
+        "withPomodoroMode": "[NEEDSTRANSLATION]With Pomodoro mode, you automatically cycle between focus sessions and breaks (e.g. 25 minutes on, 5 minutes off)",
+        "weHaventBuiltPomodoro": "[NEEDSTRANSLATION]We haven't built Pomodoro mode yet on Windows. How badly do you want this feature?",
+        "iNeedThis": "[NEEDSTRANSLATION]I need this!",
+        "iWontUseIT": "[NEEDSTRANSLATION]I probably wouldn't use it",
+        "iMightUseIt": "[NEEDSTRANSLATION]I might use it",
+        "downloadingUpdate": "[NEEDSTRANSLATION]Downloading Update",
+        "downloadProgress": "[NEEDSTRANSLATION]Downloading Update: {0} of {1}"
     }
 }
