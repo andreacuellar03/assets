@@ -10,7 +10,7 @@
             { "name": "Funny cat videos", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=YJx_G02o5DM"] },
             { "name": "Your own adventure", "duration_seconds": 30, "video_urls": ["https://www.youtube.com/watch?v=CUre1WgjIyU"] }
         ],
-        "welcomeVideoUrl": "https://www.youtube.com/watch?v=BSdz7Tdesbs",
+        "welcomeVideoUrl": "https://www.youtube.com/watch?v=mcC4trf6Qfw",
         "welcomeMessageOnlyBreakIntro": "Throughout the day, I'll remind you to take regular breaks to keep your mind sharp and your body flexible. Here's an example of a break activity: 30 seconds of deep breathing.",
         "titleSelectActivity":"What 30 seconds of activity do you want to do?",
         "titleEnterActivityName":"Enter name of activity"
