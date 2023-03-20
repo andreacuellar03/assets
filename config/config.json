@@ -632,7 +632,7 @@
         "buttonContinueText":"Continue",
         "workText":"Work",
         "placeholderWorkText":"Rocket Surgery",
-        "gotItText":"Got it. Let's set up a Focus Mode to help you be super productive while you're doing <WORK_TYPE>."
+        "gotItText":"Got it. We've set up a Focus Mode to help you be super productive while you're doing <WORK_TYPE>. You can add other Focus Modes later."
     },
     "pomodoroPreferencesAdvancedInfo":{
         "checkBoxUseHardcorePomodoroText":"Use super pomodoro mode",
