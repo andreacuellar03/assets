@@ -14,7 +14,9 @@
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=BSdz7Tdesbs",
         "welcomeMessageOnlyBreakIntro": "A lo largo del día, te recordaré que tomes descansos regulares para mantener tu mente alerta y tu cuerpo flexible. Este es un ejemplo de una actividad de descanso: 30 segundos de respiración profunda.",
         "titleSelectActivity":"¿Qué actividad de 30 segundos quieres hacer?",
-        "titleEnterActivityName":"Introduce el nombre de la actividad"
+        "titleEnterActivityName":"Introduce el nombre de la actividad",
+        "buttonSkipText":"Skip[NEEDSTRANSLATION]"
+
     },
     "activityInfo": {
         "startMorningHabitTitleText": "¡Buenos días! Es hora de enfocarse. Estos son los hábitos que debes lograr antes de poder usar tu computadora.",
@@ -453,7 +455,8 @@
         "meetingsFocusInfoText":"El modo de enfoque de reuniones se usa para detectar cuándo estás en una reunión para no pedirte que tomes un descanso cuando estés en una reunión importante. Agrega las aplicaciones y los sitios web que usas para videoconferencias.",
         "descriptionAlwaysBlockedUrls":"Cuando utilices este modo de enfoque, se permitirán todos los sitios web excepto tus URLs siempre bloqueadas",
         "titleBlockedApps":"¿Qué aplicaciones quieres bloquear?",
-        "titleBlockedUrls":"A continuación se muestra la lista de URLs siempre bloqueadas:"
+        "titleBlockedUrls":"A continuación se muestra la lista de URLs siempre bloqueadas:",
+        "checkBoxDoNotDisturbText":"Block Notifications while focusing"
 
      },
     "focusPreferencesAdvancedInfo": {
@@ -637,7 +640,8 @@
         "buttonContinueText": "Continuar",
         "workText": "Trabajo",
         "placeholderWorkText":"Trabajo",
-        "gotItText":"Entendido. Configuremos un modo de enfoque para ayudarte a ser súper productivo mientras trabajas en <WORK_TYPE>."
+        "gotItText":"Entendido. Configuremos un modo de enfoque para ayudarte a ser súper productivo mientras trabajas en <WORK_TYPE>.",
+        "description":"We'll customise your focus mode depending on type of work you do.[NEEDSTRANSLATION]"
     },
     "pomodoroPreferencesAdvancedInfo": {
         "checkBoxUseHardcorePomodoroText": "Usa el modo Pomodoro Estricto",
@@ -846,7 +850,7 @@
     "onboardingBlockedUrlsInfo": {
         "title": "Bienvenido a Focus Bear",
         "questionText": "¿Qué sitios encuentras distractores?",
-        "description": "Puedes bloquear ciertos sitios de forma predeterminada para evitar caer en agujeros de conejo.",
+        "description": "You can block certain sites by default to avoid going down rabbit holes. Tick the sites that are distracting for you.[NEEDSTRANSLATION]",
         "bottomText": "Si deseas bloquear otros sitios de forma predeterminada, puedes cambiar la configuración de Siempre bloqueado en Preferencias.",
         "buttonContinueText": "Continuar",
         "enterUrlText": "Ingresa la URL para bloquear:",
