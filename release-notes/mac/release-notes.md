@@ -1,7 +1,51 @@
+# v140 (Mar 25 - 2023) - 549, 550, 551, 501
+
+## New Feature
+- Run a chosen activity that is scheduled in iCal via the LateNoMore app
+
+## Improvements
+- Added minimize and Exit Full Screen buttons for the onboarding screens
+- Show your routines and habits progress in the Stats tab of Preferences
+- Removed the Cancel button from the popup alert when a focus mode is about to end
+
+# v139 (Mar 22 - 2023)
+- Blur non-allowed websites or apps that are opened in Cuddly Bear mode
+
+# v138 (Mar 20 - 2023)
+- Improve UI for Office Mode / Work From Home
+- Relocated "Block Notifications while Focusing" from Advanced setting to main focus mode setting
+- In Postpone Habits popup, changed the Cancel button text to "Resume Habits"
+- Improvements to Onboarding UI
+- Resume your current activity when exiting from screen lock
+
+# v137 (Mar 16 - 2023)
+- Allow choosing a Habit Pack in the Onboarding process
+
+# v136 (Mar 15 - 2023)
+- Stability fixes
+
+# v135 (Mar 14 - 2023)
+- Tweaks for the Permanently Allow apps/urls popup window
+- Tweaks to the End of Focus Block popup window
+- Tweak to the Brain Dump popup
+- Change to Start Focus Mode popup
+- Improvements to onboarding cards
+- Simplify temporarily allowing pop-up
+
+# v134 (Mar 13 - 2023)
+- Added option to Skip microbreaks during work blocks in the Focus Mode start screen
+- Allow pausing focus modes
+
+# v133 (Mar 11 - 2023)
+- Ability to add new keywords for allowed URLs at the end of a focus mode session
+- Allow extending a focus mode session in the popup alert when a focus mode is about to end
+
 # v132 (Mar 8 - 2023)
+- Peferences UI changes
+- Added explanation for the focus mode learning process when temporarily allowing a URL for the first time
+- Allow editing suggested keywords for allowed URLs at the end of a focus mode session
 
 ## New Features
-
 - Added minimise icon and renamed "Please Spare Me" to "Exit Full Screen"
 - Support habits that only apply on certain days of the week
 - Streamlined the settings interface
@@ -10,14 +54,12 @@
 - Prompt for what you were working on prior to starting the break so breaks don't disrupt workflow
 
 ## Bug Fixes
-
 - Random videos sometimes weren't random enough
 - Stability improvements
 
 # v121 (Jan 23 - 2023)
 
 ## New Features
-
 - Focus Music (Tools > Focus Music): we've added some curated music to get you in the zone while you're working/studying
 - Note taking: you can now write notes during/after habits (good if you don't have an existing journaling app)
 - Allow URLs/apps after focus block: at the end of a focus block, you can now save the URLs that you temporarily allowed in your focus mode settings.
@@ -28,3 +70,4 @@
 ## Bug Fixes
 - Numerous stability fixes (e.g. problems with Focus Bear taking over one of the monitors inappropriately)
 - Improvements to meeting detection
+
