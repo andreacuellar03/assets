@@ -1,7 +1,17 @@
-# v140 (Mar 25 - 2023) - 549, 550, 551, 501
+# v141 (Mar 29 - 2023)
+- Be able to select from Focus Mode templates during onboarding
+- Can now trigger an activity in a calendar schedule via LateNoMore by indicating the activity name in the event description with "fbtrigger:{activity_name}"
+- Fix for the "End of Focus Block" screen when pressing tab to change focus between text boxes
+- Removed requirement to confirm password in the signup window
+- Added support for running shell scripts before and after a focus mode
+- Allow for deleting a URL in the Edit Web URL window in the Blocked URLs list
+- Implemented a new API for checking user subscription
+- Changes to the Quit dialog postpone time options
+
+# v140 (Mar 25 - 2023)
 
 ## New Feature
-- Run a chosen activity that is scheduled in iCal via the LateNoMore app
+- Run a chosen activity that is scheduled in iCal via the LateNoMore app by indicating activity id in the event description with "fbtrigger:{activity_id}"
 
 ## Improvements
 - Added minimize and Exit Full Screen buttons for the onboarding screens
