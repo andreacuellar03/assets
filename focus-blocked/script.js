@@ -51,7 +51,7 @@ if (block_type) {
       'progressWrapper'
     ).innerHTML = `<div class='notice-wrapper'><h6 class='centeredText'>${old_url} is configured to be always blocked. If you want to allow ${old_url}, go to Preferences > Always Blocked URLs</h6></div>`;
     let imgElement = document.createElement('img');
-    imgElement.src = './block_urls.png';
+    imgElement.src = 'https://focus-bear.github.io/assets/focus-blocked/block_urls.png';
     document.getElementById('progressWrapper').appendChild(imgElement);
   } else {
     document.getElementById(
