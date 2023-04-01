@@ -274,12 +274,13 @@
             }
         },
         "askQuitVcInfo": {
-            "subTitle": "Do you want to quit the app completely or just take a break for a few hours?",
+            "subTitle": "Do you want to quit the app completely or just take a break for a bit?",
             "buttonDiableAppText": "Give me a break for 4hrs",
             "buttonQuitText": "Turn it off completely - I'll turn it back on when I'm ready",
-            "selectHoursText": "Select hours to turn it off",
+            "selectHoursText": "Choose how long to turn it off for",
             "buttonBreakOneHourText": "Turn it off for 1 hour",
-            "buttonBreakFewHourText": "Turn it off for <HOUR> hours"
+            "buttonBreakFewHourText": "Turn it off for <HOUR> hours",
+            "buttonBreakFewMinutesText": "Turn it off for <MINUTE> minutes"
         }
     },
     "shutOffTimeInfo": {
@@ -349,7 +350,7 @@
         "menuItemCheckForUpdatesTitle": "Check for updates",
         "menuItemEnableOfficeModeTitle": "Office Mode Enabled",
         "menuItemDisableOfficeModeTitle": "WFH Mode Enabled",
-        "menuItemQuitTitle": "Quit",
+        "menuItemQuitTitle": "Deactivate",
         "untilTimeText": "ends at <TIME>",
         "onText": "On",
         "noOfficeFriendlyActivityAlertText": "You don't have any office friendly break activities. Do you want me to add one for you to stand up and stretch for 20 seconds?",
@@ -482,7 +483,8 @@
         "descriptionAlwaysBlockedUrls": "When you use this focus mode, all websites will be allowed except for your Always Blocked URLs",
         "titleBlockedApps": "Which apps do you want to block?",
         "titleBlockedUrls": "Below is the list of Always Blocked URLs:",
-        "checkBoxDoNotDisturbText": "Block Notifications while focusing"
+        "checkBoxDoNotDisturbText": "Block Notifications while focusing",
+        "buttonDeleteUrlText": "Delete URL"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Run apple script before starting focus mode.",
@@ -497,7 +499,9 @@
         "toolTipRemove": "Remove",
         "instructionText": "The URLs here will be blocked during this focus mode. Useful if you want to allow some websites but block others. For example, you could have *.google.com as an allowed URL but block tv.google.com",
         "autoOnDoNotDisturbText": "Turn on Do Not Disturb automatically when starting a focus mode.",
-        "needDndPermissionText": "To turn on Do Not Disturb when starting a Focus Mode, Focus Bear needs Accessibility permissions. Would you like to give the permissions now?"
+        "needDndPermissionText": "To turn on Do Not Disturb when starting a Focus Mode, Focus Bear needs Accessibility permissions. Would you like to give the permissions now?",
+        "runShellCommandBeforeText": "Run shell script before starting focus mode.",
+        "runShellCommandAfterText": "Run shell script after finishing focus mode."
     },
     "focusInfo": {
         "focusAlreadyRunningText": "A focus mode is already running. Please deactivate the running focus mode to start a new one.",
@@ -664,7 +668,8 @@
         "workText": "Work",
         "placeholderWorkText": "Rocket Surgery",
         "gotItText": "Got it. We've set up a Focus Mode to help you be super productive while you're doing <WORK_TYPE>. You can add other Focus Modes later.",
-        "description": "We'll customise your focus mode depending on type of work you do."
+        "description": "We'll customise your focus mode depending on type of work you do.",
+        "maxChars": "* Max 250 characters"
     },
     "pomodoroPreferencesAdvancedInfo": {
         "checkBoxUseHardcorePomodoroText": "Use super pomodoro mode",
@@ -892,6 +897,7 @@
         "title": "Quick How Tos",
         "tip1title": "How To 1: Start a focus block",
         "tip1Text": "You can try your new focus mode out now by clicking the Play icon (click the top menu icon first).",
+        "tip1TextWIN": "You can try it out now by clicking the Play icon next to your new focus mode in the list that appears on clicking the Focus Bear menu icon in the System Tray.",
         "tip2title": "Tip 2:",
         "tip2Text": "To modify this Focus Mode, first click on Preferences in the Focus Bear popup menu.",
         "tip3title": "Tip 3:",

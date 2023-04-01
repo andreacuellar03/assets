@@ -274,12 +274,13 @@
             }
         },
         "askQuitVcInfo": {
-            "subTitle": "¿Quieres abandonar completamente o solo quieres tomar un descanso por un par de horas?",
+            "subTitle": "Do you want to quit the app completely or just take a break for a bit?[NEEDSTRANSLATION]",
             "buttonDiableAppText": "Quisiera un descanso de 4 horas",
             "buttonQuitText": "Apagar completamente – Regresaré cuando esté listo",
-            "selectHoursText": "Seleccionar horas para apagarlo",
+            "selectHoursText": "Select how long to turn it off[NEEDSTRANSLATION]",
             "buttonBreakOneHourText": "Apagar durante 1 hora",
-            "buttonBreakFewHourText": "Apagar durante <HOUR> horas"
+            "buttonBreakFewHourText": "Apagar durante <HOUR> horas",
+            "buttonBreakFewMinutesText": "Turn it off for <MINUTE> minutes[NEEDSTRANSLATION]"
         }
     },
     "shutOffTimeInfo": {
@@ -351,7 +352,7 @@
         "menuItemCheckForUpdatesTitle": "Buscar actualizaciones",
         "menuItemEnableOfficeModeTitle": "Modo de Oficina habilitado",
         "menuItemDisableOfficeModeTitle": "Modo Trabajo Desde Casa habilitado",
-        "menuItemQuitTitle": "Abandonar",
+        "menuItemQuitTitle": "[NEEDSTRANSLATION]Deactivate",
         "untilTimeText": "termina a las <TIME>",
         "onText": "Encendido",
         "noOfficeFriendlyActivityAlertText": "No tienes ninguna actividad de descanso para la oficina ¿Quieres que agregue una para pararte y estirarte por 20 segundos?",
@@ -484,7 +485,8 @@
         "descriptionAlwaysBlockedUrls": "Cuando utilices este modo de enfoque, se permitirán todos los sitios web excepto tus URLs siempre bloqueadas",
         "titleBlockedApps": "¿Qué aplicaciones quieres bloquear?",
         "titleBlockedUrls": "A continuación se muestra la lista de URLs siempre bloqueadas:",
-        "checkBoxDoNotDisturbText": "Block Notifications while focusing"
+        "checkBoxDoNotDisturbText": "Block Notifications while focusing[NEEDSTRANSLATION]",
+        "buttonDeleteUrlText": "Delete URL[NEEDSTRANSLATION]"
     },
     "focusPreferencesAdvancedInfo": {
         "runScriptBeforeText": "Ejecuta el script de Apple antes de iniciar el modo de enfoque.",
@@ -499,7 +501,9 @@
         "toolTipRemove": "Remover",
         "instructionText": "Las URL aquí se bloquearán durante este modo de enfoque. Útil si deseas permitir algunos sitios web pero bloquear otros. Por ejemplo, podrías tener *.google.com como una URL permitida pero bloquear tv.google.com",
         "autoOnDoNotDisturbText": "Enciende NO MOLESTAR automáticamente cada vez que des inicio a modo de enfoque.",
-        "needDndPermissionText": "Para encender NO MOLESTAR cuando inicies el modo de enfoque, Focus Bear necesita permisos de accesibilidad, ¿Te gustaría dar permiso ahora?"
+        "needDndPermissionText": "Para encender NO MOLESTAR cuando inicies el modo de enfoque, Focus Bear necesita permisos de accesibilidad, ¿Te gustaría dar permiso ahora?",
+        "runShellCommandBeforeText": "Run shell script before starting focus mode.[NEEDSTRANSLATION]",
+        "runShellCommandAfterText": "Run shell script after finishing focus mode.[NEEDSTRANSLATION]"
     },
     "focusInfo": {
         "focusAlreadyRunningText": "Ya se está ejecutando un modo de enfoque. Desactiva el modo de enfoque en ejecución para iniciar uno nuevo.",
@@ -666,7 +670,8 @@
         "workText": "Trabajo",
         "placeholderWorkText": "Trabajo",
         "gotItText": "Entendido. Configuremos un modo de enfoque para ayudarte a ser súper productivo mientras trabajas en <WORK_TYPE>.",
-        "description": "We'll customise your focus mode depending on type of work you do.[NEEDSTRANSLATION]"
+        "description": "We'll customise your focus mode depending on type of work you do.[NEEDSTRANSLATION]",
+        "maxChars": "* Max 250 characters[NEEDSTRANSLATION]"
     },
     "pomodoroPreferencesAdvancedInfo": {
         "checkBoxUseHardcorePomodoroText": "Usa el modo Pomodoro Estricto",
@@ -891,6 +896,7 @@
         "title": "Todo está listo!",
         "tip1title": "Consejo 1: Prueba el bloque de enfoque",
         "tip1Text": "Puedes probarlo ahora haciendo clic en el icono Reproducir junto a tu nuevo modo de enfoque en la lista que aparece al hacer clic en el ícono del menú superior.",
+        "tip1TextWIN": "You can try it out now by clicking the Play icon next to your new focus mode in the list that appears on clicking the Focus Bear menu icon in the System Tray.[NEEDSTRANSLATION]",
         "tip2title": "Consejo 2:",
         "tip2Text": "Para modificar este modo de enfoque, primero haz clic en Preferencias en el menú emergente Focus Bear.",
         "tip3title": "Consejo 3:",
@@ -962,8 +968,8 @@
     "askWorkTimeVcInfo": {
         "titleStartupTime": "Hora de inicio:",
         "titleShutDownTime": "Hora de apagado:",
-        "descriptionStartupTime": "Elige la hora más temprana a la que piensas empezar tu rutina matutina. Puedes empezar tu rutina matutina en cualquier momento después de <STARTTIME>. Antes de <STARTTIME> tu computadora se bloqueará porque deberías estar durmiendo 😴 (aún puedes desbloquearla si tienes una emergencia).",
-        "descriptionShutDownTime": "A las <SHUTOFFTIME>, Focus Bear se hará cargo de tu computadora y otros dispositivos y te guiará a través de tu rutina nocturna para ayudarte a relajarte por la noche.",
+        "descriptionStartupTime": "[NEEDSTRANSLATION]Elige la hora más temprana a la que piensas empezar tu rutina matutina. Puedes empezar tu rutina matutina en cualquier momento después de <STARTTIME>. Antes de <STARTTIME> tu computadora se bloqueará porque deberías estar durmiendo 😴 (aún puedes desbloquearla si tienes una emergencia. We'll show you how to unlock it shortly.).",
+        "descriptionShutDownTime": "[NEEDSTRANSLATION]A las <SHUTOFFTIME>, Focus Bear se hará cargo de tu computadora y otros dispositivos y te guiará a través de tu rutina nocturna para ayudarte a relajarte por la noche(aún puedes desbloquearla si tienes una emergencia. We'll show you how to unlock it shortly.)",
         "questionText": "Establecer la hora de Inicio y Apagado"
     },
     "WindowsSpecific": {
