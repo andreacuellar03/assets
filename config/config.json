@@ -970,7 +970,7 @@
     "askWorkTimeVcInfo": {
         "titleStartupTime": "Startup Time:",
         "titleShutDownTime": "Shutdown Time:",
-        "descriptionStartupTime": "Choose the absolute earliest time you ever plan to start your morning routine. You can start your morning routine at any time after <STARTTIME>. Before <STARTTIME> your computer will be locked because you should be sleeping 😴 (you can still unlock it if you have an emergency. We'll show you how to unlock it shortly.)."
+        "descriptionStartupTime": "Choose the absolute earliest time you ever plan to start your morning routine. You can start your morning routine at any time after <STARTTIME>. Before <STARTTIME> your computer will be locked because you should be sleeping 😴 (you can still unlock it if you have an emergency. We'll show you how to unlock it shortly.).",
         "descriptionShutDownTime": "At <SHUTOFFTIME>, Focus Bear will take over your computer and other devices and guide you through your evening routine to help you wind down for the evening. (you can still unlock it if you have an emergency. We'll show you how to unlock it shortly.).",
         "questionText": "Set Startup and Shutdown time"
     },
