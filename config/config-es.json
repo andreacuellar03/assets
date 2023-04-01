@@ -807,6 +807,7 @@
         "buildingHabitsDescription": "Focus Bear te ayudará a construir hábitos fuertes durante la mañana y la noche bloqueando distracciones. Pero no te preocupes - si necesitas ingresar a tu computadora por alguna urgencia, solo da click al botón \"Salir de pantalla completa\" arriba a la derecha.",
         "brainBreaksText": "Descansos Mentales",
         "brainBreaksDescription": "Para evitar dolores de cabeza y cuello, Focus Bear te alienta a tomar descansos durante intervalos regulares. Te damos un aviso 30 segundos antes, así puedes posponer tu descanso si estás muy ocupado ¡También detectamos si estás en reunión y no mostramos descansos ya que eso podría causar un momento incómodo si estás compartiendo pantalla!",
+		"brainBreaksDescriptionWIN": "Para evitar dolores de cabeza y cuello, Focus Bear te alienta a tomar descansos durante intervalos regulares. Te damos un aviso 30 segundos antes, así puedes posponer tu descanso si estás muy ocupado ¡",
         "buttonBackText": "Atrás",
         "buttonNextText": "Siguiente",
         "exploreTipsText": "Haz click en siguiente para explorar los tips para usar Focus Bear.",
