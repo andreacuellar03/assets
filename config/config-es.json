@@ -162,7 +162,8 @@
         "tabStatsText": "Estadísticas",
         "askExtendFocusText": "¿Sigues inspirado? Prolonga la sesión",
         "extendFocusMinutesText": "Selecciona los minutos que deseas prolongar:",
-        "buttonExtendText": "Extender"
+        "buttonExtendText": "Extender",
+        "tabHelpText": "Help[NEEDSTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -280,7 +281,15 @@
             "selectHoursText": "Select how long to turn it off[NEEDSTRANSLATION]",
             "buttonBreakOneHourText": "Apagar durante 1 hora",
             "buttonBreakFewHourText": "Apagar durante <HOUR> horas",
-            "buttonBreakFewMinutesText": "Turn it off for <MINUTE> minutes[NEEDSTRANSLATION]"
+            "buttonBreakFewMinutesText": "Turn it off for <MINUTE> minutes[NEEDSTRANSLATION]",
+            "buttonPostponeOneHourText": "Postpone habits for 1 hour[NEEDSTRANSLATION]",
+            "buttonPostponeFewHourText": "Postpone habits for <HOUR> hours[NEEDSTRANSLATION]",
+            "buttonPostponeFewMinutesText": "Postpone habits for <MINUTE> minutes[NEEDSTRANSLATION]",
+            "selectPostponeHoursText": "Postpone it for[NEEDSTRANSLATION]",
+            "routineMorningText":"morning[NEEDSTRANSLATION]",
+            "routineEveningText":"evening[NEEDSTRANSLATION]",
+            "subTitlePostpone":"You're in the middle of your <ROUTINE> routine. Do you want to skip/postpone <HABITNAME> or turn the app off completely?[NEEDSTRANSLATION]",
+            "buttonSkipText":"Skip <HABITNAME>[NEEDSTRANSLATION]"
         }
     },
     "shutOffTimeInfo": {
@@ -427,7 +436,9 @@
         "descriptionHideDockText": "Habilita esto para ocultar las actividades de las aplicaciones permitidas para minimizar las distracciones\"Eventos del sistema\" Se requerirán permisos para esto.",
         "checkBoxHideDockText": "Ocultar el muelle durante las actividades que tienen aplicaciones permitidas.",
         "checkBoxShowMeetingDetectionPopupText": "Sugerir automáticamente iniciar el modo de enfoque \"Reuniones\" ",
-        "alertChangeLanguageInfoText": "Focus Bear se reiniciará para que los cambios surtan efecto."
+        "alertChangeLanguageInfoText": "Focus Bear se reiniciará para que los cambios surtan efecto.",
+        "warningGrizzlyBearText":"Warning: Grizzly Bear mode is not recommended until you have fully fleshed out your focus modes. We recommend starting with cuddly bear mode and switching to Grizzly Bear mode after a few weeks[NEEDSTRANSLATION]",
+        "helpText":"Focus Bear is still a new app and you might encounter issues (or have great ideas on how to make it better). We'd really appreciate your feedback. You can email us at team@focusbear.io. Screenshots are really helpful to let us understand the problem. Also if you had a problem, please export your logs (use the link below) and attach it to the email.[NEEDSTRANSLATION]"
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Utiliza los Modos de Enfoque para concentrarte en un determinado tipo de trabajo. Inicia un modo de enfoque desde el menú de Focus Bear.",
@@ -912,7 +923,9 @@
         "tip4NewText": "Puedes incluso añadir palabras clave, por ejemplo, \"React Native\" y cualquier sitio web con esa palabra clave será permitido.",
         "buttonBackText": "Atrás",
         "buttonNextText": "Siguiente",
-        "buttonGotItText": "Adelante"
+        "buttonGotItText": "Adelante",
+        "tip0title": "Create a Focus Mode",
+        "tip0Text": "To help you get more done, let's set up a Focus Mode. A Focus Mode is a set of apps and websites that are productive. When you start a Focus Block, non-productive apps/sites are blocked to help you avoid going down rabbitholes.[NEEDSTRANSLATION]"
     },
     "howHeardVcInfo": {
         "title": "¿Cómo te enteraste de Focus Bear?",

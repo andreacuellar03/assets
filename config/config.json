@@ -162,7 +162,8 @@
         "tabStatsText": "Stats",
         "askExtendFocusText": "Still in the flow? Extend the session",
         "extendFocusMinutesText": "Select minutes to extend:",
-        "buttonExtendText": "Extend"
+        "buttonExtendText": "Extend",
+        "tabHelpText": "Help"
     },
     "abortInfo": {
         "abortingTitle": "Cancelling..",
@@ -280,7 +281,15 @@
             "selectHoursText": "Choose how long to turn it off for",
             "buttonBreakOneHourText": "Turn it off for 1 hour",
             "buttonBreakFewHourText": "Turn it off for <HOUR> hours",
-            "buttonBreakFewMinutesText": "Turn it off for <MINUTE> minutes"
+            "buttonBreakFewMinutesText": "Turn it off for <MINUTE> minutes",
+            "buttonPostponeOneHourText": "Postpone habits for 1 hour",
+            "buttonPostponeFewHourText": "Postpone habits for <HOUR> hours",
+            "buttonPostponeFewMinutesText": "Postpone habits for <MINUTE> minutes",
+            "selectPostponeHoursText": "Postpone it for",
+            "routineMorningText":"morning",
+            "routineEveningText":"evening",
+            "subTitlePostpone":"You're in the middle of your <ROUTINE> routine. Do you want to skip/postpone <HABITNAME> or turn the app off completely?",
+            "buttonSkipText":"Skip <HABITNAME>"
         }
     },
     "shutOffTimeInfo": {
@@ -425,7 +434,9 @@
         "descriptionHideDockText": "Enable this to hide dock during allowed apps activities to minimize distractions. \"System Events\" permission will be required for this.",
         "checkBoxHideDockText": "Hide dock during activities having allowed apps.",
         "checkBoxShowMeetingDetectionPopupText": "Automatically suggest starting \"Meetings\" focus mode",
-        "alertChangeLanguageInfoText": "Focus Bear will restart for the changes to take effect."
+        "alertChangeLanguageInfoText": "Focus Bear will restart for the changes to take effect.",
+        "warningGrizzlyBearText":"Warning: Grizzly Bear mode is not recommended until you have fully fleshed out your focus modes. We recommend starting with cuddly bear mode and switching to Grizzly Bear mode after a few weeks",
+        "helpText":"Focus Bear is still a new app and you might encounter issues (or have great ideas on how to make it better). We'd really appreciate your feedback. You can email us at team@focusbear.io. Screenshots are really helpful to let us understand the problem. Also if you had a problem, please export your logs (use the link below) and attach it to the email."
     },
     "focusPreferencesInfo": {
         "titleFocusType": "Use Focus Modes to stay focused on a certain type of work. Start a focus mode from the Focus Bear menu.",
@@ -808,7 +819,7 @@
 		"brainBreaksDescriptionWIN": "To avoid screen headaches and neck strain, Focus Bear will encourage you to take breaks at regular intervals. We give you a 30 second warning so you can postpone the break if it's a bad time.",
         "buttonBackText": "Back",
         "buttonNextText": "Next",
-        "exploreTipsText": "Click next to learn how to use Focus Bear.",
+        "exploreTipsText": "Click next to explore the tips to use Focus Bear.",
         "titleSignInSuccessful": "Sign in successful",
         "signinSuccessText": "Great you're all signed in. I'll just give you a few tips before you start using it.",
         "privacyText": "Privacy and Security",
@@ -913,7 +924,9 @@
         "tip4NewText": "You can even add keywords, e.g. \"React Native\" and any website with that keyword will be allowed.",
         "buttonBackText": "Back",
         "buttonNextText": "Next",
-        "buttonGotItText": "Onwards"
+        "buttonGotItText": "Onwards",
+        "tip0title": "Create a Focus Mode",
+        "tip0Text": "To help you get more done, let's set up a Focus Mode. A Focus Mode is a set of apps and websites that are productive. When you start a Focus Block, non-productive apps/sites are blocked to help you avoid going down rabbitholes."
     },
     "howHeardVcInfo": {
         "title": "How did you hear about Focus Bear?",
