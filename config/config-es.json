@@ -890,8 +890,8 @@
     },
     "onboardingBlockedUrlsInfo": {
         "title": "Bienvenido a Focus Bear",
-        "questionText": "¿Qué sitios encuentras distractores?",
-        "description": "Puedes bloquear ciertos sitios por defecto para evitar entrar en zonas de distracción. Marca los sitios que te distraen.",
+        "questionText": "Which sites do you always want to block?[NEEDSTRANSLATION]",
+        "description": "You can block certain sites by default to avoid going down rabbit holes. Tick the sites that you never want to use on your computer.[NEEDSTRANSLATION]",
         "bottomText": "Si deseas bloquear otros sitios de forma predeterminada, puedes cambiar la configuración de Siempre bloqueado en Preferencias.",
         "buttonContinueText": "Continuar",
         "enterUrlText": "Ingresa la URL para bloquear:",

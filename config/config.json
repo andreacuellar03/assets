@@ -889,8 +889,8 @@
     },
     "onboardingBlockedUrlsInfo": {
         "title": "Welcome to Focus Bear",
-        "questionText": "Which sites do you find distracting?",
-        "description": "You can block certain sites by default to avoid going down rabbit holes. Tick the sites that are distracting for you.",
+        "questionText": "Which sites do you always want to block?",
+        "description": "You can block certain sites by default to avoid going down rabbit holes. Tick the sites that you never want to use on your computer.",
         "bottomText": "If you want to block other sites by default, you can change your Always Blocked settings in Preferences.",
         "buttonContinueText": "Continue",
         "enterUrlText": "Enter url to block:",
