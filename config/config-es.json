@@ -823,7 +823,9 @@
         "buttonNextText": "Siguiente",
         "exploreTipsText": "Haz click en siguiente para explorar los tips para usar Focus Bear.",
         "titleSignInSuccessful": "Inicio de sesión exitosa",
-        "signinSuccessText": "Genial, ya has iniciado sesión. Te daré algunos consejos antes de que empieces a usar la app."
+        "signinSuccessText": "Genial, ya has iniciado sesión. Te daré algunos consejos antes de que empieces a usar la app.",
+        "privacyDescription": "Nos tomamos muy en serio tu privacidad y seguridad. No registramos qué sitios web o aplicaciones utilizas. Sincronizamos los datos de tus hábitos con nuestro servidor, pero solo para poder bloquear las distracciones entre dispositivos. Tus datos están encriptados y no permitimos que nadie más los vea. Para más información, envía un correo electrónico a team@focusbear.io o consulta nuestra política de privacidad:",
+        "buttonPrivacyText": "Haz clic aquí para ver la Política de Privacidad"
     },
     "breakWarningVcInfo": {
         "title": "Tu micro descanso de <DURATION> segundos comienza en",
@@ -896,16 +898,16 @@
         "buttonAddUrlText": "Agregar URL"
     },
     "preloadFocusModeAppsVcInfo": {
-        "buttonDoneText": "Finalizar",
+        "buttonDoneText": "Listo",
         "titleForApps": "¿Qué aplicaciones usas normalmente mientras trabajas en <WORK_TYPE>?",
-        "descriptionApps": "No te preocupes, aún puede usar otras aplicaciones si lo necesitas, pero estas son las aplicaciones que tienen más probabilidades de ser productivas para ti mientras trabajas en <WORK_TYPE>. Puedes cambiar esta configuración más adelante.",
+        "descriptionApps": "No te preocupes, aún puedes usar otras aplicaciones si lo necesitas, pero estas son las aplicaciones con más probabilidades de ser productivas para ti mientras trabajas en <WORK_TYPE>. Puedes cambiar esta configuración más adelante.",
         "subTitleForApps": "Agrega las aplicaciones que planeas usar:",
         "titleForUrls": "¿Qué hay de los sitios web?",
         "descriptionUrls": "No te preocupes, aún puedes usar otros sitios web si lo necesitas, pero estos son los sitios que probablemente sean más productivos para ti mientras trabajas en <WORK_TYPE>. Puedes cambiar esta configuración más adelante",
         "subTitleForUrls": "Agrega las páginas web que planeas usar:"
     },
     "focusTipsVcInfo": {
-        "title": "Todo está listo!",
+        "title": "Consejos Rápidos",
         "tip1title": "Consejo 1: Prueba el bloque de enfoque",
         "tip1Text": "Puedes probarlo ahora haciendo clic en el icono Reproducir junto a tu nuevo modo de enfoque en la lista que aparece al hacer clic en el ícono del menú superior.",
         "tip1TextWIN": "Puedes probarlo ahora haciendo clic en el ícono Reproducir junto a tu nuevo Modo de Enfoque en la lista que aparece haciendo clic en el ícono del menú Focus Bear en la Bandeja del Sistema.",
