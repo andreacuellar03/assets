@@ -437,7 +437,7 @@
         "checkBoxHideDockText": "Ocultar el muelle durante las actividades que tienen aplicaciones permitidas.",
         "checkBoxShowMeetingDetectionPopupText": "Sugerir automáticamente iniciar el modo de enfoque \"Reuniones\" ",
         "alertChangeLanguageInfoText": "Focus Bear se reiniciará para que los cambios surtan efecto.",
-        "warningGrizzlyBearText":"Warning: El modo Oso Pardo no es recomendable hasta que hayas perfeccionado por completo tus modos de enfoque. Recomendamos empezar con el modo Oso de Peluche y cambiar al modo Oso Pardo pasadas unas semanas.",
+        "warningGrizzlyBearText":"Advertencia: El modo Oso Pardo no es recomendable hasta que hayas perfeccionado por completo tus modos de enfoque. Recomendamos empezar con el modo Oso de Peluche y cambiar al modo Oso Pardo pasadas unas semanas.",
         "helpText":"Focus Bear sigue siendo una aplicación nueva y es posible que encuentres errores (o tengas grandes ideas sobre cómo mejorarla). Agradeceríamos mucho tu opinión. Puedes escribirnos a team@focusbear.io. Las capturas de pantalla son realmente útiles para que podamos entender el problema. Además, si has tenido algún problema, exporta tus registros (utiliza el enlace que aparece a continuación) y adjúntalos al correo electrónico."
     },
     "focusPreferencesInfo": {
