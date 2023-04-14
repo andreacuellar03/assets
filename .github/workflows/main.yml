@@ -1,22 +1,28 @@
-name: 'Compare config files'
+name: Check Config JSON file keys
 
 on:
+  push:
+    paths:
+      - 'config/*.json'
   pull_request:
-    branches:
-      - main
-    types: [opened]
+    paths:
+      - 'config/*.json'
 
 jobs:
-  Compare:
-    name: Compare keys in config-es.json & config.json
+  check-keys:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout the repo
+      - name: Checkout code
         uses: actions/checkout@v3
-        with:
-          repository: amanueltsfy/assets
-          ref: main
 
-      - name: Checking config keys
-        uses: amanueltsfy/assets@main
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Check JSON keys
+        run: |
+          keys1=$(jq -r '.. | objects | keys_unsorted[]' ${{ github.workspace }}/config/config.json | sort | uniq)
+          keys2=$(jq -r '.. | objects | keys_unsorted[]' ${{ github.workspace }}/config/config-es.json | sort | uniq)
+          if [[ "$keys1" != "$keys2" ]]; then
+            echo "Mismatch in config file keys. Check contents of config.json & config-es.json files in /config directory"
+            exit 1
+          fi
