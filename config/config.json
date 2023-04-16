@@ -856,7 +856,7 @@
     },
     "popUpBlockConfirmVcInfo": {
         "title": "Do you need to use <URL> when you're focusing on <FOCUSTYPE>?",
-        "buttonAllowText": "Yes - just this time",
+        "buttonAllowText": "Yes",
         "buttonBlockText": "No - I was getting distracted",
         "buttonEditSettingsText": "Edit Settings",
         "intentionText": "Your intention was \"<INTENTION>\"",
