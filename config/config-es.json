@@ -1,9 +1,8 @@
 {
     "welcomeInfo": {
-        "welcomeMessageHeading": "Bienvenido a Focus Bear",
+        "welcomeMessageHeading": "Let’s take a quick 30 second break[NEEDSTRANSLATION]",
         "welcomeMessageIntro": "Todas las mañanas, te ayudaré a silenciar tu impulso de revisar el correo electrónico/Facebook y te ayudaré a hacer tu rutina matutina en su lugar.\n\nPuedes configurar tu propia rutina más tarde, pero por ahora, te daré una actividad sugerida: 30 segundos de respiración consciente.\n\nMientras respiras profundamente, piensa en lo increíble que serás si sigues tu rutina matutina todos los días.",
         "welcomeEndMessage": "Espero que te sientas más tranquilo. Ahora puedes personalizar tu rutina matutina haciendo clic en el ícono <icon> en la barra superior y seleccionando Preferencias -> Configuraciones.",
-        "preloadFocusModesDoneText": "Aquí tienes un breve vídeo que explica cómo utilizar Focus Bear.",
         "introActivities": [
             {
                 "name": "Respiración profunda",
@@ -13,31 +12,10 @@
                 ]
             },
             {
-                "name": "Flexiones",
-                "duration_seconds": 30,
-                "video_urls": [
-                    "https://www.youtube.com/watch?v=dOY-VkXbJCY"
-                ]
-            },
-            {
                 "name": "Estiramientos",
                 "duration_seconds": 30,
                 "video_urls": [
                     "https://www.youtube.com/watch?v=s5V_sVvagrM"
-                ]
-            },
-            {
-                "name": "Vídeos divertidos de gatos",
-                "duration_seconds": 30,
-                "video_urls": [
-                    "https://www.youtube.com/watch?v=hY7m5jjJ9mM"
-                ]
-            },
-            {
-                "name": "Tu propia aventura",
-                "duration_seconds": 30,
-                "video_urls": [
-                    "https://www.youtube.com/watch?v=CUre1WgjIyU"
                 ]
             }
         ],
@@ -45,7 +23,8 @@
         "welcomeMessageOnlyBreakIntro": "A lo largo del día, te recordaré que tomes descansos regulares para mantener tu mente alerta y tu cuerpo flexible. Este es un ejemplo de una actividad de descanso: 30 segundos de respiración profunda.",
         "titleSelectActivity": "¿Qué actividad de 30 segundos quieres hacer?",
         "titleEnterActivityName": "Introduce el nombre de la actividad",
-        "buttonSkipText": "Omitir"
+        "buttonSkipText": "Omitir",
+        "takingBreaksText": "Taking breaks throughout the day helps with stress and focus.[NEEDSTRANSLATION]"
     },
     "activityInfo": {
         "startMorningHabitTitleText": "¡Buenos días! Aquí están los hábitos para empezar un día increíble.",
@@ -318,7 +297,7 @@
         "buttonEditSettingsText": "Editar Configuración",
         "buttonAdvancedText": "Avanzado",
         "description": "Dale clic a \"Editar Configuración\" para modificar tu configuración existente. Si eres un usuario avanzado haz clic en \"Avanzado\"para ver o editar la configuración JSON",
-        "settingIsValidText": "Tu configuración ha sido validada y se aplicará ahora."
+        "settingIsValidText": "Saved! Restarting the app now.[NEEDSTRANSLATION]"
     },
     "trialNagInfo": {
         "title": "Focus Bear",
@@ -381,7 +360,9 @@
         "menuItemFocusMusicTitle": "Música de enfoque",
         "titleWorkMode": "Modo de Trabajo:",
         "segmentOfficeModeText": "Modo de Oficina",
-        "segmentWfhModeText": "Modo desde Casa"
+        "segmentWfhModeText": "Modo desde Casa",
+        "menuItemSetFocusModesTitle": "Set up Focus Modes[NEEDSTRANSLATION]",
+        "toolTipLockedFocus": "Use this if you want to focus on using one app/reading one article. We'll detect the current app + site you have open and block everything else.[NEEDSTRANSLATION]"
     },
     "preferencesInfo": {
         "titlePomodoro": "Modo Pomodoro:",
@@ -768,9 +749,13 @@
         "buttonLaterText": "Más tarde, por favor.",
         "buttonLetsDoItText": "Hagámoslo ya",
         "allRightsReservedText": "© 2022-2023 Focus Bear Todos los derechos reservados.",
-        "confirmText": "Sólo quiero confirmar por última vez que estás de acuerdo con esto; durante el próximo minuto no podrás usar otras aplicaciones mientras realices la inducción.",
-        "buttonConfirmLetsDoItText": "Sí, hagámoslo, tengo un minuto",
-        "buttonNeedMoreTimeText": "Uhh, necesito unos minutos más"
+        "confirmText": "Double checking you have 2 minutes now - you’re about to go full screen.[NEEDSTRANSLATION]",
+        "buttonConfirmLetsDoItText": "I have 2 minutes[NEEDSTRANSLATION]",
+        "buttonNeedMoreTimeText": "Not Now[NEEDSTRANSLATION]",
+        "gotTwoMinutesText": "Got two minutes to try out our habit guide feature?[NEEDSTRANSLATION]",
+        "subTitleNewText": "Next Up: Building habits to support focus[NEEDSTRANSLATION]",
+        "titleBlockedSuccessfully": "Awesome! We look forward to helping you block distractions.[NEEDSTRANSLATION]",
+        "titleBlockedFailed": "We'll be in touch shortly to get that fixed.\n\nIn the meantime, we can show you the habit features.[NEEDSTRANSLATION]"
     },
     "upgradeNowUrl": "https://dashboard.focusbear.io/subscription",
     "customLoginVcInfo": {
@@ -829,6 +814,7 @@
     },
     "breakWarningVcInfo": {
         "title": "Tu micro descanso de <DURATION> segundos comienza en",
+        "titleWIN": "Your micro break starts in[NEEDSTRANSLATION]",
         "buttonPostponeText": "Posponer por 5 minutos",
         "postponeConfirmText": "Pospusiste el último descanso. ¿Estás seguro de que no puedes hacer tiempo para el descanso ahora?",
         "buttonTakeBreakText": "¡Argh, está bien, me tomaré un descanso!",
@@ -890,12 +876,13 @@
     },
     "onboardingBlockedUrlsInfo": {
         "title": "Bienvenido a Focus Bear",
-        "questionText": "Which sites do you always want to block?[NEEDSTRANSLATION]",
+        "questionText": "Which sites do you waste time on?[NEEDSTRANSLATION]",
         "description": "You can block certain sites by default to avoid going down rabbit holes. Tick the sites that you never want to use on your computer.[NEEDSTRANSLATION]",
         "bottomText": "Si deseas bloquear otros sitios de forma predeterminada, puedes cambiar la configuración de Siempre bloqueado en Preferencias.",
         "buttonContinueText": "Continuar",
         "enterUrlText": "Ingresa la URL para bloquear:",
-        "buttonAddUrlText": "Agregar URL"
+        "buttonAddUrlText": "Agregar URL",
+        "tipText": "In case you're worried - we don't track which websites you're using.[NEEDSTRANSLATION]"
     },
     "preloadFocusModeAppsVcInfo": {
         "buttonDoneText": "Listo",
@@ -986,7 +973,65 @@
         "titleShutDownTime": "Hora de apagado:",
         "descriptionStartupTime": "Elige la hora más temprana a la que piensas empezar tu rutina matutina. Puedes empezar tu rutina matutina en cualquier momento después de <STARTTIME>. Antes de <STARTTIME> tu computadora se bloqueará porque deberías estar durmiendo 😴 (aún puedes desbloquearla si tienes una emergencia. Pronto te mostraremos cómo desbloquearla).",
         "descriptionShutDownTime": "A las <SHUTOFFTIME>, Focus Bear se hará cargo de tu computadora y otros dispositivos y te guiará a través de tu rutina nocturna para ayudarte a relajarte por la noche (aún puedes desbloquearla si tienes una emergencia. Pronto te mostraremos cómo desbloquearla)",
-        "questionText": "Establecer la hora de Inicio y Apagado"
+        "questionText": "When do you want to start and finish work?[NEEDSTRANSLATION]",
+        "questionStartWorkTimeText": "What time do you start work?[NEEDSTRANSLATION]",
+        "questionFinishWorkTimeText": "What time do you finish work?[NEEDSTRANSLATION]"
+    },
+    "welcomeVcInfo": {
+        "descriptionFirstText": "Focus Bear helps you avoid distractions and build healthy habits.[NEEDSTRANSLATION]",
+        "descriptionSecondText": "Let's start out by blocking distractions.[NEEDSTRANSLATION]"
+    },
+    "onboardingControllingBrowserVcInfo": {
+        "title": "Permission to block distractions[NEEDSTRANSLATION]",
+        "descriptionText": "Alright, now you need to give Focus Bear permission to block distraction.[NEEDSTRANSLATION]",
+        "buttonPermissionGrantedText": "Continuar",
+        "buttonRequestPermissionText": "Request Permission[NEEDSTRANSLATION]",
+        "enabledText": "✅  Enabled![NEEDSTRANSLATION]"
+    },
+    "onboardingPrivacyTipVcInfo": {
+        "title": "Privacy and Security[NEEDSTRANSLATION]",
+        "subTitle": "We take your privacy and security very seriously and will never share your data ever.[NEEDSTRANSLATION]",
+        "descriptionText": "🙈 We do not log which websites or apps you use.\n\n🔄 We do sync your habit data to our server but this is only to support cross device distraction blocking.\n\n🔒 Your data is encrypted and we don't let anyone else see it.[NEEDSTRANSLATION]",
+        "moreDetailText": "For more details, refer to our privacy policy or feel free to email team@focusbear.io.[NEEDSTRANSLATION]",
+        "buttonViewPrivacyText": "Haz clic aquí para ver la Política de Privacidad",
+        "buttonContinueText": "Continuar"
+    },
+    "tryBlockUrlVcInfo": {
+        "titleShieldActivated": "Distraction Shield activated![NEEDSTRANSLATION]",
+        "descriptionTryBlockText": "Try it out - please attempt to access <BLOCKED_URL> through your web browser. It should block the site.[NEEDSTRANSLATION]",
+        "buttonItBlockedText": "It blocked it![NEEDSTRANSLATION]",
+        "buttonDidNotBlockedText": "It didn't block it 😒[NEEDSTRANSLATION]",
+        "titleWhichBrowser": "Oops! Which browser did you try?[NEEDSTRANSLATION]",
+        "tryBrowsersBlockText": "Did you use Safari, Google Chrome, Sidekick, Brave Browser or Microsoft Edge?\nWe can only block if you use those browsers.[NEEDSTRANSLATION]",
+        "buttonStillNotBlockedText": "Still not working[NEEDSTRANSLATION]",
+        "buttonNowBlockedText": "I just tried those browsers and it worked![NEEDSTRANSLATION]",
+        "emailUsText": "Sorry about that 😓 Any chance you could email us (team@focusbear.io) and we'll try and fix it for you?[NEEDSTRANSLATION]"
+    },
+    "askBuildHabitsVcInfo": {
+        "titleBlockedSuccessfully": "Awesome! We look forward to helping you block distractions.[NEEDSTRANSLATION]",
+        "titleBlockedFailed": "We'll be in touch shortly to get that fixed.\n\nIn the meantime, we can show you the habit features.[NEEDSTRANSLATION]",
+        "subTitle": "Next Up: Building habits to support focus[NEEDSTRANSLATION]",
+        "description": "One other thing that we find really helps is building habits to support focus. For example, even a small amount of aerobic exercise + meditation in the morning has been shown to boost concentration during the day.\nWould you like to try out the habit features?[NEEDSTRANSLATION]",
+        "buttonNoText": "No Thanks[NEEDSTRANSLATION]",
+        "buttonYesText": "Yeah![NEEDSTRANSLATION]",
+        "alertConfirmText": "Are you sure? You can start with really tiny habits like 2 minutes of meditation in the morning.\nFocus Bear was built by a neurodiverse team (a few of us have ADHD) and we find the habit features make a huge difference to how the rest of the day goes.[NEEDSTRANSLATION]",
+        "buttonOkShowHabitText": "OK fine - show me the habit feature[NEEDSTRANSLATION]",
+        "buttonCancelHabitText": "No I'm not interested right now[NEEDSTRANSLATION]"
+    },
+    "askAccountVcInfo": {
+        "title": "Setting up a Focus Bear Account[NEEDSTRANSLATION]",
+        "descriptionText": "How about setting up an account so you can sync your block preferences across your devices?[NEEDSTRANSLATION]",
+        "tipText": "Setting up an account doesm't cost anything - you still get a 31 day free trial- but it is necessary to enable the more advanced features.[NEEDSTRANSLATION]",
+        "buttonNotRightNowText": "Not right now[NEEDSTRANSLATION]",
+        "buttonSignUpText": "Sure - let me sign up[NEEDSTRANSLATION]",
+        "alertText": "If you feel like setting up an account, just click on the Focus Bear menu icon.[NEEDSTRANSLATION]"
+    },
+    "askOnboardingVideoVcInfo": {
+        "title": "Your account's ready to go![NEEDSTRANSLATION]",
+        "subTitle": "Aquí tienes un breve vídeo que explica cómo utilizar Focus Bear.",
+        "buttonPlayText": "Play the video[NEEDSTRANSLATION]",
+        "buttonNoThanksText": "No thanks[NEEDSTRANSLATION]",
+        "buttonContinueText": "Continuar"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
