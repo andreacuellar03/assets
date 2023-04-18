@@ -329,12 +329,10 @@
     "menuInfo": {
         "menuItemReactivateTitle": "Reactivar",
         "menuItemEnterLicenseKeyTitle": "Introduce la clave de la licencia",
-        "menuItemSettingsTitle": "Configuraciones",
         "menuItemPreferencesTitle": "Preferencias",
         "menuItemExportStatisticsTitle": "Exportar Datos",
         "menuItemFocusTitle": "Enfoque",
         "menuItemHardcorePomodoroModeTitle": " Modo Pomodoro Estricto",
-        "menuItemFocusPreferencesTitle": "Preferencias de enfoque",
         "menuItemStartPomodoroTitle": "Inicia modo Pomodoro",
         "menuItemStopHardcorePomodoroTitle": "Parar Modo Pomodoro Estricto",
         "menuItemCheckForUpdatesTitle": "Buscar actualizaciones",
@@ -809,6 +807,7 @@
         "exploreTipsText": "Haz click en siguiente para explorar los tips para usar Focus Bear.",
         "titleSignInSuccessful": "Inicio de sesión exitosa",
         "signinSuccessText": "Genial, ya has iniciado sesión. Te daré algunos consejos antes de que empieces a usar la app.",
+        "privacyText": "Privacidad y Seguridad",
         "privacyDescription": "Nos tomamos muy en serio tu privacidad y seguridad. No registramos qué sitios web o aplicaciones utilizas. Sincronizamos los datos de tus hábitos con nuestro servidor, pero solo para poder bloquear las distracciones entre dispositivos. Tus datos están encriptados y no permitimos que nadie más los vea. Para más información, envía un correo electrónico a team@focusbear.io o consulta nuestra política de privacidad:",
         "buttonPrivacyText": "Haz clic aquí para ver la Política de Privacidad"
     },
