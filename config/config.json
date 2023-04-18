@@ -753,7 +753,11 @@
         "gotTwoMinutesText": "Got two minutes to try out our habit guide feature?",
         "subTitleNewText": "Next Up: Building habits to support focus",
         "titleBlockedSuccessfully": "Awesome! We look forward to helping you block distractions.",
-        "titleBlockedFailed": "We'll be in touch shortly to get that fixed.\n\nIn the meantime, we can show you the habit features."
+        "titleBlockedFailed": "We'll be in touch shortly to get that fixed.\n\nIn the meantime, we can show you the habit features.",
+        "buttonNoText": "No Thanks",
+        "alertConfirmText": "Are you sure? You can start with really tiny habits like 2 minutes of meditation in the morning.\nFocus Bear was built by a neurodiverse team (a few of us have ADHD) and we find the habit features make a huge difference to how the rest of the day goes.",
+        "buttonOkShowHabitText": "OK fine - show me the habit feature",
+        "buttonCancelHabitText": "No I'm not interested right now"
     },
     "upgradeNowUrl": "https://dashboard.focusbear.io/subscription",
     "customLoginVcInfo": {
@@ -784,7 +788,14 @@
         "passwordRuleThirdText": "lower case letters (a-z)",
         "passwordRuleFourthText": "upper case letters (A-Z)",
         "passwordRuleFifthText": "numbers (i.e. 0-9)",
-        "passwordRuleSixthText": "special characters (e.g. !@#$%^&*)"
+        "passwordRuleSixthText": "special characters (e.g. !@#$%^&*)",
+        "generatePasswordText": "Generate password",
+        "useOwnPasswordText": "Use own password",
+        "tooltipRefreshPassword": "Refresh password",
+        "tooltipCopyPassword": "Copy password",
+        "checkBoxPasswordSavedText": "I saved the password somewhere safe",
+        "buttonCopyPasswordText": "Copy",
+        "explainCreateAccountText": "Create an account to sync your habit + block settings across all your devices."
     },
     "loginHelpVcInfo": {
         "title": "An incognito window should open where you can Login or Register. If you don't see it, please try opening Safari manually. If you still can't see it",
@@ -834,7 +845,8 @@
         "checkBoxText": "Don't show this anymore when I start a focus block",
         "appsText": "Apps:",
         "urlsText": "Urls:",
-        "windowTitleText": "Focus Bear - Toolbox"
+        "windowTitleText": "Focus Bear - Toolbox",
+        "titleForActivity": "The toolbox makes it easy to open the apps and websites that you've allowed in the <ACTIVITY_NAME> activity. You can access it from the Menu under Tools."
     },
     "skipHabitVcInfo": {
         "title": "Skipping habit in",
@@ -881,7 +893,10 @@
         "buttonContinueText": "Continue",
         "enterUrlText": "Enter url to block:",
         "buttonAddUrlText": "Add url",
-        "tipText": "In case you're worried - we don't track which websites you're using."
+        "tipText": "In case you're worried - we don't track which websites you're using.",
+        "categorySocialMedia": "Social Media",
+        "categoryNews": "News",
+        "categoryOthers": "Others"
     },
     "preloadFocusModeAppsVcInfo": {
         "buttonDoneText": "Done",
@@ -965,7 +980,13 @@
     "breaksBrainDumpVcInfo": {
         "title": "Capture your thoughts before starting your micro break",
         "description": "Taking regular micro breaks (every 20 minutes is recommended) is crucial for avoiding eye strain and postural issues. You might be worried that it will take you out of your flow and disrupt your productivity. Let's capture what you were just working on so that you won't lose your train of thought after the break. BTW you'll often find that when you take a break and give your brain some time in the \"default mode network\", you'll come up with novel solutions to a problem you'd been struggling with. Not necessarily a productivity killer at all 😉",
-        "buttonStartBreakText": "Start Micro Break"
+        "buttonStartBreakText": "Start Micro Break",
+        "subTitle": "You're going to feel great after this break. Write down what you were just working on so you don't forget.",
+        "placeholders": ["Building an AI-powered coffee mug that can detect when you need a refill",
+            "Optimizing a website for users browsing on a Game Boy Color",
+            "Creating a machine learning algorithm that predicts which coworker will bring donuts to the office next",
+            "Writing a script that generates random passwords that only consist of emojis",
+            "Designing a user interface for a self-driving unicycle"]
     },
     "askWorkTimeVcInfo": {
         "titleStartupTime": "Startup Time:",
@@ -974,11 +995,13 @@
         "descriptionShutDownTime": "At <SHUTOFFTIME>, Focus Bear will take over your computer and other devices and guide you through your evening routine to help you wind down for the evening. (you can still unlock it if you have an emergency. We'll show you how to unlock it shortly.).",
         "questionText": "When do you want to start and finish work?",
         "questionStartWorkTimeText": "What time do you start work?",
-        "questionFinishWorkTimeText": "What time do you finish work?"
+        "questionFinishWorkTimeText": "What time do you finish work?",
+        "explanationText": "Your schedule looks like:\n\n🐥 <MORNING_ROUTINE_START_TIME> - <MORNING_ROUTINE_END_TIME> - Morning routine\n\n💼 <MORNING_ROUTINE_END_TIME> - <START_WORK_TIME> - Prepare to start work (buffer time)\n\n💪 <START_WORK_TIME> - <END_WORK_TIME> - Work\n\n🥱 <END_WORK_TIME> - <EVENING_ROUTINE_END_TIME> - Do evening routine.\n\n😴 <EVENING_ROUTINE_END_TIME> - Finish evening routine - computer locked (you can unlock it if you need it)"
     },
     "welcomeVcInfo": {
         "descriptionFirstText": "Focus Bear helps you avoid distractions and build healthy habits.",
-        "descriptionSecondText": "Let's start out by blocking distractions."
+        "descriptionSecondText": "Let's start out by blocking distractions.",
+        "buttonAlreadyHaveAccountText": "I already have a Focus Bear account"
     },
     "onboardingControllingBrowserVcInfo": {
         "title": "Permission to block distractions",
