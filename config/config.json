@@ -70,7 +70,7 @@
         "buttonStatusStateFocusText": "FOCUS",
         "buttonStatusStateOffText": "OFF",
         "buttonStatusStateCallText": "CALL",
-        "uninstallConfirmText": "Are you sure you want to giveup all your habits and uninstall Focus Bear?",
+        "uninstallConfirmText": "Are you sure you want to give up all your habits and uninstall Focus Bear?",
         "yesText": "Yes",
         "noText": "No",
         "uninstallDoneText": "All the app related processes will stop and the app will close itself and then you can drag the app and move to trash/bin.",
@@ -672,7 +672,7 @@
         "HowManyPomodoroText": "How many pomodoros you want to focus for:",
         "selectDaysForPomodoroText": "Schedule specific days you want to run the super pomodoro mode after Morning Routine:",
         "buttonApplyText": "Apply",
-        "selectAtleastOneDayText": "Please select atleast one day.",
+        "selectAtleastOneDayText": "Please select at least one day.",
         "buttonSkipMicrobreaksText": "Skip microbreaks during work blocks?"
     },
     "accountVcInfo": {
@@ -1043,7 +1043,7 @@
     "askAccountVcInfo": {
         "title": "Setting up a Focus Bear Account",
         "descriptionText": "How about setting up an account so you can sync your block preferences across your devices?",
-        "tipText": "Setting up an account doesm't cost anything - you still get a 31 day free trial- but it is necessary to enable the more advanced features.",
+        "tipText": "Setting up an account doesn't cost anything - you still get a 31 day free trial- but it is necessary to enable the more advanced features.",
         "buttonNotRightNowText": "Not right now",
         "buttonSignUpText": "Sure - let me sign up",
         "alertText": "If you feel like setting up an account, just click on the Focus Bear menu icon."
@@ -1066,7 +1066,7 @@
         "clickToEnterManually": "Can't find your app in the above list? Click here to enter manually.",
         "noItemsSelected": "No items selected to Add.",
         "enterAppsManually": "Enter apps manually:",
-        "idYouKnowTheNames": "If you know the name of the EXEs that you want to allow, you can add them here. You can enter multiple exe names seperated with comma. (Example: chrome.exe, firefox.exe, notepad.exe)",
+        "idYouKnowTheNames": "If you know the name of the EXEs that you want to allow, you can add them here. You can enter multiple exe names separated with comma. (Example: chrome.exe, firefox.exe, notepad.exe)",
         "allProcessesWillStop": "All the app related processes will stop and the app will close itself and run the Focus Bear Uninstaller.",
         "withPomodoroMode": "With Pomodoro mode, you automatically cycle between focus sessions and breaks (e.g. 25 minutes on, 5 minutes off)",
         "weHaventBuiltPomodoro": "We haven't built Pomodoro mode yet on Windows. How badly do you want this feature?",
