@@ -32,7 +32,7 @@
         "startActivityButtonText": "Empieza <TIME> <NAME>",
         "activityFinishedText": "<ACTIVITY> ¡Completado!✅",
         "lastActivityFinishedText": "<ACTIVITY> ¡Completado!✅ Te has ganado tu tiempo en pantalla. 💪",
-        "startBreakActivityTitleText": "Es hora de un microdescanso. Hagamos <TIEMPO> de <ACTIVIDAD> para mantener la mente y el cuerpo despiertos.",
+        "startBreakActivityTitleText": "Es hora de un microdescanso. Hagamos <TIME> de <ACTIVITY> para mantener la mente y el cuerpo despiertos.",
         "doSomeActivityText": "<ACTIVITY>",
         "beforeYouStartText": "Antes de comenzar, tómate un momento para reflexionar sobre por qué deseas adoptar estos hábitos. Luego visualízate comenzando la secuencia del hábito. Repasa mentalmente cualquiera de los hábitos que te resulten más difíciles. Este proceso te ayudará a reducir la \"fricción límbica\", es decir, preparará tu cerebro para hacer los hábitos sin importar nada, incluso si no tienes la aplicación disponible.",
         "beforeYouBeginText": "Antes de comenzar, tómate 30 segundos para visualizarte realizando cada uno de los hábitos. Esto suena raro, pero las investigaciones indican que hacer un ensayo mental como este aumenta la probabilidad de que completes tus hábitos y hace que seas más persistente con ellos, de modo que incluso si no no tienes acceso a tu computadora o a esta aplicación, seguirás adelante con todos tus hábitos.",
@@ -51,7 +51,8 @@
         "breakDurationText": "Duración de descanso de actividades: <DURATION>",
         "buttonVideoText": "Video",
         "buttonNotesText": "Notas",
-        "titleTakeNotes": "Tomar notas"
+        "titleTakeNotes": "Tomar notas",
+        "buttonInstructionsText": "Instructions[NEEDSTRANSLATION]"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -142,7 +143,8 @@
         "askExtendFocusText": "¿Sigues inspirado? Prolonga la sesión",
         "extendFocusMinutesText": "Selecciona los minutos que deseas prolongar:",
         "buttonExtendText": "Extender",
-        "tabHelpText": "Ayuda"
+        "tabHelpText": "Ayuda",
+        "tabAIText": "AI[NEEDSTRANSLATION]"
     },
     "abortInfo": {
         "abortingTitle": "Cancelando..",
@@ -527,7 +529,8 @@
             "questionSecondText": "¿Algunas distracciones?",
             "titleIntention": "¿Cuál fue tu intención?",
             "buttonTakeBreakText": "Tómate un descanso de 5 minutos",
-            "buttonStartFocusText": "Iniciar otro bloque de enfoque"
+            "buttonStartFocusText": "Iniciar otro bloque de enfoque",
+            "alertFullScreenBreakText": "Do you want to take a full screen break?[NEEDSTRANSLATION]"
         },
         "focusSummaryInfo": {
             "title": "Completaste <COUNT> bloque/bloques de enfoque hoy.",
@@ -847,7 +850,9 @@
         "appsText": "Aplicaciones:",
         "urlsText": "URLs:",
         "windowTitleText": "Focus Bear - Caja de herramientas",
-        "titleForActivity": "The toolbox makes it easy to open the apps and websites that you've allowed in the <ACTIVITY_NAME> activity. You can access it from the Menu under Tools.[NEEDSTRANSLATION]"
+        "titleForActivity": "The toolbox makes it easy to open the apps and websites that you've allowed in the <ACTIVITY_NAME> activity. You can access it from the Menu under Tools.[NEEDSTRANSLATION]",
+        "checkBoxActivityText": "Don't Show toolbox when starting a habit with allowed apps"
+
     },
     "skipHabitVcInfo": {
         "title": "Posponer habito ahora",
@@ -859,7 +864,13 @@
         "buttonBlockText": "No – Me estaba distrayendo",
         "buttonEditSettingsText": "Editar Ajustes",
         "intentionText": "Tu intención era \"<INTENTION>\"",
-        "firstTempItemAllowText": "¡Permitido! Atención: puede ser un poco molesto al principio tener que seguir permitiendo sitios/aplicaciones, pero en unos pocos días, habrás enseñado a Focus Bear qué aplicaciones y sitios web son productivos."
+        "firstTempItemAllowText": "¡Permitido! Atención: puede ser un poco molesto al principio tener que seguir permitiendo sitios/aplicaciones, pero en unos pocos días, habrás enseñado a Focus Bear qué aplicaciones y sitios web son productivos.",
+        "checkingUrlText": "Checking if this URL is safe to use for your current focus mode. Will take about 4-5 seconds to check. If safe, it will automatically be allowed.[NEEDSTRANSLATION]",
+        "urlNotVerifiedText": "The status of this url could not be verified.[NEEDSTRANSLATION]",
+        "titleUrlSafeText": "Safe site according to AI (probability <PERCENTAGE>%)[NEEDSTRANSLATION]",
+        "reasonText": "Reason: <REASON>[NEEDSTRANSLATION]",
+        "buttonBadDecisionText": "Bad decision[NEEDSTRANSLATION]",
+        "checkboxDonotShowText": "Don't show this anymore[NEEDSTRANSLATION]"
     },
     "easyPostponeVcInfo": {
         "title": "Entendido – ahora no es un buen momento. Voy a esperar 5 minutos. Puedes posponer por más tiempo si asi lo necesitas.",
@@ -1056,6 +1067,46 @@
         "buttonPlayText": "Play the video[NEEDSTRANSLATION]",
         "buttonNoThanksText": "No thanks[NEEDSTRANSLATION]",
         "buttonContinueText": "Continuar"
+    },
+    "naturalBreaksDetectionVcInfo": {
+        "title": "It looks like you're on a break. Well done on taking care of yourself.[NEEDSTRANSLATION]",
+        "buttonThanksText": "Thanks - I feel great[NEEDSTRANSLATION]",
+        "buttonWrongDetectionText": "You're wrong! I wasn't on a break[NEEDSTRANSLATION]",
+        "titleTakeBreak": "Ok do you want to take a break now 😅?[NEEDSTRANSLATION]",
+        "buttonStartBreakText": "Yup I need a break now[NEEDSTRANSLATION]",
+        "buttonTakeBreakLaterText": "No - I'll take later[NEEDSTRANSLATION]"
+    },
+    "inspirations": ["I'm feeling energized - time to begin my habits[NEEDSTRANSLATION]",
+        "Let's kick things off - I'm motivated to start my habits[NEEDSTRANSLATION]",
+        "I'm ready to get going - let's start implementing my habits[NEEDSTRANSLATION]",
+        "I'm pumped up and ready to begin my habits[NEEDSTRANSLATION]",
+        "Let's get this show on the road - I'm fired up to start my habits[NEEDSTRANSLATION]",
+        "I'm feeling enthusiastic - it's time to start my habits[NEEDSTRANSLATION]",
+        "I'm excited to begin my habits - let's get started[NEEDSTRANSLATION]",
+        "Let's dive right in - I'm ready to start my habits[NEEDSTRANSLATION]",
+        "I'm fired up and ready to make my habits stick[NEEDSTRANSLATION]",
+        "I'm eager to start implementing my habits - let's go[NEEDSTRANSLATION]",
+        "I'm amped up to begin my habits - let's start now[NEEDSTRANSLATION]",
+        "I'm feeling motivated - time to start my habits[NEEDSTRANSLATION]",
+        "Let's start building my habits - I'm feeling inspired[NEEDSTRANSLATION]",
+        "I'm energized and ready to begin my habits[NEEDSTRANSLATION]",
+        "I'm fired up and raring to go - let's start my habits[NEEDSTRANSLATION]"
+    ],
+    "aiPermissionVcInfo":{
+        "title": "Do you want to use AI to decide if websites should be allowed?[NEEDSTRANSLATION]",
+        "descriptionText": "We'll use Open AI to decide if the site is valid based on your current focus mode, intention, the URL, the website title and the first 100 characters of the content. This is anonymous - no identifying details are shared.[NEEDSTRANSLATION]",
+        "buttonCancelText": "No thanks[NEEDSTRANSLATION]",
+        "titleAlertText": "Alright. You can change this setting later under Preferences - Blocking[NEEDSTRANSLATION]"
+    },
+    "aISettingVcInfo":{
+        "titleMotivation": "Personalised motivational message:[NEEDSTRANSLATION]",
+        "checkBoxMorningMotivationText": "Use AI to generate a personalised motivational message each morning[NEEDSTRANSLATION]",
+        "descriptionMorningMotivationText": "Your routine streak and your morning routine activities will be sent to Open AI. No other details will be shared but if you have anything in the habit titles that would identify you, we recommend not to have any personally identifiable information in habit titles.[NEEDSTRANSLATION]",
+        "titleWebsiteAllow": "Allow websites:[NEEDSTRANSLATION]",
+        "checkBoxWebsiteAllowText": "Use AI to decide if websites should be allowed[NEEDSTRANSLATION]",
+        "descriptionWebsiteAllowText": "We'll use Open AI to decide if the site is valid based on your current focus mode, intention, the URL, the website title and the first 100 characters of the content. This is anonymous - no identifying details are shared.[NEEDSTRANSLATION]",
+        "titleShowAllowAlert": "Safe URL allowed notification:[NEEDSTRANSLATION]",
+        "checkBoxShowAllowAlertText": "Show alert with reason when AI automatically allows a url[NEEDSTRANSLATION]"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",

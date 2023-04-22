@@ -51,7 +51,8 @@
         "breakDurationText": "Total Duration of Break: <DURATION>",
         "buttonVideoText": "Video",
         "buttonNotesText": "Notes",
-        "titleTakeNotes": "Take Notes"
+        "titleTakeNotes": "Take Notes",
+        "buttonInstructionsText": "Instructions"
     },
     "common": {
         "emailId": "team@focusbear.io",
@@ -142,7 +143,8 @@
         "askExtendFocusText": "Still in the flow? Extend the session",
         "extendFocusMinutesText": "Select minutes to extend:",
         "buttonExtendText": "Extend",
-        "tabHelpText": "Help"
+        "tabHelpText": "Help",
+        "tabAIText": "AI"
     },
     "abortInfo": {
         "abortingTitle": "Cancelling..",
@@ -527,7 +529,8 @@
             "questionSecondText": "Any distractions?",
             "titleIntention": "Your intention was",
             "buttonTakeBreakText": "Take a 5 minute break",
-            "buttonStartFocusText": "Start another focus block"
+            "buttonStartFocusText": "Start another focus block",
+            "alertFullScreenBreakText": "Do you want to take a full screen break?"
         },
         "focusSummaryInfo": {
             "title": "You completed <COUNT> focus blocks today.",
@@ -846,7 +849,8 @@
         "appsText": "Apps:",
         "urlsText": "Urls:",
         "windowTitleText": "Focus Bear - Toolbox",
-        "titleForActivity": "The toolbox makes it easy to open the apps and websites that you've allowed in the <ACTIVITY_NAME> activity. You can access it from the Menu under Tools."
+        "titleForActivity": "The toolbox makes it easy to open the apps and websites that you've allowed in the <ACTIVITY_NAME> activity. You can access it from the Menu under Tools.",
+        "checkBoxActivityText": "Don't Show toolbox when starting a habit with allowed apps"
     },
     "skipHabitVcInfo": {
         "title": "Skipping habit in",
@@ -858,7 +862,13 @@
         "buttonBlockText": "No - I was getting distracted",
         "buttonEditSettingsText": "Edit Settings",
         "intentionText": "Your intention was \"<INTENTION>\"",
-        "firstTempItemAllowText": "Allowed! Heads up: it might be a little annoying at first to have to keep allowing sites/apps but within a few days, you'll have taught Focus Bear what apps and websites are productive."
+        "firstTempItemAllowText": "Allowed! Heads up: it might be a little annoying at first to have to keep allowing sites/apps but within a few days, you'll have taught Focus Bear what apps and websites are productive.",
+        "checkingUrlText": "Checking if this URL is safe to use for your current focus mode. Will take about 4-5 seconds to check. If safe, it will automatically be allowed.",
+        "urlNotVerifiedText": "The status of this url could not be verified.",
+        "titleUrlSafeText": "Safe site according to AI (probability <PERCENTAGE>%)",
+        "reasonText": "Reason: <REASON>",
+        "buttonBadDecisionText": "Bad decision",
+        "checkboxDonotShowText": "Don't show this anymore"
     },
     "easyPostponeVcInfo": {
         "title": "Ok I get it - now's not a good time. I'll try again in 5 minutes. You can postpone for longer if you need to.",
@@ -1054,6 +1064,46 @@
         "buttonPlayText": "Play the video",
         "buttonNoThanksText": "No thanks",
         "buttonContinueText": "Continue"
+    },
+    "naturalBreaksDetectionVcInfo": {
+        "title": "It looks like you're on a break. Well done on taking care of yourself.",
+        "buttonThanksText": "Thanks - I feel great",
+        "buttonWrongDetectionText": "You're wrong! I wasn't on a break",
+        "titleTakeBreak": "Ok do you want to take a break now 😅?",
+        "buttonStartBreakText": "Yup I need a break now",
+        "buttonTakeBreakLaterText": "No - I'll take later"
+    },
+    "inspirations": ["I'm feeling energized - time to begin my habits",
+        "Let's kick things off - I'm motivated to start my habits",
+        "I'm ready to get going - let's start implementing my habits",
+        "I'm pumped up and ready to begin my habits",
+        "Let's get this show on the road - I'm fired up to start my habits",
+        "I'm feeling enthusiastic - it's time to start my habits",
+        "I'm excited to begin my habits - let's get started",
+        "Let's dive right in - I'm ready to start my habits",
+        "I'm fired up and ready to make my habits stick",
+        "I'm eager to start implementing my habits - let's go",
+        "I'm amped up to begin my habits - let's start now",
+        "I'm feeling motivated - time to start my habits",
+        "Let's start building my habits - I'm feeling inspired",
+        "I'm energized and ready to begin my habits",
+        "I'm fired up and raring to go - let's start my habits"
+    ],
+    "aiPermissionVcInfo":{
+        "title": "Do you want to use AI to decide if websites should be allowed?",
+        "descriptionText": "We'll use Open AI to decide if the site is valid based on your current focus mode, intention, the URL, the website title and the first 100 characters of the content. This is anonymous - no identifying details are shared.",
+        "buttonCancelText": "No thanks",
+        "titleAlertText": "Alright. You can change this setting later under Preferences - Blocking"
+    },
+    "aISettingVcInfo":{
+        "titleMotivation": "Personalised motivational message:",
+        "checkBoxMorningMotivationText": "Use AI to generate a personalised motivational message each morning",
+        "descriptionMorningMotivationText": "Your routine streak and your morning routine activities will be sent to Open AI. No other details will be shared but if you have anything in the habit titles that would identify you, we recommend you remove it.",
+        "titleWebsiteAllow": "Allow websites:",
+        "checkBoxWebsiteAllowText": "Use AI to decide if websites should be allowed",
+        "descriptionWebsiteAllowText": "We'll use Open AI to decide if the site is valid based on your current focus mode, intention, the URL, the website title and the first 100 characters of the content. This is anonymous - no identifying details are shared.",
+        "titleShowAllowAlert": "Safe URL allowed notification:",
+        "checkBoxShowAllowAlertText": "Show alert with reason when AI automatically allows a url"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
