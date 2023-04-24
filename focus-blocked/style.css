@@ -16,7 +16,7 @@
   position: relative;
 }
 
-.container > p {
+.container>p {
   font-size: 20px;
   font-weight: 600;
 }
@@ -28,23 +28,30 @@
   gap: 10px;
 }
 
-.notice-wrapper > h6 {
+.notice-wrapper>h6 {
   font-size: 14px;
   width: 70%;
   margin: 0;
   text-align: justify;
 }
 
-.notice-wrapper > a {
+.notice-wrapper>a {
   font-weight: bold;
 }
 
 #progressWrapper {
+  width: fit-content;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 10px;
+}
+
+#progressWrapper img {
+  width: auto;
+  height: 380px;
 }
 
 #focusTipWrapper {
@@ -76,7 +83,7 @@
 #privacyContainer {
   width: 100%;
   position: absolute;
-  bottom: 10%;
+  bottom: 5%;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -94,7 +101,7 @@
   border-radius: 10px;
 }
 
-.privacyNoticeContentArrow{
+.privacyNoticeContentArrow {
   width: 0;
   height: 0;
   border-top: 10px solid lightgray;
@@ -188,7 +195,8 @@
   overflow: auto;
 }
 
-.popup .content > a,button{
+.popup .content>a,
+button {
   width: fit-content;
   padding: 6px 10px;
   border-radius: 5px;
@@ -217,6 +225,27 @@
 .popup .content a:hover {
   background-color: red;
   color: white;
+}
+
+.toast {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  opacity: 0;
+  transition: opacity 500ms, transform 500ms;
+  margin-top: 15px;
+  padding: 15px;
+  font-size: 16px;
+  font-family: monospace;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.toast.visible {
+  transform: translate(-50%, 0);
+  opacity: 1;
 }
 
 @media only screen and (max-width: 1024px) {
