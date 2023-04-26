@@ -19,7 +19,7 @@
                 ]
             }
         ],
-        "welcomeVideoUrl": "https://www.youtube.com/watch?v=mcC4trf6Qfw",
+        "welcomeVideoUrl": "https://youtu.be/2gPiProa-rg",
         "welcomeMessageOnlyBreakIntro": "Throughout the day, I'll remind you to take regular breaks to keep your mind sharp and your body flexible. Here's an example of a break activity: 30 seconds of deep breathing.",
         "titleSelectActivity": "What 30 seconds of activity do you want to do?",
         "titleEnterActivityName": "Enter name of activity",
@@ -719,10 +719,11 @@
         "writeThingsHereText": "Dump down ideas you have so you don't forget - anything you write here will remain forever unless you delete it"
     },
     "askLogInVcInfo": {
-        "title": "Make healthy habits and deep work the path of least resistance.",
+        "title": "Save your habits to your account.",
         "messageText": "Sign In with a Focus Bear account to manage your time without thinking about it. Having an account helps you set your computer use hours, create a custom morning and night routine, and customize your focus modes for different activities.",
         "buttonSignInText": "Sign In",
-        "buttonSignUpText": "Sign Up"
+        "buttonSignUpText": "Sign Up",
+        "descriptionText": "Nearly done! Let's grab a few details to save your habits."
     },
     "upgradeNowVcInfo": {
         "pointFirstText": "Personalized habit routines",
@@ -836,18 +837,19 @@
     "askAppWorkVcInfo": {
         "title": "Welcome to Focus Bear",
         "questionText": "What are your goals?",
-        "checkBoxFirstText": "Help me develop healthy habits in the morning (e.g. meditate before starting work) and evening (e.g. have dinner with loved ones)",
-        "checkBoxSecondText": "Help me stay focused during the work day",
+        "checkBoxFirstText": "Build healthy habits",
+        "checkBoxSecondText": "Stay focused at work",
         "buttonContinueText": "Continue",
-        "titleSelectHabitPack": "Select habits from Featured Habit Packs to get you started using Focus Bear",
+        "titleSelectHabitPack": "Choose a habit pack to get started",
         "morningRoutineText": "Morning routine duration:",
-        "eveningRoutineText": "Evening routine duration:"
+        "eveningRoutineText": "Evening routine duration:",
+        "anythingElseText": "Anything else you hope Focus Bear can help with? (We'll try to take your feedback on board)"
     },
     "toolBoxVcInfo": {
         "title": "The toolbox makes it easy to open the apps and websites that you've allowed in the <FOCUS_NAME> focus mode. You can access it from the Menu under Tools.",
         "checkBoxText": "Don't show this anymore when I start a focus block",
         "appsText": "Apps:",
-        "urlsText": "Urls:",
+        "urlsText": "URLs:",
         "windowTitleText": "Focus Bear - Toolbox",
         "titleForActivity": "The toolbox makes it easy to open the apps and websites that you've allowed in the <ACTIVITY_NAME> activity. You can access it from the Menu under Tools.",
         "checkBoxActivityText": "Don't Show toolbox when starting a habit with allowed apps"
@@ -1093,7 +1095,7 @@
         "title": "Do you want to use AI to decide if websites should be allowed?",
         "descriptionText": "We'll use Open AI to decide if the site is valid based on your current focus mode, intention, the URL, the website title and the first 100 characters of the content. This is anonymous - no identifying details are shared.",
         "buttonCancelText": "No thanks",
-        "titleAlertText": "Alright. You can change this setting later under Preferences - Blocking"
+        "titleAlertText": "Alright. You can change this setting later under Preferences - Settings - AI"
     },
     "aISettingVcInfo":{
         "titleMotivation": "Personalised motivational message:",
@@ -1105,6 +1107,14 @@
         "titleShowAllowAlert": "Safe URL allowed notification:",
         "checkBoxShowAllowAlertText": "Show alert with reason when AI automatically allows a url"
     },
+    "askBreakTimeVcInfo":{
+        "title": "Break reminders",
+        "questionText": "How frequently do you want to  take breaks?",
+        "descriptionText": "(Optometrists recommend a 20 second break every 20 minutes)",
+        "buttonContinueText": "Continue",
+        "fullDescriptionText": "To avoid screen headaches and neck strain, Focus Bear will encourage you to take breaks at regular intervals. We give you a 30 second warning so you can postpone the break if it's a bad time. We also detect if you're in a meeting and don't show breaks as that might lead to awkward screensharing moments otherwise!"
+    },
+
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
         "runningbg": "Focus Bear is running in Background",

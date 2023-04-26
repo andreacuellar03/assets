@@ -19,7 +19,7 @@
                 ]
             }
         ],
-        "welcomeVideoUrl": "https://www.youtube.com/watch?v=BSdz7Tdesbs",
+        "welcomeVideoUrl": "https://youtu.be/2gPiProa-rg",
         "welcomeMessageOnlyBreakIntro": "A lo largo del día, te recordaré que tomes descansos regulares para mantener tu mente alerta y tu cuerpo flexible. Este es un ejemplo de una actividad de descanso: 30 segundos de respiración profunda.",
         "titleSelectActivity": "¿Qué actividad de 30 segundos quieres hacer?",
         "titleEnterActivityName": "Introduce el nombre de la actividad",
@@ -719,10 +719,11 @@
         "writeThingsHereText": "Anota las ideas que tengas para que no se te olviden: todo lo que escribas aquí permanecerá para siempre a menos que lo borres"
     },
     "askLogInVcInfo": {
-        "title": "Haz que los hábitos saludables y el trabajo profundo sean el camino de menor resistencia",
+        "title": "Save your habits to your account.[NEEDSTRANSLATION]",
         "messageText": "Inicia sesión con una cuenta de Focus Bear para administrar tu tiempo sin pensar en ello. Tener una cuenta te ayuda a establecer las horas de uso de tu computadora, crear una rutina personalizada para la mañana y la noche, y personalizar tus modos de enfoque para diferentes actividades.",
         "buttonSignInText": "Iniciar sesión",
-        "buttonSignUpText": "Regístrate"
+        "buttonSignUpText": "Regístrate",
+        "descriptionText": "Nearly done! Let's grab a few details to save your habits.[NEEDSTRANSLATION]"
     },
     "upgradeNowVcInfo": {
         "pointFirstText": "Rutinas de hábitos personalizadas",
@@ -837,12 +838,13 @@
     "askAppWorkVcInfo": {
         "title": "Bienvenido a Focus Bear",
         "questionText": "¿Cuáles son tus metas?",
-        "checkBoxFirstText": "Ayúdame a desarrollar hábitos saludables por la mañana (p. ej., meditar antes de empezar a trabajar) y por la noche (p. ej., cenar con mis seres queridos)",
-        "checkBoxSecondText": "Ayúdame a mantener la concentración durante la jornada laboral",
+        "checkBoxFirstText": "Build healthy habits[NEEDSTRANSLATION]",
+        "checkBoxSecondText": "Stay focused at work[NEEDSTRANSLATION]",
         "buttonContinueText": "Continuar",
-        "titleSelectHabitPack": "Selecciona hábitos de los Paquetes de Hábitos Destacados para empezar a utilizar Focus Bear",
+        "titleSelectHabitPack": "Choose a habit pack to get started[NEEDSTRANSLATION]",
         "morningRoutineText": "Duración de rutina matutina:",
-        "eveningRoutineText": "Duración de rutina nocturna:"
+        "eveningRoutineText": "Duración de rutina nocturna:",
+        "anythingElseText": "Anything else you hope Focus Bear can help with? (We'll try to take your feedback on board)[NEEDSTRANSLATION]"
     },
     "toolBoxVcInfo": {
         "title": "La caja de herramientas facilita la apertura de las aplicaciones y sitios web que has permitido en el modo de enfoque <FOCUS_NAME>. Puedes acceder desde el Menú en Herramientas.",
@@ -852,7 +854,6 @@
         "windowTitleText": "Focus Bear - Caja de herramientas",
         "titleForActivity": "The toolbox makes it easy to open the apps and websites that you've allowed in the <ACTIVITY_NAME> activity. You can access it from the Menu under Tools.[NEEDSTRANSLATION]",
         "checkBoxActivityText": "Don't Show toolbox when starting a habit with allowed apps"
-
     },
     "skipHabitVcInfo": {
         "title": "Posponer habito ahora",
@@ -1096,7 +1097,8 @@
         "title": "Do you want to use AI to decide if websites should be allowed?[NEEDSTRANSLATION]",
         "descriptionText": "We'll use Open AI to decide if the site is valid based on your current focus mode, intention, the URL, the website title and the first 100 characters of the content. This is anonymous - no identifying details are shared.[NEEDSTRANSLATION]",
         "buttonCancelText": "No thanks[NEEDSTRANSLATION]",
-        "titleAlertText": "Alright. You can change this setting later under Preferences - Blocking[NEEDSTRANSLATION]"
+        "titleAlertText": "Alright. You can change this setting later under Preferences - Settings - AI[NEEDSTRANSLATION]"
+
     },
     "aISettingVcInfo":{
         "titleMotivation": "Personalised motivational message:[NEEDSTRANSLATION]",
@@ -1107,6 +1109,13 @@
         "descriptionWebsiteAllowText": "We'll use Open AI to decide if the site is valid based on your current focus mode, intention, the URL, the website title and the first 100 characters of the content. This is anonymous - no identifying details are shared.[NEEDSTRANSLATION]",
         "titleShowAllowAlert": "Safe URL allowed notification:[NEEDSTRANSLATION]",
         "checkBoxShowAllowAlertText": "Show alert with reason when AI automatically allows a url[NEEDSTRANSLATION]"
+    },
+    "askBreakTimeVcInfo":{
+        "title": "Break reminders[NEEDSTRANSLATION]",
+        "questionText": "How frequently do you want to  take breaks?[NEEDSTRANSLATION]",
+        "descriptionText": "(Optometrists recommend a 20 second break every 20 minutes)[NEEDSTRANSLATION]",
+        "buttonContinueText": "Continuar",
+        "fullDescriptionText": "Para evitar dolores de cabeza y cuello, Focus Bear te alienta a tomar descansos durante intervalos regulares. Te damos un aviso 30 segundos antes, así puedes posponer tu descanso si estás muy ocupado ¡También detectamos si estás en reunión y no mostramos descansos ya que eso podría causar un momento incómodo si estás compartiendo pantalla!"
     },
     "WindowsSpecific": {
         "welcomeVideoUrl": "https://www.youtube.com/watch?v=xTUIGfmi3xg",
